@@ -1,0 +1,393 @@
+{
+  "netvars": {
+    "m_ArmorValue": {
+      "netvar": "m_ArmorValue",
+      "table": "DT_CSPlayer"
+    },
+    "m_Collision": {
+      "netvar": "m_Collision",
+      "table": "DT_BasePlayer"
+    },
+    "m_CollisionGroup": {
+      "netvar": "m_CollisionGroup",
+      "table": "DT_CSPlayer"
+    },
+    "m_Local": {
+      "netvar": "m_Local",
+      "table": "DT_BasePlayer"
+    },
+    "m_OriginalOwnerXuidHigh": {
+      "netvar": "m_OriginalOwnerXuidHigh",
+      "table": "DT_BaseAttributableItem"
+    },
+    "m_OriginalOwnerXuidLow": {
+      "netvar": "m_OriginalOwnerXuidLow",
+      "table": "DT_BaseAttributableItem"
+    },
+    "m_aimPunchAngle": {
+      "netvar": "m_aimPunchAngle",
+      "table": "DT_BasePlayer"
+    },
+    "m_bGunGameImmunity": {
+      "netvar": "m_bGunGameImmunity",
+      "table": "DT_CSPlayer"
+    },
+    "m_bHasDefuser": {
+      "netvar": "m_bHasDefuser",
+      "table": "DT_CSPlayer"
+    },
+    "m_bIsDefusing": {
+      "netvar": "m_bIsDefusing",
+      "table": "DT_CSPlayer"
+    },
+    "m_bIsScoped": {
+      "netvar": "m_bIsScoped",
+      "table": "DT_CSPlayer"
+    },
+    "m_bSpotted": {
+      "netvar": "m_bSpotted",
+      "table": "DT_BaseEntity"
+    },
+    "m_bSpottedByMask": {
+      "netvar": "m_bSpottedByMask",
+      "table": "DT_BaseEntity"
+    },
+    "m_dwBoneMatrix": {
+      "netvar": "m_nForceBone",
+      "offset": 28,
+      "table": "DT_BaseAnimating"
+    },
+    "m_fAccuracyPenalty": {
+      "netvar": "m_fAccuracyPenalty",
+      "table": "DT_WeaponCSBase"
+    },
+    "m_fFlags": {
+      "netvar": "m_fFlags",
+      "table": "DT_CSPlayer"
+    },
+    "m_flFallbackWear": {
+      "netvar": "m_flFallbackWear",
+      "table": "DT_BaseAttributableItem"
+    },
+    "m_flFlashDuration": {
+      "netvar": "m_flFlashDuration",
+      "table": "DT_CSPlayer"
+    },
+    "m_flFlashMaxAlpha": {
+      "netvar": "m_flFlashMaxAlpha",
+      "table": "DT_CSPlayer"
+    },
+    "m_flNextPrimaryAttack": {
+      "netvar": "m_flNextPrimaryAttack",
+      "table": "DT_BaseCombatWeapon"
+    },
+    "m_hActiveWeapon": {
+      "netvar": "m_hActiveWeapon",
+      "table": "DT_BasePlayer"
+    },
+    "m_hOwner": {
+      "netvar": "m_hOwner",
+      "table": "DT_PredictedViewModel"
+    },
+    "m_hOwnerEntity": {
+      "netvar": "m_hOwnerEntity",
+      "table": "DT_CSPlayer"
+    },
+    "m_iAccountID": {
+      "netvar": "m_iAccountID",
+      "table": "DT_BaseAttributableItem"
+    },
+    "m_iClip1": {
+      "netvar": "m_iClip1",
+      "table": "DT_BaseCombatWeapon"
+    },
+    "m_iCompetitiveRanking": {
+      "netvar": "m_iCompetitiveRanking",
+      "table": "DT_CSPlayerResource"
+    },
+    "m_iCompetitiveWins": {
+      "netvar": "m_iCompetitiveWins",
+      "table": "DT_CSPlayerResource"
+    },
+    "m_iCrosshairId": {
+      "netvar": "m_bHasDefuser",
+      "offset": 76,
+      "table": "DT_CSPlayer"
+    },
+    "m_iEntityQuality": {
+      "netvar": "m_iEntityQuality",
+      "table": "DT_BaseAttributableItem"
+    },
+    "m_iGlowIndex": {
+      "netvar": "m_flFlashDuration",
+      "offset": 24,
+      "table": "DT_CSPlayer"
+    },
+    "m_iHealth": {
+      "netvar": "m_iHealth",
+      "table": "DT_BasePlayer"
+    },
+    "m_iItemDefinitionIndex": {
+      "netvar": "m_iItemDefinitionIndex",
+      "table": "DT_BaseCombatWeapon"
+    },
+    "m_iItemIDHigh": {
+      "netvar": "m_iItemIDHigh",
+      "table": "DT_BaseAttributableItem"
+    },
+    "m_iShotsFired": {
+      "netvar": "m_iShotsFired",
+      "table": "DT_CSPlayer"
+    },
+    "m_iState": {
+      "netvar": "m_iState",
+      "table": "DT_BaseCombatWeapon"
+    },
+    "m_iTeamNum": {
+      "netvar": "m_iTeamNum",
+      "table": "DT_BasePlayer"
+    },
+    "m_lifeState": {
+      "netvar": "m_lifeState",
+      "table": "DT_CSPlayer"
+    },
+    "m_nFallbackPaintKit": {
+      "netvar": "m_nFallbackPaintKit",
+      "table": "DT_BaseAttributableItem"
+    },
+    "m_nFallbackSeed": {
+      "netvar": "m_nFallbackSeed",
+      "table": "DT_BaseAttributableItem"
+    },
+    "m_nFallbackStatTrak": {
+      "netvar": "m_nFallbackStatTrak",
+      "table": "DT_BaseAttributableItem"
+    },
+    "m_nForceBone": {
+      "netvar": "m_nForceBone",
+      "table": "DT_BaseAnimating"
+    },
+    "m_rgflCoordinateFrame": {
+      "netvar": "m_CollisionGroup",
+      "offset": -48,
+      "table": "DT_CSPlayer"
+    },
+    "m_szCustomName": {
+      "netvar": "m_szCustomName",
+      "table": "DT_BaseAttributableItem"
+    },
+    "m_szLastPlaceName": {
+      "netvar": "m_szLastPlaceName",
+      "table": "DT_CSPlayer"
+    },
+    "m_vecOrigin": {
+      "netvar": "m_vecOrigin",
+      "table": "DT_BasePlayer"
+    },
+    "m_vecVelocity": {
+      "netvar": "m_vecVelocity[0]",
+      "table": "DT_CSPlayer"
+    },
+    "m_vecViewOffset": {
+      "netvar": "m_vecViewOffset[0]",
+      "table": "DT_CSPlayer"
+    }
+  },
+  "options": {
+    "minify": true
+  },
+  "signatures": {
+    "dwClientState": {
+      "extra": 1,
+      "mode_read": true,
+      "mode_subtract": true,
+      "module": "engine.dll",
+      "offset": 0,
+      "pattern": "A1 ? ? ? ? F3 0F 11 80 ? ? ? ? D9 46 04 D9 05"
+    },
+    "dwClientState_GetLocalPlayer": {
+      "extra": 2,
+      "mode_read": true,
+      "mode_subtract": false,
+      "module": "engine.dll",
+      "offset": 0,
+      "pattern": "8B 80 ? ? ? ? 40 C3"
+    },
+    "dwClientState_Map": {
+      "extra": 1,
+      "mode_read": true,
+      "mode_subtract": false,
+      "module": "engine.dll",
+      "offset": 0,
+      "pattern": "05 ? ? ? ? C3 CC CC CC CC CC CC CC A1"
+    },
+    "dwClientState_MapDirectory": {
+      "extra": 1,
+      "mode_read": true,
+      "mode_subtract": false,
+      "module": "engine.dll",
+      "offset": 0,
+      "pattern": "05 ? ? ? ? C3 CC CC CC CC CC CC CC 80 3D"
+    },
+    "dwClientState_MaxPlayer": {
+      "extra": 7,
+      "mode_read": true,
+      "mode_subtract": false,
+      "module": "engine.dll",
+      "offset": 0,
+      "pattern": "A1 ? ? ? ? 8B 80 ? ? ? ? C3 CC CC CC CC 55 8B EC 8B 45 08"
+    },
+    "dwClientState_State": {
+      "extra": 2,
+      "mode_read": true,
+      "mode_subtract": false,
+      "module": "engine.dll",
+      "offset": 0,
+      "pattern": "83 B9 ? ? ? ? 06 0F 94 C0 C3"
+    },
+    "dwClientState_ViewAngles": {
+      "extra": 4,
+      "mode_read": true,
+      "mode_subtract": false,
+      "module": "engine.dll",
+      "offset": 0,
+      "pattern": "F3 0F 11 80 ? ? ? ? D9 46 04 D9 05"
+    },
+    "dwEntityList": {
+      "extra": 1,
+      "mode_read": true,
+      "mode_subtract": true,
+      "module": "client.dll",
+      "offset": 0,
+      "pattern": "BB ? ? ? ? 83 FF 01 0F 8C ? ? ? ? 3B F8"
+    },
+    "dwForceAttack": {
+      "extra": 2,
+      "mode_read": true,
+      "mode_subtract": true,
+      "module": "client.dll",
+      "offset": 0,
+      "pattern": "89 15 ? ? ? ? 8B 15 ? ? ? ? F6 C2 03 74 03 83 CE 04"
+    },
+    "dwForceJump": {
+      "extra": 2,
+      "mode_read": true,
+      "mode_subtract": true,
+      "module": "client.dll",
+      "offset": 0,
+      "pattern": "89 15 ? ? ? ? 8B 15 ? ? ? ? F6 C2 03 74 03 83 CE 08"
+    },
+    "dwGameDir": {
+      "extra": 1,
+      "mode_read": true,
+      "mode_subtract": true,
+      "module": "engine.dll",
+      "offset": 0,
+      "pattern": "68 ? ? ? ? 8D 85 ? ? ? ? 50 68 ? ? ? ? 68"
+    },
+    "dwGlobalVars": {
+      "extra": 18,
+      "mode_read": true,
+      "mode_subtract": true,
+      "module": "engine.dll",
+      "offset": 0,
+      "pattern": "8B 0D ? ? ? ? 83 C4 04 8B 01 68 ? ? ? ? FF 35"
+    },
+    "dwGlowObjectManager": {
+      "extra": 1,
+      "mode_read": true,
+      "mode_subtract": true,
+      "module": "client.dll",
+      "offset": 4,
+      "pattern": "A1 ? ? ? ? A8 01 75 4E 0F 57 C0"
+    },
+    "dwInput": {
+      "extra": 1,
+      "mode_read": true,
+      "mode_subtract": true,
+      "module": "client.dll",
+      "offset": 0,
+      "pattern": "B9 ? ? ? ? FF 75 08 E8 ? ? ? ? 8B 06"
+    },
+    "dwLocalPlayer": {
+      "extra": 1,
+      "mode_read": true,
+      "mode_subtract": true,
+      "module": "client.dll",
+      "offset": 16,
+      "pattern": "A3 ? ? ? ? C7 05 ? ? ? ? ? ? ? ? E8 ? ? ? ? 59 C3 6A"
+    },
+    "dwMouseEnable": {
+      "extra": 4,
+      "mode_read": true,
+      "mode_subtract": true,
+      "module": "client.dll",
+      "offset": 92,
+      "pattern": "F3 0F 10 05 ? ? ? ? EB 17 8B 01 8B 40 30 FF D0 F3 0F 10 0D"
+    },
+    "dwPlayerResource": {
+      "extra": 2,
+      "mode_read": true,
+      "mode_subtract": true,
+      "module": "client.dll",
+      "offset": 0,
+      "pattern": "8B 3D ? ? ? ? 85 FF 0F 84 ? ? ? ? 81 C7"
+    },
+    "dwRadarBase": {
+      "extra": 1,
+      "mode_read": true,
+      "mode_subtract": true,
+      "module": "client.dll",
+      "offset": 0,
+      "pattern": "A1 ? ? ? ? 8B 0C B0 8B 01 FF 50 ? 46 3B 35 ? ? ? ? 7C EA 8B 0D"
+    },
+    "dwSensitivity": {
+      "extra": 4,
+      "mode_read": true,
+      "mode_subtract": true,
+      "module": "client.dll",
+      "offset": 0,
+      "pattern": "F3 0F 10 05 ? ? ? ? EB 17 8B 01 8B 40 30 FF D0 F3 0F 10 0D"
+    },
+    "dwViewMatrix": {
+      "extra": 4,
+      "mode_read": true,
+      "mode_subtract": true,
+      "module": "client.dll",
+      "offset": 176,
+      "pattern": "F3 0F 6F 05 ? ? ? ? 8D 85"
+    },
+    "dwWeaponTable": {
+      "extra": 1,
+      "mode_read": true,
+      "mode_subtract": true,
+      "module": "client.dll",
+      "offset": 0,
+      "pattern": "A1 ? ? ? ? 0F B7 C9 03 C9 8B 44 ? 0C C3"
+    },
+    "dwWeaponTableIndex": {
+      "extra": 3,
+      "mode_read": true,
+      "mode_subtract": false,
+      "module": "client.dll",
+      "offset": 0,
+      "pattern": "66 8B 8E ? ? ? ? E8 ? ? ? ? 05 ? ? ? ? 50"
+    },
+    "dwbSendPackets": {
+      "extra": 1,
+      "mode_read": false,
+      "mode_subtract": true,
+      "module": "engine.dll",
+      "offset": 0,
+      "pattern": "B3 01 8B 01 8B 40 18"
+    },
+    "m_pStudioHdr": {
+      "extra": 2,
+      "mode_read": true,
+      "mode_subtract": false,
+      "module": "client.dll",
+      "offset": 0,
+      "pattern": "8B 86 ? ? ? ? 89 44 24 0C 85 C0 74 05"
+    }
+  }
+}
