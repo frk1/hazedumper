@@ -36,6 +36,11 @@
       "netvar": "m_bHasDefuser",
       "table": "DT_CSPlayer"
     },
+    "m_bInReload": {
+      "netvar": "m_flNextPrimaryAttack",
+      "table": "DT_BaseCombatWeapon",
+      "offset": 109
+    },
     "m_bIsDefusing": {
       "netvar": "m_bIsDefusing",
       "table": "DT_CSPlayer"
@@ -84,6 +89,11 @@
     "m_hActiveWeapon": {
       "netvar": "m_hActiveWeapon",
       "table": "DT_BasePlayer"
+    },
+    "m_hMyWeapons": {
+      "netvar": "m_hActiveWeapon",
+      "table": "DT_BasePlayer",
+      "offset": -256
     },
     "m_hOwner": {
       "netvar": "m_hOwner",
@@ -379,7 +389,7 @@
       "mode_subtract": true,
       "module": "engine.dll",
       "offset": 0,
-      "pattern": "B3 01 8B 01 8B 40 18"
+      "pattern": "B3 01 8B 01 8B 40 10 FF D0 84 C0 74 0F 80 BF ? ? ? ? ? 0F 84"
     },
     "m_pStudioHdr": {
       "extra": 2,
