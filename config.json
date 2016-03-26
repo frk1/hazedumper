@@ -28,6 +28,10 @@
       "netvar": "m_aimPunchAngle",
       "table": "DT_BasePlayer"
     },
+    "m_aimPunchAngleVel": {
+      "netvar": "m_aimPunchAngleVel",
+      "table": "DT_BasePlayer"
+    },
     "m_bGunGameImmunity": {
       "netvar": "m_bGunGameImmunity",
       "table": "DT_CSPlayer"
@@ -296,12 +300,12 @@
       "pattern": "68 ? ? ? ? 8D 85 ? ? ? ? 50 68 ? ? ? ? 68"
     },
     "dwGlobalVars": {
-      "extra": 18,
+      "extra": 1,
       "mode_read": true,
       "mode_subtract": true,
-      "module": "engine.dll",
+      "module": "client.dll",
       "offset": 0,
-      "pattern": "8B 0D ? ? ? ? 83 C4 04 8B 01 68 ? ? ? ? FF 35"
+      "pattern": "A1 ? ? ? ? 5F 8B 40 10"
     },
     "dwGlowObjectManager": {
       "extra": 1,
