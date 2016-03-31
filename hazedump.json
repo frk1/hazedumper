@@ -72,7 +72,7 @@
     "dwForceJump": 83034344,
     "dwGameDir": 7007136,
     "dwGlobalVars": 10961820,
-    "dwGlowObjectManager": 83561356,
+    "dwGlowObjectManager": 83561372,
     "dwInput": 82730736,
     "dwLocalPlayer": 11011276,
     "dwMouseEnable": 11033904,
@@ -85,5 +85,5 @@
     "dwbSendPackets": 1017639,
     "m_pStudioHdr": 10556
   },
-  "timestamp": 1459018714
+  "timestamp": 1459443729
 }
