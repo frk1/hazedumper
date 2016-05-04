@@ -16,6 +16,11 @@
       "netvar": "m_Local",
       "table": "DT_BasePlayer"
     },
+    "m_MoveType": {
+      "netvar": "m_nRenderMode",
+      "table": "DT_CSPlayer",
+      "offset": 1
+    },
     "m_OriginalOwnerXuidHigh": {
       "netvar": "m_OriginalOwnerXuidHigh",
       "table": "DT_BaseAttributableItem"
@@ -38,6 +43,10 @@
     },
     "m_bHasDefuser": {
       "netvar": "m_bHasDefuser",
+      "table": "DT_CSPlayer"
+    },
+    "m_bHasHelmet": {
+      "netvar": "m_bHasHelmet",
       "table": "DT_CSPlayer"
     },
     "m_bInReload": {
@@ -181,6 +190,10 @@
       "netvar": "m_nForceBone",
       "table": "DT_BaseAnimating"
     },
+    "m_nTickBase": {
+      "netvar": "m_nTickBase",
+      "table": "DT_BasePlayer"
+    },
     "m_rgflCoordinateFrame": {
       "netvar": "m_CollisionGroup",
       "offset": -48,
@@ -205,6 +218,10 @@
     "m_vecViewOffset": {
       "netvar": "m_vecViewOffset[0]",
       "table": "DT_CSPlayer"
+    },
+    "m_viewPunchAngle": {
+      "netvar": "m_viewPunchAngle",
+      "table": "DT_BasePlayer"
     }
   },
   "options": {
