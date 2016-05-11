@@ -1,11 +1,9 @@
 {
   "modules": {
     "client.dll": {
-      "crc32": 809037705,
       "size": 84901888
     },
     "engine.dll": {
-      "crc32": -998387592,
       "size": 9670656
     }
   },
@@ -91,5 +89,5 @@
     "dwbSendPackets": 1017751,
     "m_pStudioHdr": 10556
   },
-  "timestamp": 1462442889
+  "timestamp": 1462973481
 }
