@@ -225,7 +225,7 @@
     }
   },
   "options": {
-    "minify": false
+    "file_name": "csgo"
   },
   "signatures": {
     "dwClientState": {
