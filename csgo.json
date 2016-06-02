@@ -1,7 +1,7 @@
 {
   "modules": {
     "client.dll": {
-      "size": 84549632
+      "size": 84553728
     },
     "engine.dll": {
       "size": 9297920
@@ -71,23 +71,23 @@
     "dwClientState_MaxPlayer": 776,
     "dwClientState_State": 256,
     "dwClientState_ViewAngles": 19724,
-    "dwEntityList": 77895668,
-    "dwForceAttack": 48797708,
-    "dwForceJump": 82701304,
+    "dwEntityList": 77899924,
+    "dwForceAttack": 48801892,
+    "dwForceJump": 82705560,
     "dwGameDir": 6637080,
-    "dwGlobalVars": 10625900,
-    "dwGlowObjectManager": 83228428,
-    "dwInput": 82395872,
-    "dwLocalPlayer": 10675372,
-    "dwMouseEnable": 10698000,
-    "dwPlayerResource": 48789552,
-    "dwRadarBase": 82306316,
-    "dwSensitivity": 10697908,
-    "dwViewMatrix": 77837188,
-    "dwWeaponTable": 82381164,
+    "dwGlobalVars": 10629996,
+    "dwGlowObjectManager": 83232748,
+    "dwInput": 82400128,
+    "dwLocalPlayer": 10679468,
+    "dwMouseEnable": 10702096,
+    "dwPlayerResource": 48793808,
+    "dwRadarBase": 82310572,
+    "dwSensitivity": 10702004,
+    "dwViewMatrix": 77841444,
+    "dwWeaponTable": 82385420,
     "dwWeaponTableIndex": 12896,
     "dwbSendPackets": 917399,
     "m_pStudioHdr": 10556
   },
-  "timestamp": 1464765090
+  "timestamp": 1464862144
 }
