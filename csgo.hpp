@@ -1,6 +1,9 @@
 #pragma once
 #include <cstddef>
 
+// Offsets timestamp
+// 2016-06-02 11:07:54 UTC
+
 namespace hazedumper {
 namespace netvars {
 constexpr ::std::ptrdiff_t m_ArmorValue = 0xA9E8;
