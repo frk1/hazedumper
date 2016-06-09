@@ -1,7 +1,7 @@
 {
   "modules": {
     "client.dll": {
-      "size": 84553728
+      "size": 84557824
     },
     "engine.dll": {
       "size": 9297920
@@ -12,14 +12,12 @@
     "m_Collision": 792,
     "m_CollisionGroup": 1136,
     "m_Local": 12200,
-    "m_MoveType": 600,
     "m_OriginalOwnerXuidHigh": 12644,
     "m_OriginalOwnerXuidLow": 12640,
     "m_aimPunchAngle": 12312,
     "m_aimPunchAngleVel": 12324,
     "m_bGunGameImmunity": 14496,
     "m_bHasDefuser": 43512,
-    "m_bHasHelmet": 43488,
     "m_bInReload": 12853,
     "m_bIsDefusing": 14484,
     "m_bIsScoped": 14476,
@@ -54,14 +52,12 @@
     "m_nFallbackSeed": 12652,
     "m_nFallbackStatTrak": 12660,
     "m_nForceBone": 9852,
-    "m_nTickBase": 13332,
     "m_rgflCoordinateFrame": 1088,
     "m_szCustomName": 12316,
     "m_szLastPlaceName": 13720,
     "m_vecOrigin": 308,
     "m_vecVelocity": 272,
-    "m_vecViewOffset": 260,
-    "m_viewPunchAngle": 12300
+    "m_vecViewOffset": 260
   },
   "signatures": {
     "dwClientState": 5989124,
@@ -71,23 +67,23 @@
     "dwClientState_MaxPlayer": 776,
     "dwClientState_State": 256,
     "dwClientState_ViewAngles": 19724,
-    "dwEntityList": 77899924,
-    "dwForceAttack": 48801892,
-    "dwForceJump": 82705560,
+    "dwEntityList": 77904180,
+    "dwForceAttack": 48806220,
+    "dwForceJump": 82709816,
     "dwGameDir": 6637080,
-    "dwGlobalVars": 10629996,
-    "dwGlowObjectManager": 83232748,
-    "dwInput": 82400128,
-    "dwLocalPlayer": 10679468,
-    "dwMouseEnable": 10702096,
-    "dwPlayerResource": 48793808,
-    "dwRadarBase": 82310572,
-    "dwSensitivity": 10702004,
-    "dwViewMatrix": 77841444,
-    "dwWeaponTable": 82385420,
+    "dwGlobalVars": 10634092,
+    "dwGlowObjectManager": 83236956,
+    "dwInput": 82404384,
+    "dwLocalPlayer": 10683652,
+    "dwMouseEnable": 10706280,
+    "dwPlayerResource": 48798064,
+    "dwRadarBase": 82314828,
+    "dwSensitivity": 10706188,
+    "dwViewMatrix": 77845700,
+    "dwWeaponTable": 82389676,
     "dwWeaponTableIndex": 12896,
-    "dwbSendPackets": 917399,
+    "dwbSendPackets": 917591,
     "m_pStudioHdr": 10556
   },
-  "timestamp": 1464862144
+  "timestamp": 1465515540
 }
