@@ -1,16 +1,18 @@
-timestamp = 2016-06-25T10:59:49Z
+timestamp = 2016-06-25T11:02:09Z
 
 [netvars]
 m_ArmorValue = 43496
 m_Collision = 792
 m_CollisionGroup = 1136
 m_Local = 12200
+m_MoveType = 600
 m_OriginalOwnerXuidHigh = 12644
 m_OriginalOwnerXuidLow = 12640
 m_aimPunchAngle = 12312
 m_aimPunchAngleVel = 12324
 m_bGunGameImmunity = 14496
 m_bHasDefuser = 43512
+m_bHasHelmet = 43488
 m_bInReload = 12853
 m_bIsDefusing = 14484
 m_bIsScoped = 14476
@@ -45,12 +47,14 @@ m_nFallbackPaintKit = 12648
 m_nFallbackSeed = 12652
 m_nFallbackStatTrak = 12660
 m_nForceBone = 9852
+m_nTickBase = 13332
 m_rgflCoordinateFrame = 1088
 m_szCustomName = 12316
 m_szLastPlaceName = 13720
 m_vecOrigin = 308
 m_vecVelocity = 272
 m_vecViewOffset = 260
+m_viewPunchAngle = 12300
 
 [signatures]
 dwClientState = 5989140
