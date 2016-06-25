@@ -2,7 +2,7 @@
 #include <cstddef>
 
 // Offsets timestamp
-// 2016-06-24 23:57:17 UTC
+// 2016-06-25 10:59:49 UTC
 
 namespace hazedumper {
 namespace netvars {
@@ -10,14 +10,12 @@ constexpr ::std::ptrdiff_t m_ArmorValue = 0xA9E8;
 constexpr ::std::ptrdiff_t m_Collision = 0x318;
 constexpr ::std::ptrdiff_t m_CollisionGroup = 0x470;
 constexpr ::std::ptrdiff_t m_Local = 0x2FA8;
-constexpr ::std::ptrdiff_t m_MoveType = 0x258;
 constexpr ::std::ptrdiff_t m_OriginalOwnerXuidHigh = 0x3164;
 constexpr ::std::ptrdiff_t m_OriginalOwnerXuidLow = 0x3160;
 constexpr ::std::ptrdiff_t m_aimPunchAngle = 0x3018;
 constexpr ::std::ptrdiff_t m_aimPunchAngleVel = 0x3024;
 constexpr ::std::ptrdiff_t m_bGunGameImmunity = 0x38A0;
 constexpr ::std::ptrdiff_t m_bHasDefuser = 0xA9F8;
-constexpr ::std::ptrdiff_t m_bHasHelmet = 0xA9E0;
 constexpr ::std::ptrdiff_t m_bInReload = 0x3235;
 constexpr ::std::ptrdiff_t m_bIsDefusing = 0x3894;
 constexpr ::std::ptrdiff_t m_bIsScoped = 0x388C;
@@ -52,14 +50,12 @@ constexpr ::std::ptrdiff_t m_nFallbackPaintKit = 0x3168;
 constexpr ::std::ptrdiff_t m_nFallbackSeed = 0x316C;
 constexpr ::std::ptrdiff_t m_nFallbackStatTrak = 0x3174;
 constexpr ::std::ptrdiff_t m_nForceBone = 0x267C;
-constexpr ::std::ptrdiff_t m_nTickBase = 0x3414;
 constexpr ::std::ptrdiff_t m_rgflCoordinateFrame = 0x440;
 constexpr ::std::ptrdiff_t m_szCustomName = 0x301C;
 constexpr ::std::ptrdiff_t m_szLastPlaceName = 0x3598;
 constexpr ::std::ptrdiff_t m_vecOrigin = 0x134;
 constexpr ::std::ptrdiff_t m_vecVelocity = 0x110;
 constexpr ::std::ptrdiff_t m_vecViewOffset = 0x104;
-constexpr ::std::ptrdiff_t m_viewPunchAngle = 0x300C;
 } // namespace netvars
 namespace signatures {
 constexpr ::std::ptrdiff_t dwClientState = 0x5B6314;
