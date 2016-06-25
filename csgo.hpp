@@ -2,7 +2,7 @@
 #include <cstddef>
 
 // Offsets timestamp
-// 2016-06-25 11:02:09 UTC
+// Sat, 25 Jun 2016 22:49:01 +0200
 
 namespace hazedumper {
 namespace netvars {
