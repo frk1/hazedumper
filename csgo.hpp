@@ -2,7 +2,7 @@
 #include <cstddef>
 
 // Offsets timestamp
-// Sat, 25 Jun 2016 22:49:01 +0200
+// Wed, 29 Jun 2016 10:27:48 +0200
 
 namespace hazedumper {
 namespace netvars {
@@ -62,27 +62,27 @@ constexpr ::std::ptrdiff_t m_vecViewOffset = 0x104;
 constexpr ::std::ptrdiff_t m_viewPunchAngle = 0x300C;
 } // namespace netvars
 namespace signatures {
-constexpr ::std::ptrdiff_t dwClientState = 0x5B6314;
+constexpr ::std::ptrdiff_t dwClientState = 0x5B6304;
 constexpr ::std::ptrdiff_t dwClientState_GetLocalPlayer = 0x178;
 constexpr ::std::ptrdiff_t dwClientState_Map = 0x284;
 constexpr ::std::ptrdiff_t dwClientState_MapDirectory = 0x180;
 constexpr ::std::ptrdiff_t dwClientState_MaxPlayer = 0x308;
 constexpr ::std::ptrdiff_t dwClientState_State = 0x100;
 constexpr ::std::ptrdiff_t dwClientState_ViewAngles = 0x4D0C;
-constexpr ::std::ptrdiff_t dwEntityList = 0x4A4CAC4;
-constexpr ::std::ptrdiff_t dwForceAttack = 0x2E8CAC8;
-constexpr ::std::ptrdiff_t dwForceJump = 0x4EE1EB0;
+constexpr ::std::ptrdiff_t dwEntityList = 0x4A4CB04;
+constexpr ::std::ptrdiff_t dwForceAttack = 0x2E8CB08;
+constexpr ::std::ptrdiff_t dwForceJump = 0x4EE1EF0;
 constexpr ::std::ptrdiff_t dwGameDir = 0x654618;
 constexpr ::std::ptrdiff_t dwGlobalVars = 0xA2536C;
-constexpr ::std::ptrdiff_t dwGlowObjectManager = 0x4F629BC;
-constexpr ::std::ptrdiff_t dwInput = 0x4E975B0;
+constexpr ::std::ptrdiff_t dwGlowObjectManager = 0x4F629FC;
+constexpr ::std::ptrdiff_t dwInput = 0x4E975F0;
 constexpr ::std::ptrdiff_t dwLocalPlayer = 0xA31504;
 constexpr ::std::ptrdiff_t dwMouseEnable = 0xA36D68;
-constexpr ::std::ptrdiff_t dwPlayerResource = 0x2E8AAF0;
-constexpr ::std::ptrdiff_t dwRadarBase = 0x4E8181C;
+constexpr ::std::ptrdiff_t dwPlayerResource = 0x2E8AB30;
+constexpr ::std::ptrdiff_t dwRadarBase = 0x4E8185C;
 constexpr ::std::ptrdiff_t dwSensitivity = 0xA36D0C;
-constexpr ::std::ptrdiff_t dwViewMatrix = 0x4A3E664;
-constexpr ::std::ptrdiff_t dwWeaponTable = 0x4E93C1C;
+constexpr ::std::ptrdiff_t dwViewMatrix = 0x4A3E6A4;
+constexpr ::std::ptrdiff_t dwWeaponTable = 0x4E93C5C;
 constexpr ::std::ptrdiff_t dwWeaponTableIndex = 0x3260;
 constexpr ::std::ptrdiff_t dwbSendPackets = 0xDFB37;
 constexpr ::std::ptrdiff_t m_pStudioHdr = 0x293C;
