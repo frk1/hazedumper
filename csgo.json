@@ -1,10 +1,10 @@
 {
   "modules": {
     "client.dll": {
-      "size": 84566016
+      "size": 84570112
     },
     "engine.dll": {
-      "size": 9306112
+      "size": 9302016
     }
   },
   "netvars": {
@@ -64,30 +64,30 @@
     "m_viewPunchAngle": 12300
   },
   "signatures": {
-    "dwClientState": 5997236,
+    "dwClientState": 5997252,
     "dwClientState_GetLocalPlayer": 376,
     "dwClientState_Map": 644,
     "dwClientState_MapDirectory": 384,
     "dwClientState_MaxPlayer": 776,
     "dwClientState_State": 256,
     "dwClientState_ViewAngles": 19724,
-    "dwEntityList": 77921444,
-    "dwForceAttack": 48823516,
-    "dwForceJump": 82727188,
-    "dwGameDir": 6646688,
-    "dwGlobalVars": 10642276,
-    "dwGlowObjectManager": 83253404,
-    "dwInput": 82421616,
-    "dwLocalPlayer": 10691556,
-    "dwMouseEnable": 10714184,
-    "dwPlayerResource": 48815852,
-    "dwRadarBase": 82332156,
-    "dwSensitivity": 10714092,
-    "dwViewMatrix": 77862996,
-    "dwWeaponTable": 82406908,
+    "dwEntityList": 77925668,
+    "dwForceAttack": 48827740,
+    "dwForceJump": 82731412,
+    "dwGameDir": 6645528,
+    "dwGlobalVars": 10646372,
+    "dwGlowObjectManager": 83257628,
+    "dwInput": 82425840,
+    "dwLocalPlayer": 10695740,
+    "dwMouseEnable": 10718368,
+    "dwPlayerResource": 48820076,
+    "dwRadarBase": 82336380,
+    "dwSensitivity": 10718276,
+    "dwViewMatrix": 77867220,
+    "dwWeaponTable": 82411132,
     "dwWeaponTableIndex": 12896,
-    "dwbSendPackets": 916311,
+    "dwbSendPackets": 915191,
     "m_pStudioHdr": 10556
   },
-  "timestamp": 1469695224
+  "timestamp": 1470353951
 }
