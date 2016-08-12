@@ -81,11 +81,13 @@
     "dwLocalPlayer": 10720316,
     "dwPlayerResource": 48844620,
     "dwRadarBase": 82360924,
+    "dwSensitivity": 10742852,
+    "dwSensitivityPtr": 10742808,
     "dwViewMatrix": 77891748,
     "dwWeaponTable": 82435692,
     "dwWeaponTableIndex": 12896,
     "dwbSendPackets": 922439,
     "m_pStudioHdr": 10556
   },
-  "timestamp": 1470437251
+  "timestamp": 1471029240
 }

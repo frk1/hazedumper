@@ -373,12 +373,20 @@
       "pattern": "A1 ? ? ? ? 8B 0C B0 8B 01 FF 50 ? 46 3B 35 ? ? ? ? 7C EA 8B 0D"
     },
     "dwSensitivity": {
-      "extra": 4,
+      "extra": 26,
       "mode_read": true,
       "mode_subtract": true,
       "module": "client.dll",
       "offset": 0,
-      "pattern": "F3 0F 10 05 ? ? ? ? EB 17 8B 01 8B 40 30 FF D0 F3 0F 10 0D"
+      "pattern": "45 0C 9F F6 C4 44 7A"
+    },
+    "dwSensitivityPtr": {
+      "extra": 26,
+      "mode_read": true,
+      "mode_subtract": true,
+      "module": "client.dll",
+      "offset": -44,
+      "pattern": "45 0C 9F F6 C4 44 7A"
     },
     "dwViewMatrix": {
       "extra": 4,
