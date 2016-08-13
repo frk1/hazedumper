@@ -1,5 +1,5 @@
-# Fri, 12 Aug 2016 21:14:00 +0200
-timestamp = 1471029240
+# Sat, 13 Aug 2016 13:40:44 +0200
+timestamp = 1471088444
 
 [netvars]
 m_ArmorValue = 43496
@@ -63,6 +63,7 @@ dwClientState_GetLocalPlayer = 376
 dwClientState_Map = 644
 dwClientState_MapDirectory = 384
 dwClientState_MaxPlayer = 776
+dwClientState_PlayerInfo = 21052
 dwClientState_State = 256
 dwClientState_ViewAngles = 19724
 dwEntityList = 77950212

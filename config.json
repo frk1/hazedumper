@@ -284,6 +284,14 @@
       "offset": 0,
       "pattern": "F3 0F 11 80 ? ? ? ? D9 46 04 D9 05"
     },
+    "dwClientState_PlayerInfo": {
+      "extra": 2,
+      "mode_read": true,
+      "mode_subtract": false,
+      "module": "engine.dll",
+      "offset": 0,
+      "pattern": "8B 88 ? ? ? ? 8B 01 8B 40 ? FF D0 8B F8"
+    },
     "dwEntityList": {
       "extra": 1,
       "mode_read": true,
