@@ -2,7 +2,7 @@
 #include <cstddef>
 
 // Offsets timestamp
-// Sat, 13 Aug 2016 13:40:44 +0200
+// Fri, 19 Aug 2016 03:07:11 +0200
 
 namespace hazedumper {
 namespace netvars {
@@ -70,20 +70,20 @@ constexpr ::std::ptrdiff_t dwClientState_MaxPlayer = 0x308;
 constexpr ::std::ptrdiff_t dwClientState_PlayerInfo = 0x523C;
 constexpr ::std::ptrdiff_t dwClientState_State = 0x100;
 constexpr ::std::ptrdiff_t dwClientState_ViewAngles = 0x4D0C;
-constexpr ::std::ptrdiff_t dwEntityList = 0x4A56D04;
-constexpr ::std::ptrdiff_t dwForceAttack = 0x2E96CF4;
-constexpr ::std::ptrdiff_t dwForceJump = 0x4EEC178;
+constexpr ::std::ptrdiff_t dwEntityList = 0x4A57EC4;
+constexpr ::std::ptrdiff_t dwForceAttack = 0x2E97EE4;
+constexpr ::std::ptrdiff_t dwForceJump = 0x4EED334;
 constexpr ::std::ptrdiff_t dwGameDir = 0x659718;
-constexpr ::std::ptrdiff_t dwGlobalVars = 0xA2D364;
-constexpr ::std::ptrdiff_t dwGlowObjectManager = 0x4F6C8E4;
-constexpr ::std::ptrdiff_t dwInput = 0x4EA17C0;
-constexpr ::std::ptrdiff_t dwLocalPlayer = 0xA3943C;
-constexpr ::std::ptrdiff_t dwPlayerResource = 0x2E94F4C;
-constexpr ::std::ptrdiff_t dwRadarBase = 0x4E8BA5C;
-constexpr ::std::ptrdiff_t dwSensitivity = 0xA3EC44;
-constexpr ::std::ptrdiff_t dwSensitivityPtr = 0xA3EC18;
-constexpr ::std::ptrdiff_t dwViewMatrix = 0x4A488A4;
-constexpr ::std::ptrdiff_t dwWeaponTable = 0x4E9DE6C;
+constexpr ::std::ptrdiff_t dwGlobalVars = 0xA2E364;
+constexpr ::std::ptrdiff_t dwGlowObjectManager = 0x4F6DAF4;
+constexpr ::std::ptrdiff_t dwInput = 0x4EA2990;
+constexpr ::std::ptrdiff_t dwLocalPlayer = 0xA3A43C;
+constexpr ::std::ptrdiff_t dwPlayerResource = 0x2E9610C;
+constexpr ::std::ptrdiff_t dwRadarBase = 0x4E8CC1C;
+constexpr ::std::ptrdiff_t dwSensitivity = 0xA3FC44;
+constexpr ::std::ptrdiff_t dwSensitivityPtr = 0xA3FC18;
+constexpr ::std::ptrdiff_t dwViewMatrix = 0x4A49A74;
+constexpr ::std::ptrdiff_t dwWeaponTable = 0x4E9F01C;
 constexpr ::std::ptrdiff_t dwWeaponTableIndex = 0x3260;
 constexpr ::std::ptrdiff_t dwbSendPackets = 0xE1347;
 constexpr ::std::ptrdiff_t m_pStudioHdr = 0x293C;
