@@ -2,7 +2,7 @@
 #include <cstddef>
 
 // Offsets timestamp
-// Fri, 19 Aug 2016 03:07:11 +0200
+// Sat, 20 Aug 2016 12:47:01 +0200
 
 namespace hazedumper {
 namespace netvars {
@@ -70,20 +70,20 @@ constexpr ::std::ptrdiff_t dwClientState_MaxPlayer = 0x308;
 constexpr ::std::ptrdiff_t dwClientState_PlayerInfo = 0x523C;
 constexpr ::std::ptrdiff_t dwClientState_State = 0x100;
 constexpr ::std::ptrdiff_t dwClientState_ViewAngles = 0x4D0C;
-constexpr ::std::ptrdiff_t dwEntityList = 0x4A57EC4;
-constexpr ::std::ptrdiff_t dwForceAttack = 0x2E97EE4;
-constexpr ::std::ptrdiff_t dwForceJump = 0x4EED334;
+constexpr ::std::ptrdiff_t dwEntityList = 0x4A57EA4;
+constexpr ::std::ptrdiff_t dwForceAttack = 0x2E97EC4;
+constexpr ::std::ptrdiff_t dwForceJump = 0x4EED318;
 constexpr ::std::ptrdiff_t dwGameDir = 0x659718;
 constexpr ::std::ptrdiff_t dwGlobalVars = 0xA2E364;
-constexpr ::std::ptrdiff_t dwGlowObjectManager = 0x4F6DAF4;
-constexpr ::std::ptrdiff_t dwInput = 0x4EA2990;
+constexpr ::std::ptrdiff_t dwGlowObjectManager = 0x4F6DAD4;
+constexpr ::std::ptrdiff_t dwInput = 0x4EA2960;
 constexpr ::std::ptrdiff_t dwLocalPlayer = 0xA3A43C;
-constexpr ::std::ptrdiff_t dwPlayerResource = 0x2E9610C;
-constexpr ::std::ptrdiff_t dwRadarBase = 0x4E8CC1C;
+constexpr ::std::ptrdiff_t dwPlayerResource = 0x2E960EC;
+constexpr ::std::ptrdiff_t dwRadarBase = 0x4E8CBFC;
 constexpr ::std::ptrdiff_t dwSensitivity = 0xA3FC44;
 constexpr ::std::ptrdiff_t dwSensitivityPtr = 0xA3FC18;
-constexpr ::std::ptrdiff_t dwViewMatrix = 0x4A49A74;
-constexpr ::std::ptrdiff_t dwWeaponTable = 0x4E9F01C;
+constexpr ::std::ptrdiff_t dwViewMatrix = 0x4A49A44;
+constexpr ::std::ptrdiff_t dwWeaponTable = 0x4E9F00C;
 constexpr ::std::ptrdiff_t dwWeaponTableIndex = 0x3260;
 constexpr ::std::ptrdiff_t dwbSendPackets = 0xE1347;
 constexpr ::std::ptrdiff_t m_pStudioHdr = 0x293C;
