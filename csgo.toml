@@ -1,5 +1,5 @@
-# Thu, 15 Sep 2016 19:00:12 +0200
-timestamp = 1473958812
+# Thu, 15 Sep 2016 19:08:00 +0200
+timestamp = 1473959280
 
 [netvars]
 m_ArmorValue = 43496
@@ -36,7 +36,7 @@ m_iCompetitiveRanking = 6724
 m_iCompetitiveWins = 6984
 m_iCrosshairId = 43588
 m_iEntityQuality = 12172
-m_iFOV = 12744
+m_iFOVStart = 12748
 m_iGlowIndex = 41744
 m_iHealth = 252
 m_iItemDefinitionIndex = 12168

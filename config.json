@@ -141,8 +141,8 @@
       "netvar": "m_iEntityQuality",
       "table": "DT_BaseAttributableItem"
     },
-    "m_iFOV": {
-      "netvar": "m_iFOV",
+    "m_iFOVStart": {
+      "netvar": "m_iFOVStart",
       "table": "DT_CSPlayer"
     },
     "m_iGlowIndex": {
