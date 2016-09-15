@@ -145,10 +145,6 @@
       "netvar": "m_iFOV",
       "table": "DT_CSPlayer"
     },
-    "m_iFOVStart": {
-      "netvar": "m_iFOVStart",
-      "table": "DT_CSPlayer"
-    },
     "m_iGlowIndex": {
       "netvar": "m_flFlashDuration",
       "offset": 24,
@@ -435,6 +431,14 @@
       "module": "engine.dll",
       "offset": 0,
       "pattern": "B3 01 8B 01 8B 40 10 FF D0 84 C0 74 0F 80 BF ? ? ? ? ? 0F 84"
+    },
+    "dwZoomSensitivityRatioPtr": {
+      "extra": 2,
+      "mode_read": true,
+      "mode_subtract": true,
+      "module": "client.dll",
+      "offset": 0,
+      "pattern": "81 F9 ? ? ? ? 75 1A F3 0F 10 05 ? ? ? ? F3 0F 11 45 ? 8B 45 EC 35 ? ? ? ? 89 45 FC EB 0A 8B 01 8B 40 30 FF D0 D9 5D FC 8B 0D"
     },
     "m_pStudioHdr": {
       "extra": 2,

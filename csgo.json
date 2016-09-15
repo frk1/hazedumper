@@ -43,7 +43,6 @@
     "m_iCrosshairId": 43588,
     "m_iEntityQuality": 12172,
     "m_iFOV": 12744,
-    "m_iFOVStart": 12748,
     "m_iGlowIndex": 41744,
     "m_iHealth": 252,
     "m_iItemDefinitionIndex": 12168,
@@ -89,8 +88,9 @@
     "dwViewMatrix": 77896260,
     "dwWeaponTable": 82440204,
     "dwWeaponTableIndex": 12896,
+    "dwZoomSensitivityRatioPtr": 10766624,
     "dwbSendPackets": 922439,
     "m_pStudioHdr": 10556
   },
-  "timestamp": 1473951545
+  "timestamp": 1473958812
 }

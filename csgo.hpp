@@ -2,7 +2,7 @@
 #include <cstddef>
 
 // Offsets timestamp
-// Thu, 15 Sep 2016 16:59:05 +0200
+// Thu, 15 Sep 2016 19:00:12 +0200
 
 namespace hazedumper {
 namespace netvars {
@@ -41,7 +41,6 @@ constexpr ::std::ptrdiff_t m_iCompetitiveWins = 0x1B48;
 constexpr ::std::ptrdiff_t m_iCrosshairId = 0xAA44;
 constexpr ::std::ptrdiff_t m_iEntityQuality = 0x2F8C;
 constexpr ::std::ptrdiff_t m_iFOV = 0x31C8;
-constexpr ::std::ptrdiff_t m_iFOVStart = 0x31CC;
 constexpr ::std::ptrdiff_t m_iGlowIndex = 0xA310;
 constexpr ::std::ptrdiff_t m_iHealth = 0xFC;
 constexpr ::std::ptrdiff_t m_iItemDefinitionIndex = 0x2F88;
@@ -87,6 +86,7 @@ constexpr ::std::ptrdiff_t dwSensitivityPtr = 0xA3FC18;
 constexpr ::std::ptrdiff_t dwViewMatrix = 0x4A49A44;
 constexpr ::std::ptrdiff_t dwWeaponTable = 0x4E9F00C;
 constexpr ::std::ptrdiff_t dwWeaponTableIndex = 0x3260;
+constexpr ::std::ptrdiff_t dwZoomSensitivityRatioPtr = 0xA44920;
 constexpr ::std::ptrdiff_t dwbSendPackets = 0xE1347;
 constexpr ::std::ptrdiff_t m_pStudioHdr = 0x293C;
 } // namespace signatures

@@ -1,5 +1,5 @@
-# Thu, 15 Sep 2016 16:59:05 +0200
-timestamp = 1473951545
+# Thu, 15 Sep 2016 19:00:12 +0200
+timestamp = 1473958812
 
 [netvars]
 m_ArmorValue = 43496
@@ -37,7 +37,6 @@ m_iCompetitiveWins = 6984
 m_iCrosshairId = 43588
 m_iEntityQuality = 12172
 m_iFOV = 12744
-m_iFOVStart = 12748
 m_iGlowIndex = 41744
 m_iHealth = 252
 m_iItemDefinitionIndex = 12168
@@ -83,5 +82,6 @@ dwSensitivityPtr = 10746904
 dwViewMatrix = 77896260
 dwWeaponTable = 82440204
 dwWeaponTableIndex = 12896
+dwZoomSensitivityRatioPtr = 10766624
 dwbSendPackets = 922439
 m_pStudioHdr = 10556
