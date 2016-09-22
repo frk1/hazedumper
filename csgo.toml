@@ -1,5 +1,5 @@
-# Sat, 17 Sep 2016 07:17:46 +0200
-timestamp = 1474089466
+# Thu, 22 Sep 2016 10:23:57 +0200
+timestamp = 1474532637
 
 [netvars]
 m_ArmorValue = 43496
@@ -67,21 +67,21 @@ dwClientState_MaxPlayer = 776
 dwClientState_PlayerInfo = 21052
 dwClientState_State = 256
 dwClientState_ViewAngles = 19724
-dwEntityList = 77958884
-dwForceAttack = 48860956
-dwForceJump = 82764632
-dwGameDir = 6657816
+dwEntityList = 77958932
+dwForceAttack = 48861052
+dwForceJump = 82764740
+dwGameDir = 6657944
 dwGlobalVars = 10679140
-dwGlowObjectManager = 83291028
-dwInput = 82459040
+dwGlowObjectManager = 83291172
+dwInput = 82459168
 dwLocalPlayer = 10728508
-dwPlayerResource = 48853292
+dwPlayerResource = 48853388
 dwRadarBase = 82369596
 dwSensitivity = 10751044
 dwSensitivityPtr = 10751000
-dwViewMatrix = 77900420
-dwWeaponTable = 82444364
+dwViewMatrix = 77900468
+dwWeaponTable = 82444444
 dwWeaponTableIndex = 12896
 dwZoomSensitivityRatioPtr = 10770720
-dwbSendPackets = 923207
+dwbSendPackets = 923210
 m_pStudioHdr = 10556
