@@ -74,6 +74,8 @@
     "dwClientState_State": 256,
     "dwClientState_ViewAngles": 19724,
     "dwEntityList": 78297540,
+    "dwForceAttack": 49199544,
+    "dwForceJump": 83109092,
     "dwGameDir": 6673688,
     "dwGlobalVars": 11002788,
     "dwGlowObjectManager": 83635588,
@@ -90,5 +92,5 @@
     "dwbSendPackets": 922090,
     "m_pStudioHdr": 10556
   },
-  "timestamp": 1475922973
+  "timestamp": 1475928402
 }

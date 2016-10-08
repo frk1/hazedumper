@@ -2,7 +2,7 @@
 #include <cstddef>
 
 // Offsets timestamp
-// Sat,  8 Oct 2016 12:36:13 +0200
+// Sat,  8 Oct 2016 14:06:42 +0200
 
 namespace hazedumper {
 namespace netvars {
@@ -72,6 +72,8 @@ constexpr ::std::ptrdiff_t dwClientState_PlayerInfo = 0x523C;
 constexpr ::std::ptrdiff_t dwClientState_State = 0x100;
 constexpr ::std::ptrdiff_t dwClientState_ViewAngles = 0x4D0C;
 constexpr ::std::ptrdiff_t dwEntityList = 0x4AAB9C4;
+constexpr ::std::ptrdiff_t dwForceAttack = 0x2EEB9B8;
+constexpr ::std::ptrdiff_t dwForceJump = 0x4F424E4;
 constexpr ::std::ptrdiff_t dwGameDir = 0x65D518;
 constexpr ::std::ptrdiff_t dwGlobalVars = 0xA7E3A4;
 constexpr ::std::ptrdiff_t dwGlowObjectManager = 0x4FC2D84;
