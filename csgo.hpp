@@ -2,7 +2,7 @@
 #include <cstddef>
 
 // Offsets timestamp
-// Sat,  8 Oct 2016 10:41:28 +0200
+// Sat,  8 Oct 2016 12:36:13 +0200
 
 namespace hazedumper {
 namespace netvars {
@@ -38,7 +38,7 @@ constexpr ::std::ptrdiff_t m_iAccountID = 0x2FA8;
 constexpr ::std::ptrdiff_t m_iClip1 = 0x3204;
 constexpr ::std::ptrdiff_t m_iCompetitiveRanking = 0x1A44;
 constexpr ::std::ptrdiff_t m_iCompetitiveWins = 0x1B48;
-constexpr ::std::ptrdiff_t m_iCrosshairId = 0xAA54;
+constexpr ::std::ptrdiff_t m_iCrosshairId = 0xAA64;
 constexpr ::std::ptrdiff_t m_iEntityQuality = 0x2F8C;
 constexpr ::std::ptrdiff_t m_iFOVStart = 0x31D4;
 constexpr ::std::ptrdiff_t m_iGlowIndex = 0xA320;
@@ -72,8 +72,6 @@ constexpr ::std::ptrdiff_t dwClientState_PlayerInfo = 0x523C;
 constexpr ::std::ptrdiff_t dwClientState_State = 0x100;
 constexpr ::std::ptrdiff_t dwClientState_ViewAngles = 0x4D0C;
 constexpr ::std::ptrdiff_t dwEntityList = 0x4AAB9C4;
-constexpr ::std::ptrdiff_t dwForceAttack = 0x2EEB9B8;
-constexpr ::std::ptrdiff_t dwForceJump = 0x4F424E4;
 constexpr ::std::ptrdiff_t dwGameDir = 0x65D518;
 constexpr ::std::ptrdiff_t dwGlobalVars = 0xA7E3A4;
 constexpr ::std::ptrdiff_t dwGlowObjectManager = 0x4FC2D84;
