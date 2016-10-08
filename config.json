@@ -134,7 +134,7 @@
     },
     "m_iCrosshairId": {
       "netvar": "m_bHasDefuser",
-      "offset": 76,
+      "offset": 92,
       "table": "DT_CSPlayer"
     },
     "m_iEntityQuality": {
