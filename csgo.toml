@@ -1,5 +1,5 @@
-# Sat, 29 Oct 2016 03:15:11 +0200
-timestamp = 1477703711
+# Sat, 29 Oct 2016 15:17:20 +0200
+timestamp = 1477747040
 
 [netvars]
 m_ArmorValue = 43512
@@ -87,6 +87,7 @@ dwSensitivityPtr = 11095320
 dwViewMatrix = 78260884
 dwWeaponTable = 82804940
 dwWeaponTableIndex = 12912
+dwYawPtr = 11095056
 dwZoomSensitivityRatioPtr = 11115040
 dwbSendPackets = 924058
 m_pStudioHdr = 10556

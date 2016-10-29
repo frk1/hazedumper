@@ -93,9 +93,10 @@
     "dwViewMatrix": 78260884,
     "dwWeaponTable": 82804940,
     "dwWeaponTableIndex": 12912,
+    "dwYawPtr": 11095056,
     "dwZoomSensitivityRatioPtr": 11115040,
     "dwbSendPackets": 924058,
     "m_pStudioHdr": 10556
   },
-  "timestamp": 1477703711
+  "timestamp": 1477747040
 }

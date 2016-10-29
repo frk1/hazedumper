@@ -480,6 +480,14 @@
       "offset": 0,
       "pattern": "81 F9 ? ? ? ? 75 1A F3 0F 10 05 ? ? ? ? F3 0F 11 45 ? 8B 45 EC 35 ? ? ? ? 89 45 FC EB 0A 8B 01 8B 40 30 FF D0 D9 5D FC 8B 0D"
     },
+    "dwYawPtr": {
+        "extra": 2,
+        "mode_read": true,
+        "mode_subtract": true,
+        "module": "client.dll",
+        "offset": 0,
+        "pattern": "81 F9 ? ? ? ? 75 16 F3 0F 10 05 ? ? ? ? F3 0F 11 45 ? 81 75 ? ? ? ? ? EB 0A 8B 01 8B 40 30 FF D0 D9 5D 0C F3 0F 10 06"
+    },
     "m_pStudioHdr": {
       "extra": 2,
       "mode_read": true,
