@@ -82,6 +82,7 @@
     "dwForceLeft": 49221468,
     "dwForceRight": 49221480,
     "dwGameDir": 6686104,
+    "dwGetAllClasses": 49214148,
     "dwGlobalVars": 11023268,
     "dwGlowObjectManager": 83659716,
     "dwInput": 82819808,
@@ -99,5 +100,5 @@
     "dwbSendPackets": 924122,
     "m_pStudioHdr": 10556
   },
-  "timestamp": 1479159372
+  "timestamp": 1479160166
 }

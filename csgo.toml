@@ -1,5 +1,5 @@
-# Mon, 14 Nov 2016 22:36:12 +0100
-timestamp = 1479159372
+# Mon, 14 Nov 2016 22:49:26 +0100
+timestamp = 1479160166
 
 [netvars]
 m_ArmorValue = 43512
@@ -76,6 +76,7 @@ dwForceJump = 83131092
 dwForceLeft = 49221468
 dwForceRight = 49221480
 dwGameDir = 6686104
+dwGetAllClasses = 49214148
 dwGlobalVars = 11023268
 dwGlowObjectManager = 83659716
 dwInput = 82819808

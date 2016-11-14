@@ -368,6 +368,14 @@
       "offset": 0,
       "pattern": "68 ? ? ? ? 8D 85 ? ? ? ? 50 68 ? ? ? ? 68"
     },
+    "dwGetAllClasses": {
+      "extra": -50,
+      "mode_read": true,
+      "mode_subtract": true,
+      "module": "client.dll",
+      "offset": 0,
+      "pattern": "74 ? 8B 55 F4 8B 5D"
+    },
     "dwGlobalVars": {
       "extra": 1,
       "mode_read": true,
