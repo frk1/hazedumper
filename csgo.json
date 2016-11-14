@@ -85,6 +85,7 @@
     "dwGlobalVars": 11023268,
     "dwGlowObjectManager": 83659716,
     "dwInput": 82819808,
+    "dwInterfaceLinkList": 7419668,
     "dwLocalPlayer": 11072828,
     "dwPlayerResource": 49213900,
     "dwRadarBase": 82730348,
@@ -98,5 +99,5 @@
     "dwbSendPackets": 924122,
     "m_pStudioHdr": 10556
   },
-  "timestamp": 1478301604
+  "timestamp": 1479159372
 }

@@ -295,7 +295,7 @@
       "module": "engine.dll",
       "offset": 0,
       "pattern": "8B 88 ? ? ? ? 8B 01 8B 40 ? FF D0 8B F8"
-    },
+    },    
     "dwEntityList": {
       "extra": 1,
       "mode_read": true,
@@ -383,6 +383,14 @@
       "module": "client.dll",
       "offset": 4,
       "pattern": "A1 ? ? ? ? A8 01 75 4E 0F 57 C0"
+    },
+    "dwInterfaceLinkList": {
+      "extra": 0,
+      "mode_read": false,
+      "mode_subtract": true,
+      "module": "client.dll",
+      "offset": 0,
+      "pattern": "8B 35 ? ? ? ? 57 85 F6 74 ? 8B 7D 08 8B 4E 04 8B C7 8A 11 3A 10"
     },
     "dwInput": {
       "extra": 1,
