@@ -1,10 +1,10 @@
 {
   "modules": {
     "client.dll": {
-      "size": 85000192
+      "size": 85004288
     },
     "engine.dll": {
-      "size": 9342976
+      "size": 9347072
     }
   },
   "netvars": {
@@ -65,7 +65,7 @@
     "m_viewPunchAngle": 12304
   },
   "signatures": {
-    "dwClientState": 6038212,
+    "dwClientState": 6042292,
     "dwClientState_GetLocalPlayer": 376,
     "dwClientState_Map": 644,
     "dwClientState_MapDirectory": 384,
@@ -73,32 +73,32 @@
     "dwClientState_PlayerInfo": 21052,
     "dwClientState_State": 256,
     "dwClientState_ViewAngles": 19724,
-    "dwEntityList": 78319508,
-    "dwForceAttack": 49221528,
-    "dwForceAttack2": 49221444,
-    "dwForceBackward": 49221504,
-    "dwForceForward": 49221492,
-    "dwForceJump": 83131092,
-    "dwForceLeft": 49221468,
-    "dwForceRight": 49221480,
-    "dwGameDir": 6686104,
-    "dwGetAllClasses": 49214148,
-    "dwGlobalVars": 11023268,
-    "dwGlowObjectManager": 83659716,
-    "dwInput": 82819808,
-    "dwInterfaceLinkList": 7419668,
-    "dwLocalPlayer": 11072828,
-    "dwPlayerResource": 49213900,
-    "dwRadarBase": 82730348,
-    "dwSensitivity": 11095364,
-    "dwSensitivityPtr": 11095320,
-    "dwViewMatrix": 78261044,
-    "dwWeaponTable": 82805100,
+    "dwEntityList": 78323540,
+    "dwForceAttack": 49225536,
+    "dwForceAttack2": 49225548,
+    "dwForceBackward": 49225584,
+    "dwForceForward": 49225620,
+    "dwForceJump": 83135124,
+    "dwForceLeft": 49225596,
+    "dwForceRight": 49225500,
+    "dwGameDir": 6690200,
+    "dwGetAllClasses": 49218180,
+    "dwGlobalVars": 11027364,
+    "dwGlowObjectManager": 83664244,
+    "dwInput": 82823840,
+    "dwInterfaceLinkList": 7421332,
+    "dwLocalPlayer": 11076924,
+    "dwPlayerResource": 49217932,
+    "dwRadarBase": 82734380,
+    "dwSensitivity": 11099460,
+    "dwSensitivityPtr": 11099416,
+    "dwViewMatrix": 78265076,
+    "dwWeaponTable": 82809132,
     "dwWeaponTableIndex": 12912,
-    "dwYawPtr": 11095056,
-    "dwZoomSensitivityRatioPtr": 11115040,
-    "dwbSendPackets": 924122,
+    "dwYawPtr": 11099152,
+    "dwZoomSensitivityRatioPtr": 11119136,
+    "dwbSendPackets": 924266,
     "m_pStudioHdr": 10556
   },
-  "timestamp": 1479160166
+  "timestamp": 1479380542
 }
