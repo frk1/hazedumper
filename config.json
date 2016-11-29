@@ -511,6 +511,14 @@
       "module": "client.dll",
       "offset": 0,
       "pattern": "8B 86 ? ? ? ? 89 44 24 0C 85 C0 74 05"
+    },
+	"dwGameRulesProxy": {
+      "extra": 1,
+      "mode_read": true,
+      "mode_subtract": true,
+      "module": "client.dll",
+      "offset": 0,
+      "pattern": "A1 ? ? ? ? 85 C0 0F 84 ? ? ? ? 80 B8 ? ? ? ? ? 0F 84 ? ? ? ? F3 0F 6F 05"
     }
   }
 }
