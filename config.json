@@ -413,8 +413,8 @@
       "mode_read": true,
       "mode_subtract": true,
       "module": "client.dll",
-      "offset": 16,
-      "pattern": "A3 ? ? ? ? C7 05 ? ? ? ? ? ? ? ? E8 ? ? ? ? 59 C3 6A"
+      "offset": 44,
+      "pattern": "A3 ? ? ? ? C7 05 ? ? ? ? ? ? ? ? E8 ? ? ? ? 59 C3 6A ?"
     },
     "dwMouseEnable": {
       "extra": 4,
