@@ -21,7 +21,7 @@
     "dwGlowObjectManager": 83726788,
     "dwInterfaceLinkList": 7467076,
     "dwInput": 82884592,
-    "dwLocalPlayer": 11135176,
+    "dwLocalPlayer": 11135204,
     "dwPlayerResource": 49279016,
     "dwRadarBase": 82795132,
     "dwSensitivity": 11157684,
@@ -32,7 +32,8 @@
     "dwbSendPackets": 924362,
     "dwZoomSensitivityRatioPtr": 11177424,
     "dwYawPtr": 11157376,
-    "m_pStudioHdr": 10556
+    "m_pStudioHdr": 10556,
+    "dwGameRulesProxy": 49279088
   },
   "netvars": {
     "m_ArmorValue": 43524,
@@ -91,7 +92,7 @@
     "m_vecViewOffset": 260,
     "m_viewPunchAngle": 12304
   },
-  "timestamp": 1480517058,
+  "timestamp": 1480610954,
   "modules": {
     "client.dll": {
       "size": 85073920

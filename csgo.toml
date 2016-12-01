@@ -1,5 +1,5 @@
-# Wed, 30 Nov 2016 15:44:18 +0100
-timestamp = 1480517058
+# Thu,  1 Dec 2016 17:49:14 +0100
+timestamp = 1480610954
 
 [netvars]
 m_ArmorValue = 43524
@@ -76,11 +76,12 @@ dwForceJump = 83195948
 dwForceLeft = 49286584
 dwForceRight = 49286596
 dwGameDir = 6690200
+dwGameRulesProxy = 49279088
 dwGlobalVars = 11084704
 dwGlowObjectManager = 83726788
 dwInput = 82884592
 dwInterfaceLinkList = 7467076
-dwLocalPlayer = 11135176
+dwLocalPlayer = 11135204
 dwPlayerResource = 49279016
 dwRadarBase = 82795132
 dwSensitivity = 11157684
