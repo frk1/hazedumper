@@ -229,7 +229,8 @@
     }
   },
   "options": {
-    "file_name": "csgo"
+    "file_name": "csgo",
+    "minify": false
   },
   "signatures": {
     "dwClientState": {
