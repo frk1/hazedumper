@@ -1,6 +1,6 @@
 {
   "signatures": {
-    "dwClientState": 6059412,
+    "dwClientState": 6059380,
     "dwClientState_GetLocalPlayer": 376,
     "dwClientState_Map": 644,
     "dwClientState_MapDirectory": 384,
@@ -8,32 +8,32 @@
     "dwClientState_State": 256,
     "dwClientState_ViewAngles": 19724,
     "dwClientState_PlayerInfo": 21052,
-    "dwEntityList": 78405140,
-    "dwForceAttack": 49307524,
-    "dwForceAttack2": 49307440,
-    "dwForceForward": 49307488,
-    "dwForceBackward": 49307500,
-    "dwForceLeft": 49307464,
-    "dwForceRight": 49307476,
-    "dwForceJump": 83216832,
+    "dwEntityList": 78405268,
+    "dwForceAttack": 49307652,
+    "dwForceAttack2": 49307568,
+    "dwForceForward": 49307616,
+    "dwForceBackward": 49307628,
+    "dwForceLeft": 49307592,
+    "dwForceRight": 49307604,
+    "dwForceJump": 83216960,
     "dwGameDir": 6708448,
     "dwGlobalVars": 11105184,
-    "dwGlowObjectManager": 83756500,
-    "dwInterfaceLinkList": 7484020,
-    "dwInput": 82905440,
-    "dwLocalPlayer": 11155688,
-    "dwPlayerResource": 49299860,
-    "dwRadarBase": 82815980,
-    "dwSensitivity": 11178196,
-    "dwSensitivityPtr": 11178152,
-    "dwViewMatrix": 78346676,
-    "dwWeaponTable": 82890732,
+    "dwGlowObjectManager": 83756692,
+    "dwInterfaceLinkList": 7485620,
+    "dwInput": 82905568,
+    "dwLocalPlayer": 11155684,
+    "dwPlayerResource": 49299988,
+    "dwRadarBase": 82816108,
+    "dwSensitivity": 11178164,
+    "dwSensitivityPtr": 11178120,
+    "dwViewMatrix": 78346804,
+    "dwWeaponTable": 82890860,
     "dwWeaponTableIndex": 12912,
-    "dwbSendPackets": 934570,
-    "dwZoomSensitivityRatioPtr": 11197872,
-    "dwYawPtr": 11177888,
+    "dwbSendPackets": 934474,
+    "dwZoomSensitivityRatioPtr": 11197904,
+    "dwYawPtr": 11177856,
     "m_pStudioHdr": 10556,
-    "dwGameRulesProxy": 49299932
+    "dwGameRulesProxy": 49300060
   },
   "netvars": {
     "m_ArmorValue": 43524,
@@ -92,10 +92,10 @@
     "m_vecViewOffset": 260,
     "m_viewPunchAngle": 12304
   },
-  "timestamp": 1481206620,
+  "timestamp": 1481293841,
   "modules": {
     "client.dll": {
-      "size": 85102592
+      "size": 85106688
     },
     "engine.dll": {
       "size": 9367552
