@@ -1,5 +1,5 @@
-# Thu, 15 Dec 2016 06:27:47 +0100
-timestamp = 1481779667
+# Sat, 17 Dec 2016 13:44:11 +0100
+timestamp = 1481978651
 
 [netvars]
 m_ArmorValue = 43524
@@ -28,6 +28,7 @@ m_flFlashMaxAlpha = 41732
 m_flNextPrimaryAttack = 12760
 m_hActiveWeapon = 12008
 m_hMyWeapons = 11752
+m_hObserverTarget = 13184
 m_hOwner = 10684
 m_hOwnerEntity = 328
 m_iAccountID = 12200
@@ -41,6 +42,7 @@ m_iGlowIndex = 41760
 m_iHealth = 252
 m_iItemDefinitionIndex = 12168
 m_iItemIDHigh = 12192
+m_iObserverMode = 13164
 m_iShotsFired = 41664
 m_iState = 12792
 m_iTeamNum = 240
