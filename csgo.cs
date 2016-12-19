@@ -18,6 +18,7 @@ namespace hazedumper
         public const Int32 dwGameDir = 0x665CE0;
         public const Int32 dwForceAttack2 = 0x2F08140;
         public const Int32 dwForceRight = 0x2F08164;
+        public const Int32 dwppDirect3DDevice9 = 0x99960;
         public const Int32 dwRadarBase = 0x4EFCD2C;
         public const Int32 dwClientState = 0x5C7574;
         public const Int32 m_pStudioHdr = 0x293C;

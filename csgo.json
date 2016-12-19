@@ -33,6 +33,7 @@
     "dwYawPtr": 11185872,
     "dwZoomSensitivityRatioPtr": 11205920,
     "dwbSendPackets": 934474,
+    "dwppDirect3DDevice9": 629088,
     "m_pStudioHdr": 10556
   },
   "netvars": {
@@ -94,7 +95,7 @@
     "m_vecViewOffset": 260,
     "m_viewPunchAngle": 12304
   },
-  "timestamp": 1481978651,
+  "timestamp": 1482164159,
   "modules": {
     "client.dll": {
       "size": 85118976

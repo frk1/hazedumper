@@ -521,6 +521,14 @@
       "offset": 0,
       "pattern": "B3 01 8B 01 8B 40 10 FF D0 84 C0 74 0F 80 BF ? ? ? ? ? 0F 84"
     },
+    "dwppDirect3DDevice9": {
+        "extra": 1,
+        "mode_read": true,
+        "mode_subtract": true,
+        "module": "shaderapidx9.dll",
+        "offset": 0,
+        "pattern": "A1 ? ? ? ? 50 8B 08 FF 51 0C"
+    },
     "m_pStudioHdr": {
       "extra": 2,
       "mode_read": true,

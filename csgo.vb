@@ -14,6 +14,7 @@ Namespace hazedumper
         Public Const dwGameDir as Integer = &H665CE0
         Public Const dwForceAttack2 as Integer = &H2F08140
         Public Const dwForceRight as Integer = &H2F08164
+        Public Const dwppDirect3DDevice9 as Integer = &H99960
         Public Const dwRadarBase as Integer = &H4EFCD2C
         Public Const dwClientState as Integer = &H5C7574
         Public Const m_pStudioHdr as Integer = &H293C
