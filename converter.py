@@ -32,10 +32,10 @@ singleIdent = tabToSpaces(1)
 doubleIdent = tabToSpaces(2)
 
 def offsetToVB(name, offset):
-    return 'Public {} as Integer = &{}'.format(name, hex(offset).upper().replace('0X', 'H'))
+    return 'Public Const {} as Integer = &{}'.format(name, hex(offset).upper().replace('0X', 'H'))
 
 def offsetToCSharp(name, offset):
-    return 'public static Int32 {} = {};'.format(name, hex(offset).upper().replace('0X', '0x'))
+    return 'public const Int32 {} = {};'.format(name, hex(offset).upper().replace('0X', '0x'))
 
 def convertToVB(data):
     s = 'Namespace hazedumper\n{}Namespace signatures'.format(singleIdent)
