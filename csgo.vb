@@ -1,4 +1,4 @@
-' Mon, 19 Dec 2016 17:43:37 +0100
+' Thu, 22 Dec 2016 13:27:29 +0100
 
 Namespace hazedumper
     Public Shared Class netvars
@@ -61,7 +61,7 @@ Namespace hazedumper
         Public Const m_viewPunchAngle as Integer = &H3010
     End Class
     Public Shared Class signatures
-        Public Const dwClientState as Integer = &H5C7574
+        Public Const dwClientState as Integer = &H5C7524
         Public Const dwClientState_GetLocalPlayer as Integer = &H178
         Public Const dwClientState_Map as Integer = &H284
         Public Const dwClientState_MapDirectory as Integer = &H180
@@ -77,7 +77,7 @@ Namespace hazedumper
         Public Const dwForceJump as Integer = &H4F5EB58
         Public Const dwForceLeft as Integer = &H2F08158
         Public Const dwForceRight as Integer = &H2F08164
-        Public Const dwGameDir as Integer = &H665CE0
+        Public Const dwGameDir as Integer = &H665C60
         Public Const dwGameRulesProxy as Integer = &H2F063EC
         Public Const dwGlobalVars as Integer = &HA993A0
         Public Const dwGlowObjectManager as Integer = &H4FE27B4
@@ -93,7 +93,7 @@ Namespace hazedumper
         Public Const dwWeaponTableIndex as Integer = &H3270
         Public Const dwYawPtr as Integer = &HAAAED0
         Public Const dwZoomSensitivityRatioPtr as Integer = &HAAFD20
-        Public Const dwbSendPackets as Integer = &HE424A
+        Public Const dwbSendPackets as Integer = &HE404A
         Public Const dwppDirect3DDevice9 as Integer = &H99960
         Public Const m_pStudioHdr as Integer = &H293C
     End Class
