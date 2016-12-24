@@ -529,6 +529,14 @@
       "offset": 0,
       "pattern": "A1 ? ? ? ? 50 8B 08 FF 51 0C"
     },
+    "dwSetClanTag": {
+      "extra": 0,
+      "mode_read": false,
+      "mode_subtract": true,
+      "module": "engine.dll",
+      "offset": 0,
+      "pattern": "53 56 57 8B DA 8B F9 FF 15"
+    },
     "m_pStudioHdr": {
       "extra": 2,
       "mode_read": true,

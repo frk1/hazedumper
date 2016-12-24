@@ -1,4 +1,4 @@
-' Thu, 22 Dec 2016 13:27:29 +0100
+' Sat, 24 Dec 2016 03:48:48 +0100
 
 Namespace hazedumper
     Public Shared Class netvars
@@ -95,6 +95,7 @@ Namespace hazedumper
         Public Const dwZoomSensitivityRatioPtr as Integer = &HAAFD20
         Public Const dwbSendPackets as Integer = &HE404A
         Public Const dwppDirect3DDevice9 as Integer = &H99960
+        Public Const dwSetClanTag as Integer = &H9CB00
         Public Const m_pStudioHdr as Integer = &H293C
     End Class
 End Namespace

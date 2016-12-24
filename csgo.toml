@@ -1,5 +1,5 @@
-# Thu, 22 Dec 2016 13:27:29 +0100
-timestamp = 1482409649
+# Sat, 24 Dec 2016 03:48:48 +0100
+timestamp = 1482547728
 
 [netvars]
 m_ArmorValue = 43524
@@ -88,6 +88,7 @@ dwPlayerResource = 49308580
 dwRadarBase = 82824492
 dwSensitivity = 11186180
 dwSensitivityPtr = 11186136
+dwSetClanTag = 641792
 dwViewMatrix = 78355380
 dwWeaponTable = 82899340
 dwWeaponTableIndex = 12912
