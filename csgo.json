@@ -18,6 +18,7 @@
     "dwForceRight": 49316196,
     "dwGameDir": 6708320,
     "dwGameRulesProxy": 49308652,
+    "dwGetAllClasses": 49308832,
     "dwGlobalVars": 11113376,
     "dwGlowObjectManager": 83765172,
     "dwInput": 82914080,
@@ -96,7 +97,7 @@
     "m_vecViewOffset": 260,
     "m_viewPunchAngle": 12304
   },
-  "timestamp": 1482547728,
+  "timestamp": 1483361261,
   "modules": {
     "client.dll": {
       "size": 85118976
