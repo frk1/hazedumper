@@ -434,12 +434,20 @@
       "pattern": "A3 ? ? ? ? C7 05 ? ? ? ? ? ? ? ? E8 ? ? ? ? 59 C3 6A ?"
     },
     "dwMouseEnable": {
-      "extra": 4,
+      "extra": 1,
       "mode_read": true,
       "mode_subtract": true,
       "module": "client.dll",
-      "offset": 92,
-      "pattern": "F3 0F 10 05 ? ? ? ? EB 17 8B 01 8B 40 30 FF D0 F3 0F 10 0D"
+      "offset": 48,
+      "pattern": "B9 ? ? ? ? FF 50 34 85 C0 75 10"
+    },
+    "dwMouseEnablePtr": {
+      "extra": 1,
+      "mode_read": true,
+      "mode_subtract": true,
+      "module": "client.dll",
+      "offset": 0,
+      "pattern": "B9 ? ? ? ? FF 50 34 85 C0 75 10"
     },
     "dwPlayerResource": {
       "extra": 2,
