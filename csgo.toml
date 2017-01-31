@@ -1,5 +1,5 @@
-# Sun, 29 Jan 2017 21:46:09 +0100
-timestamp = 1485722769
+# Tue, 31 Jan 2017 19:16:18 +0100
+timestamp = 1485886578
 
 [netvars]
 m_ArmorValue = 43524
@@ -85,6 +85,8 @@ dwGlowObjectManager = 83769588
 dwInput = 82918400
 dwInterfaceLinkList = 7490180
 dwLocalPlayer = 11167796
+dwMouseEnable = 11190368
+dwMouseEnablePtr = 11190320
 dwPlayerResource = 49312932
 dwRadarBase = 82828940
 dwSensitivity = 11190276

@@ -24,6 +24,8 @@
     "dwInput": 82918400,
     "dwInterfaceLinkList": 7490180,
     "dwLocalPlayer": 11167796,
+    "dwMouseEnable": 11190368,
+    "dwMouseEnablePtr": 11190320,
     "dwPlayerResource": 49312932,
     "dwRadarBase": 82828940,
     "dwSensitivity": 11190276,
@@ -97,7 +99,7 @@
     "m_vecViewOffset": 260,
     "m_viewPunchAngle": 12304
   },
-  "timestamp": 1485722769,
+  "timestamp": 1485886578,
   "modules": {
     "client.dll": {
       "size": 85123072
