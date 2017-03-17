@@ -90,7 +90,7 @@ namespace hazedumper
         public const Int32 dwGlowObjectManager = 0x4FEA32C;
         public const Int32 dwInput = 0x4F1A340;
         public const Int32 dwInterfaceLinkList = 0x72A594;
-        public const Int32 dwLocalPlayer = 0xAAC708;
+        public const Int32 dwLocalPlayer = 0xAAC6EC;
         public const Int32 dwMouseEnable = 0xAB1F50;
         public const Int32 dwMouseEnablePtr = 0xAB1F20;
         public const Int32 dwPlayerResource = 0x2F0DA54;
