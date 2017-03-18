@@ -1,4 +1,4 @@
-' Sat, 18 Mar 2017 03:10:46 +0100
+' Sat, 18 Mar 2017 18:59:57 +0100
 
 Namespace hazedumper
     Public Shared Class netvars
@@ -84,7 +84,7 @@ Namespace hazedumper
         Public Const dwGlowObjectManager as Integer = &H4FEB37C
         Public Const dwInput as Integer = &H4F1B3B0
         Public Const dwInterfaceLinkList as Integer = &H72B0C4
-        Public Const dwLocalPlayer as Integer = &H7CEE0089
+        Public Const dwLocalPlayer as Integer = &HAAD704
         Public Const dwMouseEnable as Integer = &HAB2F30
         Public Const dwMouseEnablePtr as Integer = &HAB2F00
         Public Const dwPlayerResource as Integer = &H2F0EAC0
