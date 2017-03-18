@@ -426,12 +426,12 @@
       "pattern": "8B 35 ? ? ? ? 57 85 F6 74 ? 8B 7D 08 8B 4E 04 8B C7 8A 11 3A 10"
     },
     "dwLocalPlayer": {
-      "extra": 1,
+      "extra": 4,
       "mode_read": true,
       "mode_subtract": true,
       "module": "client.dll",
-      "offset": 44,
-      "pattern": "A3 ? ? ? ? C7 05 ? ? ? ? ? ? ? ? E8 ? ? ? ? 59 C3 6A ?"
+      "offset": 4,
+      "pattern": "42 56 8D 34 85 ? ? ? ?"
     },
     "dwMouseEnable": {
       "extra": 1,
