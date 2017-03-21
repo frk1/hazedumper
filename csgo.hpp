@@ -2,7 +2,7 @@
 #include <cstddef>
 
 // Offsets timestamp
-// Sat, 18 Mar 2017 02:49:04 +0100
+// Tue, 21 Mar 2017 16:27:52 +0100
 
 namespace hazedumper {
 namespace netvars {
@@ -100,7 +100,7 @@ constexpr ::std::ptrdiff_t dwWeaponTable = 0x4F17A1C;
 constexpr ::std::ptrdiff_t dwWeaponTableIndex = 0x3270;
 constexpr ::std::ptrdiff_t dwYawPtr = 0xAB2DA0;
 constexpr ::std::ptrdiff_t dwZoomSensitivityRatioPtr = 0xAB7BF0;
-constexpr ::std::ptrdiff_t dwbSendPackets = 0xE46DA;
+constexpr ::std::ptrdiff_t dwbSendPackets = 0xE474A;
 constexpr ::std::ptrdiff_t dwppDirect3DDevice9 = 0x99AA0;
 constexpr ::std::ptrdiff_t dwSetClanTag = 0x9CEC0;
 constexpr ::std::ptrdiff_t m_pStudioHdr = 0x293C;
