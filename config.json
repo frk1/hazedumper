@@ -310,7 +310,7 @@
       "mode_read": true,
       "mode_subtract": true,
       "module": "client.dll",
-      "offset": 0,
+      "offset": 32,
       "pattern": "BB ? ? ? ? 83 FF 01 0F 8C ? ? ? ? 3B F8"
     },
     "dwForceAttack": {
@@ -430,7 +430,7 @@
       "mode_read": true,
       "mode_subtract": true,
       "module": "client.dll",
-      "offset": 44,
+      "offset": 16,
       "pattern": "A3 ? ? ? ? C7 05 ? ? ? ? ? ? ? ? E8 ? ? ? ? 59 C3 6A ?"
     },
     "dwMouseEnable": {
