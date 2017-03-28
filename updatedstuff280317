@@ -1,0 +1,2 @@
+Public Const dwLocalPlayer as Integer = &H00AB06EC
+Public Const dwEntityList as Integer = &H04AD3A64
