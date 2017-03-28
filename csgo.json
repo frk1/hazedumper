@@ -22,7 +22,7 @@
     "dwGlobalVars": 11158432,
     "dwGlowObjectManager": 83813804,
     "dwInput": 82961840,
-    "dwInterfaceLinkList": 7524292,
+    "dwInterfaceLinkList": 7524548,
     "dwLocalPlayer": 11208456,
     "dwMouseEnable": 11231056,
     "dwMouseEnablePtr": 11231008,
@@ -99,7 +99,7 @@
     "m_vecViewOffset": 260,
     "m_viewPunchAngle": 12304
   },
-  "timestamp": 1490436144,
+  "timestamp": 1490710234,
   "modules": {
     "client.dll": {
       "size": 85180416

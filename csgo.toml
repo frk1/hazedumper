@@ -1,5 +1,5 @@
-# Sat, 25 Mar 2017 11:02:24 +0100
-timestamp = 1490436144
+# Tue, 28 Mar 2017 16:10:34 +0200
+timestamp = 1490710234
 
 [netvars]
 m_ArmorValue = 43524
@@ -83,7 +83,7 @@ dwGetAllClasses = 49356168
 dwGlobalVars = 11158432
 dwGlowObjectManager = 83813804
 dwInput = 82961840
-dwInterfaceLinkList = 7524292
+dwInterfaceLinkList = 7524548
 dwLocalPlayer = 11208456
 dwMouseEnable = 11231056
 dwMouseEnablePtr = 11231008
