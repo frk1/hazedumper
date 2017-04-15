@@ -2,7 +2,7 @@
 #include <cstddef>
 
 // Offsets timestamp
-// Thu, 13 Apr 2017 21:40:11 +0200
+// Sat, 15 Apr 2017 02:26:34 +0200
 
 namespace hazedumper {
 namespace netvars {
@@ -88,7 +88,7 @@ constexpr ::std::ptrdiff_t dwGlobalVars = 0xAA53A0;
 constexpr ::std::ptrdiff_t dwGlowObjectManager = 0x4FEF60C;
 constexpr ::std::ptrdiff_t dwInput = 0x4F1F650;
 constexpr ::std::ptrdiff_t dwInterfaceLinkList = 0x72DFC4;
-constexpr ::std::ptrdiff_t dwLocalPlayer = 0xAB1708;
+constexpr ::std::ptrdiff_t dwLocalPlayer = 0xAB16EC;
 constexpr ::std::ptrdiff_t dwMouseEnable = 0xAB6F50;
 constexpr ::std::ptrdiff_t dwMouseEnablePtr = 0xAB6F20;
 constexpr ::std::ptrdiff_t dwPlayerResource = 0x2F12D2C;
