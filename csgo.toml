@@ -1,5 +1,5 @@
-# Wed,  3 May 2017 15:15:29 +0200
-timestamp = 1493817329
+# Thu,  4 May 2017 18:08:33 +0200
+timestamp = 1493914113
 
 [netvars]
 m_ArmorValue = 43524
@@ -61,7 +61,7 @@ m_vecViewOffset = 260
 m_viewPunchAngle = 12304
 
 [signatures]
-dwClientState = 6079860
+dwClientState = 6079876
 dwClientState_GetLocalPlayer = 376
 dwClientState_Map = 644
 dwClientState_MapDirectory = 384
@@ -77,7 +77,7 @@ dwForceForward = 49372248
 dwForceJump = 83282004
 dwForceLeft = 49372272
 dwForceRight = 49372152
-dwGameDir = 6730848
+dwGameDir = 6730976
 dwGameRulesProxy = 49364628
 dwGetAllClasses = 49364808
 dwGlobalVars = 11166624
@@ -91,7 +91,7 @@ dwPlayerResource = 49364556
 dwRadarBase = 82880924
 dwSensitivity = 11239124
 dwSensitivityPtr = 11239080
-dwSetClanTag = 647776
+dwSetClanTag = 647808
 dwViewMatrix = 78411716
 dwWeaponTable = 82955676
 dwWeaponTableIndex = 12912

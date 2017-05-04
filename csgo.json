@@ -1,6 +1,6 @@
 {
   "signatures": {
-    "dwClientState": 6079860,
+    "dwClientState": 6079876,
     "dwClientState_GetLocalPlayer": 376,
     "dwClientState_Map": 644,
     "dwClientState_MapDirectory": 384,
@@ -16,7 +16,7 @@
     "dwForceJump": 83282004,
     "dwForceLeft": 49372272,
     "dwForceRight": 49372152,
-    "dwGameDir": 6730848,
+    "dwGameDir": 6730976,
     "dwGameRulesProxy": 49364628,
     "dwGetAllClasses": 49364808,
     "dwGlobalVars": 11166624,
@@ -37,7 +37,7 @@
     "dwZoomSensitivityRatioPtr": 11258864,
     "dwbSendPackets": 940890,
     "dwppDirect3DDevice9": 630432,
-    "dwSetClanTag": 647776,
+    "dwSetClanTag": 647808,
     "m_pStudioHdr": 10556
   },
   "netvars": {
@@ -99,7 +99,7 @@
     "m_vecViewOffset": 260,
     "m_viewPunchAngle": 12304
   },
-  "timestamp": 1493817329,
+  "timestamp": 1493914113,
   "modules": {
     "client.dll": {
       "size": 85188608
