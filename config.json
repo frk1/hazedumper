@@ -295,7 +295,7 @@
       "mode_subtract": false,
       "module": "engine.dll",
       "offset": 0,
-      "pattern": "83 B9 ? ? ? ? 06 0F 94 C0 C3"
+      "pattern": "83 B8 ? ? ? ? ? 0F 94 C0 C3"
     },
     "dwClientState_ViewAngles": {
       "extra": 4,
