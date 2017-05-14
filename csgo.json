@@ -24,6 +24,7 @@
     "dwMouseEnablePtr": 10821024,
     "dwPlayerResource": 48936340,
     "dwRadarBase": 82454340,
+    "dwSensitivity": 10820716,
     "dwSensitivityPtr": 10820672,
     "dwWeaponTable": 82529276,
     "dwWeaponTableIndex": 12912,
@@ -93,7 +94,7 @@
     "m_vecViewOffset": 260,
     "m_viewPunchAngle": 12304
   },
-  "timestamp": 1494796256,
+  "timestamp": 1494796779,
   "modules": {
     "client.dll": {
       "size": 84643840

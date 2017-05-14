@@ -1,5 +1,5 @@
-# Sun, 14 May 2017 23:10:56 +0200
-timestamp = 1494796256
+# Sun, 14 May 2017 23:19:39 +0200
+timestamp = 1494796779
 
 [netvars]
 m_ArmorValue = 43524
@@ -85,6 +85,7 @@ dwMouseEnable = 10821072
 dwMouseEnablePtr = 10821024
 dwPlayerResource = 48936340
 dwRadarBase = 82454340
+dwSensitivity = 10820716
 dwSensitivityPtr = 10820672
 dwSetClanTag = 544672
 dwWeaponTable = 82529276

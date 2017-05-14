@@ -1,4 +1,4 @@
-' Sun, 14 May 2017 23:10:56 +0200
+' Sun, 14 May 2017 23:19:39 +0200
 
 Namespace hazedumper
     Public Shared Class netvars
@@ -85,6 +85,7 @@ Namespace hazedumper
         Public Const dwMouseEnablePtr as Integer = &HA51DA0
         Public Const dwPlayerResource as Integer = &H2EAB594
         Public Const dwRadarBase as Integer = &H4EA2744
+        Public Const dwSensitivity as Integer = &HA51C6C
         Public Const dwSensitivityPtr as Integer = &HA51C40
         Public Const dwWeaponTable as Integer = &H4EB4BFC
         Public Const dwWeaponTableIndex as Integer = &H3270

@@ -1,7 +1,7 @@
 using System;
 
 // Offsets timestamp
-// Sun, 14 May 2017 23:10:56 +0200
+// Sun, 14 May 2017 23:19:39 +0200
 
 namespace hazedumper
 {
@@ -91,6 +91,7 @@ namespace hazedumper
         public const Int32 dwMouseEnablePtr = 0xA51DA0;
         public const Int32 dwPlayerResource = 0x2EAB594;
         public const Int32 dwRadarBase = 0x4EA2744;
+        public const Int32 dwSensitivity = 0xA51C6C;
         public const Int32 dwSensitivityPtr = 0xA51C40;
         public const Int32 dwWeaponTable = 0x4EB4BFC;
         public const Int32 dwWeaponTableIndex = 0x3270;
