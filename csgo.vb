@@ -1,4 +1,4 @@
-' Sun, 14 May 2017 23:19:39 +0200
+' Sun, 14 May 2017 23:38:18 +0200
 
 Namespace hazedumper
     Public Shared Class netvars
@@ -72,7 +72,11 @@ Namespace hazedumper
         Public Const dwEntityList as Integer = &H4A6DA5C
         Public Const dwForceAttack as Integer = &H2EAD36C
         Public Const dwForceAttack2 as Integer = &H2EAD378
+        Public Const dwForceBackward as Integer = &H2EAD354
+        Public Const dwForceForward as Integer = &H2EAD3A8
         Public Const dwForceJump as Integer = &H4F04BE0
+        Public Const dwForceLeft as Integer = &H2EAD360
+        Public Const dwForceRight as Integer = &H2EAD33C
         Public Const dwGameDir as Integer = &H645180
         Public Const dwGameRulesProxy as Integer = &H2EAB5DC
         Public Const dwGetAllClasses as Integer = &H2EAB68C
@@ -87,6 +91,7 @@ Namespace hazedumper
         Public Const dwRadarBase as Integer = &H4EA2744
         Public Const dwSensitivity as Integer = &HA51C6C
         Public Const dwSensitivityPtr as Integer = &HA51C40
+        Public Const dwViewMatrix as Integer = &H4A5F4F2
         Public Const dwWeaponTable as Integer = &H4EB4BFC
         Public Const dwWeaponTableIndex as Integer = &H3270
         Public Const dwYawPtr as Integer = &HA51A30

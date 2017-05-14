@@ -2,7 +2,7 @@
 #include <cstddef>
 
 // Offsets timestamp
-// Sun, 14 May 2017 23:19:39 +0200
+// Sun, 14 May 2017 23:38:18 +0200
 
 namespace hazedumper {
 namespace netvars {
@@ -76,7 +76,11 @@ constexpr ::std::ptrdiff_t dwClientState_ViewAngles = 0x4D0C;
 constexpr ::std::ptrdiff_t dwEntityList = 0x4A6DA5C;
 constexpr ::std::ptrdiff_t dwForceAttack = 0x2EAD36C;
 constexpr ::std::ptrdiff_t dwForceAttack2 = 0x2EAD378;
+constexpr ::std::ptrdiff_t dwForceBackward = 0x2EAD354;
+constexpr ::std::ptrdiff_t dwForceForward = 0x2EAD3A8;
 constexpr ::std::ptrdiff_t dwForceJump = 0x4F04BE0;
+constexpr ::std::ptrdiff_t dwForceLeft = 0x2EAD360;
+constexpr ::std::ptrdiff_t dwForceRight = 0x2EAD33C;
 constexpr ::std::ptrdiff_t dwGameDir = 0x645180;
 constexpr ::std::ptrdiff_t dwGameRulesProxy = 0x2EAB5DC;
 constexpr ::std::ptrdiff_t dwGetAllClasses = 0x2EAB68C;
@@ -91,6 +95,7 @@ constexpr ::std::ptrdiff_t dwPlayerResource = 0x2EAB594;
 constexpr ::std::ptrdiff_t dwRadarBase = 0x4EA2744;
 constexpr ::std::ptrdiff_t dwSensitivity = 0xA51C6C;
 constexpr ::std::ptrdiff_t dwSensitivityPtr = 0xA51C40;
+constexpr ::std::ptrdiff_t dwViewMatrix = 0x4A5F4F2;
 constexpr ::std::ptrdiff_t dwWeaponTable = 0x4EB4BFC;
 constexpr ::std::ptrdiff_t dwWeaponTableIndex = 0x3270;
 constexpr ::std::ptrdiff_t dwYawPtr = 0xA51A30;

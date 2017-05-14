@@ -1,7 +1,7 @@
 using System;
 
 // Offsets timestamp
-// Sun, 14 May 2017 23:19:39 +0200
+// Sun, 14 May 2017 23:38:18 +0200
 
 namespace hazedumper
 {
@@ -78,7 +78,11 @@ namespace hazedumper
         public const Int32 dwEntityList = 0x4A6DA5C;
         public const Int32 dwForceAttack = 0x2EAD36C;
         public const Int32 dwForceAttack2 = 0x2EAD378;
+        public const Int32 dwForceBackward = 0x2EAD354;
+        public const Int32 dwForceForward = 0x2EAD3A8;
         public const Int32 dwForceJump = 0x4F04BE0;
+        public const Int32 dwForceLeft = 0x2EAD360;
+        public const Int32 dwForceRight = 0x2EAD33C;
         public const Int32 dwGameDir = 0x645180;
         public const Int32 dwGameRulesProxy = 0x2EAB5DC;
         public const Int32 dwGetAllClasses = 0x2EAB68C;
@@ -93,6 +97,7 @@ namespace hazedumper
         public const Int32 dwRadarBase = 0x4EA2744;
         public const Int32 dwSensitivity = 0xA51C6C;
         public const Int32 dwSensitivityPtr = 0xA51C40;
+        public const Int32 dwViewMatrix = 0x4A5F4F2;
         public const Int32 dwWeaponTable = 0x4EB4BFC;
         public const Int32 dwWeaponTableIndex = 0x3270;
         public const Int32 dwYawPtr = 0xA51A30;
