@@ -1,5 +1,5 @@
-# Sun, 14 May 2017 22:51:13 +0200
-timestamp = 1494795073
+# Sun, 14 May 2017 23:10:56 +0200
+timestamp = 1494796256
 
 [netvars]
 m_ArmorValue = 43524
@@ -67,7 +67,7 @@ dwClientState_Map = 644
 dwClientState_MapDirectory = 384
 dwClientState_MaxPlayer = 776
 dwClientState_PlayerInfo = 21052
-dwClientState_State = 536
+dwClientState_State = 256
 dwClientState_ViewAngles = 19724
 dwEntityList = 78043740
 dwForceAttack = 48943980

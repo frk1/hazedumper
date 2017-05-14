@@ -6,7 +6,7 @@
     "dwClientState_MapDirectory": 384,
     "dwClientState_MaxPlayer": 776,
     "dwClientState_PlayerInfo": 21052,
-    "dwClientState_State": 536,
+    "dwClientState_State": 256,
     "dwClientState_ViewAngles": 19724,
     "dwEntityList": 78043740,
     "dwForceAttack": 48943980,
@@ -93,7 +93,7 @@
     "m_vecViewOffset": 260,
     "m_viewPunchAngle": 12304
   },
-  "timestamp": 1494795073,
+  "timestamp": 1494796256,
   "modules": {
     "client.dll": {
       "size": 84643840
