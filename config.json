@@ -330,20 +330,20 @@
       "pattern": "89 0D ? ? ? ? 8B 0D ? ? ? ? 8B F2 8B C1 83 CE 04"
     },
     "dwForceBackward": {
-      "extra": 2,
+      "extra": 287,
       "mode_read": true,
       "mode_subtract": true,
       "module": "client.dll",
       "offset": 0,
-      "pattern": "8B 15 ? ? ? ? F6 C2 03 74 03 83 CE 10 A8 10 BF FD FF FF FF"
+      "pattern": "55 8B EC 51 53 8A 5D 08"
     },
     "dwForceForward": {
-      "extra": 2,
+      "extra": 245,
       "mode_read": true,
       "mode_subtract": true,
       "module": "client.dll",
       "offset": 0,
-      "pattern": "8B 15 ? ? ? ? F6 C2 03 74 03 83 CE 08 A8 08 BF FD FF FF FF"
+      "pattern": "55 8B EC 51 53 8A 5D 08"
     },
     "dwForceJump": {
       "extra": 2,
@@ -354,20 +354,20 @@
       "pattern": "89 0D ? ? ? ? 8B 0D ? ? ? ? 8B F2 8B C1 83 CE 08"
     },
     "dwForceLeft": {
-      "extra": 2,
+      "extra": 465,
       "mode_read": true,
       "mode_subtract": true,
       "module": "client.dll",
       "offset": 0,
-      "pattern": "89 15 ? ? ? ? 8B 15 ? ? ? ? F6 C2 03 74 06 81 CE ? 04 ? ? A9 ? 04 ? ? BF FD FF FF FF"
+      "pattern": "55 8B EC 51 53 8A 5D 08"
     },
     "dwForceRight": {
-      "extra": 2,
+      "extra": 512,
       "mode_read": true,
       "mode_subtract": true,
       "module": "client.dll",
       "offset": 0,
-      "pattern": "89 15 ? ? ? ? 8B 15 ? ? ? ? F6 C2 03 74 06 81 CE ? 08 ? ? A9 ? 08 ? ? BF FD FF FF FF"
+      "pattern": "55 8B EC 51 53 8A 5D 08"
     },
     "dwGameDir": {
       "extra": 1,
@@ -482,12 +482,12 @@
       "pattern": "81 F9 ? ? ? ? 75 1D F3 0F 10 05 ? ? ? ? F3 0F 11 44 24 ? 8B 44 24 0C 35 ? ? ? ? 89 44 24 0C"
     },
     "dwViewMatrix": {
-      "extra": 4,
+      "extra": 3,
       "mode_read": true,
       "mode_subtract": true,
       "module": "client.dll",
-      "offset": 176,
-      "pattern": "F3 0F 6F 05 ? ? ? ? 8D 85"
+      "offset": 158,
+      "pattern": "0F 10 05 ? ? ? ? 8D 85 ? ? ? ? B9"
     },
     "dwWeaponTable": {
       "extra": 1,
