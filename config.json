@@ -397,9 +397,9 @@
       "extra": 1,
       "mode_read": true,
       "mode_subtract": true,
-      "module": "engine.dll",
+      "module": "client.dll",
       "offset": 0,
-      "pattern": "68 ? ? ? ? 68 ? ? ? ? FF 50 08 85 C0"
+      "pattern": "A1 ? ? ? ? 68 00 00 04 00"
     },
     "dwGlowObjectManager": {
       "extra": 1,
