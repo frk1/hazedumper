@@ -402,12 +402,12 @@
       "pattern": "68 ? ? ? ? 68 ? ? ? ? FF 50 08 85 C0"
     },
     "dwGlowObjectManager": {
-      "extra": 16,
+      "extra": 1,
       "mode_read": true,
       "mode_subtract": true,
       "module": "client.dll",
-      "offset": 0,
-      "pattern": "0F 57 C0 C7 05 ? ? ? ? 00 00 00 00 0F 11 05 ? ? ? ? 68 ? ? ? ? 0F 28 05 ? ? ? ? 0F 11 05 ? ? ? ? C7 05 ? ? ? ? 00 00 00 00 C7 05 ? ? ? ? 00 00 00 00"
+      "offset": 4,
+      "pattern": "A1 ? ? ? ? A8 01 75 4B"
     },
     "dwInput": {
       "extra": 1,
