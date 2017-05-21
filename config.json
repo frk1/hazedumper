@@ -486,7 +486,7 @@
       "mode_read": true,
       "mode_subtract": true,
       "module": "client.dll",
-      "offset": 158,
+      "offset": 176,
       "pattern": "0F 10 05 ? ? ? ? 8D 85 ? ? ? ? B9"
     },
     "dwWeaponTable": {
