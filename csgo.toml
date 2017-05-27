@@ -1,5 +1,5 @@
-# Sat, 27 May 2017 12:10:05 +0200
-timestamp = 1495879805
+# Sat, 27 May 2017 12:37:18 +0200
+timestamp = 1495881438
 
 [netvars]
 m_ArmorValue = 45640
@@ -92,7 +92,7 @@ dwRadarBase = 82551052
 dwSensitivity = 11200188
 dwSensitivityPtr = 11200144
 dwSetClanTag = 553360
-dwViewMatrix = 78081650
+dwViewMatrix = 78081668
 dwWeaponTable = 82626000
 dwWeaponTableIndex = 12912
 dwYawPtr = 11199616
