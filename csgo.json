@@ -8,6 +8,7 @@
     "dwClientState_PlayerInfo": 21052,
     "dwClientState_State": 256,
     "dwClientState_ViewAngles": 19724,
+    "dwClientState_IsHLTV": 19652,
     "dwEntityList": 78140436,
     "dwForceAttack": 49051584,
     "dwForceAttack2": 49051596,
@@ -99,7 +100,7 @@
     "m_vecViewOffset": 260,
     "m_viewPunchAngle": 12304
   },
-  "timestamp": 1495881438,
+  "timestamp": 1496051258,
   "modules": {
     "client.dll": {
       "size": 84824064

@@ -1,7 +1,7 @@
 using System;
 
 // Offsets timestamp
-// Sat, 27 May 2017 12:37:18 +0200
+// Mon, 29 May 2017 11:47:38 +0200
 
 namespace hazedumper
 {
@@ -75,6 +75,7 @@ namespace hazedumper
         public const Int32 dwClientState_PlayerInfo = 0x523C;
         public const Int32 dwClientState_State = 0x100;
         public const Int32 dwClientState_ViewAngles = 0x4D0C;
+        public const Int32 dwClientState_IsHLTV = 0x4CC4;
         public const Int32 dwEntityList = 0x4A85414;
         public const Int32 dwForceAttack = 0x2EC77C0;
         public const Int32 dwForceAttack2 = 0x2EC77CC;

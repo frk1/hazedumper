@@ -1,5 +1,5 @@
-# Sat, 27 May 2017 12:37:18 +0200
-timestamp = 1495881438
+# Mon, 29 May 2017 11:47:38 +0200
+timestamp = 1496051258
 
 [netvars]
 m_ArmorValue = 45640
@@ -63,6 +63,7 @@ m_viewPunchAngle = 12304
 [signatures]
 dwClientState = 5890588
 dwClientState_GetLocalPlayer = 376
+dwClientState_IsHLTV = 19652
 dwClientState_Map = 644
 dwClientState_MapDirectory = 384
 dwClientState_MaxPlayer = 776

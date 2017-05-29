@@ -1,4 +1,4 @@
-' Sat, 27 May 2017 12:37:18 +0200
+' Mon, 29 May 2017 11:47:38 +0200
 
 Namespace hazedumper
     Public Shared Class netvars
@@ -69,6 +69,7 @@ Namespace hazedumper
         Public Const dwClientState_PlayerInfo as Integer = &H523C
         Public Const dwClientState_State as Integer = &H100
         Public Const dwClientState_ViewAngles as Integer = &H4D0C
+        Public Const dwClientState_IsHLTV as Integer = &H4CC4
         Public Const dwEntityList as Integer = &H4A85414
         Public Const dwForceAttack as Integer = &H2EC77C0
         Public Const dwForceAttack2 as Integer = &H2EC77CC
