@@ -305,6 +305,14 @@
       "offset": 0,
       "pattern": "F3 0F 11 80 ? ? ? ? D9 46 04 D9 05"
     },
+    "dwClientState_IsHLTV": {
+      "extra": 2,
+      "mode_read": true,
+      "mode_subtract": false,
+      "module": "engine.dll",
+      "offset": 0,
+      "pattern": "80 BF ? ? ? ? ? 0F 84 ? ? ? ? 32 DB"
+    },
     "dwEntityList": {
       "extra": 1,
       "mode_read": true,
