@@ -1,6 +1,6 @@
 {
   "signatures": {
-    "dwClientState": 5890588,
+    "dwClientState": 5894684,
     "dwClientState_GetLocalPlayer": 376,
     "dwClientState_Map": 644,
     "dwClientState_MapDirectory": 384,
@@ -9,34 +9,34 @@
     "dwClientState_State": 256,
     "dwClientState_ViewAngles": 19724,
     "dwClientState_IsHLTV": 19652,
-    "dwEntityList": 78140356,
-    "dwForceAttack": 49051480,
-    "dwForceAttack2": 49051492,
-    "dwForceBackward": 49051612,
-    "dwForceForward": 49051600,
-    "dwForceJump": 82953044,
-    "dwForceLeft": 49051576,
-    "dwForceRight": 49051588,
-    "dwGameDir": 6539216,
-    "dwGameRulesProxy": 83389564,
-    "dwGetAllClasses": 83389772,
-    "dwGlobalVars": 5889824,
-    "dwGlowObjectManager": 83501944,
-    "dwInput": 82640872,
-    "dwInterfaceLinkList": 7231140,
-    "dwLocalPlayer": 11177948,
-    "dwMouseEnable": 11200576,
-    "dwMouseEnablePtr": 11200528,
-    "dwPlayerResource": 49044188,
-    "dwRadarBase": 82550972,
-    "dwSensitivity": 11200220,
-    "dwSensitivityPtr": 11200176,
-    "dwViewMatrix": 78081588,
-    "dwWeaponTable": 82625920,
+    "dwEntityList": 78144548,
+    "dwForceAttack": 49055672,
+    "dwForceAttack2": 49055684,
+    "dwForceBackward": 49055804,
+    "dwForceForward": 49055792,
+    "dwForceJump": 82957236,
+    "dwForceLeft": 49055768,
+    "dwForceRight": 49055780,
+    "dwGameDir": 6543312,
+    "dwGameRulesProxy": 83393756,
+    "dwGetAllClasses": 83393964,
+    "dwGlobalVars": 5893920,
+    "dwGlowObjectManager": 83506136,
+    "dwInput": 82645064,
+    "dwInterfaceLinkList": 7234372,
+    "dwLocalPlayer": 11181900,
+    "dwMouseEnable": 11204528,
+    "dwMouseEnablePtr": 11204480,
+    "dwPlayerResource": 49048380,
+    "dwRadarBase": 82555164,
+    "dwSensitivity": 11204172,
+    "dwSensitivityPtr": 11204128,
+    "dwViewMatrix": 78085780,
+    "dwWeaponTable": 82630112,
     "dwWeaponTableIndex": 12912,
-    "dwYawPtr": 11199648,
-    "dwZoomSensitivityRatioPtr": 11220232,
-    "dwbSendPackets": 837834,
+    "dwYawPtr": 11203600,
+    "dwZoomSensitivityRatioPtr": 11224184,
+    "dwbSendPackets": 837930,
     "dwppDirect3DDevice9": 642880,
     "dwSetClanTag": 553360,
     "m_pStudioHdr": 10556
@@ -100,13 +100,13 @@
     "m_vecViewOffset": 260,
     "m_viewPunchAngle": 12304
   },
-  "timestamp": 1496230286,
+  "timestamp": 1496788015,
   "modules": {
     "client.dll": {
-      "size": 84824064
+      "size": 84828160
     },
     "engine.dll": {
-      "size": 9175040
+      "size": 9179136
     }
   }
 }
