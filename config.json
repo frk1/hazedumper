@@ -399,7 +399,7 @@
       "mode_subtract": true,
       "module": "client.dll",
       "offset": 0,
-      "pattern": "A1 ? ? ? ? C3 CC CC CC CC CC CC CC CC CC CC A1"
+      "pattern": "A1 ? ? ? ? C3 CC CC CC CC CC CC CC CC CC CC A1 ? ? ? ? B9"
     },
     "dwGlobalVars": {
       "extra": 1,
