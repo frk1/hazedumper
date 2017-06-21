@@ -2,7 +2,7 @@
 #include <cstddef>
 
 // Offsets timestamp
-// Sat, 17 Jun 2017 13:49:30 +0200
+// Wed, 21 Jun 2017 17:24:06 +0200
 
 namespace hazedumper {
 namespace netvars {
@@ -65,45 +65,45 @@ constexpr ::std::ptrdiff_t m_vecViewOffset = 0x104;
 constexpr ::std::ptrdiff_t m_viewPunchAngle = 0x3010;
 } // namespace netvars
 namespace signatures {
-constexpr ::std::ptrdiff_t dwClientState = 0x59F21C;
-constexpr ::std::ptrdiff_t dwClientState_GetLocalPlayer = 0x178;
-constexpr ::std::ptrdiff_t dwClientState_Map = 0x284;
-constexpr ::std::ptrdiff_t dwClientState_MapDirectory = 0x180;
-constexpr ::std::ptrdiff_t dwClientState_MaxPlayer = 0x308;
-constexpr ::std::ptrdiff_t dwClientState_PlayerInfo = 0x523C;
-constexpr ::std::ptrdiff_t dwClientState_State = 0x100;
-constexpr ::std::ptrdiff_t dwClientState_ViewAngles = 0x4D0C;
-constexpr ::std::ptrdiff_t dwClientState_IsHLTV = 0x4CC4;
-constexpr ::std::ptrdiff_t dwEntityList = 0x4A88534;
-constexpr ::std::ptrdiff_t dwForceAttack = 0x2ECA8C8;
-constexpr ::std::ptrdiff_t dwForceAttack2 = 0x2ECA8D4;
-constexpr ::std::ptrdiff_t dwForceBackward = 0x2ECA8E0;
-constexpr ::std::ptrdiff_t dwForceForward = 0x2ECA904;
-constexpr ::std::ptrdiff_t dwForceJump = 0x4F1F4C8;
-constexpr ::std::ptrdiff_t dwForceLeft = 0x2ECA8EC;
-constexpr ::std::ptrdiff_t dwForceRight = 0x2ECA928;
-constexpr ::std::ptrdiff_t dwGameDir = 0x63D7D0;
-constexpr ::std::ptrdiff_t dwGameRulesProxy = 0x4F89DEC;
-constexpr ::std::ptrdiff_t dwGetAllClasses = 0x4F89EBC;
-constexpr ::std::ptrdiff_t dwGlobalVars = 0x59EF20;
-constexpr ::std::ptrdiff_t dwGlowObjectManager = 0x4FA54F8;
-constexpr ::std::ptrdiff_t dwInput = 0x4ED3158;
-constexpr ::std::ptrdiff_t dwInterfaceLinkList = 0x6E7C44;
-constexpr ::std::ptrdiff_t dwLocalPlayer = 0xAABFFC;
-constexpr ::std::ptrdiff_t dwMouseEnable = 0xAB1860;
-constexpr ::std::ptrdiff_t dwMouseEnablePtr = 0xAB1830;
-constexpr ::std::ptrdiff_t dwPlayerResource = 0x2EC8C4C;
-constexpr ::std::ptrdiff_t dwRadarBase = 0x4EBD22C;
-constexpr ::std::ptrdiff_t dwSensitivity = 0xAB16FC;
-constexpr ::std::ptrdiff_t dwSensitivityPtr = 0xAB16D0;
-constexpr ::std::ptrdiff_t dwViewMatrix = 0x4A79FA4;
-constexpr ::std::ptrdiff_t dwWeaponTable = 0x4ECF6F0;
+constexpr ::std::ptrdiff_t dwClientState = 0x5A3284;
+constexpr ::std::ptrdiff_t dwClientState_GetLocalPlayer = 0x180;
+constexpr ::std::ptrdiff_t dwClientState_Map = 0x28C;
+constexpr ::std::ptrdiff_t dwClientState_MapDirectory = 0x188;
+constexpr ::std::ptrdiff_t dwClientState_MaxPlayer = 0x310;
+constexpr ::std::ptrdiff_t dwClientState_PlayerInfo = 0x5240;
+constexpr ::std::ptrdiff_t dwClientState_State = 0x108;
+constexpr ::std::ptrdiff_t dwClientState_ViewAngles = 0x4D10;
+constexpr ::std::ptrdiff_t dwClientState_IsHLTV = 0x4CC8;
+constexpr ::std::ptrdiff_t dwEntityList = 0x4A8A684;
+constexpr ::std::ptrdiff_t dwForceAttack = 0x2ECCA08;
+constexpr ::std::ptrdiff_t dwForceAttack2 = 0x2ECCA14;
+constexpr ::std::ptrdiff_t dwForceBackward = 0x2ECCA8C;
+constexpr ::std::ptrdiff_t dwForceForward = 0x2ECCA80;
+constexpr ::std::ptrdiff_t dwForceJump = 0x4F21618;
+constexpr ::std::ptrdiff_t dwForceLeft = 0x2ECCA68;
+constexpr ::std::ptrdiff_t dwForceRight = 0x2ECCA74;
+constexpr ::std::ptrdiff_t dwGameDir = 0x641A58;
+constexpr ::std::ptrdiff_t dwGameRulesProxy = 0x4F8BF3C;
+constexpr ::std::ptrdiff_t dwGetAllClasses = 0x4F8C010;
+constexpr ::std::ptrdiff_t dwGlobalVars = 0x5A2F88;
+constexpr ::std::ptrdiff_t dwGlowObjectManager = 0x4FA7690;
+constexpr ::std::ptrdiff_t dwInput = 0x4ED52A8;
+constexpr ::std::ptrdiff_t dwInterfaceLinkList = 0x6E9264;
+constexpr ::std::ptrdiff_t dwLocalPlayer = 0xAADFFC;
+constexpr ::std::ptrdiff_t dwMouseEnable = 0xAB3860;
+constexpr ::std::ptrdiff_t dwMouseEnablePtr = 0xAB3830;
+constexpr ::std::ptrdiff_t dwPlayerResource = 0x2ECAD8C;
+constexpr ::std::ptrdiff_t dwRadarBase = 0x4EBF37C;
+constexpr ::std::ptrdiff_t dwSensitivity = 0xAB36FC;
+constexpr ::std::ptrdiff_t dwSensitivityPtr = 0xAB36D0;
+constexpr ::std::ptrdiff_t dwViewMatrix = 0x4A7C0E4;
+constexpr ::std::ptrdiff_t dwWeaponTable = 0x4ED1840;
 constexpr ::std::ptrdiff_t dwWeaponTableIndex = 0x3270;
-constexpr ::std::ptrdiff_t dwYawPtr = 0xAB14C0;
-constexpr ::std::ptrdiff_t dwZoomSensitivityRatioPtr = 0xAB6528;
-constexpr ::std::ptrdiff_t dwbSendPackets = 0xCC98A;
+constexpr ::std::ptrdiff_t dwYawPtr = 0xAB34C0;
+constexpr ::std::ptrdiff_t dwZoomSensitivityRatioPtr = 0xAB8528;
+constexpr ::std::ptrdiff_t dwbSendPackets = 0xCD53A;
 constexpr ::std::ptrdiff_t dwppDirect3DDevice9 = 0x9CF40;
-constexpr ::std::ptrdiff_t dwSetClanTag = 0x87190;
+constexpr ::std::ptrdiff_t dwSetClanTag = 0x87310;
 constexpr ::std::ptrdiff_t m_pStudioHdr = 0x293C;
 } // namespace signatures
 } // namespace hazedumper
