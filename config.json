@@ -247,7 +247,7 @@
       "mode_subtract": true,
       "module": "engine.dll",
       "offset": 0,
-      "pattern": "A1 ? ? ? ? 33 D2 6A ? 6A ? 33 C9 89 B0 08 4E ? ? A1"
+      "pattern": "A1 ? ? ? ? 33 D2 6A 00 6A 00 33 C9 89 B0"
     },
     "dwClientState_GetLocalPlayer": {
       "extra": 2,
