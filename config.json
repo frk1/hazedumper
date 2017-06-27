@@ -247,7 +247,7 @@
       "mode_subtract": true,
       "module": "engine.dll",
       "offset": 0,
-      "pattern": "A1 ? ? ? ? F3 0F 11 80 ? ? ? ? D9 46 04 D9 05"
+      "pattern": "A1 ? ? ? ? 33 D2 6A 00 6A 00 33 C9 89 B0"
     },
     "dwClientState_GetLocalPlayer": {
       "extra": 2,
@@ -279,7 +279,7 @@
       "mode_subtract": false,
       "module": "engine.dll",
       "offset": 0,
-      "pattern": "A1 ? ? ? ? 8B 80 ? ? ? ? C3 CC CC CC CC 55 8B EC 8B 45 08"
+      "pattern": "A1 ? ? ? ? 8B 80 ? ? ? ? C3 CC CC CC CC 55 8B EC 8A 45 08"
     },
     "dwClientState_PlayerInfo": {
       "extra": 2,
@@ -287,7 +287,7 @@
       "mode_subtract": false,
       "module": "engine.dll",
       "offset": 0,
-      "pattern": "8B 88 ? ? ? ? 8B 01 8B 40 ? FF D0 8B F8"
+      "pattern": "8B 89 ? ? ? ? 85 C9 0F 84 ? ? ? ? 8B 01"
     },
     "dwClientState_State": {
       "extra": 2,
@@ -295,7 +295,7 @@
       "mode_subtract": false,
       "module": "engine.dll",
       "offset": 0,
-      "pattern": "83 B9 ? ? ? ? 06 0F 94 C0 C3"
+      "pattern": "83 B8 ? ? ? ? ? 0F 94 C0 C3"
     },
     "dwClientState_ViewAngles": {
       "extra": 4,
@@ -304,6 +304,14 @@
       "module": "engine.dll",
       "offset": 0,
       "pattern": "F3 0F 11 80 ? ? ? ? D9 46 04 D9 05"
+    },
+    "dwClientState_IsHLTV": {
+      "extra": 2,
+      "mode_read": true,
+      "mode_subtract": false,
+      "module": "engine.dll",
+      "offset": 0,
+      "pattern": "80 BF ? ? ? ? ? 0F 84 ? ? ? ? 32 DB"
     },
     "dwEntityList": {
       "extra": 1,
@@ -319,31 +327,31 @@
       "mode_subtract": true,
       "module": "client.dll",
       "offset": 0,
-      "pattern": "89 15 ? ? ? ? 8B 15 ? ? ? ? F6 C2 03 74 03 83 CE 04"
+      "pattern": "89 0D ? ? ? ? 8B 0D ? ? ? ? 8B F2 8B C1 83 CE 04"
     },
     "dwForceAttack2": {
       "extra": 2,
       "mode_read": true,
       "mode_subtract": true,
       "module": "client.dll",
-      "offset": 0,
-      "pattern": "89 15 ? ? ? ? 8B 15 ? ? ? ? F6 C2 03 74 06 81 CE ? 20 ? ? A9 ? 20 ? ? BF FD FF FF FF"
+      "offset": 12,
+      "pattern": "89 0D ? ? ? ? 8B 0D ? ? ? ? 8B F2 8B C1 83 CE 04"
     },
     "dwForceBackward": {
-      "extra": 2,
+      "extra": 287,
       "mode_read": true,
       "mode_subtract": true,
       "module": "client.dll",
       "offset": 0,
-      "pattern": "8B 15 ? ? ? ? F6 C2 03 74 03 83 CE 10 A8 10 BF FD FF FF FF"
+      "pattern": "55 8B EC 51 53 8A 5D 08"
     },
     "dwForceForward": {
-      "extra": 2,
+      "extra": 245,
       "mode_read": true,
       "mode_subtract": true,
       "module": "client.dll",
       "offset": 0,
-      "pattern": "8B 15 ? ? ? ? F6 C2 03 74 03 83 CE 08 A8 08 BF FD FF FF FF"
+      "pattern": "55 8B EC 51 53 8A 5D 08"
     },
     "dwForceJump": {
       "extra": 2,
@@ -351,23 +359,23 @@
       "mode_subtract": true,
       "module": "client.dll",
       "offset": 0,
-      "pattern": "89 15 ? ? ? ? 8B 15 ? ? ? ? F6 C2 03 74 03 83 CE 08"
+      "pattern": "89 0D ? ? ? ? 8B 0D ? ? ? ? 8B F2 8B C1 83 CE 08"
     },
     "dwForceLeft": {
-      "extra": 2,
+      "extra": 465,
       "mode_read": true,
       "mode_subtract": true,
       "module": "client.dll",
       "offset": 0,
-      "pattern": "89 15 ? ? ? ? 8B 15 ? ? ? ? F6 C2 03 74 06 81 CE ? 04 ? ? A9 ? 04 ? ? BF FD FF FF FF"
+      "pattern": "55 8B EC 51 53 8A 5D 08"
     },
     "dwForceRight": {
-      "extra": 2,
+      "extra": 512,
       "mode_read": true,
       "mode_subtract": true,
       "module": "client.dll",
       "offset": 0,
-      "pattern": "89 15 ? ? ? ? 8B 15 ? ? ? ? F6 C2 03 74 06 81 CE ? 08 ? ? A9 ? 08 ? ? BF FD FF FF FF"
+      "pattern": "55 8B EC 51 53 8A 5D 08"
     },
     "dwGameDir": {
       "extra": 1,
@@ -383,23 +391,23 @@
       "mode_subtract": true,
       "module": "client.dll",
       "offset": 0,
-      "pattern": "A1 ? ? ? ? 85 C0 0F 84 ? ? ? ? 80 B8 ? ? ? ? ? 0F 84 ? ? ? ? F3 0F 6F 05"
+      "pattern": "A1 ? ? ? ? 85 C0 0F 84 ? ? ? ? 80 B8 ? ? ? ? ? 0F 84 ? ? ? ? 0F 10 05"
     },
     "dwGetAllClasses": {
-      "extra": 55,
-      "mode_read": true,
-      "mode_subtract": true,
-      "module": "client.dll",
-      "offset": 0,
-      "pattern": "8B D1 C1 E0"
-    },
-    "dwGlobalVars": {
       "extra": 1,
       "mode_read": true,
       "mode_subtract": true,
       "module": "client.dll",
       "offset": 0,
-      "pattern": "A1 ? ? ? ? 5F 8B 40 10"
+      "pattern": "A1 ? ? ? ? C3 CC CC CC CC CC CC CC CC CC CC A1 ? ? ? ? B9"
+    },
+    "dwGlobalVars": {
+      "extra": 1,
+      "mode_read": true,
+      "mode_subtract": true,
+      "module": "engine.dll",
+      "offset": 0,
+      "pattern": "68 ? ? ? ? 68 ? ? ? ? FF 50 08 85 C0"
     },
     "dwGlowObjectManager": {
       "extra": 1,
@@ -407,7 +415,7 @@
       "mode_subtract": true,
       "module": "client.dll",
       "offset": 4,
-      "pattern": "A1 ? ? ? ? A8 01 75 4E 0F 57 C0"
+      "pattern": "A1 ? ? ? ? A8 01 75 4B"
     },
     "dwInput": {
       "extra": 1,
@@ -415,7 +423,7 @@
       "mode_subtract": true,
       "module": "client.dll",
       "offset": 0,
-      "pattern": "B9 ? ? ? ? FF 75 08 E8 ? ? ? ? 8B 06"
+      "pattern": "B9 ? ? ? ? F3 0F 11 04 24 FF 50 10"
     },
     "dwInterfaceLinkList": {
       "extra": 0,
@@ -426,12 +434,12 @@
       "pattern": "8B 35 ? ? ? ? 57 85 F6 74 ? 8B 7D 08 8B 4E 04 8B C7 8A 11 3A 10"
     },
     "dwLocalPlayer": {
-      "extra": 4,
+      "extra": 1,
       "mode_read": true,
       "mode_subtract": true,
       "module": "client.dll",
-      "offset": 4,
-      "pattern": "42 56 8D 34 85 ? ? ? ?"
+      "offset": 16,
+      "pattern": "A3 ? ? ? ? C7 05 ? ? ? ? ? ? ? ? E8 ? ? ? ? 59 C3 6A ?"
     },
     "dwMouseEnable": {
       "extra": 1,
@@ -466,28 +474,28 @@
       "pattern": "A1 ? ? ? ? 8B 0C B0 8B 01 FF 50 ? 46 3B 35 ? ? ? ? 7C EA 8B 0D"
     },
     "dwSensitivity": {
-      "extra": 26,
+      "extra": 2,
+      "mode_read": true,
+      "mode_subtract": true,
+      "module": "client.dll",
+      "offset": 44,
+      "pattern": "81 F9 ? ? ? ? 75 1D F3 0F 10 05 ? ? ? ? F3 0F 11 44 24 ? 8B 44 24 18 35 ? ? ? ? 89 44 24 0C EB 0B"
+    },
+    "dwSensitivityPtr": {
+      "extra": 2,
       "mode_read": true,
       "mode_subtract": true,
       "module": "client.dll",
       "offset": 0,
-      "pattern": "45 0C 9F F6 C4 44 7A"
-    },
-    "dwSensitivityPtr": {
-      "extra": 26,
-      "mode_read": true,
-      "mode_subtract": true,
-      "module": "client.dll",
-      "offset": -44,
-      "pattern": "45 0C 9F F6 C4 44 7A"
+      "pattern": "81 F9 ? ? ? ? 75 1D F3 0F 10 05 ? ? ? ? F3 0F 11 44 24 ? 8B 44 24 18 35 ? ? ? ? 89 44 24 0C EB 0B"
     },
     "dwViewMatrix": {
-      "extra": 4,
+      "extra": 3,
       "mode_read": true,
       "mode_subtract": true,
       "module": "client.dll",
       "offset": 176,
-      "pattern": "F3 0F 6F 05 ? ? ? ? 8D 85"
+      "pattern": "0F 10 05 ? ? ? ? 8D 85 ? ? ? ? B9"
     },
     "dwWeaponTable": {
       "extra": 1,
@@ -495,7 +503,7 @@
       "mode_subtract": true,
       "module": "client.dll",
       "offset": 0,
-      "pattern": "A1 ? ? ? ? 0F B7 C9 03 C9 8B 44 ? 0C C3"
+      "pattern": "A1 ? ? ? ? 0F B7 C9 03 C9 8B 44 C8 0C"
     },
     "dwWeaponTableIndex": {
       "extra": 3,
@@ -503,7 +511,7 @@
       "mode_subtract": false,
       "module": "client.dll",
       "offset": 0,
-      "pattern": "66 8B 8E ? ? ? ? E8 ? ? ? ? 05 ? ? ? ? 50"
+      "pattern": "66 8B 8E ? ? ? ? E8 ? ? ? ? 80 B8 ? ? ? ? ? 74 5C"
     },
     "dwYawPtr": {
       "extra": 2,
@@ -511,7 +519,7 @@
       "mode_subtract": true,
       "module": "client.dll",
       "offset": 0,
-      "pattern": "81 F9 ? ? ? ? 75 16 F3 0F 10 05 ? ? ? ? F3 0F 11 45 ? 81 75 ? ? ? ? ? EB 0A 8B 01 8B 40 30 FF D0 D9 5D 0C F3 0F 10 06"
+      "pattern": "81 F9 ? ? ? ? 75 1D F3 0F 10 05 ? ? ? ? F3 0F 11 44 24 ? 8B 44 24 1C 35 ? ? ? ? 89 44 24 18 EB 0B 8B 01 8B 40 30 FF D0 D9 5C 24 18 F3 0F 10 06"
     },
     "dwZoomSensitivityRatioPtr": {
       "extra": 2,
@@ -519,7 +527,7 @@
       "mode_subtract": true,
       "module": "client.dll",
       "offset": 0,
-      "pattern": "81 F9 ? ? ? ? 75 1A F3 0F 10 05 ? ? ? ? F3 0F 11 45 ? 8B 45 EC 35 ? ? ? ? 89 45 FC EB 0A 8B 01 8B 40 30 FF D0 D9 5D FC 8B 0D"
+      "pattern": "81 F9 ? ? ? ? 75 1A F3 0F 10 05 ? ? ? ? F3 0F 11 45 ? 8B 45 F4 35 ? ? ? ? 89 45 FC EB 0A 8B 01 8B 40 30 FF D0 D9 5D FC A1"
     },
     "dwbSendPackets": {
       "extra": 1,
@@ -551,7 +559,7 @@
       "mode_subtract": false,
       "module": "client.dll",
       "offset": 0,
-      "pattern": "8B 86 ? ? ? ? 89 44 24 0C 85 C0 74 05"
+      "pattern": "8B B6 ? ? ? ? 85 F6 74 05 83 3E 00 75 02 33 F6 F3 0F 10 44 24"
     }
   }
 }
