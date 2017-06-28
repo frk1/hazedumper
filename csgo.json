@@ -1,6 +1,6 @@
 {
   "signatures": {
-    "dwClientState": 5911172,
+    "dwClientState": 5911292,
     "dwClientState_GetLocalPlayer": 384,
     "dwClientState_Map": 652,
     "dwClientState_MapDirectory": 392,
@@ -9,30 +9,30 @@
     "dwClientState_State": 264,
     "dwClientState_ViewAngles": 19728,
     "dwClientState_IsHLTV": 19656,
-    "dwEntityList": 78161540,
+    "dwEntityList": 78161492,
     "dwForceAttack": 49072648,
     "dwForceAttack2": 49072660,
-    "dwForceBackward": 49072780,
-    "dwForceForward": 49072768,
-    "dwForceJump": 82974232,
-    "dwForceLeft": 49072744,
-    "dwForceRight": 49072756,
-    "dwGameDir": 6560344,
-    "dwGameRulesProxy": 83410748,
-    "dwGetAllClasses": 83410960,
-    "dwGlobalVars": 5910408,
-    "dwGlowObjectManager": 83523216,
-    "dwInput": 82662056,
-    "dwInterfaceLinkList": 7246436,
+    "dwForceBackward": 49072696,
+    "dwForceForward": 49072732,
+    "dwForceJump": 82974184,
+    "dwForceLeft": 49072708,
+    "dwForceRight": 49072612,
+    "dwGameDir": 6560600,
+    "dwGameRulesProxy": 83410700,
+    "dwGetAllClasses": 83410912,
+    "dwGlobalVars": 5910528,
+    "dwGlowObjectManager": 83523168,
+    "dwInput": 82662008,
+    "dwInterfaceLinkList": 7247668,
     "dwLocalPlayer": 11198460,
     "dwMouseEnable": 11221088,
     "dwMouseEnablePtr": 11221040,
-    "dwPlayerResource": 49065356,
-    "dwRadarBase": 82572156,
+    "dwPlayerResource": 49065308,
+    "dwRadarBase": 82572108,
     "dwSensitivity": 11220732,
     "dwSensitivityPtr": 11220688,
-    "dwViewMatrix": 78102756,
-    "dwWeaponTable": 82647104,
+    "dwViewMatrix": 78102708,
+    "dwWeaponTable": 82647056,
     "dwWeaponTableIndex": 12912,
     "dwYawPtr": 11220160,
     "dwZoomSensitivityRatioPtr": 11240744,
@@ -100,13 +100,13 @@
     "m_vecViewOffset": 260,
     "m_viewPunchAngle": 12304
   },
-  "timestamp": 1498058646,
+  "timestamp": 1498667510,
   "modules": {
     "client.dll": {
       "size": 84848640
     },
     "engine.dll": {
-      "size": 9199616
+      "size": 9203712
     }
   }
 }
