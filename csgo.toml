@@ -1,5 +1,5 @@
-# Fri,  7 Jul 2017 23:57:48 +0200
-timestamp = 1499464668
+# Sat,  8 Jul 2017 12:11:55 +0200
+timestamp = 1499508715
 
 [netvars]
 m_ArmorValue = 45640
@@ -70,31 +70,31 @@ dwClientState_MaxPlayer = 784
 dwClientState_PlayerInfo = 21056
 dwClientState_State = 264
 dwClientState_ViewAngles = 19728
-dwEntityList = 78165684
-dwForceAttack = 49076864
-dwForceAttack2 = 49076876
-dwForceBackward = 49076900
-dwForceForward = 49076888
-dwForceJump = 82978384
-dwForceLeft = 49076804
-dwForceRight = 49076816
+dwEntityList = 78165668
+dwForceAttack = 49076848
+dwForceAttack2 = 49076860
+dwForceBackward = 49076884
+dwForceForward = 49076872
+dwForceJump = 82978360
+dwForceLeft = 49076788
+dwForceRight = 49076800
 dwGameDir = 6560848
-dwGameRulesProxy = 83414900
-dwGetAllClasses = 83415112
+dwGameRulesProxy = 83414876
+dwGetAllClasses = 83415088
 dwGlobalVars = 5910584
-dwGlowObjectManager = 83527352
-dwInput = 82666200
-dwInterfaceLinkList = 7249636
+dwGlowObjectManager = 83527320
+dwInput = 82666184
+dwInterfaceLinkList = 7250004
 dwLocalPlayer = 11202556
 dwMouseEnable = 11225184
 dwMouseEnablePtr = 11225136
-dwPlayerResource = 49069500
-dwRadarBase = 82576300
+dwPlayerResource = 49069484
+dwRadarBase = 82576284
 dwSensitivity = 11224828
 dwSensitivityPtr = 11224784
 dwSetClanTag = 542848
-dwViewMatrix = 78106900
-dwWeaponTable = 82651248
+dwViewMatrix = 78106884
+dwWeaponTable = 82651232
 dwWeaponTableIndex = 12912
 dwYawPtr = 11224256
 dwZoomSensitivityRatioPtr = 11244840
