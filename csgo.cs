@@ -1,7 +1,7 @@
 using System;
 
 // Offsets timestamp
-// Tue, 11 Jul 2017 09:48:53 +0200
+// Thu, 13 Jul 2017 01:03:39 +0200
 
 namespace hazedumper
 {
@@ -84,13 +84,13 @@ namespace hazedumper
         public const Int32 dwForceJump = 0x4F236BC;
         public const Int32 dwForceLeft = 0x2ECEAB4;
         public const Int32 dwForceRight = 0x2ECEAC0;
-        public const Int32 dwGameDir = 0x641C50;
+        public const Int32 dwGameDir = 0x641BD0;
         public const Int32 dwGameRulesProxy = 0x4F8DFDC;
         public const Int32 dwGetAllClasses = 0x4F8E0B0;
         public const Int32 dwGlobalVars = 0x5A3038;
         public const Int32 dwGlowObjectManager = 0x4FA9700;
         public const Int32 dwInput = 0x4ED7338;
-        public const Int32 dwInterfaceLinkList = 0x6EACE4;
+        public const Int32 dwInterfaceLinkList = 0x6EAAA4;
         public const Int32 dwLocalPlayer = 0xAAFFFC;
         public const Int32 dwMouseEnable = 0xAB5860;
         public const Int32 dwMouseEnablePtr = 0xAB5830;

@@ -1,4 +1,4 @@
-' Tue, 11 Jul 2017 09:48:53 +0200
+' Thu, 13 Jul 2017 01:03:39 +0200
 
 Namespace hazedumper
     Public Shared Class netvars
@@ -78,13 +78,13 @@ Namespace hazedumper
         Public Const dwForceJump as Integer = &H4F236BC
         Public Const dwForceLeft as Integer = &H2ECEAB4
         Public Const dwForceRight as Integer = &H2ECEAC0
-        Public Const dwGameDir as Integer = &H641C50
+        Public Const dwGameDir as Integer = &H641BD0
         Public Const dwGameRulesProxy as Integer = &H4F8DFDC
         Public Const dwGetAllClasses as Integer = &H4F8E0B0
         Public Const dwGlobalVars as Integer = &H5A3038
         Public Const dwGlowObjectManager as Integer = &H4FA9700
         Public Const dwInput as Integer = &H4ED7338
-        Public Const dwInterfaceLinkList as Integer = &H6EACE4
+        Public Const dwInterfaceLinkList as Integer = &H6EAAA4
         Public Const dwLocalPlayer as Integer = &HAAFFFC
         Public Const dwMouseEnable as Integer = &HAB5860
         Public Const dwMouseEnablePtr as Integer = &HAB5830
