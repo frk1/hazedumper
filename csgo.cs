@@ -1,7 +1,7 @@
 using System;
 
 // Offsets timestamp
-// Thu, 13 Jul 2017 01:03:39 +0200
+// Sat, 15 Jul 2017 12:02:49 +0200
 
 namespace hazedumper
 {
