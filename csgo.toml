@@ -1,5 +1,5 @@
-# Mon, 17 Jul 2017 15:23:33 +0200
-timestamp = 1500297813
+# Tue, 25 Jul 2017 13:58:56 +0200
+timestamp = 1500983936
 
 [netvars]
 m_ArmorValue = 45640
@@ -78,7 +78,7 @@ dwForceForward = 49081260
 dwForceJump = 82982812
 dwForceLeft = 49081236
 dwForceRight = 49081248
-dwGameDir = 6560720
+dwGameDir = 6560848
 dwGameRulesProxy = 83419324
 dwGetAllClasses = 83419536
 dwGlobalVars = 5910584
