@@ -2,7 +2,7 @@
 #include <cstddef>
 
 // Offsets timestamp
-// Tue, 25 Jul 2017 13:58:56 +0200
+// Wed,  2 Aug 2017 12:19:38 +0200
 
 namespace hazedumper {
 namespace netvars {
@@ -88,7 +88,7 @@ constexpr ::std::ptrdiff_t dwGetAllClasses = 0x4F8E190;
 constexpr ::std::ptrdiff_t dwGlobalVars = 0x5A3038;
 constexpr ::std::ptrdiff_t dwGlowObjectManager = 0x4FA97F8;
 constexpr ::std::ptrdiff_t dwInput = 0x4ED7418;
-constexpr ::std::ptrdiff_t dwInterfaceLinkList = 0x6EADF4;
+constexpr ::std::ptrdiff_t dwInterfaceLinkList = 0x6EAEE4;
 constexpr ::std::ptrdiff_t dwLocalPlayer = 0xAAFFFC;
 constexpr ::std::ptrdiff_t dwMouseEnable = 0xAB5860;
 constexpr ::std::ptrdiff_t dwMouseEnablePtr = 0xAB5830;
@@ -101,7 +101,7 @@ constexpr ::std::ptrdiff_t dwWeaponTable = 0x4ED39C4;
 constexpr ::std::ptrdiff_t dwWeaponTableIndex = 0x3270;
 constexpr ::std::ptrdiff_t dwYawPtr = 0xAB54C0;
 constexpr ::std::ptrdiff_t dwZoomSensitivityRatioPtr = 0xABA528;
-constexpr ::std::ptrdiff_t dwbSendPackets = 0xCAA6A;
+constexpr ::std::ptrdiff_t dwbSendPackets = 0xCAB5A;
 constexpr ::std::ptrdiff_t dwppDirect3DDevice9 = 0x9CF40;
 constexpr ::std::ptrdiff_t dwSetClanTag = 0x84880;
 constexpr ::std::ptrdiff_t m_pStudioHdr = 0x293C;

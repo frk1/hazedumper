@@ -1,5 +1,5 @@
-# Tue, 25 Jul 2017 13:58:56 +0200
-timestamp = 1500983936
+# Wed,  2 Aug 2017 12:19:38 +0200
+timestamp = 1501669178
 
 [netvars]
 m_ArmorValue = 45640
@@ -84,7 +84,7 @@ dwGetAllClasses = 83419536
 dwGlobalVars = 5910584
 dwGlowObjectManager = 83531768
 dwInput = 82670616
-dwInterfaceLinkList = 7253492
+dwInterfaceLinkList = 7253732
 dwLocalPlayer = 11206652
 dwMouseEnable = 11229280
 dwMouseEnablePtr = 11229232
@@ -98,6 +98,6 @@ dwWeaponTable = 82655684
 dwWeaponTableIndex = 12912
 dwYawPtr = 11228352
 dwZoomSensitivityRatioPtr = 11248936
-dwbSendPackets = 830058
+dwbSendPackets = 830298
 dwppDirect3DDevice9 = 642880
 m_pStudioHdr = 10556
