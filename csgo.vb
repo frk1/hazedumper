@@ -1,4 +1,4 @@
-' Fri, 18 Aug 2017 14:27:40 +0200
+' Fri, 18 Aug 2017 16:35:12 +0200
 
 Namespace hazedumper
     Public Shared Class netvars
@@ -93,6 +93,8 @@ Namespace hazedumper
         Public Const dwSensitivity as Integer = &HAAF2BC
         Public Const dwSensitivityPtr as Integer = &HAAF290
         Public Const dwViewMatrix as Integer = &H4A78564
+        Public Const dwWeaponTable as Integer = &H4ED22C4
+        Public Const dwWeaponTableIndex as Integer = &H31FC
         Public Const dwYawPtr as Integer = &HAAF080
         Public Const dwZoomSensitivityRatioPtr as Integer = &HAB40E8
         Public Const dwbSendPackets as Integer = &HCAC4A

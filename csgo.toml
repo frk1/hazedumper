@@ -1,5 +1,5 @@
-# Fri, 18 Aug 2017 14:27:40 +0200
-timestamp = 1503059260
+# Fri, 18 Aug 2017 16:35:12 +0200
+timestamp = 1503066912
 
 [netvars]
 m_ArmorValue = 45608
@@ -94,6 +94,8 @@ dwSensitivity = 11203260
 dwSensitivityPtr = 11203216
 dwSetClanTag = 543184
 dwViewMatrix = 78087524
+dwWeaponTable = 82649796
+dwWeaponTableIndex = 12796
 dwYawPtr = 11202688
 dwZoomSensitivityRatioPtr = 11223272
 dwbSendPackets = 830538

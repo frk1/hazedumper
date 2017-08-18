@@ -503,15 +503,15 @@
       "mode_subtract": true,
       "module": "client.dll",
       "offset": 0,
-      "pattern": "A1 ? ? ? ? 0F B7 C9 03 C9 8B 44 C8 0C"
+      "pattern": "B9 ? ? ? ? 6A 00 FF 50 08 C3"
     },
     "dwWeaponTableIndex": {
-      "extra": 3,
+      "extra": 2,
       "mode_read": true,
       "mode_subtract": false,
       "module": "client.dll",
       "offset": 0,
-      "pattern": "66 8B 8E ? ? ? ? E8 ? ? ? ? 80 B8 ? ? ? ? ? 74 5C"
+      "pattern": "39 86 ? ? ? ? 74 06 89 86 ? ? ? ? 8B 86"
     },
     "dwYawPtr": {
       "extra": 2,
