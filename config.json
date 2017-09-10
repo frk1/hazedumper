@@ -359,7 +359,7 @@
       "mode_subtract": true,
       "module": "client.dll",
       "offset": 0,
-      "pattern": "89 0D ? ? ? ? 8B 0D ? ? ? ? 8B F2 8B C1 83 CE 08"
+      "pattern": "8B 0D ? ? ? ? 8B D6 8B C1 83 CA 02"
     },
     "dwForceLeft": {
       "extra": 465,
