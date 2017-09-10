@@ -14,6 +14,7 @@
     "dwForceAttack2": 49070172,
     "dwForceBackward": 49070136,
     "dwForceForward": 49070124,
+    "dwForceJump": 82971384,
     "dwForceLeft": 49070100,
     "dwForceRight": 49070112,
     "dwGameDir": 6564816,
@@ -99,7 +100,7 @@
     "m_vecViewOffset": 260,
     "m_viewPunchAngle": 12304
   },
-  "timestamp": 1504881378,
+  "timestamp": 1505008873,
   "modules": {
     "client.dll": {
       "size": 84836352
