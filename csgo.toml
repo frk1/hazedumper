@@ -1,5 +1,5 @@
-# Sun, 10 Sep 2017 04:01:13 +0200
-timestamp = 1505008873
+# Tue, 12 Sep 2017 12:33:41 +0200
+timestamp = 1505212421
 
 [netvars]
 m_ArmorValue = 45608
@@ -99,5 +99,5 @@ dwWeaponTableIndex = 12796
 dwYawPtr = 11214960
 dwZoomSensitivityRatioPtr = 11235544
 dwbSendPackets = 830634
-dwppDirect3DDevice9 = 642880
+dwppDirect3DDevice9 = 663360
 m_pStudioHdr = 10556

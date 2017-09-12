@@ -1,7 +1,7 @@
 using System;
 
 // Offsets timestamp
-// Sun, 10 Sep 2017 04:01:13 +0200
+// Tue, 12 Sep 2017 12:33:41 +0200
 
 namespace hazedumper
 {
@@ -104,7 +104,7 @@ namespace hazedumper
         public const Int32 dwYawPtr = 0xAB2070;
         public const Int32 dwZoomSensitivityRatioPtr = 0xAB70D8;
         public const Int32 dwbSendPackets = 0xCACAA;
-        public const Int32 dwppDirect3DDevice9 = 0x9CF40;
+        public const Int32 dwppDirect3DDevice9 = 0xA1F40;
         public const Int32 dwSetClanTag = 0x84A30;
         public const Int32 m_pStudioHdr = 0x293C;
     }
