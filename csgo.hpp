@@ -2,7 +2,7 @@
 #include <cstddef>
 
 // Offsets timestamp
-// Thu, 28 Sep 2017 17:13:07 +0200
+// Thu, 28 Sep 2017 23:19:43 +0200
 
 namespace hazedumper {
 namespace netvars {
@@ -65,7 +65,7 @@ constexpr ::std::ptrdiff_t m_vecViewOffset = 0x104;
 constexpr ::std::ptrdiff_t m_viewPunchAngle = 0x3010;
 } // namespace netvars
 namespace signatures {
-constexpr ::std::ptrdiff_t dwClientState = 0x5A4344;
+constexpr ::std::ptrdiff_t dwClientState = 0x5A5344;
 constexpr ::std::ptrdiff_t dwClientState_GetLocalPlayer = 0x180;
 constexpr ::std::ptrdiff_t dwClientState_Map = 0x28C;
 constexpr ::std::ptrdiff_t dwClientState_MapDirectory = 0x188;
@@ -82,10 +82,10 @@ constexpr ::std::ptrdiff_t dwForceForward = 0x2ECE43C;
 constexpr ::std::ptrdiff_t dwForceJump = 0x4F22F20;
 constexpr ::std::ptrdiff_t dwForceLeft = 0x2ECE424;
 constexpr ::std::ptrdiff_t dwForceRight = 0x2ECE430;
-constexpr ::std::ptrdiff_t dwGameDir = 0x642BD0;
+constexpr ::std::ptrdiff_t dwGameDir = 0x643BD0;
 constexpr ::std::ptrdiff_t dwGameRulesProxy = 0x4F8D26C;
 constexpr ::std::ptrdiff_t dwGetAllClasses = 0x4F8D340;
-constexpr ::std::ptrdiff_t dwGlobalVars = 0x5A4048;
+constexpr ::std::ptrdiff_t dwGlobalVars = 0x5A5048;
 constexpr ::std::ptrdiff_t dwGlowObjectManager = 0x4FA8AC8;
 constexpr ::std::ptrdiff_t dwInput = 0x4ED6C50;
 constexpr ::std::ptrdiff_t dwInterfaceLinkList = 0x6EB464;

@@ -1,7 +1,7 @@
 using System;
 
 // Offsets timestamp
-// Thu, 28 Sep 2017 17:13:07 +0200
+// Thu, 28 Sep 2017 23:19:43 +0200
 
 namespace hazedumper
 {
@@ -67,7 +67,7 @@ namespace hazedumper
     }
     public static class signatures
     {
-        public const Int32 dwClientState = 0x5A4344;
+        public const Int32 dwClientState = 0x5A5344;
         public const Int32 dwClientState_GetLocalPlayer = 0x180;
         public const Int32 dwClientState_Map = 0x28C;
         public const Int32 dwClientState_MapDirectory = 0x188;
@@ -84,10 +84,10 @@ namespace hazedumper
         public const Int32 dwForceJump = 0x4F22F20;
         public const Int32 dwForceLeft = 0x2ECE424;
         public const Int32 dwForceRight = 0x2ECE430;
-        public const Int32 dwGameDir = 0x642BD0;
+        public const Int32 dwGameDir = 0x643BD0;
         public const Int32 dwGameRulesProxy = 0x4F8D26C;
         public const Int32 dwGetAllClasses = 0x4F8D340;
-        public const Int32 dwGlobalVars = 0x5A4048;
+        public const Int32 dwGlobalVars = 0x5A5048;
         public const Int32 dwGlowObjectManager = 0x4FA8AC8;
         public const Int32 dwInput = 0x4ED6C50;
         public const Int32 dwInterfaceLinkList = 0x6EB464;
