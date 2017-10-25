@@ -1,4 +1,4 @@
-' Sat, 21 Oct 2017 01:01:47 +0200
+' Wed, 25 Oct 2017 17:58:41 +0200
 
 Namespace hazedumper
     Public Shared Class netvars
@@ -61,7 +61,7 @@ Namespace hazedumper
         Public Const m_viewPunchAngle as Integer = &H3010
     End Class
     Public Shared Class signatures
-        Public Const dwClientState as Integer = &H5A5344
+        Public Const dwClientState as Integer = &H5A765C
         Public Const dwClientState_GetLocalPlayer as Integer = &H180
         Public Const dwClientState_Map as Integer = &H28C
         Public Const dwClientState_MapDirectory as Integer = &H188
@@ -78,10 +78,10 @@ Namespace hazedumper
         Public Const dwForceJump as Integer = &H4F2405C
         Public Const dwForceLeft as Integer = &H2ECF55C
         Public Const dwForceRight as Integer = &H2ECF538
-        Public Const dwGameDir as Integer = &H643BD0
+        Public Const dwGameDir as Integer = &H645EE8
         Public Const dwGameRulesProxy as Integer = &H4F8E3A4
         Public Const dwGetAllClasses as Integer = &H4F8E478
-        Public Const dwGlobalVars as Integer = &H5A5048
+        Public Const dwGlobalVars as Integer = &H5A7360
         Public Const dwGlowObjectManager as Integer = &H4FA9C08
         Public Const dwInput as Integer = &H4ED7D70
         Public Const dwInterfaceLinkList as Integer = &H6EC074
@@ -97,9 +97,9 @@ Namespace hazedumper
         Public Const dwWeaponTableIndex as Integer = &H31FC
         Public Const dwYawPtr as Integer = &HAB5240
         Public Const dwZoomSensitivityRatioPtr as Integer = &HABA2A8
-        Public Const dwbSendPackets as Integer = &HCAC5A
+        Public Const dwbSendPackets as Integer = &HCCB8A
         Public Const dwppDirect3DDevice9 as Integer = &HA1F40
-        Public Const dwSetClanTag as Integer = &H84930
+        Public Const dwSetClanTag as Integer = &H86820
         Public Const m_pStudioHdr as Integer = &H293C
     End Class
 End Namespace
