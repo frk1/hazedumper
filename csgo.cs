@@ -1,7 +1,7 @@
 using System;
 
 // Offsets timestamp
-// Wed,  8 Nov 2017 20:15:28 -0500
+// Wed,  8 Nov 2017 20:25:30 -0500
 
 namespace hazedumper
 {
@@ -67,6 +67,7 @@ namespace hazedumper
     }
     public static class signatures
     {
+        public const Int32 dwClientState = 0x5A783C;
         public const Int32 dwClientState_GetLocalPlayer = 0x180;
         public const Int32 dwClientState_Map = 0x28C;
         public const Int32 dwClientState_MapDirectory = 0x188;
@@ -74,6 +75,7 @@ namespace hazedumper
         public const Int32 dwClientState_PlayerInfo = 0x5240;
         public const Int32 dwClientState_State = 0x108;
         public const Int32 dwClientState_ViewAngles = 0x4D10;
+        public const Int32 dwClientState_IsHLTV = 0x4CC8;
         public const Int32 dwEntityList = 0x4A8D0EC;
         public const Int32 dwForceAttack = 0x2ECF46C;
         public const Int32 dwForceAttack2 = 0x2ECF478;
@@ -86,6 +88,7 @@ namespace hazedumper
         public const Int32 dwGameRulesProxy = 0x4F8E4E4;
         public const Int32 dwGetAllClasses = 0x4F8E5B8;
         public const Int32 dwGlobalVars = 0x5A7540;
+        public const Int32 dwGlowObjectManager = 0x4FA9D60;
         public const Int32 dwInput = 0x4ED7CB0;
         public const Int32 dwInterfaceLinkList = 0x6EBD14;
         public const Int32 dwLocalPlayer = 0xAAFD7C;
@@ -93,7 +96,12 @@ namespace hazedumper
         public const Int32 dwMouseEnablePtr = 0xAB55B0;
         public const Int32 dwPlayerResource = 0x2ECD7FC;
         public const Int32 dwRadarBase = 0x4EC1DE4;
-        public const Int32 dwViewMatrix = 0x4A7EB32;
+        public const Int32 dwSensitivity = 0xAB547C;
+        public const Int32 dwSensitivityPtr = 0xAB5450;
+        public const Int32 dwViewMatrix = 0x4A7EB44;
+        public const Int32 dwWeaponTable = 0x4ED88A4;
+        public const Int32 dwWeaponTableIndex = 0x31FC;
+        public const Int32 dwYawPtr = 0xAB5240;
         public const Int32 dwZoomSensitivityRatioPtr = 0xABA2A8;
         public const Int32 dwbSendPackets = 0xCD0AA;
         public const Int32 dwppDirect3DDevice9 = 0xA1F40;
