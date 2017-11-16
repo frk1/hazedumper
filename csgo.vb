@@ -1,4 +1,4 @@
-' Tue, 14 Nov 2017 11:23:07 +0100
+' Thu, 16 Nov 2017 13:53:16 +0100
 
 Namespace hazedumper
     Public Shared Class netvars
