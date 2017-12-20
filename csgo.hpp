@@ -2,7 +2,7 @@
 #include <cstddef>
 
 // Offsets timestamp
-// Wed,  6 Dec 2017 18:07:42 +0100
+// Wed, 20 Dec 2017 13:20:54 +0100
 
 namespace hazedumper {
 namespace netvars {
@@ -65,7 +65,7 @@ constexpr ::std::ptrdiff_t m_vecViewOffset = 0x104;
 constexpr ::std::ptrdiff_t m_viewPunchAngle = 0x3010;
 } // namespace netvars
 namespace signatures {
-constexpr ::std::ptrdiff_t dwClientState = 0x57D84C;
+constexpr ::std::ptrdiff_t dwClientState = 0x57B7EC;
 constexpr ::std::ptrdiff_t dwClientState_GetLocalPlayer = 0x180;
 constexpr ::std::ptrdiff_t dwClientState_Map = 0x28C;
 constexpr ::std::ptrdiff_t dwClientState_MapDirectory = 0x188;
@@ -74,34 +74,34 @@ constexpr ::std::ptrdiff_t dwClientState_PlayerInfo = 0x5240;
 constexpr ::std::ptrdiff_t dwClientState_State = 0x108;
 constexpr ::std::ptrdiff_t dwClientState_ViewAngles = 0x4D10;
 constexpr ::std::ptrdiff_t dwClientState_IsHLTV = 0x4CC8;
-constexpr ::std::ptrdiff_t dwEntityList = 0x4A77AFC;
-constexpr ::std::ptrdiff_t dwForceAttack = 0x2EB9EAC;
-constexpr ::std::ptrdiff_t dwForceAttack2 = 0x2EB9EB8;
-constexpr ::std::ptrdiff_t dwForceBackward = 0x2EB9EDC;
-constexpr ::std::ptrdiff_t dwForceForward = 0x2EB9F00;
-constexpr ::std::ptrdiff_t dwForceJump = 0x4F0ED64;
-constexpr ::std::ptrdiff_t dwForceLeft = 0x2EB9EE8;
-constexpr ::std::ptrdiff_t dwForceRight = 0x2EB9E88;
-constexpr ::std::ptrdiff_t dwGameDir = 0x61B010;
-constexpr ::std::ptrdiff_t dwGameRulesProxy = 0x4F790AC;
-constexpr ::std::ptrdiff_t dwGetAllClasses = 0x4F7917C;
-constexpr ::std::ptrdiff_t dwGlobalVars = 0x57D550;
-constexpr ::std::ptrdiff_t dwGlowObjectManager = 0x4F94920;
-constexpr ::std::ptrdiff_t dwInput = 0x4EC26C0;
-constexpr ::std::ptrdiff_t dwInterfaceLinkList = 0x6D9E94;
-constexpr ::std::ptrdiff_t dwLocalPlayer = 0xA9ADEC;
-constexpr ::std::ptrdiff_t dwMouseEnable = 0xAA0650;
-constexpr ::std::ptrdiff_t dwMouseEnablePtr = 0xAA0620;
-constexpr ::std::ptrdiff_t dwPlayerResource = 0x2EB820C;
-constexpr ::std::ptrdiff_t dwRadarBase = 0x4EAC7F4;
-constexpr ::std::ptrdiff_t dwSensitivity = 0xAA04EC;
-constexpr ::std::ptrdiff_t dwSensitivityPtr = 0xAA04C0;
-constexpr ::std::ptrdiff_t dwViewMatrix = 0x4A69554;
-constexpr ::std::ptrdiff_t dwWeaponTable = 0x4EC32BC;
+constexpr ::std::ptrdiff_t dwEntityList = 0x4A78BA4;
+constexpr ::std::ptrdiff_t dwForceAttack = 0x2EBAF64;
+constexpr ::std::ptrdiff_t dwForceAttack2 = 0x2EBAF70;
+constexpr ::std::ptrdiff_t dwForceBackward = 0x2EBAF4C;
+constexpr ::std::ptrdiff_t dwForceForward = 0x2EBAF40;
+constexpr ::std::ptrdiff_t dwForceJump = 0x4F0FE0C;
+constexpr ::std::ptrdiff_t dwForceLeft = 0x2EBAF28;
+constexpr ::std::ptrdiff_t dwForceRight = 0x2EBAF34;
+constexpr ::std::ptrdiff_t dwGameDir = 0x619068;
+constexpr ::std::ptrdiff_t dwGameRulesProxy = 0x4F7A154;
+constexpr ::std::ptrdiff_t dwGetAllClasses = 0x4F7A224;
+constexpr ::std::ptrdiff_t dwGlobalVars = 0x57B4F0;
+constexpr ::std::ptrdiff_t dwGlowObjectManager = 0x4F959F0;
+constexpr ::std::ptrdiff_t dwInput = 0x4EC3768;
+constexpr ::std::ptrdiff_t dwInterfaceLinkList = 0x6DA8F4;
+constexpr ::std::ptrdiff_t dwLocalPlayer = 0xA9BDDC;
+constexpr ::std::ptrdiff_t dwMouseEnable = 0xAA1640;
+constexpr ::std::ptrdiff_t dwMouseEnablePtr = 0xAA1610;
+constexpr ::std::ptrdiff_t dwPlayerResource = 0x2EB92AC;
+constexpr ::std::ptrdiff_t dwRadarBase = 0x4EAD89C;
+constexpr ::std::ptrdiff_t dwSensitivity = 0xAA14DC;
+constexpr ::std::ptrdiff_t dwSensitivityPtr = 0xAA14B0;
+constexpr ::std::ptrdiff_t dwViewMatrix = 0x4A6A614;
+constexpr ::std::ptrdiff_t dwWeaponTable = 0x4EC4364;
 constexpr ::std::ptrdiff_t dwWeaponTableIndex = 0x31FC;
-constexpr ::std::ptrdiff_t dwYawPtr = 0xAA02B0;
-constexpr ::std::ptrdiff_t dwZoomSensitivityRatioPtr = 0xAA5318;
-constexpr ::std::ptrdiff_t dwbSendPackets = 0xCD00A;
+constexpr ::std::ptrdiff_t dwYawPtr = 0xAA12A0;
+constexpr ::std::ptrdiff_t dwZoomSensitivityRatioPtr = 0xAA6308;
+constexpr ::std::ptrdiff_t dwbSendPackets = 0xCCD5A;
 constexpr ::std::ptrdiff_t dwppDirect3DDevice9 = 0xA1F40;
 constexpr ::std::ptrdiff_t dwSetClanTag = 0x869D0;
 constexpr ::std::ptrdiff_t m_pStudioHdr = 0x293C;
