@@ -36,7 +36,7 @@
     "dwWeaponTableIndex": 12796,
     "dwYawPtr": 11146656,
     "dwZoomSensitivityRatioPtr": 11167240,
-    "dwbSendPackets": 839002,
+    "dwbSendPackets": 839066,
     "dwppDirect3DDevice9": 663360,
     "dwSetClanTag": 551376,
     "m_pStudioHdr": 10556
@@ -100,7 +100,7 @@
     "m_vecViewOffset": 260,
     "m_viewPunchAngle": 12304
   },
-  "timestamp": 1514462551,
+  "timestamp": 1515170435,
   "modules": {
     "client.dll": {
       "size": 84779008
