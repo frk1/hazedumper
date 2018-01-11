@@ -236,193 +236,189 @@
       "table": "DT_BasePlayer"
     }
   },
-  "options": {
-    "file_name": "csgo",
-    "minify": false
-  },
   "signatures": {
     "dwClientState": {
-      "extra": 1,
+      "extra": 0,
       "mode_read": true,
       "mode_subtract": true,
       "module": "engine.dll",
-      "offset": 0,
+      "offset": 1,
       "pattern": "A1 ? ? ? ? 33 D2 6A 00 6A 00 33 C9 89 B0"
     },
     "dwClientState_GetLocalPlayer": {
-      "extra": 2,
+      "extra": 0,
       "mode_read": true,
       "mode_subtract": false,
       "module": "engine.dll",
-      "offset": 0,
+      "offset": 2,
       "pattern": "8B 80 ? ? ? ? 40 C3"
     },
-    "dwClientState_Map": {
-      "extra": 1,
+    "dwClientState_IsHLTV": {
+      "extra": 0,
       "mode_read": true,
       "mode_subtract": false,
       "module": "engine.dll",
-      "offset": 0,
+      "offset": 2,
+      "pattern": "80 BF ? ? ? ? ? 0F 84 ? ? ? ? 32 DB"
+    },
+    "dwClientState_Map": {
+      "extra": 0,
+      "mode_read": true,
+      "mode_subtract": false,
+      "module": "engine.dll",
+      "offset": 1,
       "pattern": "05 ? ? ? ? C3 CC CC CC CC CC CC CC A1"
     },
     "dwClientState_MapDirectory": {
-      "extra": 1,
+      "extra": 0,
       "mode_read": true,
       "mode_subtract": false,
       "module": "engine.dll",
-      "offset": 0,
+      "offset": 1,
       "pattern": "05 ? ? ? ? C3 CC CC CC CC CC CC CC 80 3D"
     },
     "dwClientState_MaxPlayer": {
-      "extra": 7,
+      "extra": 0,
       "mode_read": true,
       "mode_subtract": false,
       "module": "engine.dll",
-      "offset": 0,
+      "offset": 7,
       "pattern": "A1 ? ? ? ? 8B 80 ? ? ? ? C3 CC CC CC CC 55 8B EC 8A 45 08"
     },
     "dwClientState_PlayerInfo": {
-      "extra": 2,
+      "extra": 0,
       "mode_read": true,
       "mode_subtract": false,
       "module": "engine.dll",
-      "offset": 0,
+      "offset": 2,
       "pattern": "8B 89 ? ? ? ? 85 C9 0F 84 ? ? ? ? 8B 01"
     },
     "dwClientState_State": {
-      "extra": 2,
+      "extra": 0,
       "mode_read": true,
       "mode_subtract": false,
       "module": "engine.dll",
-      "offset": 0,
+      "offset": 2,
       "pattern": "83 B8 ? ? ? ? ? 0F 94 C0 C3"
     },
     "dwClientState_ViewAngles": {
-      "extra": 4,
+      "extra": 0,
       "mode_read": true,
       "mode_subtract": false,
       "module": "engine.dll",
-      "offset": 0,
+      "offset": 4,
       "pattern": "F3 0F 11 80 ? ? ? ? D9 46 04 D9 05"
     },
-    "dwClientState_IsHLTV": {
-      "extra": 2,
-      "mode_read": true,
-      "mode_subtract": false,
-      "module": "engine.dll",
-      "offset": 0,
-      "pattern": "80 BF ? ? ? ? ? 0F 84 ? ? ? ? 32 DB"
-    },
     "dwEntityList": {
-      "extra": 1,
+      "extra": 0,
       "mode_read": true,
       "mode_subtract": true,
       "module": "client.dll",
-      "offset": 0,
+      "offset": 1,
       "pattern": "BB ? ? ? ? 83 FF 01 0F 8C ? ? ? ? 3B F8"
     },
     "dwForceAttack": {
-      "extra": 2,
+      "extra": 0,
       "mode_read": true,
       "mode_subtract": true,
       "module": "client.dll",
-      "offset": 0,
+      "offset": 2,
       "pattern": "89 0D ? ? ? ? 8B 0D ? ? ? ? 8B F2 8B C1 83 CE 04"
     },
     "dwForceAttack2": {
-      "extra": 2,
+      "extra": 12,
       "mode_read": true,
       "mode_subtract": true,
       "module": "client.dll",
-      "offset": 12,
+      "offset": 2,
       "pattern": "89 0D ? ? ? ? 8B 0D ? ? ? ? 8B F2 8B C1 83 CE 04"
     },
     "dwForceBackward": {
-      "extra": 287,
+      "extra": 0,
       "mode_read": true,
       "mode_subtract": true,
       "module": "client.dll",
-      "offset": 0,
+      "offset": 287,
       "pattern": "55 8B EC 51 53 8A 5D 08"
     },
     "dwForceForward": {
-      "extra": 245,
+      "extra": 0,
       "mode_read": true,
       "mode_subtract": true,
       "module": "client.dll",
-      "offset": 0,
+      "offset": 245,
       "pattern": "55 8B EC 51 53 8A 5D 08"
     },
     "dwForceJump": {
-      "extra": 2,
+      "extra": 0,
       "mode_read": true,
       "mode_subtract": true,
       "module": "client.dll",
-      "offset": 0,
+      "offset": 2,
       "pattern": "8B 0D ? ? ? ? 8B D6 8B C1 83 CA 02"
     },
     "dwForceLeft": {
-      "extra": 465,
+      "extra": 0,
       "mode_read": true,
       "mode_subtract": true,
       "module": "client.dll",
-      "offset": 0,
+      "offset": 465,
       "pattern": "55 8B EC 51 53 8A 5D 08"
     },
     "dwForceRight": {
-      "extra": 512,
+      "extra": 0,
       "mode_read": true,
       "mode_subtract": true,
       "module": "client.dll",
-      "offset": 0,
+      "offset": 512,
       "pattern": "55 8B EC 51 53 8A 5D 08"
     },
     "dwGameDir": {
-      "extra": 1,
+      "extra": 0,
       "mode_read": true,
       "mode_subtract": true,
       "module": "engine.dll",
-      "offset": 0,
+      "offset": 1,
       "pattern": "68 ? ? ? ? 8D 85 ? ? ? ? 50 68 ? ? ? ? 68"
     },
     "dwGameRulesProxy": {
-      "extra": 1,
+      "extra": 0,
       "mode_read": true,
       "mode_subtract": true,
       "module": "client.dll",
-      "offset": 0,
+      "offset": 1,
       "pattern": "A1 ? ? ? ? 85 C0 0F 84 ? ? ? ? 80 B8 ? ? ? ? ? 0F 84 ? ? ? ? 0F 10 05"
     },
     "dwGetAllClasses": {
-      "extra": 1,
+      "extra": 0,
       "mode_read": true,
       "mode_subtract": true,
       "module": "client.dll",
-      "offset": 0,
+      "offset": 1,
       "pattern": "A1 ? ? ? ? C3 CC CC CC CC CC CC CC CC CC CC A1 ? ? ? ? B9"
     },
     "dwGlobalVars": {
-      "extra": 1,
+      "extra": 0,
       "mode_read": true,
       "mode_subtract": true,
       "module": "engine.dll",
-      "offset": 0,
+      "offset": 1,
       "pattern": "68 ? ? ? ? 68 ? ? ? ? FF 50 08 85 C0"
     },
     "dwGlowObjectManager": {
-      "extra": 1,
+      "extra": 4,
       "mode_read": true,
       "mode_subtract": true,
       "module": "client.dll",
-      "offset": 4,
+      "offset": 1,
       "pattern": "A1 ? ? ? ? A8 01 75 4B"
     },
     "dwInput": {
-      "extra": 1,
+      "extra": 0,
       "mode_read": true,
       "mode_subtract": true,
       "module": "client.dll",
-      "offset": 0,
+      "offset": 1,
       "pattern": "B9 ? ? ? ? F3 0F 11 04 24 FF 50 10"
     },
     "dwInterfaceLinkList": {
@@ -434,116 +430,60 @@
       "pattern": "8B 35 ? ? ? ? 57 85 F6 74 ? 8B 7D 08 8B 4E 04 8B C7 8A 11 3A 10"
     },
     "dwLocalPlayer": {
-      "extra": 1,
+      "extra": 16,
       "mode_read": true,
       "mode_subtract": true,
       "module": "client.dll",
-      "offset": 16,
+      "offset": 1,
       "pattern": "A3 ? ? ? ? C7 05 ? ? ? ? ? ? ? ? E8 ? ? ? ? 59 C3 6A ?"
     },
     "dwMouseEnable": {
-      "extra": 1,
+      "extra": 48,
       "mode_read": true,
       "mode_subtract": true,
       "module": "client.dll",
-      "offset": 48,
+      "offset": 1,
       "pattern": "B9 ? ? ? ? FF 50 34 85 C0 75 10"
     },
     "dwMouseEnablePtr": {
-      "extra": 1,
+      "extra": 0,
       "mode_read": true,
       "mode_subtract": true,
       "module": "client.dll",
-      "offset": 0,
+      "offset": 1,
       "pattern": "B9 ? ? ? ? FF 50 34 85 C0 75 10"
     },
     "dwPlayerResource": {
-      "extra": 2,
+      "extra": 0,
       "mode_read": true,
       "mode_subtract": true,
       "module": "client.dll",
-      "offset": 0,
+      "offset": 2,
       "pattern": "8B 3D ? ? ? ? 85 FF 0F 84 ? ? ? ? 81 C7"
     },
     "dwRadarBase": {
-      "extra": 1,
+      "extra": 0,
       "mode_read": true,
       "mode_subtract": true,
       "module": "client.dll",
-      "offset": 0,
+      "offset": 1,
       "pattern": "A1 ? ? ? ? 8B 0C B0 8B 01 FF 50 ? 46 3B 35 ? ? ? ? 7C EA 8B 0D"
     },
     "dwSensitivity": {
-      "extra": 2,
+      "extra": 44,
       "mode_read": true,
       "mode_subtract": true,
       "module": "client.dll",
-      "offset": 44,
+      "offset": 2,
       "pattern": "81 F9 ? ? ? ? 75 1D F3 0F 10 05 ? ? ? ? F3 0F 11 44 24 ? 8B 44 24 18 35 ? ? ? ? 89 44 24 0C EB 0B"
     },
     "dwSensitivityPtr": {
-      "extra": 2,
+      "extra": 0,
       "mode_read": true,
       "mode_subtract": true,
       "module": "client.dll",
-      "offset": 0,
+      "offset": 2,
       "pattern": "81 F9 ? ? ? ? 75 1D F3 0F 10 05 ? ? ? ? F3 0F 11 44 24 ? 8B 44 24 18 35 ? ? ? ? 89 44 24 0C EB 0B"
-    },
-    "dwViewMatrix": {
-      "extra": 3,
-      "mode_read": true,
-      "mode_subtract": true,
-      "module": "client.dll",
-      "offset": 176,
-      "pattern": "0F 10 05 ? ? ? ? 8D 85 ? ? ? ? B9"
-    },
-    "dwWeaponTable": {
-      "extra": 1,
-      "mode_read": true,
-      "mode_subtract": true,
-      "module": "client.dll",
-      "offset": 0,
-      "pattern": "B9 ? ? ? ? 6A 00 FF 50 08 C3"
-    },
-    "dwWeaponTableIndex": {
-      "extra": 2,
-      "mode_read": true,
-      "mode_subtract": false,
-      "module": "client.dll",
-      "offset": 0,
-      "pattern": "39 86 ? ? ? ? 74 06 89 86 ? ? ? ? 8B 86"
-    },
-    "dwYawPtr": {
-      "extra": 2,
-      "mode_read": true,
-      "mode_subtract": true,
-      "module": "client.dll",
-      "offset": 0,
-      "pattern": "81 F9 ? ? ? ? 75 1D F3 0F 10 05 ? ? ? ? F3 0F 11 44 24 ? 8B 44 24 1C 35 ? ? ? ? 89 44 24 18 EB 0B 8B 01 8B 40 30 FF D0 D9 5C 24 18 F3 0F 10 06"
-    },
-    "dwZoomSensitivityRatioPtr": {
-      "extra": 2,
-      "mode_read": true,
-      "mode_subtract": true,
-      "module": "client.dll",
-      "offset": 0,
-      "pattern": "81 F9 ? ? ? ? 75 1A F3 0F 10 05 ? ? ? ? F3 0F 11 45 ? 8B 45 F4 35 ? ? ? ? 89 45 FC EB 0A 8B 01 8B 40 30 FF D0 D9 5D FC A1"
-    },
-    "dwbSendPackets": {
-      "extra": 1,
-      "mode_read": false,
-      "mode_subtract": true,
-      "module": "engine.dll",
-      "offset": 0,
-      "pattern": "B3 01 8B 01 8B 40 10 FF D0 84 C0 74 0F 80 BF ? ? ? ? ? 0F 84"
-    },
-    "dwppDirect3DDevice9": {
-      "extra": 1,
-      "mode_read": true,
-      "mode_subtract": true,
-      "module": "shaderapidx9.dll",
-      "offset": 0,
-      "pattern": "A1 ? ? ? ? 50 8B 08 FF 51 0C"
     },
     "dwSetClanTag": {
       "extra": 0,
@@ -553,12 +493,68 @@
       "offset": 0,
       "pattern": "53 56 57 8B DA 8B F9 FF 15"
     },
-    "m_pStudioHdr": {
-      "extra": 2,
+    "dwViewMatrix": {
+      "extra": 176,
+      "mode_read": true,
+      "mode_subtract": true,
+      "module": "client.dll",
+      "offset": 3,
+      "pattern": "0F 10 05 ? ? ? ? 8D 85 ? ? ? ? B9"
+    },
+    "dwWeaponTable": {
+      "extra": 0,
+      "mode_read": true,
+      "mode_subtract": true,
+      "module": "client.dll",
+      "offset": 1,
+      "pattern": "B9 ? ? ? ? 6A 00 FF 50 08 C3"
+    },
+    "dwWeaponTableIndex": {
+      "extra": 0,
       "mode_read": true,
       "mode_subtract": false,
       "module": "client.dll",
-      "offset": 0,
+      "offset": 2,
+      "pattern": "39 86 ? ? ? ? 74 06 89 86 ? ? ? ? 8B 86"
+    },
+    "dwYawPtr": {
+      "extra": 0,
+      "mode_read": true,
+      "mode_subtract": true,
+      "module": "client.dll",
+      "offset": 2,
+      "pattern": "81 F9 ? ? ? ? 75 1D F3 0F 10 05 ? ? ? ? F3 0F 11 44 24 ? 8B 44 24 1C 35 ? ? ? ? 89 44 24 18 EB 0B 8B 01 8B 40 30 FF D0 D9 5C 24 18 F3 0F 10 06"
+    },
+    "dwZoomSensitivityRatioPtr": {
+      "extra": 0,
+      "mode_read": true,
+      "mode_subtract": true,
+      "module": "client.dll",
+      "offset": 2,
+      "pattern": "81 F9 ? ? ? ? 75 1A F3 0F 10 05 ? ? ? ? F3 0F 11 45 ? 8B 45 F4 35 ? ? ? ? 89 45 FC EB 0A 8B 01 8B 40 30 FF D0 D9 5D FC A1"
+    },
+    "dwbSendPackets": {
+      "extra": 0,
+      "mode_read": false,
+      "mode_subtract": true,
+      "module": "engine.dll",
+      "offset": 1,
+      "pattern": "B3 01 8B 01 8B 40 10 FF D0 84 C0 74 0F 80 BF ? ? ? ? ? 0F 84"
+    },
+    "dwppDirect3DDevice9": {
+      "extra": 0,
+      "mode_read": true,
+      "mode_subtract": true,
+      "module": "shaderapidx9.dll",
+      "offset": 1,
+      "pattern": "A1 ? ? ? ? 50 8B 08 FF 51 0C"
+    },
+    "m_pStudioHdr": {
+      "extra": 0,
+      "mode_read": true,
+      "mode_subtract": false,
+      "module": "client.dll",
+      "offset": 2,
       "pattern": "8B B6 ? ? ? ? 85 F6 74 05 83 3E 00 75 02 33 F6 F3 0F 10 44 24"
     }
   }
