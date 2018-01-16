@@ -1,4 +1,4 @@
-' Sat, 13 Jan 2018 20:58:02 +0100
+' Tue, 16 Jan 2018 19:50:00 +0100
 
 Namespace hazedumper
     Public Shared Class netvars
