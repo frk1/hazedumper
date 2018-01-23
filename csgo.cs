@@ -1,7 +1,7 @@
 using System;
 
 // Offsets timestamp
-// Sat, 20 Jan 2018 13:47:54 +0100
+// Tue, 23 Jan 2018 11:52:16 +0100
 
 namespace hazedumper
 {
@@ -90,7 +90,7 @@ namespace hazedumper
         public const Int32 dwGlobalVars = 0x57C548;
         public const Int32 dwGlowObjectManager = 0x4F96D18;
         public const Int32 dwInput = 0x4EC4A88;
-        public const Int32 dwInterfaceLinkList = 0x6DBD34;
+        public const Int32 dwInterfaceLinkList = 0x6DBF44;
         public const Int32 dwLocalPlayer = 0xA9D0DC;
         public const Int32 dwMouseEnable = 0xAA2940;
         public const Int32 dwMouseEnablePtr = 0xAA2910;
