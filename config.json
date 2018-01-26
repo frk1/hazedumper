@@ -1,561 +1,695 @@
 {
-  "netvars": {
-    "m_ArmorValue": {
-      "netvar": "m_ArmorValue",
+  "executable": "csgo.exe",
+  "filename": "csgo",
+  "signatures": [
+    {
+      "name": "dwClientState",
+      "extra": 0,
+      "relative": true,
+      "module": "engine.dll",
+      "offsets": [
+        1
+      ],
+      "pattern": "A1 ? ? ? ? 33 D2 6A 00 6A 00 33 C9 89 B0"
+    },
+    {
+      "name": "dwClientState_GetLocalPlayer",
+      "extra": 0,
+      "relative": false,
+      "module": "engine.dll",
+      "offsets": [
+        2
+      ],
+      "pattern": "8B 80 ? ? ? ? 40 C3"
+    },
+    {
+      "name": "dwClientState_IsHLTV",
+      "extra": 0,
+      "relative": false,
+      "module": "engine.dll",
+      "offsets": [
+        2
+      ],
+      "pattern": "80 BF ? ? ? ? ? 0F 84 ? ? ? ? 32 DB"
+    },
+    {
+      "name": "dwClientState_Map",
+      "extra": 0,
+      "relative": false,
+      "module": "engine.dll",
+      "offsets": [
+        1
+      ],
+      "pattern": "05 ? ? ? ? C3 CC CC CC CC CC CC CC A1"
+    },
+    {
+      "name": "dwClientState_MapDirectory",
+      "extra": 0,
+      "relative": false,
+      "module": "engine.dll",
+      "offsets": [
+        1
+      ],
+      "pattern": "05 ? ? ? ? C3 CC CC CC CC CC CC CC 80 3D"
+    },
+    {
+      "name": "dwClientState_MaxPlayer",
+      "extra": 0,
+      "relative": false,
+      "module": "engine.dll",
+      "offsets": [
+        7
+      ],
+      "pattern": "A1 ? ? ? ? 8B 80 ? ? ? ? C3 CC CC CC CC 55 8B EC 8A 45 08"
+    },
+    {
+      "name": "dwClientState_PlayerInfo",
+      "extra": 0,
+      "relative": false,
+      "module": "engine.dll",
+      "offsets": [
+        2
+      ],
+      "pattern": "8B 89 ? ? ? ? 85 C9 0F 84 ? ? ? ? 8B 01"
+    },
+    {
+      "name": "dwClientState_State",
+      "extra": 0,
+      "relative": false,
+      "module": "engine.dll",
+      "offsets": [
+        2
+      ],
+      "pattern": "83 B8 ? ? ? ? ? 0F 94 C0 C3"
+    },
+    {
+      "name": "dwClientState_ViewAngles",
+      "extra": 0,
+      "relative": false,
+      "module": "engine.dll",
+      "offsets": [
+        4
+      ],
+      "pattern": "F3 0F 11 80 ? ? ? ? D9 46 04 D9 05"
+    },
+    {
+      "name": "dwEntityList",
+      "extra": 0,
+      "relative": true,
+      "module": "client.dll",
+      "offsets": [
+        1
+      ],
+      "pattern": "BB ? ? ? ? 83 FF 01 0F 8C ? ? ? ? 3B F8"
+    },
+    {
+      "name": "dwForceAttack",
+      "extra": 0,
+      "relative": true,
+      "module": "client.dll",
+      "offsets": [
+        2
+      ],
+      "pattern": "89 0D ? ? ? ? 8B 0D ? ? ? ? 8B F2 8B C1 83 CE 04"
+    },
+    {
+      "name": "dwForceAttack2",
+      "extra": 12,
+      "relative": true,
+      "module": "client.dll",
+      "offsets": [
+        2
+      ],
+      "pattern": "89 0D ? ? ? ? 8B 0D ? ? ? ? 8B F2 8B C1 83 CE 04"
+    },
+    {
+      "name": "dwForceBackward",
+      "extra": 0,
+      "relative": true,
+      "module": "client.dll",
+      "offsets": [
+        287
+      ],
+      "pattern": "55 8B EC 51 53 8A 5D 08"
+    },
+    {
+      "name": "dwForceForward",
+      "extra": 0,
+      "relative": true,
+      "module": "client.dll",
+      "offsets": [
+        245
+      ],
+      "pattern": "55 8B EC 51 53 8A 5D 08"
+    },
+    {
+      "name": "dwForceJump",
+      "extra": 0,
+      "relative": true,
+      "module": "client.dll",
+      "offsets": [
+        2
+      ],
+      "pattern": "8B 0D ? ? ? ? 8B D6 8B C1 83 CA 02"
+    },
+    {
+      "name": "dwForceLeft",
+      "extra": 0,
+      "relative": true,
+      "module": "client.dll",
+      "offsets": [
+        465
+      ],
+      "pattern": "55 8B EC 51 53 8A 5D 08"
+    },
+    {
+      "name": "dwForceRight",
+      "extra": 0,
+      "relative": true,
+      "module": "client.dll",
+      "offsets": [
+        512
+      ],
+      "pattern": "55 8B EC 51 53 8A 5D 08"
+    },
+    {
+      "name": "dwGameDir",
+      "extra": 0,
+      "relative": true,
+      "module": "engine.dll",
+      "offsets": [
+        1
+      ],
+      "pattern": "68 ? ? ? ? 8D 85 ? ? ? ? 50 68 ? ? ? ? 68"
+    },
+    {
+      "name": "dwGameRulesProxy",
+      "extra": 0,
+      "relative": true,
+      "module": "client.dll",
+      "offsets": [
+        1
+      ],
+      "pattern": "A1 ? ? ? ? 85 C0 0F 84 ? ? ? ? 80 B8 ? ? ? ? ? 0F 84 ? ? ? ? 0F 10 05"
+    },
+    {
+      "name": "dwGetAllClasses",
+      "extra": 0,
+      "relative": true,
+      "module": "client.dll",
+      "offsets": [
+        1,
+        0
+      ],
+      "pattern": "A1 ? ? ? ? C3 CC CC CC CC CC CC CC CC CC CC A1 ? ? ? ? B9"
+    },
+    {
+      "name": "dwGlobalVars",
+      "extra": 0,
+      "relative": true,
+      "module": "engine.dll",
+      "offsets": [
+        1
+      ],
+      "pattern": "68 ? ? ? ? 68 ? ? ? ? FF 50 08 85 C0"
+    },
+    {
+      "name": "dwGlowObjectManager",
+      "extra": 4,
+      "relative": true,
+      "module": "client.dll",
+      "offsets": [
+        1
+      ],
+      "pattern": "A1 ? ? ? ? A8 01 75 4B"
+    },
+    {
+      "name": "dwInput",
+      "extra": 0,
+      "relative": true,
+      "module": "client.dll",
+      "offsets": [
+        1
+      ],
+      "pattern": "B9 ? ? ? ? F3 0F 11 04 24 FF 50 10"
+    },
+    {
+      "name": "dwInterfaceLinkList",
+      "extra": 0,
+      "relative": true,
+      "module": "client.dll",
+      "offsets": [],
+      "pattern": "8B 35 ? ? ? ? 57 85 F6 74 ? 8B 7D 08 8B 4E 04 8B C7 8A 11 3A 10"
+    },
+    {
+      "name": "dwLocalPlayer",
+      "extra": 16,
+      "relative": true,
+      "module": "client.dll",
+      "offsets": [
+        1
+      ],
+      "pattern": "A3 ? ? ? ? C7 05 ? ? ? ? ? ? ? ? E8 ? ? ? ? 59 C3 6A ?"
+    },
+    {
+      "name": "dwMouseEnable",
+      "extra": 48,
+      "relative": true,
+      "module": "client.dll",
+      "offsets": [
+        1
+      ],
+      "pattern": "B9 ? ? ? ? FF 50 34 85 C0 75 10"
+    },
+    {
+      "name": "dwMouseEnablePtr",
+      "extra": 0,
+      "relative": true,
+      "module": "client.dll",
+      "offsets": [
+        1
+      ],
+      "pattern": "B9 ? ? ? ? FF 50 34 85 C0 75 10"
+    },
+    {
+      "name": "dwPlayerResource",
+      "extra": 0,
+      "relative": true,
+      "module": "client.dll",
+      "offsets": [
+        2
+      ],
+      "pattern": "8B 3D ? ? ? ? 85 FF 0F 84 ? ? ? ? 81 C7"
+    },
+    {
+      "name": "dwRadarBase",
+      "extra": 0,
+      "relative": true,
+      "module": "client.dll",
+      "offsets": [
+        1
+      ],
+      "pattern": "A1 ? ? ? ? 8B 0C B0 8B 01 FF 50 ? 46 3B 35 ? ? ? ? 7C EA 8B 0D"
+    },
+    {
+      "name": "dwSensitivity",
+      "extra": 44,
+      "relative": true,
+      "module": "client.dll",
+      "offsets": [
+        2
+      ],
+      "pattern": "81 F9 ? ? ? ? 75 1D F3 0F 10 05 ? ? ? ? F3 0F 11 44 24 ? 8B 44 24 18 35 ? ? ? ? 89 44 24 0C EB 0B"
+    },
+    {
+      "name": "dwSensitivityPtr",
+      "extra": 0,
+      "relative": true,
+      "module": "client.dll",
+      "offsets": [
+        2
+      ],
+      "pattern": "81 F9 ? ? ? ? 75 1D F3 0F 10 05 ? ? ? ? F3 0F 11 44 24 ? 8B 44 24 18 35 ? ? ? ? 89 44 24 0C EB 0B"
+    },
+    {
+      "name": "dwSetClanTag",
+      "extra": 0,
+      "relative": true,
+      "module": "engine.dll",
+      "offsets": [],
+      "pattern": "53 56 57 8B DA 8B F9 FF 15"
+    },
+    {
+      "name": "dwViewMatrix",
+      "extra": 176,
+      "relative": true,
+      "module": "client.dll",
+      "offsets": [
+        3
+      ],
+      "pattern": "0F 10 05 ? ? ? ? 8D 85 ? ? ? ? B9"
+    },
+    {
+      "name": "dwWeaponTable",
+      "extra": 0,
+      "relative": true,
+      "module": "client.dll",
+      "offsets": [
+        1
+      ],
+      "pattern": "B9 ? ? ? ? 6A 00 FF 50 08 C3"
+    },
+    {
+      "name": "dwWeaponTableIndex",
+      "extra": 0,
+      "relative": false,
+      "module": "client.dll",
+      "offsets": [
+        2
+      ],
+      "pattern": "39 86 ? ? ? ? 74 06 89 86 ? ? ? ? 8B 86"
+    },
+    {
+      "name": "dwYawPtr",
+      "extra": 0,
+      "relative": true,
+      "module": "client.dll",
+      "offsets": [
+        2
+      ],
+      "pattern": "81 F9 ? ? ? ? 75 1D F3 0F 10 05 ? ? ? ? F3 0F 11 44 24 ? 8B 44 24 1C 35 ? ? ? ? 89 44 24 18 EB 0B 8B 01 8B 40 30 FF D0 D9 5C 24 18 F3 0F 10 06"
+    },
+    {
+      "name": "dwZoomSensitivityRatioPtr",
+      "extra": 0,
+      "relative": true,
+      "module": "client.dll",
+      "offsets": [
+        2
+      ],
+      "pattern": "81 F9 ? ? ? ? 75 1A F3 0F 10 05 ? ? ? ? F3 0F 11 45 ? 8B 45 F4 35 ? ? ? ? 89 45 FC EB 0A 8B 01 8B 40 30 FF D0 D9 5D FC A1"
+    },
+    {
+      "name": "dwbSendPackets",
+      "extra": 1,
+      "relative": true,
+      "module": "engine.dll",
+      "offsets": [],
+      "pattern": "B3 01 8B 01 8B 40 10 FF D0 84 C0 74 0F 80 BF ? ? ? ? ? 0F 84"
+    },
+    {
+      "name": "dwppDirect3DDevice9",
+      "extra": 0,
+      "relative": true,
+      "module": "shaderapidx9.dll",
+      "offsets": [
+        1
+      ],
+      "pattern": "A1 ? ? ? ? 50 8B 08 FF 51 0C"
+    },
+    {
+      "name": "m_pStudioHdr",
+      "extra": 0,
+      "relative": false,
+      "module": "client.dll",
+      "offsets": [
+        2
+      ],
+      "pattern": "8B B6 ? ? ? ? 85 F6 74 05 83 3E 00 75 02 33 F6 F3 0F 10 44 24"
+    }
+  ],
+  "netvars": [
+    {
+      "name": "m_ArmorValue",
+      "prop": "m_ArmorValue",
       "table": "DT_CSPlayer"
     },
-    "m_Collision": {
-      "netvar": "m_Collision",
+    {
+      "name": "m_Collision",
+      "prop": "m_Collision",
       "table": "DT_BasePlayer"
     },
-    "m_CollisionGroup": {
-      "netvar": "m_CollisionGroup",
+    {
+      "name": "m_CollisionGroup",
+      "prop": "m_CollisionGroup",
       "table": "DT_CSPlayer"
     },
-    "m_Local": {
-      "netvar": "m_Local",
+    {
+      "name": "m_Local",
+      "prop": "m_Local",
       "table": "DT_BasePlayer"
     },
-    "m_MoveType": {
-      "netvar": "m_nRenderMode",
+    {
+      "name": "m_MoveType",
+      "prop": "m_nRenderMode",
       "offset": 1,
       "table": "DT_CSPlayer"
     },
-    "m_OriginalOwnerXuidHigh": {
-      "netvar": "m_OriginalOwnerXuidHigh",
+    {
+      "name": "m_OriginalOwnerXuidHigh",
+      "prop": "m_OriginalOwnerXuidHigh",
       "table": "DT_BaseAttributableItem"
     },
-    "m_OriginalOwnerXuidLow": {
-      "netvar": "m_OriginalOwnerXuidLow",
+    {
+      "name": "m_OriginalOwnerXuidLow",
+      "prop": "m_OriginalOwnerXuidLow",
       "table": "DT_BaseAttributableItem"
     },
-    "m_aimPunchAngle": {
-      "netvar": "m_aimPunchAngle",
+    {
+      "name": "m_aimPunchAngle",
+      "prop": "m_aimPunchAngle",
       "table": "DT_BasePlayer"
     },
-    "m_aimPunchAngleVel": {
-      "netvar": "m_aimPunchAngleVel",
+    {
+      "name": "m_aimPunchAngleVel",
+      "prop": "m_aimPunchAngleVel",
       "table": "DT_BasePlayer"
     },
-    "m_bGunGameImmunity": {
-      "netvar": "m_bGunGameImmunity",
+    {
+      "name": "m_bGunGameImmunity",
+      "prop": "m_bGunGameImmunity",
       "table": "DT_CSPlayer"
     },
-    "m_bHasDefuser": {
-      "netvar": "m_bHasDefuser",
+    {
+      "name": "m_bHasDefuser",
+      "prop": "m_bHasDefuser",
       "table": "DT_CSPlayer"
     },
-    "m_bHasHelmet": {
-      "netvar": "m_bHasHelmet",
+    {
+      "name": "m_bHasHelmet",
+      "prop": "m_bHasHelmet",
       "table": "DT_CSPlayer"
     },
-    "m_bInReload": {
-      "netvar": "m_flNextPrimaryAttack",
+    {
+      "name": "m_bInReload",
+      "prop": "m_flNextPrimaryAttack",
       "offset": 109,
       "table": "DT_BaseCombatWeapon"
     },
-    "m_bIsDefusing": {
-      "netvar": "m_bIsDefusing",
+    {
+      "name": "m_bIsDefusing",
+      "prop": "m_bIsDefusing",
       "table": "DT_CSPlayer"
     },
-    "m_bIsScoped": {
-      "netvar": "m_bIsScoped",
+    {
+      "name": "m_bIsScoped",
+      "prop": "m_bIsScoped",
       "table": "DT_CSPlayer"
     },
-    "m_bSpotted": {
-      "netvar": "m_bSpotted",
+    {
+      "name": "m_bSpotted",
+      "prop": "m_bSpotted",
       "table": "DT_BaseEntity"
     },
-    "m_bSpottedByMask": {
-      "netvar": "m_bSpottedByMask",
+    {
+      "name": "m_bSpottedByMask",
+      "prop": "m_bSpottedByMask",
       "table": "DT_BaseEntity"
     },
-    "m_dwBoneMatrix": {
-      "netvar": "m_nForceBone",
+    {
+      "name": "m_dwBoneMatrix",
+      "prop": "m_nForceBone",
       "offset": 28,
       "table": "DT_BaseAnimating"
     },
-    "m_fAccuracyPenalty": {
-      "netvar": "m_fAccuracyPenalty",
+    {
+      "name": "m_fAccuracyPenalty",
+      "prop": "m_fAccuracyPenalty",
       "table": "DT_WeaponCSBase"
     },
-    "m_fFlags": {
-      "netvar": "m_fFlags",
+    {
+      "name": "m_fFlags",
+      "prop": "m_fFlags",
       "table": "DT_CSPlayer"
     },
-    "m_flFallbackWear": {
-      "netvar": "m_flFallbackWear",
+    {
+      "name": "m_flFallbackWear",
+      "prop": "m_flFallbackWear",
       "table": "DT_BaseAttributableItem"
     },
-    "m_flFlashDuration": {
-      "netvar": "m_flFlashDuration",
+    {
+      "name": "m_flFlashDuration",
+      "prop": "m_flFlashDuration",
       "table": "DT_CSPlayer"
     },
-    "m_flFlashMaxAlpha": {
-      "netvar": "m_flFlashMaxAlpha",
+    {
+      "name": "m_flFlashMaxAlpha",
+      "prop": "m_flFlashMaxAlpha",
       "table": "DT_CSPlayer"
     },
-    "m_flNextPrimaryAttack": {
-      "netvar": "m_flNextPrimaryAttack",
+    {
+      "name": "m_flNextPrimaryAttack",
+      "prop": "m_flNextPrimaryAttack",
       "table": "DT_BaseCombatWeapon"
     },
-    "m_hActiveWeapon": {
-      "netvar": "m_hActiveWeapon",
+    {
+      "name": "m_hActiveWeapon",
+      "prop": "m_hActiveWeapon",
       "table": "DT_BasePlayer"
     },
-    "m_hMyWeapons": {
-      "netvar": "m_hActiveWeapon",
+    {
+      "name": "m_hMyWeapons",
+      "prop": "m_hActiveWeapon",
       "offset": -256,
       "table": "DT_BasePlayer"
     },
-    "m_hObserverTarget": {
-      "netvar": "m_hObserverTarget",
+    {
+      "name": "m_hObserverTarget",
+      "prop": "m_hObserverTarget",
       "table": "DT_BasePlayer"
     },
-    "m_hOwner": {
-      "netvar": "m_hOwner",
+    {
+      "name": "m_hOwner",
+      "prop": "m_hOwner",
       "table": "DT_PredictedViewModel"
     },
-    "m_hOwnerEntity": {
-      "netvar": "m_hOwnerEntity",
+    {
+      "name": "m_hOwnerEntity",
+      "prop": "m_hOwnerEntity",
       "table": "DT_CSPlayer"
     },
-    "m_iAccountID": {
-      "netvar": "m_iAccountID",
+    {
+      "name": "m_iAccountID",
+      "prop": "m_iAccountID",
       "table": "DT_BaseAttributableItem"
     },
-    "m_iClip1": {
-      "netvar": "m_iClip1",
+    {
+      "name": "m_iClip1",
+      "prop": "m_iClip1",
       "table": "DT_BaseCombatWeapon"
     },
-    "m_iCompetitiveRanking": {
-      "netvar": "m_iCompetitiveRanking",
+    {
+      "name": "m_iCompetitiveRanking",
+      "prop": "m_iCompetitiveRanking",
       "table": "DT_CSPlayerResource"
     },
-    "m_iCompetitiveWins": {
-      "netvar": "m_iCompetitiveWins",
+    {
+      "name": "m_iCompetitiveWins",
+      "prop": "m_iCompetitiveWins",
       "table": "DT_CSPlayerResource"
     },
-    "m_iCrosshairId": {
-      "netvar": "m_bHasDefuser",
+    {
+      "name": "m_iCrosshairId",
+      "prop": "m_bHasDefuser",
       "offset": 92,
       "table": "DT_CSPlayer"
     },
-    "m_iEntityQuality": {
-      "netvar": "m_iEntityQuality",
+    {
+      "name": "m_iEntityQuality",
+      "prop": "m_iEntityQuality",
       "table": "DT_BaseAttributableItem"
     },
-    "m_iFOVStart": {
-      "netvar": "m_iFOVStart",
+    {
+      "name": "m_iFOVStart",
+      "prop": "m_iFOVStart",
       "table": "DT_CSPlayer"
     },
-    "m_iGlowIndex": {
-      "netvar": "m_flFlashDuration",
+    {
+      "name": "m_iGlowIndex",
+      "prop": "m_flFlashDuration",
       "offset": 24,
       "table": "DT_CSPlayer"
     },
-    "m_iHealth": {
-      "netvar": "m_iHealth",
+    {
+      "name": "m_iHealth",
+      "prop": "m_iHealth",
       "table": "DT_BasePlayer"
     },
-    "m_iItemDefinitionIndex": {
-      "netvar": "m_iItemDefinitionIndex",
+    {
+      "name": "m_iItemDefinitionIndex",
+      "prop": "m_iItemDefinitionIndex",
       "table": "DT_BaseCombatWeapon"
     },
-    "m_iItemIDHigh": {
-      "netvar": "m_iItemIDHigh",
+    {
+      "name": "m_iItemIDHigh",
+      "prop": "m_iItemIDHigh",
       "table": "DT_BaseAttributableItem"
     },
-    "m_iObserverMode": {
-      "netvar": "m_iObserverMode",
+    {
+      "name": "m_iObserverMode",
+      "prop": "m_iObserverMode",
       "table": "DT_BasePlayer"
     },
-    "m_iShotsFired": {
-      "netvar": "m_iShotsFired",
+    {
+      "name": "m_iShotsFired",
+      "prop": "m_iShotsFired",
       "table": "DT_CSPlayer"
     },
-    "m_iState": {
-      "netvar": "m_iState",
+    {
+      "name": "m_iState",
+      "prop": "m_iState",
       "table": "DT_BaseCombatWeapon"
     },
-    "m_iTeamNum": {
-      "netvar": "m_iTeamNum",
+    {
+      "name": "m_iTeamNum",
+      "prop": "m_iTeamNum",
       "table": "DT_BasePlayer"
     },
-    "m_lifeState": {
-      "netvar": "m_lifeState",
+    {
+      "name": "m_lifeState",
+      "prop": "m_lifeState",
       "table": "DT_CSPlayer"
     },
-    "m_nFallbackPaintKit": {
-      "netvar": "m_nFallbackPaintKit",
+    {
+      "name": "m_nFallbackPaintKit",
+      "prop": "m_nFallbackPaintKit",
       "table": "DT_BaseAttributableItem"
     },
-    "m_nFallbackSeed": {
-      "netvar": "m_nFallbackSeed",
+    {
+      "name": "m_nFallbackSeed",
+      "prop": "m_nFallbackSeed",
       "table": "DT_BaseAttributableItem"
     },
-    "m_nFallbackStatTrak": {
-      "netvar": "m_nFallbackStatTrak",
+    {
+      "name": "m_nFallbackStatTrak",
+      "prop": "m_nFallbackStatTrak",
       "table": "DT_BaseAttributableItem"
     },
-    "m_nForceBone": {
-      "netvar": "m_nForceBone",
+    {
+      "name": "m_nForceBone",
+      "prop": "m_nForceBone",
       "table": "DT_BaseAnimating"
     },
-    "m_nTickBase": {
-      "netvar": "m_nTickBase",
+    {
+      "name": "m_nTickBase",
+      "prop": "m_nTickBase",
       "table": "DT_BasePlayer"
     },
-    "m_rgflCoordinateFrame": {
-      "netvar": "m_CollisionGroup",
+    {
+      "name": "m_rgflCoordinateFrame",
+      "prop": "m_CollisionGroup",
       "offset": -48,
       "table": "DT_CSPlayer"
     },
-    "m_szCustomName": {
-      "netvar": "m_szCustomName",
+    {
+      "name": "m_szCustomName",
+      "prop": "m_szCustomName",
       "table": "DT_BaseAttributableItem"
     },
-    "m_szLastPlaceName": {
-      "netvar": "m_szLastPlaceName",
+    {
+      "name": "m_szLastPlaceName",
+      "prop": "m_szLastPlaceName",
       "table": "DT_CSPlayer"
     },
-    "m_vecOrigin": {
-      "netvar": "m_vecOrigin",
+    {
+      "name": "m_vecOrigin",
+      "prop": "m_vecOrigin",
       "table": "DT_BasePlayer"
     },
-    "m_vecVelocity": {
-      "netvar": "m_vecVelocity[0]",
+    {
+      "name": "m_vecVelocity",
+      "prop": "m_vecVelocity[0]",
       "table": "DT_CSPlayer"
     },
-    "m_vecViewOffset": {
-      "netvar": "m_vecViewOffset[0]",
+    {
+      "name": "m_vecViewOffset",
+      "prop": "m_vecViewOffset[0]",
       "table": "DT_CSPlayer"
     },
-    "m_viewPunchAngle": {
-      "netvar": "m_viewPunchAngle",
+    {
+      "name": "m_viewPunchAngle",
+      "prop": "m_viewPunchAngle",
       "table": "DT_BasePlayer"
     }
-  },
-  "signatures": {
-    "dwClientState": {
-      "extra": 0,
-      "mode_read": true,
-      "mode_subtract": true,
-      "module": "engine.dll",
-      "offset": 1,
-      "pattern": "A1 ? ? ? ? 33 D2 6A 00 6A 00 33 C9 89 B0"
-    },
-    "dwClientState_GetLocalPlayer": {
-      "extra": 0,
-      "mode_read": true,
-      "mode_subtract": false,
-      "module": "engine.dll",
-      "offset": 2,
-      "pattern": "8B 80 ? ? ? ? 40 C3"
-    },
-    "dwClientState_IsHLTV": {
-      "extra": 0,
-      "mode_read": true,
-      "mode_subtract": false,
-      "module": "engine.dll",
-      "offset": 2,
-      "pattern": "80 BF ? ? ? ? ? 0F 84 ? ? ? ? 32 DB"
-    },
-    "dwClientState_Map": {
-      "extra": 0,
-      "mode_read": true,
-      "mode_subtract": false,
-      "module": "engine.dll",
-      "offset": 1,
-      "pattern": "05 ? ? ? ? C3 CC CC CC CC CC CC CC A1"
-    },
-    "dwClientState_MapDirectory": {
-      "extra": 0,
-      "mode_read": true,
-      "mode_subtract": false,
-      "module": "engine.dll",
-      "offset": 1,
-      "pattern": "05 ? ? ? ? C3 CC CC CC CC CC CC CC 80 3D"
-    },
-    "dwClientState_MaxPlayer": {
-      "extra": 0,
-      "mode_read": true,
-      "mode_subtract": false,
-      "module": "engine.dll",
-      "offset": 7,
-      "pattern": "A1 ? ? ? ? 8B 80 ? ? ? ? C3 CC CC CC CC 55 8B EC 8A 45 08"
-    },
-    "dwClientState_PlayerInfo": {
-      "extra": 0,
-      "mode_read": true,
-      "mode_subtract": false,
-      "module": "engine.dll",
-      "offset": 2,
-      "pattern": "8B 89 ? ? ? ? 85 C9 0F 84 ? ? ? ? 8B 01"
-    },
-    "dwClientState_State": {
-      "extra": 0,
-      "mode_read": true,
-      "mode_subtract": false,
-      "module": "engine.dll",
-      "offset": 2,
-      "pattern": "83 B8 ? ? ? ? ? 0F 94 C0 C3"
-    },
-    "dwClientState_ViewAngles": {
-      "extra": 0,
-      "mode_read": true,
-      "mode_subtract": false,
-      "module": "engine.dll",
-      "offset": 4,
-      "pattern": "F3 0F 11 80 ? ? ? ? D9 46 04 D9 05"
-    },
-    "dwEntityList": {
-      "extra": 0,
-      "mode_read": true,
-      "mode_subtract": true,
-      "module": "client.dll",
-      "offset": 1,
-      "pattern": "BB ? ? ? ? 83 FF 01 0F 8C ? ? ? ? 3B F8"
-    },
-    "dwForceAttack": {
-      "extra": 0,
-      "mode_read": true,
-      "mode_subtract": true,
-      "module": "client.dll",
-      "offset": 2,
-      "pattern": "89 0D ? ? ? ? 8B 0D ? ? ? ? 8B F2 8B C1 83 CE 04"
-    },
-    "dwForceAttack2": {
-      "extra": 12,
-      "mode_read": true,
-      "mode_subtract": true,
-      "module": "client.dll",
-      "offset": 2,
-      "pattern": "89 0D ? ? ? ? 8B 0D ? ? ? ? 8B F2 8B C1 83 CE 04"
-    },
-    "dwForceBackward": {
-      "extra": 0,
-      "mode_read": true,
-      "mode_subtract": true,
-      "module": "client.dll",
-      "offset": 287,
-      "pattern": "55 8B EC 51 53 8A 5D 08"
-    },
-    "dwForceForward": {
-      "extra": 0,
-      "mode_read": true,
-      "mode_subtract": true,
-      "module": "client.dll",
-      "offset": 245,
-      "pattern": "55 8B EC 51 53 8A 5D 08"
-    },
-    "dwForceJump": {
-      "extra": 0,
-      "mode_read": true,
-      "mode_subtract": true,
-      "module": "client.dll",
-      "offset": 2,
-      "pattern": "8B 0D ? ? ? ? 8B D6 8B C1 83 CA 02"
-    },
-    "dwForceLeft": {
-      "extra": 0,
-      "mode_read": true,
-      "mode_subtract": true,
-      "module": "client.dll",
-      "offset": 465,
-      "pattern": "55 8B EC 51 53 8A 5D 08"
-    },
-    "dwForceRight": {
-      "extra": 0,
-      "mode_read": true,
-      "mode_subtract": true,
-      "module": "client.dll",
-      "offset": 512,
-      "pattern": "55 8B EC 51 53 8A 5D 08"
-    },
-    "dwGameDir": {
-      "extra": 0,
-      "mode_read": true,
-      "mode_subtract": true,
-      "module": "engine.dll",
-      "offset": 1,
-      "pattern": "68 ? ? ? ? 8D 85 ? ? ? ? 50 68 ? ? ? ? 68"
-    },
-    "dwGameRulesProxy": {
-      "extra": 0,
-      "mode_read": true,
-      "mode_subtract": true,
-      "module": "client.dll",
-      "offset": 1,
-      "pattern": "A1 ? ? ? ? 85 C0 0F 84 ? ? ? ? 80 B8 ? ? ? ? ? 0F 84 ? ? ? ? 0F 10 05"
-    },
-    "dwGetAllClasses": {
-      "extra": 0,
-      "mode_read": true,
-      "mode_subtract": true,
-      "module": "client.dll",
-      "offset": 1,
-      "pattern": "A1 ? ? ? ? C3 CC CC CC CC CC CC CC CC CC CC A1 ? ? ? ? B9"
-    },
-    "dwGlobalVars": {
-      "extra": 0,
-      "mode_read": true,
-      "mode_subtract": true,
-      "module": "engine.dll",
-      "offset": 1,
-      "pattern": "68 ? ? ? ? 68 ? ? ? ? FF 50 08 85 C0"
-    },
-    "dwGlowObjectManager": {
-      "extra": 4,
-      "mode_read": true,
-      "mode_subtract": true,
-      "module": "client.dll",
-      "offset": 1,
-      "pattern": "A1 ? ? ? ? A8 01 75 4B"
-    },
-    "dwInput": {
-      "extra": 0,
-      "mode_read": true,
-      "mode_subtract": true,
-      "module": "client.dll",
-      "offset": 1,
-      "pattern": "B9 ? ? ? ? F3 0F 11 04 24 FF 50 10"
-    },
-    "dwInterfaceLinkList": {
-      "extra": 0,
-      "mode_read": false,
-      "mode_subtract": true,
-      "module": "client.dll",
-      "offset": 0,
-      "pattern": "8B 35 ? ? ? ? 57 85 F6 74 ? 8B 7D 08 8B 4E 04 8B C7 8A 11 3A 10"
-    },
-    "dwLocalPlayer": {
-      "extra": 16,
-      "mode_read": true,
-      "mode_subtract": true,
-      "module": "client.dll",
-      "offset": 1,
-      "pattern": "A3 ? ? ? ? C7 05 ? ? ? ? ? ? ? ? E8 ? ? ? ? 59 C3 6A ?"
-    },
-    "dwMouseEnable": {
-      "extra": 48,
-      "mode_read": true,
-      "mode_subtract": true,
-      "module": "client.dll",
-      "offset": 1,
-      "pattern": "B9 ? ? ? ? FF 50 34 85 C0 75 10"
-    },
-    "dwMouseEnablePtr": {
-      "extra": 0,
-      "mode_read": true,
-      "mode_subtract": true,
-      "module": "client.dll",
-      "offset": 1,
-      "pattern": "B9 ? ? ? ? FF 50 34 85 C0 75 10"
-    },
-    "dwPlayerResource": {
-      "extra": 0,
-      "mode_read": true,
-      "mode_subtract": true,
-      "module": "client.dll",
-      "offset": 2,
-      "pattern": "8B 3D ? ? ? ? 85 FF 0F 84 ? ? ? ? 81 C7"
-    },
-    "dwRadarBase": {
-      "extra": 0,
-      "mode_read": true,
-      "mode_subtract": true,
-      "module": "client.dll",
-      "offset": 1,
-      "pattern": "A1 ? ? ? ? 8B 0C B0 8B 01 FF 50 ? 46 3B 35 ? ? ? ? 7C EA 8B 0D"
-    },
-    "dwSensitivity": {
-      "extra": 44,
-      "mode_read": true,
-      "mode_subtract": true,
-      "module": "client.dll",
-      "offset": 2,
-      "pattern": "81 F9 ? ? ? ? 75 1D F3 0F 10 05 ? ? ? ? F3 0F 11 44 24 ? 8B 44 24 18 35 ? ? ? ? 89 44 24 0C EB 0B"
-    },
-    "dwSensitivityPtr": {
-      "extra": 0,
-      "mode_read": true,
-      "mode_subtract": true,
-      "module": "client.dll",
-      "offset": 2,
-      "pattern": "81 F9 ? ? ? ? 75 1D F3 0F 10 05 ? ? ? ? F3 0F 11 44 24 ? 8B 44 24 18 35 ? ? ? ? 89 44 24 0C EB 0B"
-    },
-    "dwSetClanTag": {
-      "extra": 0,
-      "mode_read": false,
-      "mode_subtract": true,
-      "module": "engine.dll",
-      "offset": 0,
-      "pattern": "53 56 57 8B DA 8B F9 FF 15"
-    },
-    "dwViewMatrix": {
-      "extra": 176,
-      "mode_read": true,
-      "mode_subtract": true,
-      "module": "client.dll",
-      "offset": 3,
-      "pattern": "0F 10 05 ? ? ? ? 8D 85 ? ? ? ? B9"
-    },
-    "dwWeaponTable": {
-      "extra": 0,
-      "mode_read": true,
-      "mode_subtract": true,
-      "module": "client.dll",
-      "offset": 1,
-      "pattern": "B9 ? ? ? ? 6A 00 FF 50 08 C3"
-    },
-    "dwWeaponTableIndex": {
-      "extra": 0,
-      "mode_read": true,
-      "mode_subtract": false,
-      "module": "client.dll",
-      "offset": 2,
-      "pattern": "39 86 ? ? ? ? 74 06 89 86 ? ? ? ? 8B 86"
-    },
-    "dwYawPtr": {
-      "extra": 0,
-      "mode_read": true,
-      "mode_subtract": true,
-      "module": "client.dll",
-      "offset": 2,
-      "pattern": "81 F9 ? ? ? ? 75 1D F3 0F 10 05 ? ? ? ? F3 0F 11 44 24 ? 8B 44 24 1C 35 ? ? ? ? 89 44 24 18 EB 0B 8B 01 8B 40 30 FF D0 D9 5C 24 18 F3 0F 10 06"
-    },
-    "dwZoomSensitivityRatioPtr": {
-      "extra": 0,
-      "mode_read": true,
-      "mode_subtract": true,
-      "module": "client.dll",
-      "offset": 2,
-      "pattern": "81 F9 ? ? ? ? 75 1A F3 0F 10 05 ? ? ? ? F3 0F 11 45 ? 8B 45 F4 35 ? ? ? ? 89 45 FC EB 0A 8B 01 8B 40 30 FF D0 D9 5D FC A1"
-    },
-    "dwbSendPackets": {
-      "extra": 0,
-      "mode_read": false,
-      "mode_subtract": true,
-      "module": "engine.dll",
-      "offset": 1,
-      "pattern": "B3 01 8B 01 8B 40 10 FF D0 84 C0 74 0F 80 BF ? ? ? ? ? 0F 84"
-    },
-    "dwppDirect3DDevice9": {
-      "extra": 0,
-      "mode_read": true,
-      "mode_subtract": true,
-      "module": "shaderapidx9.dll",
-      "offset": 1,
-      "pattern": "A1 ? ? ? ? 50 8B 08 FF 51 0C"
-    },
-    "m_pStudioHdr": {
-      "extra": 0,
-      "mode_read": true,
-      "mode_subtract": false,
-      "module": "client.dll",
-      "offset": 2,
-      "pattern": "8B B6 ? ? ? ? 85 F6 74 05 83 3E 00 75 02 33 F6 F3 0F 10 44 24"
-    }
-  }
+  ]
 }

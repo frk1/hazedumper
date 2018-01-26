@@ -1,8 +1,7 @@
 #pragma once
 #include <cstddef>
 
-// Offsets timestamp
-// Tue, 23 Jan 2018 11:52:16 +0100
+// 2018-01-26 22:21:56.821285900 UTC
 
 namespace hazedumper {
 namespace netvars {
@@ -84,7 +83,7 @@ constexpr ::std::ptrdiff_t dwForceLeft = 0x2EBC29C;
 constexpr ::std::ptrdiff_t dwForceRight = 0x2EBC2A8;
 constexpr ::std::ptrdiff_t dwGameDir = 0x61A168;
 constexpr ::std::ptrdiff_t dwGameRulesProxy = 0x4F7B47C;
-constexpr ::std::ptrdiff_t dwGetAllClasses = 0x4F7B54C;
+constexpr ::std::ptrdiff_t dwGetAllClasses = 0xABFBC4;
 constexpr ::std::ptrdiff_t dwGlobalVars = 0x57C548;
 constexpr ::std::ptrdiff_t dwGlowObjectManager = 0x4F96D18;
 constexpr ::std::ptrdiff_t dwInput = 0x4EC4A88;

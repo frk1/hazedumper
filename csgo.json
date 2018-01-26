@@ -1,13 +1,5 @@
 {
-  "timestamp": 1516704736,
-  "modules": {
-    "client.dll": {
-      "size": 84783104
-    },
-    "engine.dll": {
-      "size": 9043968
-    }
-  },
+  "timestamp": 1517005316,
   "signatures": {
     "dwClientState": 5752900,
     "dwClientState_GetLocalPlayer": 384,
@@ -28,7 +20,7 @@
     "dwForceRight": 49005224,
     "dwGameDir": 6398312,
     "dwGameRulesProxy": 83342460,
-    "dwGetAllClasses": 83342668,
+    "dwGetAllClasses": 11271108,
     "dwGlobalVars": 5752136,
     "dwGlowObjectManager": 83455256,
     "dwInput": 82594440,

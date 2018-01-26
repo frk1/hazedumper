@@ -1,7 +1,6 @@
 using System;
 
-// Offsets timestamp
-// Tue, 23 Jan 2018 11:52:16 +0100
+// 2018-01-26 22:21:56.821285900 UTC
 
 namespace hazedumper
 {
@@ -86,7 +85,7 @@ namespace hazedumper
         public const Int32 dwForceRight = 0x2EBC2A8;
         public const Int32 dwGameDir = 0x61A168;
         public const Int32 dwGameRulesProxy = 0x4F7B47C;
-        public const Int32 dwGetAllClasses = 0x4F7B54C;
+        public const Int32 dwGetAllClasses = 0xABFBC4;
         public const Int32 dwGlobalVars = 0x57C548;
         public const Int32 dwGlowObjectManager = 0x4F96D18;
         public const Int32 dwInput = 0x4EC4A88;
