@@ -1,4 +1,4 @@
-' 2018-01-30 20:37:56.682982600 UTC
+' 2018-02-09 02:14:48.958113800 UTC
 
 Namespace hazedumper
     Public Shared Class netvars
@@ -61,7 +61,7 @@ Namespace hazedumper
         Public Const m_viewPunchAngle as Integer = &H3010
     End Class
     Public Shared Class signatures
-        Public Const dwClientState as Integer = &H57C844
+        Public Const dwClientState as Integer = &H57D844
         Public Const dwClientState_GetLocalPlayer as Integer = &H180
         Public Const dwClientState_IsHLTV as Integer = &H4CC8
         Public Const dwClientState_Map as Integer = &H28C
@@ -70,35 +70,35 @@ Namespace hazedumper
         Public Const dwClientState_PlayerInfo as Integer = &H5240
         Public Const dwClientState_State as Integer = &H108
         Public Const dwClientState_ViewAngles as Integer = &H4D10
-        Public Const dwEntityList as Integer = &H4A79EF4
-        Public Const dwForceAttack as Integer = &H2EBC26C
-        Public Const dwForceAttack2 as Integer = &H2EBC278
-        Public Const dwForceBackward as Integer = &H2EBC2F0
-        Public Const dwForceForward as Integer = &H2EBC2E4
-        Public Const dwForceJump as Integer = &H4F11164
-        Public Const dwForceLeft as Integer = &H2EBC2CC
-        Public Const dwForceRight as Integer = &H2EBC2D8
-        Public Const dwGameDir as Integer = &H61A168
-        Public Const dwGameRulesProxy as Integer = &H4F7B4AC
-        Public Const dwGetAllClasses as Integer = &HABFBD4
-        Public Const dwGlobalVars as Integer = &H57C548
-        Public Const dwGlowObjectManager as Integer = &H4F96D50
-        Public Const dwInput as Integer = &H4EC4AB8
-        Public Const dwInterfaceLinkList as Integer = &H6DBF44
-        Public Const dwLocalPlayer as Integer = &HA9D0EC
-        Public Const dwMouseEnable as Integer = &HAA2950
-        Public Const dwMouseEnablePtr as Integer = &HAA2920
-        Public Const dwPlayerResource as Integer = &H2EBA5FC
-        Public Const dwRadarBase as Integer = &H4EAEBEC
-        Public Const dwSensitivity as Integer = &HAA27EC
-        Public Const dwSensitivityPtr as Integer = &HAA27C0
+        Public Const dwEntityList as Integer = &H4A7D0F4
+        Public Const dwForceAttack as Integer = &H2EBF474
+        Public Const dwForceAttack2 as Integer = &H2EBF480
+        Public Const dwForceBackward as Integer = &H2EBF48C
+        Public Const dwForceForward as Integer = &H2EBF480
+        Public Const dwForceJump as Integer = &H4F1437C
+        Public Const dwForceLeft as Integer = &H2EBF4C8
+        Public Const dwForceRight as Integer = &H2EBF4D4
+        Public Const dwGameDir as Integer = &H61B168
+        Public Const dwGameRulesProxy as Integer = &H4F7E6C4
+        Public Const dwGetAllClasses as Integer = &HAC2D44
+        Public Const dwGlobalVars as Integer = &H57D548
+        Public Const dwGlowObjectManager as Integer = &H4F9A128
+        Public Const dwInput as Integer = &H4EC7CD0
+        Public Const dwInterfaceLinkList as Integer = &H6DD564
+        Public Const dwLocalPlayer as Integer = &HAA00FC
+        Public Const dwMouseEnable as Integer = &HAA5960
+        Public Const dwMouseEnablePtr as Integer = &HAA5930
+        Public Const dwPlayerResource as Integer = &H2EBD7EC
+        Public Const dwRadarBase as Integer = &H4EB1DEC
+        Public Const dwSensitivity as Integer = &HAA57FC
+        Public Const dwSensitivityPtr as Integer = &HAA57D0
         Public Const dwSetClanTag as Integer = &H86AB0
-        Public Const dwViewMatrix as Integer = &H4A6B964
-        Public Const dwWeaponTable as Integer = &H4EC56B4
+        Public Const dwViewMatrix as Integer = &H4A6EB34
+        Public Const dwWeaponTable as Integer = &H4EC88CC
         Public Const dwWeaponTableIndex as Integer = &H31FC
-        Public Const dwYawPtr as Integer = &HAA25B0
-        Public Const dwZoomSensitivityRatioPtr as Integer = &HAA7618
-        Public Const dwbSendPackets as Integer = &HCCDCA
+        Public Const dwYawPtr as Integer = &HAA55C0
+        Public Const dwZoomSensitivityRatioPtr as Integer = &HAAA628
+        Public Const dwbSendPackets as Integer = &HCCE1A
         Public Const dwppDirect3DDevice9 as Integer = &HA1F40
         Public Const m_pStudioHdr as Integer = &H293C
     End Class
