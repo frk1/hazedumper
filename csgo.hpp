@@ -1,7 +1,7 @@
 #pragma once
 #include <cstddef>
 
-// 2018-02-09 02:14:48.958113800 UTC
+// 2018-02-16 09:33:19.192676500 UTC
 
 namespace hazedumper {
 namespace netvars {
@@ -64,7 +64,7 @@ constexpr ::std::ptrdiff_t m_vecViewOffset = 0x104;
 constexpr ::std::ptrdiff_t m_viewPunchAngle = 0x3010;
 } // namespace netvars
 namespace signatures {
-constexpr ::std::ptrdiff_t dwClientState = 0x57D844;
+constexpr ::std::ptrdiff_t dwClientState = 0x57D894;
 constexpr ::std::ptrdiff_t dwClientState_GetLocalPlayer = 0x180;
 constexpr ::std::ptrdiff_t dwClientState_IsHLTV = 0x4CC8;
 constexpr ::std::ptrdiff_t dwClientState_Map = 0x28C;
@@ -81,10 +81,10 @@ constexpr ::std::ptrdiff_t dwForceForward = 0x2EBF480;
 constexpr ::std::ptrdiff_t dwForceJump = 0x4F1437C;
 constexpr ::std::ptrdiff_t dwForceLeft = 0x2EBF4C8;
 constexpr ::std::ptrdiff_t dwForceRight = 0x2EBF4D4;
-constexpr ::std::ptrdiff_t dwGameDir = 0x61B168;
+constexpr ::std::ptrdiff_t dwGameDir = 0x61B1F0;
 constexpr ::std::ptrdiff_t dwGameRulesProxy = 0x4F7E6C4;
 constexpr ::std::ptrdiff_t dwGetAllClasses = 0xAC2D44;
-constexpr ::std::ptrdiff_t dwGlobalVars = 0x57D548;
+constexpr ::std::ptrdiff_t dwGlobalVars = 0x57D598;
 constexpr ::std::ptrdiff_t dwGlowObjectManager = 0x4F9A128;
 constexpr ::std::ptrdiff_t dwInput = 0x4EC7CD0;
 constexpr ::std::ptrdiff_t dwInterfaceLinkList = 0x6DD564;
@@ -95,13 +95,13 @@ constexpr ::std::ptrdiff_t dwPlayerResource = 0x2EBD7EC;
 constexpr ::std::ptrdiff_t dwRadarBase = 0x4EB1DEC;
 constexpr ::std::ptrdiff_t dwSensitivity = 0xAA57FC;
 constexpr ::std::ptrdiff_t dwSensitivityPtr = 0xAA57D0;
-constexpr ::std::ptrdiff_t dwSetClanTag = 0x86AB0;
+constexpr ::std::ptrdiff_t dwSetClanTag = 0x87060;
 constexpr ::std::ptrdiff_t dwViewMatrix = 0x4A6EB34;
 constexpr ::std::ptrdiff_t dwWeaponTable = 0x4EC88CC;
 constexpr ::std::ptrdiff_t dwWeaponTableIndex = 0x31FC;
 constexpr ::std::ptrdiff_t dwYawPtr = 0xAA55C0;
 constexpr ::std::ptrdiff_t dwZoomSensitivityRatioPtr = 0xAAA628;
-constexpr ::std::ptrdiff_t dwbSendPackets = 0xCCE1A;
+constexpr ::std::ptrdiff_t dwbSendPackets = 0xCD42A;
 constexpr ::std::ptrdiff_t dwppDirect3DDevice9 = 0xA1F40;
 constexpr ::std::ptrdiff_t m_pStudioHdr = 0x293C;
 } // namespace signatures
