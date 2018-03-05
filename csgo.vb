@@ -1,4 +1,4 @@
-' 2018-03-01 10:02:08.665317800 UTC
+' 2018-03-05 01:26:53.512666900 UTC
 
 Namespace hazedumper
     Public Shared Class netvars
@@ -19,6 +19,7 @@ Namespace hazedumper
         Public Const m_bIsScoped as Integer = &H387E
         Public Const m_bSpotted as Integer = &H939
         Public Const m_bSpottedByMask as Integer = &H97C
+        Public Const m_clrRender as Integer = &H70
         Public Const m_dwBoneMatrix as Integer = &H2698
         Public Const m_fAccuracyPenalty as Integer = &H32B0
         Public Const m_fFlags as Integer = &H100
@@ -55,6 +56,7 @@ Namespace hazedumper
         Public Const m_rgflCoordinateFrame as Integer = &H440
         Public Const m_szCustomName as Integer = &H301C
         Public Const m_szLastPlaceName as Integer = &H3588
+        Public Const m_thirdPersonViewAngles as Integer = &H31C8
         Public Const m_vecOrigin as Integer = &H134
         Public Const m_vecVelocity as Integer = &H110
         Public Const m_vecViewOffset as Integer = &H104

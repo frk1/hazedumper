@@ -690,6 +690,17 @@
       "name": "m_viewPunchAngle",
       "prop": "m_viewPunchAngle",
       "table": "DT_BasePlayer"
+    },
+    {
+      "name": "m_thirdPersonViewAngles",
+      "prop": "deadflag",
+      "offset": 4,
+      "table": "DT_CSPlayer"
+    },
+    {
+      "name": "m_clrRender",
+      "prop": "m_clrRender",
+      "table": "DT_BaseEntity"
     }
   ]
 }

@@ -1,6 +1,6 @@
 using System;
 
-// 2018-03-01 10:02:08.665317800 UTC
+// 2018-03-05 01:26:53.512666900 UTC
 
 namespace hazedumper
 {
@@ -23,6 +23,7 @@ namespace hazedumper
         public const Int32 m_bIsScoped = 0x387E;
         public const Int32 m_bSpotted = 0x939;
         public const Int32 m_bSpottedByMask = 0x97C;
+        public const Int32 m_clrRender = 0x70;
         public const Int32 m_dwBoneMatrix = 0x2698;
         public const Int32 m_fAccuracyPenalty = 0x32B0;
         public const Int32 m_fFlags = 0x100;
@@ -59,6 +60,7 @@ namespace hazedumper
         public const Int32 m_rgflCoordinateFrame = 0x440;
         public const Int32 m_szCustomName = 0x301C;
         public const Int32 m_szLastPlaceName = 0x3588;
+        public const Int32 m_thirdPersonViewAngles = 0x31C8;
         public const Int32 m_vecOrigin = 0x134;
         public const Int32 m_vecVelocity = 0x110;
         public const Int32 m_vecViewOffset = 0x104;

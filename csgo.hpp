@@ -1,7 +1,7 @@
 #pragma once
 #include <cstddef>
 
-// 2018-03-01 10:02:08.665317800 UTC
+// 2018-03-05 01:26:53.512666900 UTC
 
 namespace hazedumper {
 namespace netvars {
@@ -22,6 +22,7 @@ constexpr ::std::ptrdiff_t m_bIsDefusing = 0x3888;
 constexpr ::std::ptrdiff_t m_bIsScoped = 0x387E;
 constexpr ::std::ptrdiff_t m_bSpotted = 0x939;
 constexpr ::std::ptrdiff_t m_bSpottedByMask = 0x97C;
+constexpr ::std::ptrdiff_t m_clrRender = 0x70;
 constexpr ::std::ptrdiff_t m_dwBoneMatrix = 0x2698;
 constexpr ::std::ptrdiff_t m_fAccuracyPenalty = 0x32B0;
 constexpr ::std::ptrdiff_t m_fFlags = 0x100;
@@ -58,6 +59,7 @@ constexpr ::std::ptrdiff_t m_nTickBase = 0x3404;
 constexpr ::std::ptrdiff_t m_rgflCoordinateFrame = 0x440;
 constexpr ::std::ptrdiff_t m_szCustomName = 0x301C;
 constexpr ::std::ptrdiff_t m_szLastPlaceName = 0x3588;
+constexpr ::std::ptrdiff_t m_thirdPersonViewAngles = 0x31C8;
 constexpr ::std::ptrdiff_t m_vecOrigin = 0x134;
 constexpr ::std::ptrdiff_t m_vecVelocity = 0x110;
 constexpr ::std::ptrdiff_t m_vecViewOffset = 0x104;

@@ -1,4 +1,4 @@
-timestamp = 1519898528
+timestamp = 1520213213
 
 [signatures]
 dwClientState = 5757076
@@ -60,6 +60,7 @@ m_bIsDefusing = 14472
 m_bIsScoped = 14462
 m_bSpotted = 2361
 m_bSpottedByMask = 2428
+m_clrRender = 112
 m_dwBoneMatrix = 9880
 m_fAccuracyPenalty = 12976
 m_fFlags = 256
@@ -96,6 +97,7 @@ m_nTickBase = 13316
 m_rgflCoordinateFrame = 1088
 m_szCustomName = 12316
 m_szLastPlaceName = 13704
+m_thirdPersonViewAngles = 12744
 m_vecOrigin = 308
 m_vecVelocity = 272
 m_vecViewOffset = 260
