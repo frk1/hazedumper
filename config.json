@@ -396,6 +396,26 @@
         2
       ],
       "pattern": "8B B6 ? ? ? ? 85 F6 74 05 83 3E 00 75 02 33 F6 F3 0F 10 44 24"
+    },
+    {
+      "name": "m_yawClassPtr",
+      "extra": 0,
+      "relative": true,
+      "module": "client.dll",
+      "offsets": [
+        2
+      ],
+      "pattern": "81 F9 ? ? ? ? 75 16 F3 0F 10 05 ? ? ? ? F3 0F 11 45 ? 81 75 ? ? ? ? ? EB 0A 8B 01 8B 40 30 FF D0 D9 5D 0C 8B 55 08"
+    },
+    {
+      "name": "m_pitchClassPtr",
+      "extra": 0,
+      "relative": true,
+      "module": "client.dll",
+      "offsets": [
+        1
+      ],
+      "pattern": "A1 ? ? ? ? 89 74 24 28"
     }
   ],
   "netvars": [
