@@ -1,4 +1,4 @@
-timestamp = 1522372740
+timestamp = 1522982539
 
 [signatures]
 dwClientState = 5757076
@@ -41,6 +41,8 @@ dwZoomSensitivityRatioPtr = 11209536
 dwbSendPackets = 841178
 dwppDirect3DDevice9 = 663360
 m_pStudioHdr = 10556
+m_pitchClassPtr = 82544656
+m_yawClassPtr = 11188952
 
 [netvars]
 m_ArmorValue = 45624

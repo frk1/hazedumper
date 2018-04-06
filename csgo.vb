@@ -1,4 +1,4 @@
-' 2018-03-30 01:19:00.330718500 UTC
+' 2018-04-06 02:42:19.720583700 UTC
 
 Namespace hazedumper
     Public Shared Class netvars
@@ -103,5 +103,7 @@ Namespace hazedumper
         Public Const dwbSendPackets as Integer = &HCD5DA
         Public Const dwppDirect3DDevice9 as Integer = &HA1F40
         Public Const m_pStudioHdr as Integer = &H293C
+        Public Const m_pitchClassPtr as Integer = &H4EB8810
+        Public Const m_yawClassPtr as Integer = &HAABAD8
     End Class
 End Namespace
