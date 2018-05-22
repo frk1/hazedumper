@@ -1,7 +1,7 @@
 ---
-timestamp: 1525473926
+timestamp: 1527005372
 signatures:
-  dwClientState: 5761108
+  dwClientState: 5765212
   dwClientState_GetLocalPlayer: 384
   dwClientState_IsHLTV: 19656
   dwClientState_Map: 652
@@ -10,39 +10,39 @@ signatures:
   dwClientState_PlayerInfo: 21056
   dwClientState_State: 264
   dwClientState_ViewAngles: 19728
-  dwEntityList: 78128236
-  dwForceAttack: 49039352
-  dwForceAttack2: 49039364
-  dwForceBackward: 49039328
-  dwForceForward: 49039412
-  dwForceJump: 82941708
-  dwForceLeft: 49039340
-  dwForceRight: 49039304
-  dwGameDir: 6408304
-  dwGameRulesProxy: 83376724
-  dwGetAllClasses: 11321964
-  dwGlobalVars: 5760344
-  dwGlowObjectManager: 83490816
-  dwInput: 82628688
-  dwInterfaceLinkList: 7225364
-  dwLocalPlayer: 11172532
-  dwMouseEnable: 11195160
-  dwMouseEnablePtr: 11195112
-  dwPlayerResource: 49032012
-  dwRadarBase: 82538836
-  dwSensitivity: 11194804
-  dwSensitivityPtr: 11194760
+  dwEntityList: 78137148
+  dwForceAttack: 49048264
+  dwForceAttack2: 49048276
+  dwForceBackward: 49048240
+  dwForceForward: 49048324
+  dwForceJump: 82950624
+  dwForceLeft: 49048252
+  dwForceRight: 49048216
+  dwGameDir: 6412400
+  dwGameRulesProxy: 83385636
+  dwGetAllClasses: 11330244
+  dwGlobalVars: 5764448
+  dwGlowObjectManager: 83563752
+  dwInput: 82637600
+  dwInterfaceLinkList: 7234116
+  dwLocalPlayer: 11180724
+  dwMouseEnable: 11203352
+  dwMouseEnablePtr: 11203304
+  dwPlayerResource: 49040924
+  dwRadarBase: 82547748
+  dwSensitivity: 11202996
+  dwSensitivityPtr: 11202952
   dwSetClanTag: 553056
-  dwViewMatrix: 78069380
-  dwWeaponTable: 82631756
+  dwViewMatrix: 78078292
+  dwWeaponTable: 82640668
   dwWeaponTableIndex: 12796
-  dwYawPtr: 11194232
-  dwZoomSensitivityRatioPtr: 11214816
-  dwbSendPackets: 841050
+  dwYawPtr: 11202424
+  dwZoomSensitivityRatioPtr: 11223096
+  dwbSendPackets: 844410
   dwppDirect3DDevice9: 663360
   m_pStudioHdr: 10556
-  m_pitchClassPtr: 82539520
-  m_yawClassPtr: 11194232
+  m_pitchClassPtr: 82548432
+  m_yawClassPtr: 11202424
 netvars:
   m_ArmorValue: 45624
   m_Collision: 792
