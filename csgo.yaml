@@ -1,7 +1,7 @@
 ---
-timestamp: 1527005372
+timestamp: 1527850840
 signatures:
-  dwClientState: 5765212
+  dwClientState: 5765196
   dwClientState_GetLocalPlayer: 384
   dwClientState_IsHLTV: 19656
   dwClientState_Map: 652
@@ -10,39 +10,39 @@ signatures:
   dwClientState_PlayerInfo: 21056
   dwClientState_State: 264
   dwClientState_ViewAngles: 19728
-  dwEntityList: 78137148
-  dwForceAttack: 49048264
-  dwForceAttack2: 49048276
-  dwForceBackward: 49048240
-  dwForceForward: 49048324
-  dwForceJump: 82950624
-  dwForceLeft: 49048252
-  dwForceRight: 49048216
+  dwEntityList: 78141260
+  dwForceAttack: 49052352
+  dwForceAttack2: 49052364
+  dwForceBackward: 49052376
+  dwForceForward: 49052364
+  dwForceJump: 82954736
+  dwForceLeft: 49052436
+  dwForceRight: 49052448
   dwGameDir: 6412400
-  dwGameRulesProxy: 83385636
-  dwGetAllClasses: 11330244
-  dwGlobalVars: 5764448
-  dwGlowObjectManager: 83563752
-  dwInput: 82637600
-  dwInterfaceLinkList: 7234116
-  dwLocalPlayer: 11180724
-  dwMouseEnable: 11203352
-  dwMouseEnablePtr: 11203304
-  dwPlayerResource: 49040924
-  dwRadarBase: 82547748
-  dwSensitivity: 11202996
-  dwSensitivityPtr: 11202952
+  dwGameRulesProxy: 83389748
+  dwGetAllClasses: 11334340
+  dwGlobalVars: 5764432
+  dwGlowObjectManager: 83567936
+  dwInput: 82641712
+  dwInterfaceLinkList: 7234244
+  dwLocalPlayer: 11184820
+  dwMouseEnable: 11207448
+  dwMouseEnablePtr: 11207400
+  dwPlayerResource: 49045036
+  dwRadarBase: 82551860
+  dwSensitivity: 11207092
+  dwSensitivityPtr: 11207048
   dwSetClanTag: 553056
-  dwViewMatrix: 78078292
-  dwWeaponTable: 82640668
+  dwViewMatrix: 78082404
+  dwWeaponTable: 82644780
   dwWeaponTableIndex: 12796
-  dwYawPtr: 11202424
-  dwZoomSensitivityRatioPtr: 11223096
+  dwYawPtr: 11206520
+  dwZoomSensitivityRatioPtr: 11227192
   dwbSendPackets: 844410
   dwppDirect3DDevice9: 663360
   m_pStudioHdr: 10556
-  m_pitchClassPtr: 82548432
-  m_yawClassPtr: 11202424
+  m_pitchClassPtr: 82552544
+  m_yawClassPtr: 11206520
 netvars:
   m_ArmorValue: 45624
   m_Collision: 792
