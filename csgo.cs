@@ -1,6 +1,6 @@
 using System;
 
-// 2018-06-01 11:00:40.256103600 UTC
+// 2018-06-12 22:47:43.375906600 UTC
 
 namespace hazedumper
 {
@@ -105,7 +105,7 @@ namespace hazedumper
         public const Int32 dwWeaponTableIndex = 0x31FC;
         public const Int32 dwYawPtr = 0xAAFF78;
         public const Int32 dwZoomSensitivityRatioPtr = 0xAB5038;
-        public const Int32 dwbSendPackets = 0xCE27A;
+        public const Int32 dwbSendPackets = 0xCE2BA;
         public const Int32 dwppDirect3DDevice9 = 0xA1F40;
         public const Int32 m_pStudioHdr = 0x293C;
         public const Int32 m_pitchClassPtr = 0x4EBA6E0;

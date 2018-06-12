@@ -1,5 +1,5 @@
 ---
-timestamp: 1527850840
+timestamp: 1528843663
 signatures:
   dwClientState: 5765196
   dwClientState_GetLocalPlayer: 384
@@ -38,7 +38,7 @@ signatures:
   dwWeaponTableIndex: 12796
   dwYawPtr: 11206520
   dwZoomSensitivityRatioPtr: 11227192
-  dwbSendPackets: 844410
+  dwbSendPackets: 844474
   dwppDirect3DDevice9: 663360
   m_pStudioHdr: 10556
   m_pitchClassPtr: 82552544

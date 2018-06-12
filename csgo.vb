@@ -1,4 +1,4 @@
-' 2018-06-01 11:00:40.256103600 UTC
+' 2018-06-12 22:47:43.375906600 UTC
 
 Namespace hazedumper
     Public Shared Class netvars
@@ -100,7 +100,7 @@ Namespace hazedumper
         Public Const dwWeaponTableIndex as Integer = &H31FC
         Public Const dwYawPtr as Integer = &HAAFF78
         Public Const dwZoomSensitivityRatioPtr as Integer = &HAB5038
-        Public Const dwbSendPackets as Integer = &HCE27A
+        Public Const dwbSendPackets as Integer = &HCE2BA
         Public Const dwppDirect3DDevice9 as Integer = &HA1F40
         Public Const m_pStudioHdr as Integer = &H293C
         Public Const m_pitchClassPtr as Integer = &H4EBA6E0
