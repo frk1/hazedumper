@@ -1,7 +1,5 @@
 # hazedumper
 
-⚠️ We're currently not supporting the Panorama UI version of CS:GO which came with the update in July 6.th 2018. This is just temporary!
-
 🚀 Up to date offset and dumper-config for Counter-Strike: Global Offensive. For more informations visit the [release page on UnKnoWnCheaTs](https://www.unknowncheats.me/forum/counterstrike-global-offensive/169351-haze-dumper-json-config-based-offset-dumper.html).
 
 ## Informations
