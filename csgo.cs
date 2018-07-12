@@ -1,6 +1,6 @@
 using System;
 
-// 2018-07-07 20:43:47.733435700 UTC
+// 2018-07-12 04:24:49.214387900 UTC
 
 namespace hazedumper
 {
@@ -77,38 +77,38 @@ namespace hazedumper
         public const Int32 dwClientState_PlayerInfo = 0x5240;
         public const Int32 dwClientState_State = 0x108;
         public const Int32 dwClientState_ViewAngles = 0x4D10;
-        public const Int32 dwEntityList = 0x4A913B4;
-        public const Int32 dwForceAttack = 0x2ED3750;
-        public const Int32 dwForceAttack2 = 0x2ED375C;
-        public const Int32 dwForceBackward = 0x2ED3774;
-        public const Int32 dwForceForward = 0x2ED3768;
-        public const Int32 dwForceJump = 0x4F2B890;
-        public const Int32 dwForceLeft = 0x2ED3714;
-        public const Int32 dwForceRight = 0x2ED3720;
+        public const Int32 dwEntityList = 0x4A923D4;
+        public const Int32 dwForceAttack = 0x2ED4740;
+        public const Int32 dwForceAttack2 = 0x2ED474C;
+        public const Int32 dwForceBackward = 0x2ED4758;
+        public const Int32 dwForceForward = 0x2ED474C;
+        public const Int32 dwForceJump = 0x4F2C8C0;
+        public const Int32 dwForceLeft = 0x2ED4794;
+        public const Int32 dwForceRight = 0x2ED47A0;
         public const Int32 dwGameDir = 0x624BE8;
-        public const Int32 dwGameRulesProxy = 0x4F95C2C;
-        public const Int32 dwGetAllClasses = 0xADAAB4;
+        public const Int32 dwGameRulesProxy = 0x4F96C5C;
+        public const Int32 dwGetAllClasses = 0xADBAD4;
         public const Int32 dwGlobalVars = 0x586778;
-        public const Int32 dwGlowObjectManager = 0x4FC0ED0;
-        public const Int32 dwInput = 0x4EDC030;
-        public const Int32 dwInterfaceLinkList = 0x6EF4E4;
-        public const Int32 dwLocalPlayer = 0xAB5D3C;
-        public const Int32 dwMouseEnable = 0xABB6B0;
-        public const Int32 dwMouseEnablePtr = 0xABB680;
-        public const Int32 dwPlayerResource = 0x2ED1A8C;
-        public const Int32 dwRadarBase = 0x4EC609C;
-        public const Int32 dwSensitivity = 0xABB54C;
-        public const Int32 dwSensitivityPtr = 0xABB520;
+        public const Int32 dwGlowObjectManager = 0x4FC1F50;
+        public const Int32 dwInput = 0x4EDD050;
+        public const Int32 dwInterfaceLinkList = 0x6EFD14;
+        public const Int32 dwLocalPlayer = 0xAB6D5C;
+        public const Int32 dwMouseEnable = 0xABC6D0;
+        public const Int32 dwMouseEnablePtr = 0xABC6A0;
+        public const Int32 dwPlayerResource = 0x2ED2AAC;
+        public const Int32 dwRadarBase = 0x4EC70BC;
+        public const Int32 dwSensitivity = 0xABC56C;
+        public const Int32 dwSensitivityPtr = 0xABC540;
         public const Int32 dwSetClanTag = 0x88680;
-        public const Int32 dwViewMatrix = 0x4A82DE4;
-        public const Int32 dwWeaponTable = 0x4EDCACC;
+        public const Int32 dwViewMatrix = 0x4A83E04;
+        public const Int32 dwWeaponTable = 0x4EDDAEC;
         public const Int32 dwWeaponTableIndex = 0x322C;
-        public const Int32 dwYawPtr = 0xABB310;
-        public const Int32 dwZoomSensitivityRatioPtr = 0xAC03D0;
-        public const Int32 dwbSendPackets = 0xD06EA;
+        public const Int32 dwYawPtr = 0xABC330;
+        public const Int32 dwZoomSensitivityRatioPtr = 0xAC13F0;
+        public const Int32 dwbSendPackets = 0xD080A;
         public const Int32 dwppDirect3DDevice9 = 0xA2F20;
         public const Int32 m_pStudioHdr = 0x293C;
-        public const Int32 m_pitchClassPtr = 0x4EC6348;
-        public const Int32 m_yawClassPtr = 0xABB310;
+        public const Int32 m_pitchClassPtr = 0x4EC7368;
+        public const Int32 m_yawClassPtr = 0xABC330;
     }
 } // namespace hazedumper
