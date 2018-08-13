@@ -1,4 +1,4 @@
-timestamp = 1533813295
+timestamp = 1534148230
 
 [signatures]
 dwClientState = 5794420
@@ -66,10 +66,14 @@ m_clrRender = 112
 m_dwBoneMatrix = 9880
 m_fAccuracyPenalty = 13024
 m_fFlags = 256
+m_flC4Blow = 10624
+m_flDefuseCountDown = 10648
+m_flDefuseLength = 10644
 m_flFallbackWear = 12720
 m_flFlashDuration = 41736
 m_flFlashMaxAlpha = 41732
 m_flNextPrimaryAttack = 12808
+m_flTimerLength = 10628
 m_hActiveWeapon = 12008
 m_hMyWeapons = 11752
 m_hObserverTarget = 13152

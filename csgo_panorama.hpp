@@ -1,9 +1,10 @@
 #pragma once
-#include <cstddef>
+#include <cstdint>
 
-// 2018-08-09 11:14:55.190362700 UTC
+// 2018-08-13 08:17:10.362292 UTC
 
 namespace hazedumper {
+constexpr ::std::int64_t timestamp = 1534148230;
 namespace netvars {
 constexpr ::std::ptrdiff_t m_ArmorValue = 0xB24C;
 constexpr ::std::ptrdiff_t m_Collision = 0x318;
@@ -26,10 +27,14 @@ constexpr ::std::ptrdiff_t m_clrRender = 0x70;
 constexpr ::std::ptrdiff_t m_dwBoneMatrix = 0x2698;
 constexpr ::std::ptrdiff_t m_fAccuracyPenalty = 0x32E0;
 constexpr ::std::ptrdiff_t m_fFlags = 0x100;
+constexpr ::std::ptrdiff_t m_flC4Blow = 0x2980;
+constexpr ::std::ptrdiff_t m_flDefuseCountDown = 0x2998;
+constexpr ::std::ptrdiff_t m_flDefuseLength = 0x2994;
 constexpr ::std::ptrdiff_t m_flFallbackWear = 0x31B0;
 constexpr ::std::ptrdiff_t m_flFlashDuration = 0xA308;
 constexpr ::std::ptrdiff_t m_flFlashMaxAlpha = 0xA304;
 constexpr ::std::ptrdiff_t m_flNextPrimaryAttack = 0x3208;
+constexpr ::std::ptrdiff_t m_flTimerLength = 0x2984;
 constexpr ::std::ptrdiff_t m_hActiveWeapon = 0x2EE8;
 constexpr ::std::ptrdiff_t m_hMyWeapons = 0x2DE8;
 constexpr ::std::ptrdiff_t m_hObserverTarget = 0x3360;

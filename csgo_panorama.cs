@@ -1,9 +1,10 @@
 using System;
 
-// 2018-08-09 11:14:55.190362700 UTC
+// 2018-08-13 08:17:10.362292 UTC
 
 namespace hazedumper
 {
+    public const Int32 timestamp = 1534148230;
     public static class netvars
     {
         public const Int32 m_ArmorValue = 0xB24C;
@@ -27,10 +28,14 @@ namespace hazedumper
         public const Int32 m_dwBoneMatrix = 0x2698;
         public const Int32 m_fAccuracyPenalty = 0x32E0;
         public const Int32 m_fFlags = 0x100;
+        public const Int32 m_flC4Blow = 0x2980;
+        public const Int32 m_flDefuseCountDown = 0x2998;
+        public const Int32 m_flDefuseLength = 0x2994;
         public const Int32 m_flFallbackWear = 0x31B0;
         public const Int32 m_flFlashDuration = 0xA308;
         public const Int32 m_flFlashMaxAlpha = 0xA304;
         public const Int32 m_flNextPrimaryAttack = 0x3208;
+        public const Int32 m_flTimerLength = 0x2984;
         public const Int32 m_hActiveWeapon = 0x2EE8;
         public const Int32 m_hMyWeapons = 0x2DE8;
         public const Int32 m_hObserverTarget = 0x3360;

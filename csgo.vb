@@ -1,6 +1,7 @@
-' 2018-08-09 11:16:05.356984200 UTC
+' 2018-08-13 08:17:48.653578700 UTC
 
 Namespace hazedumper
+    Public Const timestamp as Integer = &H5B713EAC
     Public Shared Class netvars
         Public Const m_ArmorValue as Integer = &HB24C
         Public Const m_Collision as Integer = &H318
@@ -23,10 +24,14 @@ Namespace hazedumper
         Public Const m_dwBoneMatrix as Integer = &H2698
         Public Const m_fAccuracyPenalty as Integer = &H32E0
         Public Const m_fFlags as Integer = &H100
+        Public Const m_flC4Blow as Integer = &H2980
+        Public Const m_flDefuseCountDown as Integer = &H2998
+        Public Const m_flDefuseLength as Integer = &H2994
         Public Const m_flFallbackWear as Integer = &H31B0
         Public Const m_flFlashDuration as Integer = &HA308
         Public Const m_flFlashMaxAlpha as Integer = &HA304
         Public Const m_flNextPrimaryAttack as Integer = &H3208
+        Public Const m_flTimerLength as Integer = &H2984
         Public Const m_hActiveWeapon as Integer = &H2EE8
         Public Const m_hMyWeapons as Integer = &H2DE8
         Public Const m_hObserverTarget as Integer = &H3360
