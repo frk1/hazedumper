@@ -721,6 +721,26 @@
       "name": "m_clrRender",
       "prop": "m_clrRender",
       "table": "DT_BaseEntity"
+    },
+    {
+      "name": "m_flC4Blow",
+      "prop": "m_flC4Blow",
+      "table": "DT_PlantedC4"
+    },
+    {
+      "name": "m_flTimerLength",
+      "prop": "m_flTimerLength",
+      "table": "DT_PlantedC4"
+    },
+    {
+      "name": "m_flDefuseLength",
+      "prop": "m_flDefuseLength",
+      "table": "DT_PlantedC4"
+    },
+    {
+      "name": "m_flDefuseCountDown",
+      "prop": "m_flDefuseCountDown",
+      "table": "DT_PlantedC4"
     }
   ]
 }
