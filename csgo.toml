@@ -1,4 +1,4 @@
-timestamp = 1534587617
+timestamp = 1534961990
 
 [signatures]
 dwClientState = 5794420
@@ -20,29 +20,29 @@ dwForceLeft = 50833544
 dwForceRight = 50833532
 dwGameDir = 6441968
 dwGameRulesProxy = 85254436
-dwGetAllClasses = 13099828
+dwGetAllClasses = 13099844
 dwGlobalVars = 5793656
 dwGlowObjectManager = 85429848
 dwInput = 84426200
 dwInterfaceLinkList = 8744036
-dwLocalPlayer = 12961884
-dwMouseEnable = 12984872
-dwMouseEnablePtr = 12984824
+dwLocalPlayer = 12961900
+dwMouseEnable = 12984888
+dwMouseEnablePtr = 12984840
 dwPlayerResource = 50826204
 dwRadarBase = 84336196
-dwSensitivity = 12984516
-dwSensitivityPtr = 12984472
+dwSensitivity = 12984532
+dwSensitivityPtr = 12984488
 dwSetClanTag = 558656
 dwViewMatrix = 79866740
 dwWeaponTable = 84428924
 dwWeaponTableIndex = 12844
-dwYawPtr = 12983944
-dwZoomSensitivityRatioPtr = 13004616
+dwYawPtr = 12983960
+dwZoomSensitivityRatioPtr = 13004632
 dwbSendPackets = 854058
 dwppDirect3DDevice9 = 667424
 m_pStudioHdr = 10556
 m_pitchClassPtr = 84336880
-m_yawClassPtr = 12983944
+m_yawClassPtr = 12983960
 
 [netvars]
 m_ArmorValue = 45644
