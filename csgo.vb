@@ -1,7 +1,7 @@
-' 2018-09-11 19:20:35.035671700 UTC
+' 2018-09-12 08:32:48.768424600 UTC
 
 Namespace hazedumper
-    Public Const timestamp as Integer = &H5B981583
+    Public Const timestamp as Integer = &H5B98CF30
     Public Shared Class netvars
         Public Const m_ArmorValue as Integer = &HB24C
         Public Const m_Collision as Integer = &H318
@@ -77,38 +77,38 @@ Namespace hazedumper
         Public Const dwClientState_PlayerInfo as Integer = &H5240
         Public Const dwClientState_State as Integer = &H108
         Public Const dwClientState_ViewAngles as Integer = &H4D10
-        Public Const dwEntityList as Integer = &H4C3E1B4
-        Public Const dwForceAttack as Integer = &H307F8A8
-        Public Const dwForceAttack2 as Integer = &H307F8B4
-        Public Const dwForceBackward as Integer = &H307F8FC
-        Public Const dwForceForward as Integer = &H307F8D8
-        Public Const dwForceJump as Integer = &H50E0E78
-        Public Const dwForceLeft as Integer = &H307F8F0
-        Public Const dwForceRight as Integer = &H307F878
+        Public Const dwEntityList as Integer = &H4C3B384
+        Public Const dwForceAttack as Integer = &H307CA78
+        Public Const dwForceAttack2 as Integer = &H307CA84
+        Public Const dwForceBackward as Integer = &H307CACC
+        Public Const dwForceForward as Integer = &H307CAA8
+        Public Const dwForceJump as Integer = &H50DE048
+        Public Const dwForceLeft as Integer = &H307CAC0
+        Public Const dwForceRight as Integer = &H307CA48
         Public Const dwGameDir as Integer = &H626CF0
-        Public Const dwGameRulesProxy as Integer = &H5153194
-        Public Const dwGetAllClasses as Integer = &HC833A4
+        Public Const dwGameRulesProxy as Integer = &H5150364
+        Public Const dwGetAllClasses as Integer = &HC803A4
         Public Const dwGlobalVars as Integer = &H588778
-        Public Const dwGlowObjectManager as Integer = &H517D4A8
-        Public Const dwInput as Integer = &H5088E30
-        Public Const dwInterfaceLinkList as Integer = &H85A754
-        Public Const dwLocalPlayer as Integer = &HC6187C
-        Public Const dwMouseEnable as Integer = &HC67248
-        Public Const dwMouseEnablePtr as Integer = &HC67218
-        Public Const dwPlayerResource as Integer = &H307DC2C
-        Public Const dwRadarBase as Integer = &H5072E9C
-        Public Const dwSensitivity as Integer = &HC670E4
-        Public Const dwSensitivityPtr as Integer = &HC670B8
+        Public Const dwGlowObjectManager as Integer = &H517A668
+        Public Const dwInput as Integer = &H5086000
+        Public Const dwInterfaceLinkList as Integer = &H858164
+        Public Const dwLocalPlayer as Integer = &HC5E87C
+        Public Const dwMouseEnable as Integer = &HC64248
+        Public Const dwMouseEnablePtr as Integer = &HC64218
+        Public Const dwPlayerResource as Integer = &H307ADFC
+        Public Const dwRadarBase as Integer = &H507006C
+        Public Const dwSensitivity as Integer = &HC640E4
+        Public Const dwSensitivityPtr as Integer = &HC640B8
         Public Const dwSetClanTag as Integer = &H886E0
-        Public Const dwViewMatrix as Integer = &H4C2FBE4
-        Public Const dwWeaponTable as Integer = &H50898D0
+        Public Const dwViewMatrix as Integer = &H4C2CDB4
+        Public Const dwWeaponTable as Integer = &H5086AA0
         Public Const dwWeaponTableIndex as Integer = &H322C
-        Public Const dwYawPtr as Integer = &HC66EA8
-        Public Const dwZoomSensitivityRatioPtr as Integer = &HC6BF68
+        Public Const dwYawPtr as Integer = &HC63EA8
+        Public Const dwZoomSensitivityRatioPtr as Integer = &HC68F68
         Public Const dwbSendPackets as Integer = &HD096A
         Public Const dwppDirect3DDevice9 as Integer = &HA2F20
         Public Const m_pStudioHdr as Integer = &H293C
-        Public Const m_pitchClassPtr as Integer = &H5073148
-        Public Const m_yawClassPtr as Integer = &HC66EA8
+        Public Const m_pitchClassPtr as Integer = &H5070318
+        Public Const m_yawClassPtr as Integer = &HC63EA8
     End Class
 End Namespace
