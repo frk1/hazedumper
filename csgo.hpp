@@ -1,10 +1,10 @@
 #pragma once
 #include <cstdint>
 
-// 2018-09-12 08:32:48.768424600 UTC
+// 2018-09-17 17:02:04.865039800 UTC
 
 namespace hazedumper {
-constexpr ::std::int64_t timestamp = 1536741168;
+constexpr ::std::int64_t timestamp = 1537203724;
 namespace netvars {
 constexpr ::std::ptrdiff_t m_ArmorValue = 0xB24C;
 constexpr ::std::ptrdiff_t m_Collision = 0x318;
@@ -94,7 +94,7 @@ constexpr ::std::ptrdiff_t dwGetAllClasses = 0xC803A4;
 constexpr ::std::ptrdiff_t dwGlobalVars = 0x588778;
 constexpr ::std::ptrdiff_t dwGlowObjectManager = 0x517A668;
 constexpr ::std::ptrdiff_t dwInput = 0x5086000;
-constexpr ::std::ptrdiff_t dwInterfaceLinkList = 0x858164;
+constexpr ::std::ptrdiff_t dwInterfaceLinkList = 0x858254;
 constexpr ::std::ptrdiff_t dwLocalPlayer = 0xC5E87C;
 constexpr ::std::ptrdiff_t dwMouseEnable = 0xC64248;
 constexpr ::std::ptrdiff_t dwMouseEnablePtr = 0xC64218;
