@@ -416,6 +416,26 @@
         1
       ],
       "pattern": "A1 ? ? ? ? 89 74 24 28"
+    },
+    {
+        "name": "interface_engine_cvar",
+        "extra": 0,
+        "relative": true,
+        "module": "vstdlib.dll",
+        "offsets": [
+            2
+        ],
+        "pattern": "8B 0D ? ? ? ? C7 05"
+    },
+    {
+        "name": "convar_name_hash_table",
+        "extra": 0,
+        "relative": true,
+        "module": "vstdlib.dll",
+        "offsets": [
+            3
+        ],
+        "pattern": "8B 3C 85"
     }
   ],
   "netvars": [
