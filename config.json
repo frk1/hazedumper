@@ -93,6 +93,16 @@
       "pattern": "F3 0F 11 80 ? ? ? ? D9 46 04 D9 05"
     },
     {
+        "name": "m_nDeltaTicks",
+        "extra": 0,
+        "relative": false,
+        "module": "engine.dll",
+        "offsets": [
+            2
+        ],
+        "pattern": "C7 87 ? ? ? ? ? ? ? ? FF 15 ? ? ? ? 83 C4 08"
+    },
+    {
       "name": "dwEntityList",
       "extra": 0,
       "relative": true,
