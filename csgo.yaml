@@ -1,5 +1,5 @@
 ---
-timestamp: 1539361071
+timestamp: 1539370268
 signatures:
   convar_name_hash_table: 192760
   dwClientState: 5806900
@@ -42,6 +42,7 @@ signatures:
   dwbSendPackets: 856154
   dwppDirect3DDevice9: 667424
   interface_engine_cvar: 256492
+  m_nDeltaTicks: 372
   m_pStudioHdr: 10556
   m_pitchClassPtr: 84350088
   m_yawClassPtr: 12996296
