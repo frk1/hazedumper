@@ -93,7 +93,7 @@
       "pattern": "F3 0F 11 80 ? ? ? ? D9 46 04 D9 05"
     },
     {
-        "name": "m_nDeltaTicks",
+        "name": "clientstate_delta_ticks",
         "extra": 0,
         "relative": false,
         "module": "engine.dll",
@@ -101,6 +101,26 @@
             2
         ],
         "pattern": "C7 87 ? ? ? ? ? ? ? ? FF 15 ? ? ? ? 83 C4 08"
+    },
+    {
+        "name": "clientstate_last_outgoing_command",
+        "extra": 0,
+        "relative": false,
+        "module": "engine.dll",
+        "offsets": [
+            2
+        ],
+        "pattern": "8B 8F ? ? ? ? 8B 87 ? ? ? ? 41"
+    },
+    {
+        "name": "clientstate_choked_commands",
+        "extra": 0,
+        "relative": false,
+        "module": "engine.dll",
+        "offsets": [
+            2
+        ],
+        "pattern": "8B 87 ? ? ? ? 41"
     },
     {
       "name": "dwEntityList",
