@@ -1,10 +1,10 @@
 using System;
 
-// 2018-10-12 18:51:08.287016 UTC
+// 2018-10-13 00:47:49.044290500 UTC
 
 namespace hazedumper
 {
-    public const Int32 timestamp = 1539370268;
+    public const Int32 timestamp = 1539391669;
     public static class netvars
     {
         public const Int32 m_ArmorValue = 0xB25C;
@@ -73,6 +73,9 @@ namespace hazedumper
     }
     public static class signatures
     {
+        public const Int32 clientstate_choked_commands = 0x4CB0;
+        public const Int32 clientstate_delta_ticks = 0x174;
+        public const Int32 clientstate_last_outgoing_command = 0x4CAC;
         public const Int32 convar_name_hash_table = 0x2F0F8;
         public const Int32 dwClientState = 0x589B34;
         public const Int32 dwClientState_GetLocalPlayer = 0x180;
@@ -114,7 +117,6 @@ namespace hazedumper
         public const Int32 dwbSendPackets = 0xD105A;
         public const Int32 dwppDirect3DDevice9 = 0xA2F20;
         public const Int32 interface_engine_cvar = 0x3E9EC;
-        public const Int32 m_nDeltaTicks = 0x174;
         public const Int32 m_pStudioHdr = 0x293C;
         public const Int32 m_pitchClassPtr = 0x5071488;
         public const Int32 m_yawClassPtr = 0xC64EC8;

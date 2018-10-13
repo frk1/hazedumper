@@ -1,10 +1,10 @@
 #pragma once
 #include <cstdint>
 
-// 2018-10-12 18:51:08.287016 UTC
+// 2018-10-13 00:47:49.044290500 UTC
 
 namespace hazedumper {
-constexpr ::std::int64_t timestamp = 1539370268;
+constexpr ::std::int64_t timestamp = 1539391669;
 namespace netvars {
 constexpr ::std::ptrdiff_t m_ArmorValue = 0xB25C;
 constexpr ::std::ptrdiff_t m_Collision = 0x318;
@@ -71,6 +71,9 @@ constexpr ::std::ptrdiff_t m_vecViewOffset = 0x104;
 constexpr ::std::ptrdiff_t m_viewPunchAngle = 0x3010;
 } // namespace netvars
 namespace signatures {
+constexpr ::std::ptrdiff_t clientstate_choked_commands = 0x4CB0;
+constexpr ::std::ptrdiff_t clientstate_delta_ticks = 0x174;
+constexpr ::std::ptrdiff_t clientstate_last_outgoing_command = 0x4CAC;
 constexpr ::std::ptrdiff_t convar_name_hash_table = 0x2F0F8;
 constexpr ::std::ptrdiff_t dwClientState = 0x589B34;
 constexpr ::std::ptrdiff_t dwClientState_GetLocalPlayer = 0x180;
@@ -112,7 +115,6 @@ constexpr ::std::ptrdiff_t dwZoomSensitivityRatioPtr = 0xC69F88;
 constexpr ::std::ptrdiff_t dwbSendPackets = 0xD105A;
 constexpr ::std::ptrdiff_t dwppDirect3DDevice9 = 0xA2F20;
 constexpr ::std::ptrdiff_t interface_engine_cvar = 0x3E9EC;
-constexpr ::std::ptrdiff_t m_nDeltaTicks = 0x174;
 constexpr ::std::ptrdiff_t m_pStudioHdr = 0x293C;
 constexpr ::std::ptrdiff_t m_pitchClassPtr = 0x5071488;
 constexpr ::std::ptrdiff_t m_yawClassPtr = 0xC64EC8;

@@ -1,7 +1,7 @@
-' 2018-10-12 18:51:08.287016 UTC
+' 2018-10-13 00:47:49.044290500 UTC
 
 Namespace hazedumper
-    Public Const timestamp as Integer = &H5BC0ED1C
+    Public Const timestamp as Integer = &H5BC140B5
     Public Shared Class netvars
         Public Const m_ArmorValue as Integer = &HB25C
         Public Const m_Collision as Integer = &H318
@@ -68,6 +68,9 @@ Namespace hazedumper
         Public Const m_viewPunchAngle as Integer = &H3010
     End Class
     Public Shared Class signatures
+        Public Const clientstate_choked_commands as Integer = &H4CB0
+        Public Const clientstate_delta_ticks as Integer = &H174
+        Public Const clientstate_last_outgoing_command as Integer = &H4CAC
         Public Const convar_name_hash_table as Integer = &H2F0F8
         Public Const dwClientState as Integer = &H589B34
         Public Const dwClientState_GetLocalPlayer as Integer = &H180
@@ -109,7 +112,6 @@ Namespace hazedumper
         Public Const dwbSendPackets as Integer = &HD105A
         Public Const dwppDirect3DDevice9 as Integer = &HA2F20
         Public Const interface_engine_cvar as Integer = &H3E9EC
-        Public Const m_nDeltaTicks as Integer = &H174
         Public Const m_pStudioHdr as Integer = &H293C
         Public Const m_pitchClassPtr as Integer = &H5071488
         Public Const m_yawClassPtr as Integer = &HC64EC8

@@ -1,6 +1,9 @@
 {
-  "timestamp": 1539370268,
+  "timestamp": 1539391669,
   "signatures": {
+    "clientstate_choked_commands": 19632,
+    "clientstate_delta_ticks": 372,
+    "clientstate_last_outgoing_command": 19628,
     "convar_name_hash_table": 192760,
     "dwClientState": 5806900,
     "dwClientState_GetLocalPlayer": 384,
@@ -42,7 +45,6 @@
     "dwbSendPackets": 856154,
     "dwppDirect3DDevice9": 667424,
     "interface_engine_cvar": 256492,
-    "m_nDeltaTicks": 372,
     "m_pStudioHdr": 10556,
     "m_pitchClassPtr": 84350088,
     "m_yawClassPtr": 12996296
