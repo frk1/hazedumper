@@ -1,11 +1,11 @@
 ---
-timestamp: 1539391669
+timestamp: 1540317774
 signatures:
   clientstate_choked_commands: 19632
   clientstate_delta_ticks: 372
   clientstate_last_outgoing_command: 19628
   convar_name_hash_table: 192760
-  dwClientState: 5806900
+  dwClientState: 5802804
   dwClientState_GetLocalPlayer: 384
   dwClientState_IsHLTV: 19656
   dwClientState_Map: 652
@@ -14,42 +14,42 @@ signatures:
   dwClientState_PlayerInfo: 21056
   dwClientState_State: 264
   dwClientState_ViewAngles: 19728
-  dwEntityList: 79938804
-  dwForceAttack: 50846648
-  dwForceAttack2: 50846660
-  dwForceBackward: 50846708
-  dwForceForward: 50846672
-  dwForceJump: 84799928
-  dwForceLeft: 50846696
-  dwForceRight: 50846732
-  dwGameDir: 6454768
-  dwGameRulesProxy: 85267668
-  dwGetAllClasses: 13112436
-  dwGlobalVars: 5806136
-  dwGlowObjectManager: 85440256
-  dwInput: 84439408
-  dwInterfaceLinkList: 8752420
-  dwLocalPlayer: 12974236
-  dwMouseEnable: 12997224
-  dwMouseEnablePtr: 12997176
-  dwPlayerResource: 50839404
-  dwRadarBase: 84349404
-  dwSensitivity: 12996868
-  dwSensitivityPtr: 12996824
-  dwSetClanTag: 560016
-  dwViewMatrix: 79879972
-  dwWeaponTable: 84442128
+  dwEntityList: 79947300
+  dwForceAttack: 50855156
+  dwForceAttack2: 50855168
+  dwForceBackward: 50855240
+  dwForceForward: 50855252
+  dwForceJump: 84808556
+  dwForceLeft: 50855276
+  dwForceRight: 50855264
+  dwGameDir: 6450288
+  dwGameRulesProxy: 85276308
+  dwGetAllClasses: 13120740
+  dwGlobalVars: 5802040
+  dwGlowObjectManager: 85448864
+  dwInput: 84447968
+  dwInterfaceLinkList: 8759044
+  dwLocalPlayer: 12982444
+  dwMouseEnable: 13005432
+  dwMouseEnablePtr: 13005384
+  dwPlayerResource: 50847900
+  dwRadarBase: 84357900
+  dwSensitivity: 13005076
+  dwSensitivityPtr: 13005032
+  dwSetClanTag: 559824
+  dwViewMatrix: 79888468
+  dwWeaponTable: 84450684
   dwWeaponTableIndex: 12844
-  dwYawPtr: 12996296
-  dwZoomSensitivityRatioPtr: 13016968
-  dwbSendPackets: 856154
+  dwYawPtr: 13004504
+  dwZoomSensitivityRatioPtr: 13025176
+  dwbSendPackets: 856026
   dwppDirect3DDevice9: 667424
   interface_engine_cvar: 256492
   m_pStudioHdr: 10556
-  m_pitchClassPtr: 84350088
-  m_yawClassPtr: 12996296
+  m_pitchClassPtr: 84358584
+  m_yawClassPtr: 13004504
 netvars:
-  m_ArmorValue: 45660
+  m_ArmorValue: 45680
   m_Collision: 792
   m_CollisionGroup: 1136
   m_Local: 12204
@@ -58,12 +58,12 @@ netvars:
   m_OriginalOwnerXuidLow: 12704
   m_aimPunchAngle: 12316
   m_aimPunchAngleVel: 12328
-  m_bGunGameImmunity: 14516
-  m_bHasDefuser: 45676
-  m_bHasHelmet: 45648
+  m_bGunGameImmunity: 14528
+  m_bHasDefuser: 45696
+  m_bHasHelmet: 45668
   m_bInReload: 12917
-  m_bIsDefusing: 14504
-  m_bIsScoped: 14494
+  m_bIsDefusing: 14516
+  m_bIsScoped: 14506
   m_bSpotted: 2361
   m_bSpottedByMask: 2428
   m_clrRender: 112
@@ -74,8 +74,8 @@ netvars:
   m_flDefuseCountDown: 10648
   m_flDefuseLength: 10644
   m_flFallbackWear: 12720
-  m_flFlashDuration: 41752
-  m_flFlashMaxAlpha: 41748
+  m_flFlashDuration: 41772
+  m_flFlashMaxAlpha: 41768
   m_flNextPrimaryAttack: 12808
   m_flTimerLength: 10628
   m_hActiveWeapon: 12008
@@ -87,15 +87,15 @@ netvars:
   m_iClip1: 12852
   m_iCompetitiveRanking: 6788
   m_iCompetitiveWins: 7048
-  m_iCrosshairId: 45768
+  m_iCrosshairId: 45788
   m_iEntityQuality: 12188
   m_iFOVStart: 12760
-  m_iGlowIndex: 41776
+  m_iGlowIndex: 41796
   m_iHealth: 252
   m_iItemDefinitionIndex: 12186
   m_iItemIDHigh: 12208
   m_iObserverMode: 13132
-  m_iShotsFired: 41680
+  m_iShotsFired: 41696
   m_iState: 12840
   m_iTeamNum: 240
   m_lifeState: 603
