@@ -1,7 +1,7 @@
-' 2018-10-23 18:02:54.864856500 UTC
+' 2018-10-24 06:36:06.870036800 UTC
 
 Namespace hazedumper
-    Public Const timestamp as Integer = &H5BCF624E
+    Public Const timestamp as Integer = &H5BD012D6
     Public Shared Class netvars
         Public Const m_ArmorValue as Integer = &HB270
         Public Const m_Collision as Integer = &H318

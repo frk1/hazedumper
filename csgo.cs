@@ -1,10 +1,10 @@
 using System;
 
-// 2018-10-23 18:02:54.864856500 UTC
+// 2018-10-24 06:36:06.870036800 UTC
 
 namespace hazedumper
 {
-    public const Int32 timestamp = 1540317774;
+    public const Int32 timestamp = 1540362966;
     public static class netvars
     {
         public const Int32 m_ArmorValue = 0xB270;
