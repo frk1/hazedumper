@@ -1,9 +1,10 @@
 ---
-timestamp: 1540899252
+timestamp: 1541039731
 signatures:
   clientstate_choked_commands: 19632
   clientstate_delta_ticks: 372
   clientstate_last_outgoing_command: 19628
+  clientstate_net_channel: 156
   convar_name_hash_table: 192760
   dwClientState: 5802804
   dwClientState_GetLocalPlayer: 384

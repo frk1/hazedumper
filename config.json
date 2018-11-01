@@ -123,6 +123,16 @@
         "pattern": "8B 87 ? ? ? ? 41"
     },
     {
+      "name": "clientstate_net_channel",
+      "extra": 0,
+      "relative": false,
+      "module": "engine.dll",
+      "offsets": [
+        2
+      ],
+      "pattern": "8B 8F ? ? ? ? 8B 01 8B 40 18"
+    },
+    {
       "name": "dwEntityList",
       "extra": 0,
       "relative": true,

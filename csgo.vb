@@ -1,7 +1,7 @@
-' 2018-10-30 11:34:12.494732400 UTC
+' 2018-11-01 02:35:31.962194400 UTC
 
 Namespace hazedumper
-    Public Const timestamp as Integer = &H5BD841B4
+    Public Const timestamp as Integer = &H5BDA6673
     Public Shared Class netvars
         Public Const m_ArmorValue as Integer = &HB270
         Public Const m_Collision as Integer = &H318
@@ -71,6 +71,7 @@ Namespace hazedumper
         Public Const clientstate_choked_commands as Integer = &H4CB0
         Public Const clientstate_delta_ticks as Integer = &H174
         Public Const clientstate_last_outgoing_command as Integer = &H4CAC
+        Public Const clientstate_net_channel as Integer = &H9C
         Public Const convar_name_hash_table as Integer = &H2F0F8
         Public Const dwClientState as Integer = &H588B34
         Public Const dwClientState_GetLocalPlayer as Integer = &H180
