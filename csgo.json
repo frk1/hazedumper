@@ -1,5 +1,5 @@
 {
-  "timestamp": 1541526845,
+  "timestamp": 1541591543,
   "signatures": {
     "clientstate_choked_commands": 19632,
     "clientstate_delta_ticks": 372,
@@ -29,7 +29,7 @@
     "dwGlobalVars": 5802040,
     "dwGlowObjectManager": 85457216,
     "dwInput": 84456224,
-    "dwInterfaceLinkList": 8762868,
+    "dwInterfaceLinkList": 8762932,
     "dwLocalPlayer": 12990636,
     "dwMouseEnable": 13013624,
     "dwMouseEnablePtr": 13013576,

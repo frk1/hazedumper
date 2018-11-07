@@ -1,7 +1,7 @@
-' 2018-11-06 17:54:05.766811600 UTC
+' 2018-11-07 11:52:23.128536100 UTC
 
 Namespace hazedumper
-    Public Const timestamp as Integer = &H5BE1D53D
+    Public Const timestamp as Integer = &H5BE2D1F7
     Public Shared Class netvars
         Public Const m_ArmorValue as Integer = &HB270
         Public Const m_Collision as Integer = &H318
@@ -96,7 +96,7 @@ Namespace hazedumper
         Public Const dwGlobalVars as Integer = &H588838
         Public Const dwGlowObjectManager as Integer = &H517F940
         Public Const dwInput as Integer = &H508B320
-        Public Const dwInterfaceLinkList as Integer = &H85B5F4
+        Public Const dwInterfaceLinkList as Integer = &H85B634
         Public Const dwLocalPlayer as Integer = &HC638AC
         Public Const dwMouseEnable as Integer = &HC69278
         Public Const dwMouseEnablePtr as Integer = &HC69248
