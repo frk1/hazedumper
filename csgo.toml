@@ -1,4 +1,4 @@
-timestamp = 1542298876
+timestamp = 1543493573
 
 [signatures]
 clientstate_choked_commands = 19632
@@ -43,7 +43,7 @@ dwWeaponTable = 84463196
 dwWeaponTableIndex = 12844
 dwYawPtr = 13016792
 dwZoomSensitivityRatioPtr = 13037464
-dwbSendPackets = 856586
+dwbSendPackets = 856682
 dwppDirect3DDevice9 = 671520
 interface_engine_cvar = 256492
 m_pStudioHdr = 10556
