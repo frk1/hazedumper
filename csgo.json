@@ -1,5 +1,5 @@
 {
-  "timestamp": 1544172444,
+  "timestamp": 1544188105,
   "signatures": {
     "clientstate_choked_commands": 19632,
     "clientstate_delta_ticks": 372,
@@ -47,7 +47,7 @@
     "dwppDirect3DDevice9": 671552,
     "interface_engine_cvar": 256492,
     "m_pStudioHdr": 10572,
-    "m_pitchClassPtr": 84903624,
+    "m_pitchClassPtr": 151453742,
     "m_yawClassPtr": 13340224
   },
   "netvars": {
