@@ -1,4 +1,4 @@
-timestamp = 1544228811
+timestamp = 1544297203
 
 [signatures]
 clientstate_choked_commands = 19632
@@ -27,9 +27,9 @@ dwGameDir = 6458992
 dwGameRulesProxy = 85821876
 dwGetAllClasses = 13464996
 dwGlobalVars = 5810688
-dwGlowObjectManager = 85996184
+dwGlowObjectManager = 85996168
 dwInput = 84992680
-dwInterfaceLinkList = 9005076
+dwInterfaceLinkList = 9004180
 dwLocalPlayer = 13317076
 dwMouseEnable = 13341152
 dwMouseEnablePtr = 13341104
