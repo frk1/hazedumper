@@ -1,4 +1,4 @@
-timestamp = 1544297203
+timestamp = 1544447356
 
 [signatures]
 clientstate_choked_commands = 19632
@@ -30,7 +30,7 @@ dwGlobalVars = 5810688
 dwGlowObjectManager = 85996168
 dwInput = 84992680
 dwInterfaceLinkList = 9004180
-dwLocalPlayer = 13317076
+dwLocalPlayer = 13317780
 dwMouseEnable = 13341152
 dwMouseEnablePtr = 13341104
 dwPlayerResource = 51326844
