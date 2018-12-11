@@ -1,10 +1,10 @@
 using System;
 
-// 2018-12-10 13:09:16.721019100 UTC
+// 2018-12-11 12:59:07.553653200 UTC
 
 namespace hazedumper
 {
-    public const Int32 timestamp = 1544447356;
+    public const Int32 timestamp = 1544533147;
     public static class netvars
     {
         public const Int32 m_ArmorValue = 0xB324;
@@ -118,6 +118,7 @@ namespace hazedumper
         public const Int32 dwbSendPackets = 0xD206A;
         public const Int32 dwppDirect3DDevice9 = 0xA3FC0;
         public const Int32 interface_engine_cvar = 0x3E9EC;
+        public const Int32 m_bDormant = 0xED;
         public const Int32 m_pStudioHdr = 0x294C;
         public const Int32 m_pitchClassPtr = 0x50F8508;
         public const Int32 m_yawClassPtr = 0xCB8E40;

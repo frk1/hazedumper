@@ -476,6 +476,16 @@
             3
         ],
         "pattern": "8B 3C 85"
+    },
+    {
+        "name": "m_bDormant",
+        "extra": 8,
+        "relative": false,
+        "module": "client_panorama.dll",
+        "offsets": [
+            2
+        ],
+        "pattern": "8A 81 ? ? ? ? C3 32 C0"
     }
   ],
   "netvars": [
