@@ -1,11 +1,12 @@
 #pragma once
 #include <cstdint>
 
-// 2018-12-11 12:59:07.553653200 UTC
+// 2018-12-11 13:28:43.041584200 UTC
 
 namespace hazedumper {
-constexpr ::std::int64_t timestamp = 1544533147;
+constexpr ::std::int64_t timestamp = 1544534923;
 namespace netvars {
+constexpr ::std::ptrdiff_t cs_gamerules_data = 0x0;
 constexpr ::std::ptrdiff_t m_ArmorValue = 0xB324;
 constexpr ::std::ptrdiff_t m_Collision = 0x31C;
 constexpr ::std::ptrdiff_t m_CollisionGroup = 0x474;
@@ -13,6 +14,8 @@ constexpr ::std::ptrdiff_t m_Local = 0x2FBC;
 constexpr ::std::ptrdiff_t m_MoveType = 0x25C;
 constexpr ::std::ptrdiff_t m_OriginalOwnerXuidHigh = 0x31B4;
 constexpr ::std::ptrdiff_t m_OriginalOwnerXuidLow = 0x31B0;
+constexpr ::std::ptrdiff_t m_SurvivalGameRuleDecisionTypes = 0x1318;
+constexpr ::std::ptrdiff_t m_SurvivalRules = 0xCF0;
 constexpr ::std::ptrdiff_t m_aimPunchAngle = 0x302C;
 constexpr ::std::ptrdiff_t m_aimPunchAngleVel = 0x3038;
 constexpr ::std::ptrdiff_t m_bGunGameImmunity = 0x3928;

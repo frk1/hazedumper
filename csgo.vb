@@ -1,8 +1,9 @@
-' 2018-12-11 12:59:07.553653200 UTC
+' 2018-12-11 13:28:43.041584200 UTC
 
 Namespace hazedumper
-    Public Const timestamp as Integer = &H5C0FB49B
+    Public Const timestamp as Integer = &H5C0FBB8B
     Public Shared Class netvars
+        Public Const cs_gamerules_data as Integer = &H0
         Public Const m_ArmorValue as Integer = &HB324
         Public Const m_Collision as Integer = &H31C
         Public Const m_CollisionGroup as Integer = &H474
@@ -10,6 +11,8 @@ Namespace hazedumper
         Public Const m_MoveType as Integer = &H25C
         Public Const m_OriginalOwnerXuidHigh as Integer = &H31B4
         Public Const m_OriginalOwnerXuidLow as Integer = &H31B0
+        Public Const m_SurvivalGameRuleDecisionTypes as Integer = &H1318
+        Public Const m_SurvivalRules as Integer = &HCF0
         Public Const m_aimPunchAngle as Integer = &H302C
         Public Const m_aimPunchAngleVel as Integer = &H3038
         Public Const m_bGunGameImmunity as Integer = &H3928

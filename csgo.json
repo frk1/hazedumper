@@ -1,5 +1,5 @@
 {
-  "timestamp": 1544533147,
+  "timestamp": 1544534923,
   "signatures": {
     "clientstate_choked_commands": 19632,
     "clientstate_delta_ticks": 372,
@@ -52,6 +52,7 @@
     "m_yawClassPtr": 13340224
   },
   "netvars": {
+    "cs_gamerules_data": 0,
     "m_ArmorValue": 45860,
     "m_Collision": 796,
     "m_CollisionGroup": 1140,
@@ -59,6 +60,8 @@
     "m_MoveType": 604,
     "m_OriginalOwnerXuidHigh": 12724,
     "m_OriginalOwnerXuidLow": 12720,
+    "m_SurvivalGameRuleDecisionTypes": 4888,
+    "m_SurvivalRules": 3312,
     "m_aimPunchAngle": 12332,
     "m_aimPunchAngleVel": 12344,
     "m_bGunGameImmunity": 14632,

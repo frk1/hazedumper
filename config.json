@@ -811,6 +811,21 @@
       "name": "m_flDefuseCountDown",
       "prop": "m_flDefuseCountDown",
       "table": "DT_PlantedC4"
+    },
+    {
+      "name": "cs_gamerules_data",
+      "prop": "cs_gamerules_data",
+      "table": "DT_CSGameRulesProxy"
+    },
+    {
+      "name": "m_SurvivalRules",
+      "prop": "m_SurvivalRules",
+      "table": "DT_CSGameRulesProxy"
+    },
+    {
+      "name": "m_SurvivalGameRuleDecisionTypes",
+      "prop": "m_SurvivalGameRuleDecisionTypes",
+      "table": "DT_CSGameRulesProxy"
     }
   ]
 }

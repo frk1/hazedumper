@@ -1,12 +1,13 @@
 using System;
 
-// 2018-12-11 12:59:07.553653200 UTC
+// 2018-12-11 13:28:43.041584200 UTC
 
 namespace hazedumper
 {
-    public const Int32 timestamp = 1544533147;
+    public const Int32 timestamp = 1544534923;
     public static class netvars
     {
+        public const Int32 cs_gamerules_data = 0x0;
         public const Int32 m_ArmorValue = 0xB324;
         public const Int32 m_Collision = 0x31C;
         public const Int32 m_CollisionGroup = 0x474;
@@ -14,6 +15,8 @@ namespace hazedumper
         public const Int32 m_MoveType = 0x25C;
         public const Int32 m_OriginalOwnerXuidHigh = 0x31B4;
         public const Int32 m_OriginalOwnerXuidLow = 0x31B0;
+        public const Int32 m_SurvivalGameRuleDecisionTypes = 0x1318;
+        public const Int32 m_SurvivalRules = 0xCF0;
         public const Int32 m_aimPunchAngle = 0x302C;
         public const Int32 m_aimPunchAngleVel = 0x3038;
         public const Int32 m_bGunGameImmunity = 0x3928;
