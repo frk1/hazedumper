@@ -1,7 +1,7 @@
-' 2018-12-11 13:28:43.041584200 UTC
+' 2018-12-11 21:48:08.439598700 UTC
 
 Namespace hazedumper
-    Public Const timestamp as Integer = &H5C0FBB8B
+    Public Const timestamp as Integer = &H5C103098
     Public Shared Class netvars
         Public Const cs_gamerules_data as Integer = &H0
         Public Const m_ArmorValue as Integer = &HB324
@@ -15,12 +15,16 @@ Namespace hazedumper
         Public Const m_SurvivalRules as Integer = &HCF0
         Public Const m_aimPunchAngle as Integer = &H302C
         Public Const m_aimPunchAngleVel as Integer = &H3038
+        Public Const m_bBombPlanted as Integer = &H99D
+        Public Const m_bFreezePeriod as Integer = &H20
         Public Const m_bGunGameImmunity as Integer = &H3928
         Public Const m_bHasDefuser as Integer = &HB334
         Public Const m_bHasHelmet as Integer = &HB318
         Public Const m_bInReload as Integer = &H3285
         Public Const m_bIsDefusing as Integer = &H3914
+        Public Const m_bIsQueuedMatchmaking as Integer = &H74
         Public Const m_bIsScoped as Integer = &H390A
+        Public Const m_bIsValveDS as Integer = &H75
         Public Const m_bSpotted as Integer = &H93D
         Public Const m_bSpottedByMask as Integer = &H980
         Public Const m_clrRender as Integer = &H70

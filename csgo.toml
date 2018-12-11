@@ -1,4 +1,4 @@
-timestamp = 1544534923
+timestamp = 1544564888
 
 [signatures]
 clientstate_choked_commands = 19632
@@ -64,12 +64,16 @@ m_SurvivalGameRuleDecisionTypes = 4888
 m_SurvivalRules = 3312
 m_aimPunchAngle = 12332
 m_aimPunchAngleVel = 12344
+m_bBombPlanted = 2461
+m_bFreezePeriod = 32
 m_bGunGameImmunity = 14632
 m_bHasDefuser = 45876
 m_bHasHelmet = 45848
 m_bInReload = 12933
 m_bIsDefusing = 14612
+m_bIsQueuedMatchmaking = 116
 m_bIsScoped = 14602
+m_bIsValveDS = 117
 m_bSpotted = 2365
 m_bSpottedByMask = 2432
 m_clrRender = 112

@@ -1,10 +1,10 @@
 #pragma once
 #include <cstdint>
 
-// 2018-12-11 13:28:43.041584200 UTC
+// 2018-12-11 21:48:08.439598700 UTC
 
 namespace hazedumper {
-constexpr ::std::int64_t timestamp = 1544534923;
+constexpr ::std::int64_t timestamp = 1544564888;
 namespace netvars {
 constexpr ::std::ptrdiff_t cs_gamerules_data = 0x0;
 constexpr ::std::ptrdiff_t m_ArmorValue = 0xB324;
@@ -18,12 +18,16 @@ constexpr ::std::ptrdiff_t m_SurvivalGameRuleDecisionTypes = 0x1318;
 constexpr ::std::ptrdiff_t m_SurvivalRules = 0xCF0;
 constexpr ::std::ptrdiff_t m_aimPunchAngle = 0x302C;
 constexpr ::std::ptrdiff_t m_aimPunchAngleVel = 0x3038;
+constexpr ::std::ptrdiff_t m_bBombPlanted = 0x99D;
+constexpr ::std::ptrdiff_t m_bFreezePeriod = 0x20;
 constexpr ::std::ptrdiff_t m_bGunGameImmunity = 0x3928;
 constexpr ::std::ptrdiff_t m_bHasDefuser = 0xB334;
 constexpr ::std::ptrdiff_t m_bHasHelmet = 0xB318;
 constexpr ::std::ptrdiff_t m_bInReload = 0x3285;
 constexpr ::std::ptrdiff_t m_bIsDefusing = 0x3914;
+constexpr ::std::ptrdiff_t m_bIsQueuedMatchmaking = 0x74;
 constexpr ::std::ptrdiff_t m_bIsScoped = 0x390A;
+constexpr ::std::ptrdiff_t m_bIsValveDS = 0x75;
 constexpr ::std::ptrdiff_t m_bSpotted = 0x93D;
 constexpr ::std::ptrdiff_t m_bSpottedByMask = 0x980;
 constexpr ::std::ptrdiff_t m_clrRender = 0x70;

@@ -826,6 +826,26 @@
       "name": "m_SurvivalGameRuleDecisionTypes",
       "prop": "m_SurvivalGameRuleDecisionTypes",
       "table": "DT_CSGameRulesProxy"
+    },
+    {
+      "name": "m_bIsValveDS",
+      "prop": "m_bIsValveDS",
+      "table": "DT_CSGameRulesProxy"
+    },
+    {
+      "name": "m_bFreezePeriod",
+      "prop": "m_bFreezePeriod",
+      "table": "DT_CSGameRulesProxy"
+    },
+    {
+      "name": "m_bBombPlanted",
+      "prop": "m_bBombPlanted",
+      "table": "DT_CSGameRulesProxy"
+    },
+    {
+      "name": "m_bIsQueuedMatchmaking",
+      "prop": "m_bIsQueuedMatchmaking",
+      "table": "DT_CSGameRulesProxy"
     }
   ]
 }

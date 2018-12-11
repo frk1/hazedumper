@@ -1,10 +1,10 @@
 using System;
 
-// 2018-12-11 13:28:43.041584200 UTC
+// 2018-12-11 21:48:08.439598700 UTC
 
 namespace hazedumper
 {
-    public const Int32 timestamp = 1544534923;
+    public const Int32 timestamp = 1544564888;
     public static class netvars
     {
         public const Int32 cs_gamerules_data = 0x0;
@@ -19,12 +19,16 @@ namespace hazedumper
         public const Int32 m_SurvivalRules = 0xCF0;
         public const Int32 m_aimPunchAngle = 0x302C;
         public const Int32 m_aimPunchAngleVel = 0x3038;
+        public const Int32 m_bBombPlanted = 0x99D;
+        public const Int32 m_bFreezePeriod = 0x20;
         public const Int32 m_bGunGameImmunity = 0x3928;
         public const Int32 m_bHasDefuser = 0xB334;
         public const Int32 m_bHasHelmet = 0xB318;
         public const Int32 m_bInReload = 0x3285;
         public const Int32 m_bIsDefusing = 0x3914;
+        public const Int32 m_bIsQueuedMatchmaking = 0x74;
         public const Int32 m_bIsScoped = 0x390A;
+        public const Int32 m_bIsValveDS = 0x75;
         public const Int32 m_bSpotted = 0x93D;
         public const Int32 m_bSpottedByMask = 0x980;
         public const Int32 m_clrRender = 0x70;
