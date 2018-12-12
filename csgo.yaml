@@ -1,5 +1,5 @@
 ---
-timestamp: 1544601945
+timestamp: 1544606547
 signatures:
   clientstate_choked_commands: 19632
   clientstate_delta_ticks: 372
@@ -50,6 +50,7 @@ signatures:
   m_pStudioHdr: 10572
   m_pitchClassPtr: 84903176
   m_yawClassPtr: 13340224
+  model_ambient_min: 5823860
 netvars:
   cs_gamerules_data: 0
   m_ArmorValue: 45860

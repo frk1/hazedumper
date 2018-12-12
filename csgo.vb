@@ -1,7 +1,7 @@
-' 2018-12-12 08:05:45.509649 UTC
+' 2018-12-12 09:22:27.056754 UTC
 
 Namespace hazedumper
-    Public Const timestamp as Integer = &H5C10C159
+    Public Const timestamp as Integer = &H5C10D353
     Public Shared Class netvars
         Public Const cs_gamerules_data as Integer = &H0
         Public Const m_ArmorValue as Integer = &HB324
@@ -124,5 +124,6 @@ Namespace hazedumper
         Public Const m_pStudioHdr as Integer = &H294C
         Public Const m_pitchClassPtr as Integer = &H50F8508
         Public Const m_yawClassPtr as Integer = &HCB8E40
+        Public Const model_ambient_min as Integer = &H58DD74
     End Class
 End Namespace

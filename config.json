@@ -486,6 +486,16 @@
             2
         ],
         "pattern": "8A 81 ? ? ? ? C3 32 C0"
+    },
+    {
+       "name": "model_ambient_min",
+       "extra": 0,
+       "relative": true,
+       "module": "engine.dll",
+       "offsets": [
+         4
+       ],
+       "pattern": "F3 0F 10 0D ? ? ? ? F3 0F 11 4C 24 ? 8B 44 24 20 35 ? ? ? ? 89 44 24 0C"
     }
   ],
   "netvars": [
