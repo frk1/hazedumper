@@ -1,4 +1,4 @@
-timestamp = 1544606547
+timestamp = 1544610224
 
 [signatures]
 clientstate_choked_commands = 19632
@@ -100,6 +100,7 @@ m_iCompetitiveRanking = 6788
 m_iCompetitiveWins = 7048
 m_iCrosshairId = 45968
 m_iEntityQuality = 12204
+m_iFOV = 12772
 m_iFOVStart = 12776
 m_iGlowIndex = 41976
 m_iHealth = 256

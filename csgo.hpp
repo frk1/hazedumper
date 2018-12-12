@@ -1,10 +1,10 @@
 #pragma once
 #include <cstdint>
 
-// 2018-12-12 09:22:27.056754 UTC
+// 2018-12-12 10:23:44.743474100 UTC
 
 namespace hazedumper {
-constexpr ::std::int64_t timestamp = 1544606547;
+constexpr ::std::int64_t timestamp = 1544610224;
 namespace netvars {
 constexpr ::std::ptrdiff_t cs_gamerules_data = 0x0;
 constexpr ::std::ptrdiff_t m_ArmorValue = 0xB324;
@@ -53,6 +53,7 @@ constexpr ::std::ptrdiff_t m_iCompetitiveRanking = 0x1A84;
 constexpr ::std::ptrdiff_t m_iCompetitiveWins = 0x1B88;
 constexpr ::std::ptrdiff_t m_iCrosshairId = 0xB390;
 constexpr ::std::ptrdiff_t m_iEntityQuality = 0x2FAC;
+constexpr ::std::ptrdiff_t m_iFOV = 0x31E4;
 constexpr ::std::ptrdiff_t m_iFOVStart = 0x31E8;
 constexpr ::std::ptrdiff_t m_iGlowIndex = 0xA3F8;
 constexpr ::std::ptrdiff_t m_iHealth = 0x100;

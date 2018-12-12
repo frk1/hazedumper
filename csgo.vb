@@ -1,7 +1,7 @@
-' 2018-12-12 09:22:27.056754 UTC
+' 2018-12-12 10:23:44.743474100 UTC
 
 Namespace hazedumper
-    Public Const timestamp as Integer = &H5C10D353
+    Public Const timestamp as Integer = &H5C10E1B0
     Public Shared Class netvars
         Public Const cs_gamerules_data as Integer = &H0
         Public Const m_ArmorValue as Integer = &HB324
@@ -50,6 +50,7 @@ Namespace hazedumper
         Public Const m_iCompetitiveWins as Integer = &H1B88
         Public Const m_iCrosshairId as Integer = &HB390
         Public Const m_iEntityQuality as Integer = &H2FAC
+        Public Const m_iFOV as Integer = &H31E4
         Public Const m_iFOVStart as Integer = &H31E8
         Public Const m_iGlowIndex as Integer = &HA3F8
         Public Const m_iHealth as Integer = &H100

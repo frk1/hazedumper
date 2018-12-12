@@ -685,6 +685,11 @@
       "table": "DT_CSPlayer"
     },
     {
+      "name": "m_iFOV",
+      "prop": "m_iFOV",
+      "table": "DT_CSPlayer"
+    },
+    {
       "name": "m_iGlowIndex",
       "prop": "m_flFlashDuration",
       "offset": 24,
