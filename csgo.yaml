@@ -1,5 +1,5 @@
 ---
-timestamp: 1544834264
+timestamp: 1545099097
 signatures:
   clientstate_choked_commands: 19632
   clientstate_delta_ticks: 372
@@ -15,42 +15,42 @@ signatures:
   dwClientState_PlayerInfo: 21056
   dwClientState_State: 264
   dwClientState_ViewAngles: 19728
-  dwEntityList: 80491876
-  dwForceAttack: 51334172
-  dwForceAttack2: 51334184
-  dwForceBackward: 51334232
-  dwForceForward: 51334196
-  dwForceJump: 85354176
-  dwForceLeft: 51334220
-  dwForceRight: 51334256
-  dwGameDir: 6458992
-  dwGameRulesProxy: 85821956
-  dwGetAllClasses: 13465092
+  dwEntityList: 80534548
+  dwForceAttack: 51376832
+  dwForceAttack2: 51376844
+  dwForceBackward: 51376904
+  dwForceForward: 51376916
+  dwForceJump: 85396936
+  dwForceLeft: 51376940
+  dwForceRight: 51376928
+  dwGameDir: 6459120
+  dwGameRulesProxy: 85864708
+  dwGetAllClasses: 13506916
   dwGlobalVars: 5810688
-  dwGlowObjectManager: 85996328
-  dwInput: 84992760
-  dwInterfaceLinkList: 9005396
-  dwLocalPlayer: 13317780
-  dwMouseEnable: 13341152
-  dwMouseEnablePtr: 13341104
-  dwPlayerResource: 51326924
-  dwRadarBase: 84902564
-  dwSensitivity: 13340796
-  dwSensitivityPtr: 13340752
-  dwSetClanTag: 562416
-  dwViewMatrix: 80433044
-  dwWeaponTable: 84995516
+  dwGlowObjectManager: 86039096
+  dwInput: 85035432
+  dwInterfaceLinkList: 9035748
+  dwLocalPlayer: 13358772
+  dwMouseEnable: 13382144
+  dwMouseEnablePtr: 13382096
+  dwPlayerResource: 51369596
+  dwRadarBase: 84945236
+  dwSensitivity: 13381788
+  dwSensitivityPtr: 13381744
+  dwSetClanTag: 562576
+  dwViewMatrix: 80475716
+  dwWeaponTable: 85038188
   dwWeaponTableIndex: 12860
-  dwYawPtr: 13340224
-  dwZoomSensitivityRatioPtr: 13361280
-  dwbSendPackets: 860266
+  dwYawPtr: 13381216
+  dwZoomSensitivityRatioPtr: 13402272
+  dwbSendPackets: 860394
   dwppDirect3DDevice9: 671680
   interface_engine_cvar: 256492
   m_bDormant: 237
   m_pStudioHdr: 10572
-  m_pitchClassPtr: 84903256
-  m_yawClassPtr: 13340224
-  model_ambient_min: 5823860
+  m_pitchClassPtr: 84945928
+  m_yawClassPtr: 13381216
+  model_ambient_min: 5823772
 netvars:
   cs_gamerules_data: 0
   m_ArmorValue: 45860
