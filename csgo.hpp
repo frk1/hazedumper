@@ -1,13 +1,13 @@
 #pragma once
 #include <cstdint>
 
-// 2018-12-19 01:06:32.026590100 UTC
+// 2018-12-22 00:10:32.287010600 UTC
 
 namespace hazedumper {
-constexpr ::std::int64_t timestamp = 1545181592;
+constexpr ::std::int64_t timestamp = 1545437432;
 namespace netvars {
 constexpr ::std::ptrdiff_t cs_gamerules_data = 0x0;
-constexpr ::std::ptrdiff_t m_ArmorValue = 0xB324;
+constexpr ::std::ptrdiff_t m_ArmorValue = 0xB328;
 constexpr ::std::ptrdiff_t m_Collision = 0x31C;
 constexpr ::std::ptrdiff_t m_CollisionGroup = 0x474;
 constexpr ::std::ptrdiff_t m_Local = 0x2FBC;
@@ -21,8 +21,8 @@ constexpr ::std::ptrdiff_t m_aimPunchAngleVel = 0x3038;
 constexpr ::std::ptrdiff_t m_bBombPlanted = 0x99D;
 constexpr ::std::ptrdiff_t m_bFreezePeriod = 0x20;
 constexpr ::std::ptrdiff_t m_bGunGameImmunity = 0x3928;
-constexpr ::std::ptrdiff_t m_bHasDefuser = 0xB334;
-constexpr ::std::ptrdiff_t m_bHasHelmet = 0xB318;
+constexpr ::std::ptrdiff_t m_bHasDefuser = 0xB338;
+constexpr ::std::ptrdiff_t m_bHasHelmet = 0xB31C;
 constexpr ::std::ptrdiff_t m_bInReload = 0x3285;
 constexpr ::std::ptrdiff_t m_bIsDefusing = 0x3914;
 constexpr ::std::ptrdiff_t m_bIsQueuedMatchmaking = 0x74;
@@ -51,7 +51,7 @@ constexpr ::std::ptrdiff_t m_iAccountID = 0x2FC8;
 constexpr ::std::ptrdiff_t m_iClip1 = 0x3244;
 constexpr ::std::ptrdiff_t m_iCompetitiveRanking = 0x1A84;
 constexpr ::std::ptrdiff_t m_iCompetitiveWins = 0x1B88;
-constexpr ::std::ptrdiff_t m_iCrosshairId = 0xB390;
+constexpr ::std::ptrdiff_t m_iCrosshairId = 0xB394;
 constexpr ::std::ptrdiff_t m_iEntityQuality = 0x2FAC;
 constexpr ::std::ptrdiff_t m_iFOV = 0x31E4;
 constexpr ::std::ptrdiff_t m_iFOVStart = 0x31E8;
@@ -101,13 +101,13 @@ constexpr ::std::ptrdiff_t dwForceForward = 0x30FF2F4;
 constexpr ::std::ptrdiff_t dwForceJump = 0x5170DB0;
 constexpr ::std::ptrdiff_t dwForceLeft = 0x30FF30C;
 constexpr ::std::ptrdiff_t dwForceRight = 0x30FF300;
-constexpr ::std::ptrdiff_t dwGameDir = 0x630E70;
+constexpr ::std::ptrdiff_t dwGameDir = 0x631E70;
 constexpr ::std::ptrdiff_t dwGameRulesProxy = 0x51E30E4;
 constexpr ::std::ptrdiff_t dwGetAllClasses = 0xCE1964;
 constexpr ::std::ptrdiff_t dwGlobalVars = 0x58BA00;
 constexpr ::std::ptrdiff_t dwGlowObjectManager = 0x520DA28;
 constexpr ::std::ptrdiff_t dwInput = 0x5118990;
-constexpr ::std::ptrdiff_t dwInterfaceLinkList = 0x89E154;
+constexpr ::std::ptrdiff_t dwInterfaceLinkList = 0x89E254;
 constexpr ::std::ptrdiff_t dwLocalPlayer = 0xCBD6B4;
 constexpr ::std::ptrdiff_t dwMouseEnable = 0xCC3200;
 constexpr ::std::ptrdiff_t dwMouseEnablePtr = 0xCC31D0;
@@ -115,13 +115,13 @@ constexpr ::std::ptrdiff_t dwPlayerResource = 0x30FD65C;
 constexpr ::std::ptrdiff_t dwRadarBase = 0x510293C;
 constexpr ::std::ptrdiff_t dwSensitivity = 0xCC309C;
 constexpr ::std::ptrdiff_t dwSensitivityPtr = 0xCC3070;
-constexpr ::std::ptrdiff_t dwSetClanTag = 0x89590;
+constexpr ::std::ptrdiff_t dwSetClanTag = 0x895C0;
 constexpr ::std::ptrdiff_t dwViewMatrix = 0x4CBF614;
 constexpr ::std::ptrdiff_t dwWeaponTable = 0x5119454;
 constexpr ::std::ptrdiff_t dwWeaponTableIndex = 0x323C;
 constexpr ::std::ptrdiff_t dwYawPtr = 0xCC2E60;
 constexpr ::std::ptrdiff_t dwZoomSensitivityRatioPtr = 0xCC80A0;
-constexpr ::std::ptrdiff_t dwbSendPackets = 0xD20EA;
+constexpr ::std::ptrdiff_t dwbSendPackets = 0xD210A;
 constexpr ::std::ptrdiff_t dwppDirect3DDevice9 = 0xA3FC0;
 constexpr ::std::ptrdiff_t interface_engine_cvar = 0x3E9EC;
 constexpr ::std::ptrdiff_t m_bDormant = 0xED;
