@@ -1,10 +1,10 @@
 #pragma once
 #include <cstdint>
 
-// 2018-12-22 00:10:32.287010600 UTC
+// 2019-01-11 12:22:36.222580700 UTC
 
 namespace hazedumper {
-constexpr ::std::int64_t timestamp = 1545437432;
+constexpr ::std::int64_t timestamp = 1547209356;
 namespace netvars {
 constexpr ::std::ptrdiff_t cs_gamerules_data = 0x0;
 constexpr ::std::ptrdiff_t m_ArmorValue = 0xB328;
@@ -84,7 +84,7 @@ constexpr ::std::ptrdiff_t clientstate_delta_ticks = 0x174;
 constexpr ::std::ptrdiff_t clientstate_last_outgoing_command = 0x4CAC;
 constexpr ::std::ptrdiff_t clientstate_net_channel = 0x9C;
 constexpr ::std::ptrdiff_t convar_name_hash_table = 0x2F0F8;
-constexpr ::std::ptrdiff_t dwClientState = 0x58BCFC;
+constexpr ::std::ptrdiff_t dwClientState = 0x58ACFC;
 constexpr ::std::ptrdiff_t dwClientState_GetLocalPlayer = 0x180;
 constexpr ::std::ptrdiff_t dwClientState_IsHLTV = 0x4CC8;
 constexpr ::std::ptrdiff_t dwClientState_Map = 0x28C;
@@ -101,10 +101,10 @@ constexpr ::std::ptrdiff_t dwForceForward = 0x30FF2F4;
 constexpr ::std::ptrdiff_t dwForceJump = 0x5170DB0;
 constexpr ::std::ptrdiff_t dwForceLeft = 0x30FF30C;
 constexpr ::std::ptrdiff_t dwForceRight = 0x30FF300;
-constexpr ::std::ptrdiff_t dwGameDir = 0x631E70;
+constexpr ::std::ptrdiff_t dwGameDir = 0x630E70;
 constexpr ::std::ptrdiff_t dwGameRulesProxy = 0x51E30E4;
 constexpr ::std::ptrdiff_t dwGetAllClasses = 0xCE1964;
-constexpr ::std::ptrdiff_t dwGlobalVars = 0x58BA00;
+constexpr ::std::ptrdiff_t dwGlobalVars = 0x58AA00;
 constexpr ::std::ptrdiff_t dwGlowObjectManager = 0x520DA28;
 constexpr ::std::ptrdiff_t dwInput = 0x5118990;
 constexpr ::std::ptrdiff_t dwInterfaceLinkList = 0x89E254;
@@ -128,6 +128,6 @@ constexpr ::std::ptrdiff_t m_bDormant = 0xED;
 constexpr ::std::ptrdiff_t m_pStudioHdr = 0x294C;
 constexpr ::std::ptrdiff_t m_pitchClassPtr = 0x5102BF0;
 constexpr ::std::ptrdiff_t m_yawClassPtr = 0xCC2E60;
-constexpr ::std::ptrdiff_t model_ambient_min = 0x58ED1C;
+constexpr ::std::ptrdiff_t model_ambient_min = 0x58DD1C;
 } // namespace signatures
 } // namespace hazedumper

@@ -1,7 +1,7 @@
-' 2018-12-22 00:10:32.287010600 UTC
+' 2019-01-11 12:22:36.222580700 UTC
 
 Namespace hazedumper
-    Public Const timestamp as Integer = &H5C1D80F8
+    Public Const timestamp as Integer = &H5C388A8C
     Public Shared Class netvars
         Public Const cs_gamerules_data as Integer = &H0
         Public Const m_ArmorValue as Integer = &HB328
@@ -81,7 +81,7 @@ Namespace hazedumper
         Public Const clientstate_last_outgoing_command as Integer = &H4CAC
         Public Const clientstate_net_channel as Integer = &H9C
         Public Const convar_name_hash_table as Integer = &H2F0F8
-        Public Const dwClientState as Integer = &H58BCFC
+        Public Const dwClientState as Integer = &H58ACFC
         Public Const dwClientState_GetLocalPlayer as Integer = &H180
         Public Const dwClientState_IsHLTV as Integer = &H4CC8
         Public Const dwClientState_Map as Integer = &H28C
@@ -98,10 +98,10 @@ Namespace hazedumper
         Public Const dwForceJump as Integer = &H5170DB0
         Public Const dwForceLeft as Integer = &H30FF30C
         Public Const dwForceRight as Integer = &H30FF300
-        Public Const dwGameDir as Integer = &H631E70
+        Public Const dwGameDir as Integer = &H630E70
         Public Const dwGameRulesProxy as Integer = &H51E30E4
         Public Const dwGetAllClasses as Integer = &HCE1964
-        Public Const dwGlobalVars as Integer = &H58BA00
+        Public Const dwGlobalVars as Integer = &H58AA00
         Public Const dwGlowObjectManager as Integer = &H520DA28
         Public Const dwInput as Integer = &H5118990
         Public Const dwInterfaceLinkList as Integer = &H89E254
@@ -125,6 +125,6 @@ Namespace hazedumper
         Public Const m_pStudioHdr as Integer = &H294C
         Public Const m_pitchClassPtr as Integer = &H5102BF0
         Public Const m_yawClassPtr as Integer = &HCC2E60
-        Public Const model_ambient_min as Integer = &H58ED1C
+        Public Const model_ambient_min as Integer = &H58DD1C
     End Class
 End Namespace
