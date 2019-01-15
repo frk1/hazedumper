@@ -1,10 +1,10 @@
 #pragma once
 #include <cstdint>
 
-// 2019-01-11 12:22:36.222580700 UTC
+// 2019-01-15 00:35:43.032937200 UTC
 
 namespace hazedumper {
-constexpr ::std::int64_t timestamp = 1547209356;
+constexpr ::std::int64_t timestamp = 1547512543;
 namespace netvars {
 constexpr ::std::ptrdiff_t cs_gamerules_data = 0x0;
 constexpr ::std::ptrdiff_t m_ArmorValue = 0xB328;
@@ -93,41 +93,41 @@ constexpr ::std::ptrdiff_t dwClientState_MaxPlayer = 0x310;
 constexpr ::std::ptrdiff_t dwClientState_PlayerInfo = 0x5240;
 constexpr ::std::ptrdiff_t dwClientState_State = 0x108;
 constexpr ::std::ptrdiff_t dwClientState_ViewAngles = 0x4D10;
-constexpr ::std::ptrdiff_t dwEntityList = 0x4CCDBFC;
-constexpr ::std::ptrdiff_t dwForceAttack = 0x30FF2A0;
-constexpr ::std::ptrdiff_t dwForceAttack2 = 0x30FF2AC;
-constexpr ::std::ptrdiff_t dwForceBackward = 0x30FF2E8;
-constexpr ::std::ptrdiff_t dwForceForward = 0x30FF2F4;
-constexpr ::std::ptrdiff_t dwForceJump = 0x5170DB0;
-constexpr ::std::ptrdiff_t dwForceLeft = 0x30FF30C;
-constexpr ::std::ptrdiff_t dwForceRight = 0x30FF300;
+constexpr ::std::ptrdiff_t dwEntityList = 0x4CCDC3C;
+constexpr ::std::ptrdiff_t dwForceAttack = 0x30FF2E0;
+constexpr ::std::ptrdiff_t dwForceAttack2 = 0x30FF2EC;
+constexpr ::std::ptrdiff_t dwForceBackward = 0x30FF328;
+constexpr ::std::ptrdiff_t dwForceForward = 0x30FF334;
+constexpr ::std::ptrdiff_t dwForceJump = 0x5170DF0;
+constexpr ::std::ptrdiff_t dwForceLeft = 0x30FF34C;
+constexpr ::std::ptrdiff_t dwForceRight = 0x30FF340;
 constexpr ::std::ptrdiff_t dwGameDir = 0x630E70;
-constexpr ::std::ptrdiff_t dwGameRulesProxy = 0x51E30E4;
-constexpr ::std::ptrdiff_t dwGetAllClasses = 0xCE1964;
+constexpr ::std::ptrdiff_t dwGameRulesProxy = 0x51E3124;
+constexpr ::std::ptrdiff_t dwGetAllClasses = 0xCE19AC;
 constexpr ::std::ptrdiff_t dwGlobalVars = 0x58AA00;
-constexpr ::std::ptrdiff_t dwGlowObjectManager = 0x520DA28;
-constexpr ::std::ptrdiff_t dwInput = 0x5118990;
-constexpr ::std::ptrdiff_t dwInterfaceLinkList = 0x89E254;
-constexpr ::std::ptrdiff_t dwLocalPlayer = 0xCBD6B4;
-constexpr ::std::ptrdiff_t dwMouseEnable = 0xCC3200;
-constexpr ::std::ptrdiff_t dwMouseEnablePtr = 0xCC31D0;
-constexpr ::std::ptrdiff_t dwPlayerResource = 0x30FD65C;
-constexpr ::std::ptrdiff_t dwRadarBase = 0x510293C;
-constexpr ::std::ptrdiff_t dwSensitivity = 0xCC309C;
-constexpr ::std::ptrdiff_t dwSensitivityPtr = 0xCC3070;
+constexpr ::std::ptrdiff_t dwGlowObjectManager = 0x520DA80;
+constexpr ::std::ptrdiff_t dwInput = 0x51189D0;
+constexpr ::std::ptrdiff_t dwInterfaceLinkList = 0x89E3E4;
+constexpr ::std::ptrdiff_t dwLocalPlayer = 0xCBD6A4;
+constexpr ::std::ptrdiff_t dwMouseEnable = 0xCC31F0;
+constexpr ::std::ptrdiff_t dwMouseEnablePtr = 0xCC31C0;
+constexpr ::std::ptrdiff_t dwPlayerResource = 0x30FD69C;
+constexpr ::std::ptrdiff_t dwRadarBase = 0x510297C;
+constexpr ::std::ptrdiff_t dwSensitivity = 0xCC308C;
+constexpr ::std::ptrdiff_t dwSensitivityPtr = 0xCC3060;
 constexpr ::std::ptrdiff_t dwSetClanTag = 0x895C0;
-constexpr ::std::ptrdiff_t dwViewMatrix = 0x4CBF614;
-constexpr ::std::ptrdiff_t dwWeaponTable = 0x5119454;
+constexpr ::std::ptrdiff_t dwViewMatrix = 0x4CBF654;
+constexpr ::std::ptrdiff_t dwWeaponTable = 0x5119494;
 constexpr ::std::ptrdiff_t dwWeaponTableIndex = 0x323C;
-constexpr ::std::ptrdiff_t dwYawPtr = 0xCC2E60;
-constexpr ::std::ptrdiff_t dwZoomSensitivityRatioPtr = 0xCC80A0;
+constexpr ::std::ptrdiff_t dwYawPtr = 0xCC2E50;
+constexpr ::std::ptrdiff_t dwZoomSensitivityRatioPtr = 0xCC8090;
 constexpr ::std::ptrdiff_t dwbSendPackets = 0xD210A;
 constexpr ::std::ptrdiff_t dwppDirect3DDevice9 = 0xA3FC0;
 constexpr ::std::ptrdiff_t interface_engine_cvar = 0x3E9EC;
 constexpr ::std::ptrdiff_t m_bDormant = 0xED;
 constexpr ::std::ptrdiff_t m_pStudioHdr = 0x294C;
-constexpr ::std::ptrdiff_t m_pitchClassPtr = 0x5102BF0;
-constexpr ::std::ptrdiff_t m_yawClassPtr = 0xCC2E60;
+constexpr ::std::ptrdiff_t m_pitchClassPtr = 0x5102C30;
+constexpr ::std::ptrdiff_t m_yawClassPtr = 0xCC2E50;
 constexpr ::std::ptrdiff_t model_ambient_min = 0x58DD1C;
 } // namespace signatures
 } // namespace hazedumper
