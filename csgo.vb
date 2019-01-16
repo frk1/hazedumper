@@ -1,7 +1,7 @@
-' 2019-01-15 00:35:43.032937200 UTC
+' 2019-01-16 20:23:09.792751300 UTC
 
 Namespace hazedumper
-    Public Const timestamp as Integer = &H5C3D2ADF
+    Public Const timestamp as Integer = &H5C3F92AD
     Public Shared Class netvars
         Public Const cs_gamerules_data as Integer = &H0
         Public Const m_ArmorValue as Integer = &HB328

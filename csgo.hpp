@@ -1,10 +1,10 @@
 #pragma once
 #include <cstdint>
 
-// 2019-01-15 00:35:43.032937200 UTC
+// 2019-01-16 20:23:09.792751300 UTC
 
 namespace hazedumper {
-constexpr ::std::int64_t timestamp = 1547512543;
+constexpr ::std::int64_t timestamp = 1547670189;
 namespace netvars {
 constexpr ::std::ptrdiff_t cs_gamerules_data = 0x0;
 constexpr ::std::ptrdiff_t m_ArmorValue = 0xB328;
