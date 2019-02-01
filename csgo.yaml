@@ -1,55 +1,55 @@
 ---
-timestamp: 1548436802
+timestamp: 1548988321
 signatures:
-  clientstate_choked_commands: 19632
+  clientstate_choked_commands: 19752
   clientstate_delta_ticks: 372
-  clientstate_last_outgoing_command: 19628
+  clientstate_last_outgoing_command: 19748
   clientstate_net_channel: 156
   convar_name_hash_table: 192760
   dwClientState: 5811452
   dwClientState_GetLocalPlayer: 384
-  dwClientState_IsHLTV: 19656
+  dwClientState_IsHLTV: 19776
   dwClientState_Map: 652
   dwClientState_MapDirectory: 392
-  dwClientState_MaxPlayer: 784
-  dwClientState_PlayerInfo: 21056
+  dwClientState_MaxPlayer: 904
+  dwClientState_PlayerInfo: 21176
   dwClientState_State: 264
-  dwClientState_ViewAngles: 19728
+  dwClientState_ViewAngles: 19848
   dwEntityList: 80534716
-  dwForceAttack: 51377016
-  dwForceAttack2: 51377028
-  dwForceBackward: 51377100
-  dwForceForward: 51377112
+  dwForceAttack: 51376992
+  dwForceAttack2: 51377004
+  dwForceBackward: 51377064
+  dwForceForward: 51377076
   dwForceJump: 85397104
-  dwForceLeft: 51377136
-  dwForceRight: 51377124
+  dwForceLeft: 51377100
+  dwForceRight: 51377088
   dwGameDir: 6491760
   dwGameRulesProxy: 85864868
-  dwGetAllClasses: 13506988
+  dwGetAllClasses: 13507004
   dwGlobalVars: 5810688
-  dwGlowObjectManager: 86039264
+  dwGlowObjectManager: 86039256
   dwInput: 85035600
-  dwInterfaceLinkList: 9038228
-  dwLocalPlayer: 13358756
-  dwMouseEnable: 13382128
-  dwMouseEnablePtr: 13382080
+  dwInterfaceLinkList: 9038244
+  dwLocalPlayer: 13358772
+  dwMouseEnable: 13382144
+  dwMouseEnablePtr: 13382096
   dwPlayerResource: 51369756
   dwRadarBase: 84945404
-  dwSensitivity: 13381772
-  dwSensitivityPtr: 13381728
+  dwSensitivity: 13381788
+  dwSensitivityPtr: 13381744
   dwSetClanTag: 562640
   dwViewMatrix: 80475860
   dwWeaponTable: 85038356
   dwWeaponTableIndex: 12860
-  dwYawPtr: 13381200
-  dwZoomSensitivityRatioPtr: 13402256
+  dwYawPtr: 13381216
+  dwZoomSensitivityRatioPtr: 13402272
   dwbSendPackets: 860618
   dwppDirect3DDevice9: 671680
   interface_engine_cvar: 256492
   m_bDormant: 237
   m_pStudioHdr: 10572
   m_pitchClassPtr: 84946096
-  m_yawClassPtr: 13381200
+  m_yawClassPtr: 13381216
   model_ambient_min: 5823772
 netvars:
   cs_gamerules_data: 0
