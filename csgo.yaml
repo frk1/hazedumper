@@ -1,12 +1,12 @@
 ---
-timestamp: 1548988321
+timestamp: 1549540793
 signatures:
   clientstate_choked_commands: 19752
   clientstate_delta_ticks: 372
   clientstate_last_outgoing_command: 19748
   clientstate_net_channel: 156
   convar_name_hash_table: 192760
-  dwClientState: 5811452
+  dwClientState: 5815548
   dwClientState_GetLocalPlayer: 384
   dwClientState_IsHLTV: 19776
   dwClientState_Map: 652
@@ -15,42 +15,42 @@ signatures:
   dwClientState_PlayerInfo: 21176
   dwClientState_State: 264
   dwClientState_ViewAngles: 19848
-  dwEntityList: 80534716
-  dwForceAttack: 51376992
-  dwForceAttack2: 51377004
-  dwForceBackward: 51377064
-  dwForceForward: 51377076
-  dwForceJump: 85397104
-  dwForceLeft: 51377100
-  dwForceRight: 51377088
-  dwGameDir: 6491760
-  dwGameRulesProxy: 85864868
-  dwGetAllClasses: 13507004
-  dwGlobalVars: 5810688
-  dwGlowObjectManager: 86039256
-  dwInput: 85035600
-  dwInterfaceLinkList: 9038244
-  dwLocalPlayer: 13358772
-  dwMouseEnable: 13382144
-  dwMouseEnablePtr: 13382096
-  dwPlayerResource: 51369756
-  dwRadarBase: 84945404
-  dwSensitivity: 13381788
-  dwSensitivityPtr: 13381744
-  dwSetClanTag: 562640
-  dwViewMatrix: 80475860
-  dwWeaponTable: 85038356
+  dwEntityList: 80584668
+  dwForceAttack: 51426944
+  dwForceAttack2: 51426956
+  dwForceBackward: 51427016
+  dwForceForward: 51427028
+  dwForceJump: 85447060
+  dwForceLeft: 51427052
+  dwForceRight: 51427040
+  dwGameDir: 6496112
+  dwGameRulesProxy: 85914836
+  dwGetAllClasses: 13556196
+  dwGlobalVars: 5814784
+  dwGlowObjectManager: 86089520
+  dwInput: 85085552
+  dwInterfaceLinkList: 9073652
+  dwLocalPlayer: 13407924
+  dwMouseEnable: 13431296
+  dwMouseEnablePtr: 13431248
+  dwPlayerResource: 51419708
+  dwRadarBase: 84995356
+  dwSensitivity: 13430940
+  dwSensitivityPtr: 13430896
+  dwSetClanTag: 562848
+  dwViewMatrix: 80525812
+  dwWeaponTable: 85088308
   dwWeaponTableIndex: 12860
-  dwYawPtr: 13381216
-  dwZoomSensitivityRatioPtr: 13402272
-  dwbSendPackets: 860618
+  dwYawPtr: 13430368
+  dwZoomSensitivityRatioPtr: 13451424
+  dwbSendPackets: 860938
   dwppDirect3DDevice9: 671680
   interface_engine_cvar: 256492
   m_bDormant: 237
   m_pStudioHdr: 10572
-  m_pitchClassPtr: 84946096
-  m_yawClassPtr: 13381216
-  model_ambient_min: 5823772
+  m_pitchClassPtr: 84996048
+  m_yawClassPtr: 13430368
+  model_ambient_min: 5827868
 netvars:
   cs_gamerules_data: 0
   m_ArmorValue: 45864
