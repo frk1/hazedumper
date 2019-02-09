@@ -1,10 +1,10 @@
 #pragma once
 #include <cstdint>
 
-// 2019-02-09 21:35:49.319712800 UTC
+// 2019-02-09 21:42:44.388730100 UTC
 
 namespace hazedumper {
-constexpr ::std::int64_t timestamp = 1549748149;
+constexpr ::std::int64_t timestamp = 1549748564;
 namespace netvars {
 constexpr ::std::ptrdiff_t cs_gamerules_data = 0x0;
 constexpr ::std::ptrdiff_t m_ArmorValue = 0xB328;
@@ -131,6 +131,7 @@ constexpr ::std::ptrdiff_t dwZoomSensitivityRatioPtr = 0xCD40A0;
 constexpr ::std::ptrdiff_t dwbSendPackets = 0xD230A;
 constexpr ::std::ptrdiff_t dwppDirect3DDevice9 = 0xA3FC0;
 constexpr ::std::ptrdiff_t interface_engine_cvar = 0x3E9EC;
+constexpr ::std::ptrdiff_t is_c4_owner = 0x398D60;
 constexpr ::std::ptrdiff_t m_bDormant = 0xED;
 constexpr ::std::ptrdiff_t m_pStudioHdr = 0x294C;
 constexpr ::std::ptrdiff_t m_pitchClassPtr = 0x510EFF0;

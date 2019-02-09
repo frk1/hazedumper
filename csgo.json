@@ -1,5 +1,5 @@
 {
-  "timestamp": 1549748149,
+  "timestamp": 1549748564,
   "signatures": {
     "clientstate_choked_commands": 19752,
     "clientstate_delta_ticks": 372,
@@ -46,6 +46,7 @@
     "dwbSendPackets": 860938,
     "dwppDirect3DDevice9": 671680,
     "interface_engine_cvar": 256492,
+    "is_c4_owner": 3771744,
     "m_bDormant": 237,
     "m_pStudioHdr": 10572,
     "m_pitchClassPtr": 84996080,

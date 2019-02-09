@@ -510,7 +510,14 @@
       "relative": true,
       "module": "client_panorama.dll",
       "pattern": "55 8B EC 83 E4 F8 51 53 56 57 8B F1 E8"
-    }
+    },
+    {
+      "name": "is_c4_owner",
+      "extra": 0,
+      "relative": true,
+      "module": "client_panorama.dll",
+      "pattern": "56 8B F1 85 F6 74 31"
+    }    
   ],
   "netvars": [
     {
