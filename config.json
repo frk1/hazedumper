@@ -496,6 +496,20 @@
          4
        ],
        "pattern": "F3 0F 10 0D ? ? ? ? F3 0F 11 4C 24 ? 8B 44 24 20 35 ? ? ? ? 89 44 24 0C"
+    },
+    {
+      "name": "set_abs_angles",
+      "extra": 0,
+      "relative": true,
+      "module": "client_panorama.dll",
+      "pattern": "55 8B EC 83 E4 F8 83 EC 64 53 56 57 8B F1 E8"
+    },
+    {
+      "name": "set_abs_origin",
+      "extra": 0,
+      "relative": true,
+      "module": "client_panorama.dll",
+      "pattern": "55 8B EC 83 E4 F8 51 53 56 57 8B F1 E8"
     }
   ],
   "netvars": [

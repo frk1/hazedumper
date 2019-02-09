@@ -1,4 +1,4 @@
-timestamp = 1549744951
+timestamp = 1549748149
 
 [signatures]
 clientstate_choked_commands = 19752
@@ -51,6 +51,8 @@ m_pStudioHdr = 10572
 m_pitchClassPtr = 84996080
 m_yawClassPtr = 13430368
 model_ambient_min = 5827868
+set_abs_angles = 1863264
+set_abs_origin = 1862816
 
 [netvars]
 cs_gamerules_data = 0

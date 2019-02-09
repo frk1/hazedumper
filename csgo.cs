@@ -1,10 +1,10 @@
 using System;
 
-// 2019-02-09 20:42:31.067996400 UTC
+// 2019-02-09 21:35:49.319712800 UTC
 
 namespace hazedumper
 {
-    public const Int32 timestamp = 1549744951;
+    public const Int32 timestamp = 1549748149;
     public static class netvars
     {
         public const Int32 cs_gamerules_data = 0x0;
@@ -138,5 +138,7 @@ namespace hazedumper
         public const Int32 m_pitchClassPtr = 0x510EFF0;
         public const Int32 m_yawClassPtr = 0xCCEE60;
         public const Int32 model_ambient_min = 0x58ED1C;
+        public const Int32 set_abs_angles = 0x1C6E60;
+        public const Int32 set_abs_origin = 0x1C6CA0;
     }
 } // namespace hazedumper
