@@ -1,10 +1,10 @@
 using System;
 
-// 2019-02-09 14:04:49.245046 UTC
+// 2019-02-09 20:42:31.067996400 UTC
 
 namespace hazedumper
 {
-    public const Int32 timestamp = 1549721089;
+    public const Int32 timestamp = 1549744951;
     public static class netvars
     {
         public const Int32 cs_gamerules_data = 0x0;
@@ -19,6 +19,8 @@ namespace hazedumper
         public const Int32 m_SurvivalRules = 0xCF0;
         public const Int32 m_aimPunchAngle = 0x302C;
         public const Int32 m_aimPunchAngleVel = 0x3038;
+        public const Int32 m_angEyeAnglesX = 0xB32C;
+        public const Int32 m_angEyeAnglesY = 0xB330;
         public const Int32 m_bBombPlanted = 0x99D;
         public const Int32 m_bFreezePeriod = 0x20;
         public const Int32 m_bGunGameImmunity = 0x3928;
@@ -41,7 +43,11 @@ namespace hazedumper
         public const Int32 m_flFallbackWear = 0x31C0;
         public const Int32 m_flFlashDuration = 0xA3E0;
         public const Int32 m_flFlashMaxAlpha = 0xA3DC;
+        public const Int32 m_flLastBoneSetupTime = 0x2924;
+        public const Int32 m_flLowerBodyYawTarget = 0x3A74;
+        public const Int32 m_flNextAttack = 0x2D70;
         public const Int32 m_flNextPrimaryAttack = 0x3218;
+        public const Int32 m_flSimulationTime = 0x268;
         public const Int32 m_flTimerLength = 0x2994;
         public const Int32 m_hActiveWeapon = 0x2EF8;
         public const Int32 m_hMyWeapons = 0x2DF8;
@@ -60,6 +66,7 @@ namespace hazedumper
         public const Int32 m_iHealth = 0x100;
         public const Int32 m_iItemDefinitionIndex = 0x2FAA;
         public const Int32 m_iItemIDHigh = 0x2FC0;
+        public const Int32 m_iMostRecentModelBoneCounter  = 0x2690;
         public const Int32 m_iObserverMode = 0x3374;
         public const Int32 m_iShotsFired = 0xA370;
         public const Int32 m_iState = 0x3238;

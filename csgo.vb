@@ -1,7 +1,7 @@
-' 2019-02-09 14:04:49.245046 UTC
+' 2019-02-09 20:42:31.067996400 UTC
 
 Namespace hazedumper
-    Public Const timestamp as Integer = &H5C5EDE01
+    Public Const timestamp as Integer = &H5C5F3B37
     Public Shared Class netvars
         Public Const cs_gamerules_data as Integer = &H0
         Public Const m_ArmorValue as Integer = &HB328
@@ -15,6 +15,8 @@ Namespace hazedumper
         Public Const m_SurvivalRules as Integer = &HCF0
         Public Const m_aimPunchAngle as Integer = &H302C
         Public Const m_aimPunchAngleVel as Integer = &H3038
+        Public Const m_angEyeAnglesX as Integer = &HB32C
+        Public Const m_angEyeAnglesY as Integer = &HB330
         Public Const m_bBombPlanted as Integer = &H99D
         Public Const m_bFreezePeriod as Integer = &H20
         Public Const m_bGunGameImmunity as Integer = &H3928
@@ -37,7 +39,11 @@ Namespace hazedumper
         Public Const m_flFallbackWear as Integer = &H31C0
         Public Const m_flFlashDuration as Integer = &HA3E0
         Public Const m_flFlashMaxAlpha as Integer = &HA3DC
+        Public Const m_flLastBoneSetupTime as Integer = &H2924
+        Public Const m_flLowerBodyYawTarget as Integer = &H3A74
+        Public Const m_flNextAttack as Integer = &H2D70
         Public Const m_flNextPrimaryAttack as Integer = &H3218
+        Public Const m_flSimulationTime as Integer = &H268
         Public Const m_flTimerLength as Integer = &H2994
         Public Const m_hActiveWeapon as Integer = &H2EF8
         Public Const m_hMyWeapons as Integer = &H2DF8
@@ -56,6 +62,7 @@ Namespace hazedumper
         Public Const m_iHealth as Integer = &H100
         Public Const m_iItemDefinitionIndex as Integer = &H2FAA
         Public Const m_iItemIDHigh as Integer = &H2FC0
+        Public Const m_iMostRecentModelBoneCounter  as Integer = &H2690
         Public Const m_iObserverMode as Integer = &H3374
         Public Const m_iShotsFired as Integer = &HA370
         Public Const m_iState as Integer = &H3238

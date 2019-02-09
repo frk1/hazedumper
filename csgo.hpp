@@ -1,10 +1,10 @@
 #pragma once
 #include <cstdint>
 
-// 2019-02-09 14:04:49.245046 UTC
+// 2019-02-09 20:42:31.067996400 UTC
 
 namespace hazedumper {
-constexpr ::std::int64_t timestamp = 1549721089;
+constexpr ::std::int64_t timestamp = 1549744951;
 namespace netvars {
 constexpr ::std::ptrdiff_t cs_gamerules_data = 0x0;
 constexpr ::std::ptrdiff_t m_ArmorValue = 0xB328;
@@ -18,6 +18,8 @@ constexpr ::std::ptrdiff_t m_SurvivalGameRuleDecisionTypes = 0x1318;
 constexpr ::std::ptrdiff_t m_SurvivalRules = 0xCF0;
 constexpr ::std::ptrdiff_t m_aimPunchAngle = 0x302C;
 constexpr ::std::ptrdiff_t m_aimPunchAngleVel = 0x3038;
+constexpr ::std::ptrdiff_t m_angEyeAnglesX = 0xB32C;
+constexpr ::std::ptrdiff_t m_angEyeAnglesY = 0xB330;
 constexpr ::std::ptrdiff_t m_bBombPlanted = 0x99D;
 constexpr ::std::ptrdiff_t m_bFreezePeriod = 0x20;
 constexpr ::std::ptrdiff_t m_bGunGameImmunity = 0x3928;
@@ -40,7 +42,11 @@ constexpr ::std::ptrdiff_t m_flDefuseLength = 0x29A8;
 constexpr ::std::ptrdiff_t m_flFallbackWear = 0x31C0;
 constexpr ::std::ptrdiff_t m_flFlashDuration = 0xA3E0;
 constexpr ::std::ptrdiff_t m_flFlashMaxAlpha = 0xA3DC;
+constexpr ::std::ptrdiff_t m_flLastBoneSetupTime = 0x2924;
+constexpr ::std::ptrdiff_t m_flLowerBodyYawTarget = 0x3A74;
+constexpr ::std::ptrdiff_t m_flNextAttack = 0x2D70;
 constexpr ::std::ptrdiff_t m_flNextPrimaryAttack = 0x3218;
+constexpr ::std::ptrdiff_t m_flSimulationTime = 0x268;
 constexpr ::std::ptrdiff_t m_flTimerLength = 0x2994;
 constexpr ::std::ptrdiff_t m_hActiveWeapon = 0x2EF8;
 constexpr ::std::ptrdiff_t m_hMyWeapons = 0x2DF8;
@@ -59,6 +65,7 @@ constexpr ::std::ptrdiff_t m_iGlowIndex = 0xA3F8;
 constexpr ::std::ptrdiff_t m_iHealth = 0x100;
 constexpr ::std::ptrdiff_t m_iItemDefinitionIndex = 0x2FAA;
 constexpr ::std::ptrdiff_t m_iItemIDHigh = 0x2FC0;
+constexpr ::std::ptrdiff_t m_iMostRecentModelBoneCounter  = 0x2690;
 constexpr ::std::ptrdiff_t m_iObserverMode = 0x3374;
 constexpr ::std::ptrdiff_t m_iShotsFired = 0xA370;
 constexpr ::std::ptrdiff_t m_iState = 0x3238;

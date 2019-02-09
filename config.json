@@ -861,6 +861,43 @@
       "name": "m_bIsQueuedMatchmaking",
       "prop": "m_bIsQueuedMatchmaking",
       "table": "DT_CSGameRulesProxy"
+    },
+    {
+      "name": "m_flSimulationTime",
+      "prop": "m_flSimulationTime",
+      "table": "DT_CSPlayer"
+    },
+    {
+      "name": "m_flLowerBodyYawTarget",
+      "prop": "m_flLowerBodyYawTarget",
+      "table": "DT_CSPlayer"
+    },
+    {
+      "name": "m_angEyeAnglesX",
+      "prop": "m_angEyeAngles[0]",
+      "table": "DT_CSPlayer"
+    },
+    {
+      "name": "m_angEyeAnglesY",
+      "prop": "m_angEyeAngles[1]",
+      "table": "DT_CSPlayer"
+    },
+    {
+      "name": "m_flNextAttack",
+      "prop": "m_flNextAttack",
+      "table": "DT_CSPlayer"
+    },
+    {
+      "name": "m_iMostRecentModelBoneCounter ",
+      "prop": "m_nForceBone",
+      "offset": 4,
+      "table": "DT_CSPlayer"
+    },
+    {
+      "name": "m_flLastBoneSetupTime",
+      "prop": "m_nSequence",
+      "offset": 104,
+      "table": "DT_BaseAnimating"
     }
   ]
 }
