@@ -1,5 +1,5 @@
 {
-  "timestamp": 1549748564,
+  "timestamp": 1549996144,
   "signatures": {
     "clientstate_choked_commands": 19752,
     "clientstate_delta_ticks": 372,
@@ -27,7 +27,7 @@
     "dwGameRulesProxy": 85914868,
     "dwGetAllClasses": 13556196,
     "dwGlobalVars": 5814784,
-    "dwGlowObjectManager": 86089528,
+    "dwGlowObjectManager": 86089536,
     "dwInput": 85085584,
     "dwInterfaceLinkList": 9074388,
     "dwLocalPlayer": 13407924,
