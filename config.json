@@ -517,7 +517,14 @@
       "relative": true,
       "module": "client_panorama.dll",
       "pattern": "56 8B F1 85 F6 74 31"
-    }    
+    },
+    {
+      "name": "force_update_spectator_glow",
+      "extra": 0,
+      "relative": true,
+      "module": "client_panorama.dll",
+      "pattern": "74 07 8B CB E8 ? ? ? ? 83 C7 10"
+    }
   ],
   "netvars": [
     {
