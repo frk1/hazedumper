@@ -1,4 +1,4 @@
-timestamp = 1550313614
+timestamp = 1550545840
 
 [signatures]
 clientstate_choked_commands = 19752
@@ -116,7 +116,7 @@ m_iGlowIndex = 41976
 m_iHealth = 256
 m_iItemDefinitionIndex = 12202
 m_iItemIDHigh = 12224
-"m_iMostRecentModelBoneCounter " = 9872
+m_iMostRecentModelBoneCounter = 9872
 m_iObserverMode = 13172
 m_iShotsFired = 41840
 m_iState = 12856
