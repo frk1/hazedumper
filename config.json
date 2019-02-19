@@ -916,7 +916,7 @@
       "table": "DT_CSPlayer"
     },
     {
-      "name": "m_iMostRecentModelBoneCounter ",
+      "name": "m_iMostRecentModelBoneCounter",
       "prop": "m_nForceBone",
       "offset": 4,
       "table": "DT_CSPlayer"
