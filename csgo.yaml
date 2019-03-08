@@ -1,5 +1,5 @@
 ---
-timestamp: 1551969450
+timestamp: 1552036735
 signatures:
   clientstate_choked_commands: 19752
   clientstate_delta_ticks: 372
@@ -43,7 +43,7 @@ signatures:
   dwWeaponTableIndex: 12860
   dwYawPtr: 13438752
   dwZoomSensitivityRatioPtr: 13459808
-  dwbSendPackets: 861002
+  dwbSendPackets: 861242
   dwppDirect3DDevice9: 679968
   force_update_spectator_glow: 3724498
   interface_engine_cvar: 256492

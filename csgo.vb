@@ -1,7 +1,7 @@
-' 2019-03-07 14:37:30.241786 UTC
+' 2019-03-08 09:18:55.573013 UTC
 
 Namespace hazedumper
-    Public Const timestamp as Integer = &H5C812CAA
+    Public Const timestamp as Integer = &H5C82337F
     Public Shared Class netvars
         Public Const cs_gamerules_data as Integer = &H0
         Public Const m_ArmorValue as Integer = &HB328
@@ -125,7 +125,7 @@ Namespace hazedumper
         Public Const dwWeaponTableIndex as Integer = &H323C
         Public Const dwYawPtr as Integer = &HCD0F20
         Public Const dwZoomSensitivityRatioPtr as Integer = &HCD6160
-        Public Const dwbSendPackets as Integer = &HD234A
+        Public Const dwbSendPackets as Integer = &HD243A
         Public Const dwppDirect3DDevice9 as Integer = &HA6020
         Public Const force_update_spectator_glow as Integer = &H38D4D2
         Public Const interface_engine_cvar as Integer = &H3E9EC
