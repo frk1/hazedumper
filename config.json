@@ -926,6 +926,11 @@
       "prop": "m_nSequence",
       "offset": 104,
       "table": "DT_BaseAnimating"
+    },
+    {
+      "name": "m_bStartedArming",
+      "prop": "m_bStartedArming",
+      "table": "DT_WeaponC4"
     }
   ]
 }

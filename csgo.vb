@@ -1,7 +1,7 @@
-' 2019-03-20 14:47:30.297694100 UTC
+' 2019-03-21 16:27:32.596867200 UTC
 
 Namespace hazedumper
-    Public Const timestamp as Integer = &H5C925282
+    Public Const timestamp as Integer = &H5C93BB74
     Public Shared Class netvars
         Public Const cs_gamerules_data as Integer = &H0
         Public Const m_ArmorValue as Integer = &HB328
@@ -29,6 +29,7 @@ Namespace hazedumper
         Public Const m_bIsValveDS as Integer = &H75
         Public Const m_bSpotted as Integer = &H93D
         Public Const m_bSpottedByMask as Integer = &H980
+        Public Const m_bStartedArming as Integer = &H33C0
         Public Const m_clrRender as Integer = &H70
         Public Const m_dwBoneMatrix as Integer = &H26A8
         Public Const m_fAccuracyPenalty as Integer = &H3304

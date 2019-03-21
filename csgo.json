@@ -1,5 +1,5 @@
 {
-  "timestamp": 1553093250,
+  "timestamp": 1553185652,
   "signatures": {
     "clientstate_choked_commands": 19752,
     "clientstate_delta_ticks": 372,
@@ -83,6 +83,7 @@
     "m_bIsValveDS": 117,
     "m_bSpotted": 2365,
     "m_bSpottedByMask": 2432,
+    "m_bStartedArming": 13248,
     "m_clrRender": 112,
     "m_dwBoneMatrix": 9896,
     "m_fAccuracyPenalty": 13060,

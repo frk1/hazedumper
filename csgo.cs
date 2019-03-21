@@ -1,10 +1,10 @@
 using System;
 
-// 2019-03-20 14:47:30.297694100 UTC
+// 2019-03-21 16:27:32.596867200 UTC
 
 namespace hazedumper
 {
-    public const Int32 timestamp = 1553093250;
+    public const Int32 timestamp = 1553185652;
     public static class netvars
     {
         public const Int32 cs_gamerules_data = 0x0;
@@ -33,6 +33,7 @@ namespace hazedumper
         public const Int32 m_bIsValveDS = 0x75;
         public const Int32 m_bSpotted = 0x93D;
         public const Int32 m_bSpottedByMask = 0x980;
+        public const Int32 m_bStartedArming = 0x33C0;
         public const Int32 m_clrRender = 0x70;
         public const Int32 m_dwBoneMatrix = 0x26A8;
         public const Int32 m_fAccuracyPenalty = 0x3304;
