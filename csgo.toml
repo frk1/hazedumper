@@ -1,4 +1,4 @@
-timestamp = 1553853856
+timestamp = 1554296346
 
 [signatures]
 clientstate_choked_commands = 19752
@@ -27,9 +27,9 @@ dwGameDir = 6496112
 dwGameRulesProxy = 85953716
 dwGetAllClasses = 13593540
 dwGlobalVars = 5814784
-dwGlowObjectManager = 86128400
+dwGlowObjectManager = 86128432
 dwInput = 85124336
-dwInterfaceLinkList = 9111316
+dwInterfaceLinkList = 9112100
 dwLocalPlayer = 13444964
 dwMouseEnable = 13468336
 dwMouseEnablePtr = 13468288
@@ -43,7 +43,7 @@ dwWeaponTable = 85127096
 dwWeaponTableIndex = 12860
 dwYawPtr = 13467408
 dwZoomSensitivityRatioPtr = 13488464
-dwbSendPackets = 861530
+dwbSendPackets = 861594
 dwppDirect3DDevice9 = 679984
 force_update_spectator_glow = 3727234
 interface_engine_cvar = 256492
