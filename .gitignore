@@ -3,3 +3,6 @@
 
 # zsh dump files
 *.stackdump
+
+.vs
+.vscode
