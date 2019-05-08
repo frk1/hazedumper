@@ -1,5 +1,5 @@
 ---
-timestamp: 1556883410
+timestamp: 1557311007
 signatures:
   clientstate_choked_commands: 19752
   clientstate_delta_ticks: 372
@@ -15,46 +15,46 @@ signatures:
   dwClientState_PlayerInfo: 21176
   dwClientState_State: 264
   dwClientState_ViewAngles: 19848
-  dwEntityList: 80728924
-  dwForceAttack: 51571244
-  dwForceAttack2: 51571256
-  dwForceBackward: 51571328
-  dwForceForward: 51571340
-  dwForceJump: 85592260
-  dwForceLeft: 51571208
-  dwForceRight: 51571196
+  dwEntityList: 80729468
+  dwForceAttack: 51571788
+  dwForceAttack2: 51571800
+  dwForceBackward: 51571872
+  dwForceForward: 51571884
+  dwForceJump: 85592804
+  dwForceLeft: 51571752
+  dwForceRight: 51571740
   dwGameDir: 6496112
-  dwGameRulesProxy: 86060044
-  dwGetAllClasses: 13698524
+  dwGameRulesProxy: 86060588
+  dwGetAllClasses: 13699060
   dwGlobalVars: 5814784
-  dwGlowObjectManager: 86234904
-  dwInput: 85230504
-  dwInterfaceLinkList: 9184644
-  dwLocalPlayer: 13547868
-  dwMouseEnable: 13571240
-  dwMouseEnablePtr: 13571192
-  dwPlayerResource: 51563948
-  dwRadarBase: 85139644
-  dwSensitivity: 13570884
-  dwSensitivityPtr: 13570840
+  dwGlowObjectManager: 86235416
+  dwInput: 85231048
+  dwInterfaceLinkList: 9185300
+  dwLocalPlayer: 13547964
+  dwMouseEnable: 13571336
+  dwMouseEnablePtr: 13571288
+  dwPlayerResource: 51564492
+  dwRadarBase: 85140188
+  dwSensitivity: 13570980
+  dwSensitivityPtr: 13570936
   dwSetClanTag: 562848
-  dwViewMatrix: 80670068
-  dwWeaponTable: 85233260
+  dwViewMatrix: 80670612
+  dwWeaponTable: 85233804
   dwWeaponTableIndex: 12860
-  dwYawPtr: 13570312
-  dwZoomSensitivityRatioPtr: 13591368
+  dwYawPtr: 13570408
+  dwZoomSensitivityRatioPtr: 13591464
   dwbSendPackets: 862074
   dwppDirect3DDevice9: 679984
-  force_update_spectator_glow: 3743602
+  force_update_spectator_glow: 3744018
   interface_engine_cvar: 256492
-  is_c4_owner: 3793584
+  is_c4_owner: 3793984
   m_bDormant: 237
   m_pStudioHdr: 10572
-  m_pitchClassPtr: 85140328
-  m_yawClassPtr: 13570312
+  m_pitchClassPtr: 85140872
+  m_yawClassPtr: 13570408
   model_ambient_min: 5827868
-  set_abs_angles: 1873520
-  set_abs_origin: 1873072
+  set_abs_angles: 1873776
+  set_abs_origin: 1873328
 netvars:
   cs_gamerules_data: 0
   m_ArmorValue: 45888
