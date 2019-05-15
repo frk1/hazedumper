@@ -1,5 +1,5 @@
 ---
-timestamp: 1557876244
+timestamp: 1557964590
 signatures:
   clientstate_choked_commands: 19752
   clientstate_delta_ticks: 372
@@ -15,42 +15,42 @@ signatures:
   dwClientState_PlayerInfo: 21176
   dwClientState_State: 264
   dwClientState_ViewAngles: 19848
-  dwEntityList: 80755524
-  dwForceAttack: 51597836
-  dwForceAttack2: 51597848
-  dwForceBackward: 51597920
-  dwForceForward: 51597932
-  dwForceJump: 85618864
-  dwForceLeft: 51597800
-  dwForceRight: 51597788
+  dwEntityList: 80755492
+  dwForceAttack: 51597804
+  dwForceAttack2: 51597816
+  dwForceBackward: 51597888
+  dwForceForward: 51597900
+  dwForceJump: 85618832
+  dwForceLeft: 51597768
+  dwForceRight: 51597756
   dwGameDir: 6496112
-  dwGameRulesProxy: 86086652
+  dwGameRulesProxy: 86086620
   dwGetAllClasses: 13724044
   dwGlobalVars: 5814784
-  dwGlowObjectManager: 86261544
-  dwInput: 85257104
-  dwInterfaceLinkList: 9205684
+  dwGlowObjectManager: 86261504
+  dwInput: 85257072
+  dwInterfaceLinkList: 9205828
   dwLocalPlayer: 13572668
   dwMouseEnable: 13596040
   dwMouseEnablePtr: 13595992
-  dwPlayerResource: 51590540
-  dwRadarBase: 85166244
+  dwPlayerResource: 51590508
+  dwRadarBase: 85166212
   dwSensitivity: 13595684
   dwSensitivityPtr: 13595640
   dwSetClanTag: 562848
-  dwViewMatrix: 80696692
-  dwWeaponTable: 85259860
+  dwViewMatrix: 80696660
+  dwWeaponTable: 85259828
   dwWeaponTableIndex: 12860
   dwYawPtr: 13595112
   dwZoomSensitivityRatioPtr: 13616168
   dwbSendPackets: 862074
   dwppDirect3DDevice9: 679984
-  force_update_spectator_glow: 3748530
+  force_update_spectator_glow: 3748706
   interface_engine_cvar: 256492
-  is_c4_owner: 3798480
+  is_c4_owner: 3798640
   m_bDormant: 237
   m_pStudioHdr: 10572
-  m_pitchClassPtr: 85166928
+  m_pitchClassPtr: 85166896
   m_yawClassPtr: 13595112
   model_ambient_min: 5827868
   set_abs_angles: 1878448
