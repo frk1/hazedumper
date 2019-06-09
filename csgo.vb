@@ -1,7 +1,7 @@
-' 2019-05-30 09:13:52.637734700 UTC
+' 2019-06-09 13:14:59.793467 UTC
 
 Namespace hazedumper
-    Public Const timestamp as Integer = &H5CEF9ED0
+    Public Const timestamp as Integer = &H5CFD0653
     Public Shared Class netvars
         Public Const cs_gamerules_data as Integer = &H0
         Public Const m_ArmorValue as Integer = &HB340
@@ -130,7 +130,7 @@ Namespace hazedumper
         Public Const dwppDirect3DDevice9 as Integer = &HA6030
         Public Const force_update_spectator_glow as Integer = &H392AF2
         Public Const interface_engine_cvar as Integer = &H3E9EC
-        Public Const is_c4_owner as Integer = &H39EE10
+        Public Const is_c4_owner as Integer = &H39EE20
         Public Const m_bDormant as Integer = &HED
         Public Const m_pStudioHdr as Integer = &H294C
         Public Const m_pitchClassPtr as Integer = &H5138AB0
