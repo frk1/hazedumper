@@ -1,5 +1,5 @@
 ---
-timestamp: 1560291370
+timestamp: 1560929458
 signatures:
   clientstate_choked_commands: 19752
   clientstate_delta_ticks: 372
@@ -15,46 +15,46 @@ signatures:
   dwClientState_PlayerInfo: 21176
   dwClientState_State: 264
   dwClientState_ViewAngles: 19848
-  dwEntityList: 80759412
-  dwForceAttack: 51601724
-  dwForceAttack2: 51601736
-  dwForceBackward: 51601784
-  dwForceForward: 51601748
-  dwForceJump: 85623084
-  dwForceLeft: 51601772
-  dwForceRight: 51601808
+  dwEntityList: 80759588
+  dwForceAttack: 51601888
+  dwForceAttack2: 51601900
+  dwForceBackward: 51601960
+  dwForceForward: 51601972
+  dwForceJump: 85623260
+  dwForceLeft: 51601996
+  dwForceRight: 51601984
   dwGameDir: 6500208
-  dwGameRulesProxy: 86090868
-  dwGetAllClasses: 13727940
+  dwGameRulesProxy: 86091044
+  dwGetAllClasses: 13728092
   dwGlobalVars: 5818880
-  dwGlowObjectManager: 86265752
-  dwInput: 85260992
-  dwInterfaceLinkList: 9206708
+  dwGlowObjectManager: 86265936
+  dwInput: 85261168
+  dwInterfaceLinkList: 9206644
   dwLocalPlayer: 13576764
   dwMouseEnable: 13600136
   dwMouseEnablePtr: 13600088
-  dwPlayerResource: 51594428
-  dwRadarBase: 85170132
+  dwPlayerResource: 51594604
+  dwRadarBase: 85170308
   dwSensitivity: 13599780
   dwSensitivityPtr: 13599736
   dwSetClanTag: 562848
-  dwViewMatrix: 80700580
-  dwWeaponTable: 85263748
+  dwViewMatrix: 80700756
+  dwWeaponTable: 85263924
   dwWeaponTableIndex: 12860
   dwYawPtr: 13599208
   dwZoomSensitivityRatioPtr: 13620232
   dwbSendPackets: 862218
   dwppDirect3DDevice9: 679984
-  force_update_spectator_glow: 3747874
+  force_update_spectator_glow: 3748482
   interface_engine_cvar: 256492
-  is_c4_owner: 3797872
+  is_c4_owner: 3798224
   m_bDormant: 237
   m_pStudioHdr: 10572
-  m_pitchClassPtr: 85170816
+  m_pitchClassPtr: 85170992
   m_yawClassPtr: 13599208
   model_ambient_min: 5831964
-  set_abs_angles: 1877904
-  set_abs_origin: 1877456
+  set_abs_angles: 1878192
+  set_abs_origin: 1877744
 netvars:
   cs_gamerules_data: 0
   m_ArmorValue: 45888
