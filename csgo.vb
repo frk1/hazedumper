@@ -1,7 +1,7 @@
-' 2019-07-19 09:10:51.120895200 UTC
+' 2019-07-20 19:23:18.432880100 UTC
 
 Namespace hazedumper
-    Public Const timestamp as Integer = &H5D31891B
+    Public Const timestamp as Integer = &H5D336A26
     Public Shared Class netvars
         Public Const cs_gamerules_data as Integer = &H0
         Public Const m_ArmorValue as Integer = &HB340
@@ -110,7 +110,7 @@ Namespace hazedumper
         Public Const dwGameRulesProxy as Integer = &H521B4D4
         Public Const dwGetAllClasses as Integer = &HD1895C
         Public Const dwGlobalVars as Integer = &H58CA00
-        Public Const dwGlowObjectManager as Integer = &H5246000
+        Public Const dwGlowObjectManager as Integer = &H5245FE8
         Public Const dwInput as Integer = &H5150B20
         Public Const dwInterfaceLinkList as Integer = &H8C8014
         Public Const dwLocalPlayer as Integer = &HCF3A3C
