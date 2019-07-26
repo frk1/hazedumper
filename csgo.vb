@@ -1,7 +1,7 @@
-' 2019-07-25 23:07:17.636090900 UTC
+' 2019-07-26 08:30:19.124203400 UTC
 
 Namespace hazedumper
-    Public Const timestamp as Integer = &H5D3A3625
+    Public Const timestamp as Integer = &H5D3ABA1B
     Public Shared Class netvars
         Public Const cs_gamerules_data as Integer = &H0
         Public Const m_ArmorValue as Integer = &HB340
@@ -89,7 +89,7 @@ Namespace hazedumper
         Public Const clientstate_last_outgoing_command as Integer = &H4D24
         Public Const clientstate_net_channel as Integer = &H9C
         Public Const convar_name_hash_table as Integer = &H2F0F8
-        Public Const dwClientState as Integer = &H58FCFC
+        Public Const dwClientState as Integer = &H58ECFC
         Public Const dwClientState_GetLocalPlayer as Integer = &H180
         Public Const dwClientState_IsHLTV as Integer = &H4D40
         Public Const dwClientState_Map as Integer = &H28C
@@ -106,10 +106,10 @@ Namespace hazedumper
         Public Const dwForceJump as Integer = &H51A91AC
         Public Const dwForceLeft as Integer = &H31371EC
         Public Const dwForceRight as Integer = &H3137210
-        Public Const dwGameDir as Integer = &H636170
+        Public Const dwGameDir as Integer = &H635170
         Public Const dwGameRulesProxy as Integer = &H521B4F4
         Public Const dwGetAllClasses as Integer = &HD1896C
-        Public Const dwGlobalVars as Integer = &H58FA00
+        Public Const dwGlobalVars as Integer = &H58EA00
         Public Const dwGlowObjectManager as Integer = &H5245F08
         Public Const dwInput as Integer = &H5150B40
         Public Const dwInterfaceLinkList as Integer = &H8C8334
@@ -135,7 +135,7 @@ Namespace hazedumper
         Public Const m_pStudioHdr as Integer = &H294C
         Public Const m_pitchClassPtr as Integer = &H513AB00
         Public Const m_yawClassPtr as Integer = &HCF91F8
-        Public Const model_ambient_min as Integer = &H592D1C
+        Public Const model_ambient_min as Integer = &H591D1C
         Public Const set_abs_angles as Integer = &H1CA9B0
         Public Const set_abs_origin as Integer = &H1CA7F0
     End Class

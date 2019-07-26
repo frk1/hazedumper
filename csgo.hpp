@@ -1,10 +1,10 @@
 #pragma once
 #include <cstdint>
 
-// 2019-07-25 23:07:17.636090900 UTC
+// 2019-07-26 08:30:19.124203400 UTC
 
 namespace hazedumper {
-constexpr ::std::int64_t timestamp = 1564096037;
+constexpr ::std::int64_t timestamp = 1564129819;
 namespace netvars {
 constexpr ::std::ptrdiff_t cs_gamerules_data = 0x0;
 constexpr ::std::ptrdiff_t m_ArmorValue = 0xB340;
@@ -92,7 +92,7 @@ constexpr ::std::ptrdiff_t clientstate_delta_ticks = 0x174;
 constexpr ::std::ptrdiff_t clientstate_last_outgoing_command = 0x4D24;
 constexpr ::std::ptrdiff_t clientstate_net_channel = 0x9C;
 constexpr ::std::ptrdiff_t convar_name_hash_table = 0x2F0F8;
-constexpr ::std::ptrdiff_t dwClientState = 0x58FCFC;
+constexpr ::std::ptrdiff_t dwClientState = 0x58ECFC;
 constexpr ::std::ptrdiff_t dwClientState_GetLocalPlayer = 0x180;
 constexpr ::std::ptrdiff_t dwClientState_IsHLTV = 0x4D40;
 constexpr ::std::ptrdiff_t dwClientState_Map = 0x28C;
@@ -109,10 +109,10 @@ constexpr ::std::ptrdiff_t dwForceForward = 0x31371D4;
 constexpr ::std::ptrdiff_t dwForceJump = 0x51A91AC;
 constexpr ::std::ptrdiff_t dwForceLeft = 0x31371EC;
 constexpr ::std::ptrdiff_t dwForceRight = 0x3137210;
-constexpr ::std::ptrdiff_t dwGameDir = 0x636170;
+constexpr ::std::ptrdiff_t dwGameDir = 0x635170;
 constexpr ::std::ptrdiff_t dwGameRulesProxy = 0x521B4F4;
 constexpr ::std::ptrdiff_t dwGetAllClasses = 0xD1896C;
-constexpr ::std::ptrdiff_t dwGlobalVars = 0x58FA00;
+constexpr ::std::ptrdiff_t dwGlobalVars = 0x58EA00;
 constexpr ::std::ptrdiff_t dwGlowObjectManager = 0x5245F08;
 constexpr ::std::ptrdiff_t dwInput = 0x5150B40;
 constexpr ::std::ptrdiff_t dwInterfaceLinkList = 0x8C8334;
@@ -138,7 +138,7 @@ constexpr ::std::ptrdiff_t m_bDormant = 0xED;
 constexpr ::std::ptrdiff_t m_pStudioHdr = 0x294C;
 constexpr ::std::ptrdiff_t m_pitchClassPtr = 0x513AB00;
 constexpr ::std::ptrdiff_t m_yawClassPtr = 0xCF91F8;
-constexpr ::std::ptrdiff_t model_ambient_min = 0x592D1C;
+constexpr ::std::ptrdiff_t model_ambient_min = 0x591D1C;
 constexpr ::std::ptrdiff_t set_abs_angles = 0x1CA9B0;
 constexpr ::std::ptrdiff_t set_abs_origin = 0x1CA7F0;
 } // namespace signatures
