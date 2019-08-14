@@ -1,4 +1,4 @@
-timestamp = 1565806763
+timestamp = 1565807620
 
 [signatures]
 clientstate_choked_commands = 19752
@@ -24,6 +24,7 @@ dwForceJump = 85631852
 dwForceLeft = 51610540
 dwForceRight = 51610576
 dwGameDir = 6518256
+dwGameRulesProxy = 86099636
 dwGetAllClasses = 13736668
 dwGlobalVars = 5835408
 dwGlowObjectManager = 86274288

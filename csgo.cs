@@ -1,10 +1,10 @@
 using System;
 
-// 2019-08-14 18:19:23.459487400 UTC
+// 2019-08-14 18:33:40.561498 UTC
 
 namespace hazedumper
 {
-    public const Int32 timestamp = 1565806763;
+    public const Int32 timestamp = 1565807620;
     public static class netvars
     {
         public const Int32 cs_gamerules_data = 0x0;
@@ -112,6 +112,7 @@ namespace hazedumper
         public const Int32 dwForceLeft = 0x31383AC;
         public const Int32 dwForceRight = 0x31383D0;
         public const Int32 dwGameDir = 0x6375F0;
+        public const Int32 dwGameRulesProxy = 0x521C6B4;
         public const Int32 dwGetAllClasses = 0xD19ADC;
         public const Int32 dwGlobalVars = 0x590A90;
         public const Int32 dwGlowObjectManager = 0x52470F0;
