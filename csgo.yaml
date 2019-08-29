@@ -1,5 +1,5 @@
 ---
-timestamp: 1566908086
+timestamp: 1567062748
 signatures:
   clientstate_choked_commands: 19752
   clientstate_delta_ticks: 372
@@ -15,34 +15,34 @@ signatures:
   dwClientState_PlayerInfo: 21176
   dwClientState_State: 264
   dwClientState_ViewAngles: 19848
-  dwEntityList: 80768452
-  dwForceAttack: 51610752
-  dwForceAttack2: 51610764
-  dwForceBackward: 51610824
-  dwForceForward: 51610836
-  dwForceJump: 85632124
-  dwForceLeft: 51610860
-  dwForceRight: 51610848
+  dwEntityList: 80772564
+  dwForceAttack: 51614864
+  dwForceAttack2: 51614876
+  dwForceBackward: 51614936
+  dwForceForward: 51614948
+  dwForceJump: 85636236
+  dwForceLeft: 51614972
+  dwForceRight: 51614960
   dwGameDir: 6518512
-  dwGameRulesProxy: 86099908
-  dwGetAllClasses: 13736948
+  dwGameRulesProxy: 86104020
+  dwGetAllClasses: 13741044
   dwGlobalVars: 5835416
-  dwGlowObjectManager: 86274576
-  dwInput: 85270032
-  dwInterfaceLinkList: 9214612
-  dwLocalPlayer: 13584972
-  dwMouseEnable: 13608344
-  dwMouseEnablePtr: 13608296
-  dwPlayerResource: 51603468
-  dwRadarBase: 85179172
-  dwSensitivity: 13607988
-  dwSensitivityPtr: 13607944
+  dwGlowObjectManager: 86278696
+  dwInput: 85274144
+  dwInterfaceLinkList: 9215764
+  dwLocalPlayer: 13589068
+  dwMouseEnable: 13612440
+  dwMouseEnablePtr: 13612392
+  dwPlayerResource: 51607580
+  dwRadarBase: 85183284
+  dwSensitivity: 13612084
+  dwSensitivityPtr: 13612040
   dwSetClanTag: 563344
-  dwViewMatrix: 80709620
-  dwWeaponTable: 85272792
+  dwViewMatrix: 80713732
+  dwWeaponTable: 85276904
   dwWeaponTableIndex: 12860
-  dwYawPtr: 13607416
-  dwZoomSensitivityRatioPtr: 13628440
+  dwYawPtr: 13611512
+  dwZoomSensitivityRatioPtr: 13632536
   dwbSendPackets: 863482
   dwppDirect3DDevice9: 679984
   force_update_spectator_glow: 3749474
@@ -50,8 +50,8 @@ signatures:
   is_c4_owner: 3799216
   m_bDormant: 237
   m_pStudioHdr: 10572
-  m_pitchClassPtr: 85179856
-  m_yawClassPtr: 13607416
+  m_pitchClassPtr: 85183968
+  m_yawClassPtr: 13611512
   model_ambient_min: 5848500
   set_abs_angles: 1878944
   set_abs_origin: 1878496
