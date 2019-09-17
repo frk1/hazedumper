@@ -1,5 +1,5 @@
 {
-  "timestamp": 1567062748,
+  "timestamp": 1568729069,
   "signatures": {
     "clientstate_choked_commands": 19752,
     "clientstate_delta_ticks": 372,
@@ -43,7 +43,7 @@
     "dwWeaponTableIndex": 12860,
     "dwYawPtr": 13611512,
     "dwZoomSensitivityRatioPtr": 13632536,
-    "dwbSendPackets": 863482,
+    "dwbSendPackets": 863594,
     "dwppDirect3DDevice9": 679984,
     "force_update_spectator_glow": 3749474,
     "interface_engine_cvar": 256492,
