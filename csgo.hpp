@@ -1,10 +1,10 @@
 #pragma once
 #include <cstdint>
 
-// 2019-09-19 23:06:25.981887800 UTC
+// 2019-09-25 00:48:19.265781900 UTC
 
 namespace hazedumper {
-constexpr ::std::int64_t timestamp = 1568934385;
+constexpr ::std::int64_t timestamp = 1569372499;
 namespace netvars {
 constexpr ::std::ptrdiff_t cs_gamerules_data = 0x0;
 constexpr ::std::ptrdiff_t m_ArmorValue = 0xB340;
@@ -33,11 +33,17 @@ constexpr ::std::ptrdiff_t m_bIsValveDS = 0x75;
 constexpr ::std::ptrdiff_t m_bSpotted = 0x93D;
 constexpr ::std::ptrdiff_t m_bSpottedByMask = 0x980;
 constexpr ::std::ptrdiff_t m_bStartedArming = 0x33D0;
+constexpr ::std::ptrdiff_t m_bUseCustomAutoExposureMax = 0x9D9;
+constexpr ::std::ptrdiff_t m_bUseCustomAutoExposureMin = 0x9D8;
+constexpr ::std::ptrdiff_t m_bUseCustomBloomScale = 0x9DA;
 constexpr ::std::ptrdiff_t m_clrRender = 0x70;
 constexpr ::std::ptrdiff_t m_dwBoneMatrix = 0x26A8;
 constexpr ::std::ptrdiff_t m_fAccuracyPenalty = 0x3310;
 constexpr ::std::ptrdiff_t m_fFlags = 0x104;
 constexpr ::std::ptrdiff_t m_flC4Blow = 0x2990;
+constexpr ::std::ptrdiff_t m_flCustomAutoExposureMax = 0x9E0;
+constexpr ::std::ptrdiff_t m_flCustomAutoExposureMin = 0x9DC;
+constexpr ::std::ptrdiff_t m_flCustomBloomScale = 0x9E4;
 constexpr ::std::ptrdiff_t m_flDefuseCountDown = 0x29AC;
 constexpr ::std::ptrdiff_t m_flDefuseLength = 0x29A8;
 constexpr ::std::ptrdiff_t m_flFallbackWear = 0x31C0;

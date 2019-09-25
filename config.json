@@ -931,6 +931,36 @@
       "name": "m_bStartedArming",
       "prop": "m_bStartedArming",
       "table": "DT_WeaponC4"
+    },
+    {
+      "name": "m_bUseCustomBloomScale",
+      "prop": "m_bUseCustomBloomScale",
+      "table": "DT_EnvTonemapController"
+    },
+    {
+      "name": "m_bUseCustomAutoExposureMin",
+      "prop": "m_bUseCustomAutoExposureMin",
+      "table": "DT_EnvTonemapController"
+    },
+    {
+      "name": "m_bUseCustomAutoExposureMax",
+      "prop": "m_bUseCustomAutoExposureMax",
+      "table": "DT_EnvTonemapController"
+    },
+    {
+      "name": "m_flCustomBloomScale",
+      "prop": "m_flCustomBloomScale",
+      "table": "DT_EnvTonemapController"
+    },
+    {
+      "name": "m_flCustomAutoExposureMin",
+      "prop": "m_flCustomAutoExposureMin",
+      "table": "DT_EnvTonemapController"
+    },
+    {
+      "name": "m_flCustomAutoExposureMax",
+      "prop": "m_flCustomAutoExposureMax",
+      "table": "DT_EnvTonemapController"
     }
   ]
 }

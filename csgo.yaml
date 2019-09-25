@@ -1,5 +1,5 @@
 ---
-timestamp: 1568934385
+timestamp: 1569372499
 signatures:
   clientstate_choked_commands: 19752
   clientstate_delta_ticks: 372
@@ -83,11 +83,17 @@ netvars:
   m_bSpotted: 2365
   m_bSpottedByMask: 2432
   m_bStartedArming: 13264
+  m_bUseCustomAutoExposureMax: 2521
+  m_bUseCustomAutoExposureMin: 2520
+  m_bUseCustomBloomScale: 2522
   m_clrRender: 112
   m_dwBoneMatrix: 9896
   m_fAccuracyPenalty: 13072
   m_fFlags: 260
   m_flC4Blow: 10640
+  m_flCustomAutoExposureMax: 2528
+  m_flCustomAutoExposureMin: 2524
+  m_flCustomBloomScale: 2532
   m_flDefuseCountDown: 10668
   m_flDefuseLength: 10664
   m_flFallbackWear: 12736

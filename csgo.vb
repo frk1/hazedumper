@@ -1,7 +1,7 @@
-' 2019-09-19 23:06:25.981887800 UTC
+' 2019-09-25 00:48:19.265781900 UTC
 
 Namespace hazedumper
-    Public Const timestamp as Integer = &H5D8409F1
+    Public Const timestamp as Integer = &H5D8AB953
     Public Shared Class netvars
         Public Const cs_gamerules_data as Integer = &H0
         Public Const m_ArmorValue as Integer = &HB340
@@ -30,11 +30,17 @@ Namespace hazedumper
         Public Const m_bSpotted as Integer = &H93D
         Public Const m_bSpottedByMask as Integer = &H980
         Public Const m_bStartedArming as Integer = &H33D0
+        Public Const m_bUseCustomAutoExposureMax as Integer = &H9D9
+        Public Const m_bUseCustomAutoExposureMin as Integer = &H9D8
+        Public Const m_bUseCustomBloomScale as Integer = &H9DA
         Public Const m_clrRender as Integer = &H70
         Public Const m_dwBoneMatrix as Integer = &H26A8
         Public Const m_fAccuracyPenalty as Integer = &H3310
         Public Const m_fFlags as Integer = &H104
         Public Const m_flC4Blow as Integer = &H2990
+        Public Const m_flCustomAutoExposureMax as Integer = &H9E0
+        Public Const m_flCustomAutoExposureMin as Integer = &H9DC
+        Public Const m_flCustomBloomScale as Integer = &H9E4
         Public Const m_flDefuseCountDown as Integer = &H29AC
         Public Const m_flDefuseLength as Integer = &H29A8
         Public Const m_flFallbackWear as Integer = &H31C0
