@@ -1,10 +1,10 @@
 #pragma once
 #include <cstdint>
 
-// 2019-09-25 00:48:19.265781900 UTC
+// 2019-09-25 19:50:09.715226300 UTC
 
 namespace hazedumper {
-constexpr ::std::int64_t timestamp = 1569372499;
+constexpr ::std::int64_t timestamp = 1569441009;
 namespace netvars {
 constexpr ::std::ptrdiff_t cs_gamerules_data = 0x0;
 constexpr ::std::ptrdiff_t m_ArmorValue = 0xB340;
@@ -93,6 +93,7 @@ constexpr ::std::ptrdiff_t m_vecViewOffset = 0x108;
 constexpr ::std::ptrdiff_t m_viewPunchAngle = 0x3020;
 } // namespace netvars
 namespace signatures {
+constexpr ::std::ptrdiff_t anim_overlays = 0x2980;
 constexpr ::std::ptrdiff_t clientstate_choked_commands = 0x4D28;
 constexpr ::std::ptrdiff_t clientstate_delta_ticks = 0x174;
 constexpr ::std::ptrdiff_t clientstate_last_outgoing_command = 0x4D24;

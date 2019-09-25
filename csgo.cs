@@ -1,10 +1,10 @@
 using System;
 
-// 2019-09-25 00:48:19.265781900 UTC
+// 2019-09-25 19:50:09.715226300 UTC
 
 namespace hazedumper
 {
-    public const Int32 timestamp = 1569372499;
+    public const Int32 timestamp = 1569441009;
     public static class netvars
     {
         public const Int32 cs_gamerules_data = 0x0;
@@ -95,6 +95,7 @@ namespace hazedumper
     }
     public static class signatures
     {
+        public const Int32 anim_overlays = 0x2980;
         public const Int32 clientstate_choked_commands = 0x4D28;
         public const Int32 clientstate_delta_ticks = 0x174;
         public const Int32 clientstate_last_outgoing_command = 0x4D24;

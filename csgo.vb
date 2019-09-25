@@ -1,7 +1,7 @@
-' 2019-09-25 00:48:19.265781900 UTC
+' 2019-09-25 19:50:09.715226300 UTC
 
 Namespace hazedumper
-    Public Const timestamp as Integer = &H5D8AB953
+    Public Const timestamp as Integer = &H5D8BC4F1
     Public Shared Class netvars
         Public Const cs_gamerules_data as Integer = &H0
         Public Const m_ArmorValue as Integer = &HB340
@@ -90,6 +90,7 @@ Namespace hazedumper
         Public Const m_viewPunchAngle as Integer = &H3020
     End Class
     Public Shared Class signatures
+        Public Const anim_overlays as Integer = &H2980
         Public Const clientstate_choked_commands as Integer = &H4D28
         Public Const clientstate_delta_ticks as Integer = &H174
         Public Const clientstate_last_outgoing_command as Integer = &H4D24

@@ -1,6 +1,7 @@
-timestamp = 1569372499
+timestamp = 1569441009
 
 [signatures]
+anim_overlays = 10624
 clientstate_choked_commands = 19752
 clientstate_delta_ticks = 372
 clientstate_last_outgoing_command = 19748

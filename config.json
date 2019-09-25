@@ -524,6 +524,16 @@
       "relative": true,
       "module": "client_panorama.dll",
       "pattern": "74 07 8B CB E8 ? ? ? ? 83 C7 10"
+    },
+    {
+      "name": "anim_overlays",
+      "extra": 0,
+      "relative": false,
+      "module": "client_panorama.dll",
+      "offsets": [
+        2
+      ],
+      "pattern": "8B 89 ? ? ? ? 8D 0C D1"
     }
   ],
   "netvars": [
