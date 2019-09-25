@@ -544,6 +544,13 @@
         2
       ],
       "pattern": "89 86 ? ? ? ? E8 ? ? ? ? 80 BE ? ? ? ? ?"
+    },
+    {
+      "name": "find_hud_element",
+      "extra": 0,
+      "relative": false,
+      "module": "client_panorama.dll",
+      "pattern": "55 8B EC 53 8B 5D 08 56 57 8B F9 33 F6 39 77 28"
     }
   ],
   "netvars": [
