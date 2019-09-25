@@ -534,6 +534,16 @@
         2
       ],
       "pattern": "8B 89 ? ? ? ? 8D 0C D1"
+    },
+    {
+      "name": "m_flSpawnTime",
+      "extra": 0,
+      "relative": false,
+      "module": "client_panorama.dll",
+      "offsets": [
+        2
+      ],
+      "pattern": "89 86 ? ? ? ? E8 ? ? ? ? 80 BE ? ? ? ? ?"
     }
   ],
   "netvars": [

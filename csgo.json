@@ -1,5 +1,5 @@
 {
-  "timestamp": 1569441009,
+  "timestamp": 1569441183,
   "signatures": {
     "anim_overlays": 10624,
     "clientstate_choked_commands": 19752,
@@ -50,6 +50,7 @@
     "interface_engine_cvar": 256492,
     "is_c4_owner": 3800032,
     "m_bDormant": 237,
+    "m_flSpawnTime": 41824,
     "m_pStudioHdr": 10572,
     "m_pitchClassPtr": 85192448,
     "m_yawClassPtr": 13619688,
