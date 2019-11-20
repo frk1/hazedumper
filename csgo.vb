@@ -1,7 +1,7 @@
-' 2019-11-18 23:37:44.091138200 UTC
+' 2019-11-20 14:45:56.691839700 UTC
 
 Namespace hazedumper
-    Public Const timestamp as Integer = &H5DD32B48
+    Public Const timestamp as Integer = &H5DD551A4
     Public Shared Class netvars
         Public Const cs_gamerules_data as Integer = &H0
         Public Const m_ArmorValue as Integer = &HB368
@@ -105,44 +105,44 @@ Namespace hazedumper
         Public Const dwClientState_PlayerInfo as Integer = &H52B8
         Public Const dwClientState_State as Integer = &H108
         Public Const dwClientState_ViewAngles as Integer = &H4D88
-        Public Const dwEntityList as Integer = &H4D3858C
-        Public Const dwForceAttack as Integer = &H3169C4C
-        Public Const dwForceAttack2 as Integer = &H3169C58
-        Public Const dwForceBackward as Integer = &H3169CA0
-        Public Const dwForceForward as Integer = &H3169CAC
-        Public Const dwForceJump as Integer = &H51DBD78
-        Public Const dwForceLeft as Integer = &H3169C28
-        Public Const dwForceRight as Integer = &H3169C1C
+        Public Const dwEntityList as Integer = &H4D385AC
+        Public Const dwForceAttack as Integer = &H3169C6C
+        Public Const dwForceAttack2 as Integer = &H3169C78
+        Public Const dwForceBackward as Integer = &H3169CC0
+        Public Const dwForceForward as Integer = &H3169CCC
+        Public Const dwForceJump as Integer = &H51DBD98
+        Public Const dwForceLeft as Integer = &H3169C48
+        Public Const dwForceRight as Integer = &H3169C3C
         Public Const dwGameDir as Integer = &H62F4F0
-        Public Const dwGameRulesProxy as Integer = &H524F064
+        Public Const dwGameRulesProxy as Integer = &H524F084
         Public Const dwGetAllClasses as Integer = &HD4AC44
         Public Const dwGlobalVars as Integer = &H588AC8
-        Public Const dwGlowObjectManager as Integer = &H5279B58
-        Public Const dwInput as Integer = &H5183728
-        Public Const dwInterfaceLinkList as Integer = &H8F2674
+        Public Const dwGlowObjectManager as Integer = &H5279B70
+        Public Const dwInput as Integer = &H5183748
+        Public Const dwInterfaceLinkList as Integer = &H8F27A4
         Public Const dwLocalPlayer as Integer = &HD24AAC
         Public Const dwMouseEnable as Integer = &HD2A650
         Public Const dwMouseEnablePtr as Integer = &HD2A620
-        Public Const dwPlayerResource as Integer = &H3167FCC
-        Public Const dwRadarBase as Integer = &H516D2EC
+        Public Const dwPlayerResource as Integer = &H3167FEC
+        Public Const dwRadarBase as Integer = &H516D30C
         Public Const dwSensitivity as Integer = &HD2A4EC
         Public Const dwSensitivityPtr as Integer = &HD2A4C0
         Public Const dwSetClanTag as Integer = &H89B40
-        Public Const dwViewMatrix as Integer = &H4D29FA4
-        Public Const dwWeaponTable as Integer = &H51841EC
+        Public Const dwViewMatrix as Integer = &H4D29FC4
+        Public Const dwWeaponTable as Integer = &H518420C
         Public Const dwWeaponTableIndex as Integer = &H323C
         Public Const dwYawPtr as Integer = &HD2A2B0
         Public Const dwZoomSensitivityRatioPtr as Integer = &HD2F4D0
         Public Const dwbSendPackets as Integer = &HD320A
         Public Const dwppDirect3DDevice9 as Integer = &HA6030
-        Public Const find_hud_element as Integer = &H2964B200
+        Public Const find_hud_element as Integer = &H2B91B200
         Public Const force_update_spectator_glow as Integer = &H3979F2
         Public Const interface_engine_cvar as Integer = &H3E9EC
         Public Const is_c4_owner as Integer = &H3A3E20
         Public Const m_bDormant as Integer = &HED
         Public Const m_flSpawnTime as Integer = &HA360
         Public Const m_pStudioHdr as Integer = &H294C
-        Public Const m_pitchClassPtr as Integer = &H516D588
+        Public Const m_pitchClassPtr as Integer = &H516D5A8
         Public Const m_yawClassPtr as Integer = &HD2A2B0
         Public Const model_ambient_min as Integer = &H58BDE4
         Public Const set_abs_angles as Integer = &H1CE6C0
