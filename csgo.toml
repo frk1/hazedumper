@@ -1,4 +1,4 @@
-timestamp = 1574806131
+timestamp = 1574809241
 
 [signatures]
 anim_overlays = 10624
@@ -11,6 +11,7 @@ dwClientState = 5803460
 dwClientState_GetLocalPlayer = 384
 dwClientState_IsHLTV = 19776
 dwClientState_Map = 652
+dwClientState_MapDirectory = 392
 dwClientState_MaxPlayer = 904
 dwClientState_PlayerInfo = 21176
 dwClientState_State = 264
@@ -45,7 +46,7 @@ dwYawPtr = 13816496
 dwZoomSensitivityRatioPtr = 13837520
 dwbSendPackets = 865034
 dwppDirect3DDevice9 = 679984
-find_hud_element = 714126768
+find_hud_element = 702526896
 force_update_spectator_glow = 3767602
 interface_engine_cvar = 256492
 is_c4_owner = 3817824

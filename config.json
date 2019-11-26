@@ -48,9 +48,9 @@
       "relative": false,
       "module": "engine.dll",
       "offsets": [
-        1
+        7
       ],
-      "pattern": "05 ? ? ? ? C3 CC CC CC CC CC CC CC 80 3D"
+      "pattern": "B8 ? ? ? ? C3 05 ? ? ? ? C3"
     },
     {
       "name": "dwClientState_MaxPlayer",
