@@ -1,4 +1,4 @@
-timestamp = 1574809241
+timestamp = 1574900851
 
 [signatures]
 anim_overlays = 10624
@@ -7,7 +7,7 @@ clientstate_delta_ticks = 372
 clientstate_last_outgoing_command = 19748
 clientstate_net_channel = 156
 convar_name_hash_table = 192760
-dwClientState = 5803460
+dwClientState = 5799364
 dwClientState_GetLocalPlayer = 384
 dwClientState_IsHLTV = 19776
 dwClientState_Map = 652
@@ -24,10 +24,10 @@ dwForceForward = 51826084
 dwForceJump = 85847688
 dwForceLeft = 51826108
 dwForceRight = 51826096
-dwGameDir = 6485232
+dwGameDir = 6481136
 dwGameRulesProxy = 86319468
 dwGetAllClasses = 13950108
-dwGlobalVars = 5802696
+dwGlobalVars = 5798600
 dwGlowObjectManager = 86494904
 dwInput = 85485624
 dwInterfaceLinkList = 9386900
@@ -46,7 +46,7 @@ dwYawPtr = 13816496
 dwZoomSensitivityRatioPtr = 13837520
 dwbSendPackets = 865034
 dwppDirect3DDevice9 = 679984
-find_hud_element = 702526896
+find_hud_element = 718976432
 force_update_spectator_glow = 3767602
 interface_engine_cvar = 256492
 is_c4_owner = 3817824
@@ -55,7 +55,7 @@ m_flSpawnTime = 41824
 m_pStudioHdr = 10572
 m_pitchClassPtr = 85395096
 m_yawClassPtr = 13816496
-model_ambient_min = 5815780
+model_ambient_min = 5811684
 set_abs_angles = 1895040
 set_abs_origin = 1894592
 
