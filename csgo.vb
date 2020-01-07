@@ -1,7 +1,7 @@
-' 2019-12-20 23:28:18.431447700 UTC
+' 2020-01-07 16:25:45.792191 UTC
 
 Namespace hazedumper
-    Public Const timestamp as Integer = &H5DFD5912
+    Public Const timestamp as Integer = &H5E14B109
     Public Shared Class netvars
         Public Const cs_gamerules_data as Integer = &H0
         Public Const m_ArmorValue as Integer = &HB368
@@ -113,7 +113,7 @@ Namespace hazedumper
         Public Const dwForceJump as Integer = &H51DFEAC
         Public Const dwForceLeft as Integer = &H316DD28
         Public Const dwForceRight as Integer = &H316DD1C
-        Public Const dwGameDir as Integer = &H6274F0
+        Public Const dwGameDir as Integer = &H6274F8
         Public Const dwGameRulesProxy as Integer = &H525319C
         Public Const dwGetAllClasses as Integer = &HD4EC34
         Public Const dwGlobalVars as Integer = &H588AA0
@@ -127,15 +127,15 @@ Namespace hazedumper
         Public Const dwRadarBase as Integer = &H51713EC
         Public Const dwSensitivity as Integer = &HD2E55C
         Public Const dwSensitivityPtr as Integer = &HD2E530
-        Public Const dwSetClanTag as Integer = &H89B20
+        Public Const dwSetClanTag as Integer = &H89D60
         Public Const dwViewMatrix as Integer = &H4D2E0A4
         Public Const dwWeaponTable as Integer = &H51882EC
         Public Const dwWeaponTableIndex as Integer = &H323C
         Public Const dwYawPtr as Integer = &HD2E320
         Public Const dwZoomSensitivityRatioPtr as Integer = &HD33540
-        Public Const dwbSendPackets as Integer = &HD333A
+        Public Const dwbSendPackets as Integer = &HD360A
         Public Const dwppDirect3DDevice9 as Integer = &HA6030
-        Public Const find_hud_element as Integer = &H2B25B5D0
+        Public Const find_hud_element as Integer = &H2B11B5D0
         Public Const force_update_spectator_glow as Integer = &H397E52
         Public Const interface_engine_cvar as Integer = &H3E9EC
         Public Const is_c4_owner as Integer = &H3A4290
