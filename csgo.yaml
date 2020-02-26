@@ -1,5 +1,5 @@
 ---
-timestamp: 1582643696
+timestamp: 1582678431
 signatures:
   anim_overlays: 10624
   clientstate_choked_commands: 19752
@@ -16,48 +16,48 @@ signatures:
   dwClientState_PlayerInfo: 21176
   dwClientState_State: 264
   dwClientState_ViewAngles: 19848
-  dwEntityList: 81016940
-  dwForceAttack: 51858956
-  dwForceAttack2: 51858968
-  dwForceBackward: 51859028
-  dwForceForward: 51859040
-  dwForceJump: 85906568
-  dwForceLeft: 51859064
-  dwForceRight: 51859052
+  dwEntityList: 81017052
+  dwForceAttack: 51859092
+  dwForceAttack2: 51859104
+  dwForceBackward: 51859176
+  dwForceForward: 51859188
+  dwForceJump: 85906680
+  dwForceLeft: 51859212
+  dwForceRight: 51859200
   dwGameDir: 6452472
-  dwGameRulesProxy: 86378364
-  dwGetAllClasses: 13983068
+  dwGameRulesProxy: 86378476
+  dwGetAllClasses: 13983244
   dwGlobalVars: 5802656
-  dwGlowObjectManager: 86554288
-  dwInput: 85544432
-  dwInterfaceLinkList: 9413620
+  dwGlowObjectManager: 86554352
+  dwInput: 85544544
+  dwInterfaceLinkList: 9413252
   dwLocalPlayer: 13826932
   dwMouseEnable: 13850392
   dwMouseEnablePtr: 13850344
-  dwPlayerResource: 51851708
-  dwRadarBase: 85427676
+  dwPlayerResource: 51851820
+  dwRadarBase: 85427788
   dwSensitivity: 13850036
   dwSensitivityPtr: 13849992
   dwSetClanTag: 564736
-  dwViewMatrix: 80957844
-  dwWeaponTable: 85547184
+  dwViewMatrix: 80957956
+  dwWeaponTable: 85547296
   dwWeaponTableIndex: 12876
   dwYawPtr: 13849464
   dwZoomSensitivityRatioPtr: 13870528
   dwbSendPackets: 866634
   dwppDirect3DDevice9: 679984
-  find_hud_element: 646692352
-  force_update_spectator_glow: 3770850
+  find_hud_element: 697811104
+  force_update_spectator_glow: 3771890
   interface_engine_cvar: 256492
-  is_c4_owner: 3822016
+  is_c4_owner: 3823024
   m_bDormant: 237
   m_flSpawnTime: 41824
   m_pStudioHdr: 10572
-  m_pitchClassPtr: 85428352
+  m_pitchClassPtr: 85428464
   m_yawClassPtr: 13849464
   model_ambient_min: 5815740
-  set_abs_angles: 1895872
-  set_abs_origin: 1895424
+  set_abs_angles: 1896496
+  set_abs_origin: 1896048
 netvars:
   cs_gamerules_data: 0
   m_ArmorValue: 45928
