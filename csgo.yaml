@@ -1,5 +1,5 @@
 ---
-timestamp: 1585731970
+timestamp: 1585908614
 signatures:
   anim_overlays: 10624
   clientstate_choked_commands: 19752
@@ -7,7 +7,7 @@ signatures:
   clientstate_last_outgoing_command: 19748
   clientstate_net_channel: 156
   convar_name_hash_table: 192760
-  dwClientState: 5807516
+  dwClientState: 5807564
   dwClientState_GetLocalPlayer: 384
   dwClientState_IsHLTV: 19776
   dwClientState_Map: 652
@@ -24,13 +24,13 @@ signatures:
   dwForceJump: 85898832
   dwForceLeft: 51851160
   dwForceRight: 51851148
-  dwGameDir: 6456568
+  dwGameDir: 6456824
   dwGameRulesProxy: 86370604
   dwGetAllClasses: 13975148
-  dwGlobalVars: 5806752
+  dwGlobalVars: 5806800
   dwGlowObjectManager: 86546616
   dwInput: 85536640
-  dwInterfaceLinkList: 9405188
+  dwInterfaceLinkList: 9405428
   dwLocalPlayer: 13818756
   dwMouseEnable: 13842216
   dwMouseEnablePtr: 13842168
@@ -46,7 +46,7 @@ signatures:
   dwZoomSensitivityRatioPtr: 13862352
   dwbSendPackets: 866826
   dwppDirect3DDevice9: 684080
-  find_hud_element: 724091040
+  find_hud_element: 749781152
   force_update_spectator_glow: 3772450
   interface_engine_cvar: 256492
   is_c4_owner: 3823600
@@ -55,7 +55,7 @@ signatures:
   m_pStudioHdr: 10572
   m_pitchClassPtr: 85420552
   m_yawClassPtr: 13841288
-  model_ambient_min: 5819836
+  model_ambient_min: 5819884
   set_abs_angles: 1896496
   set_abs_origin: 1896048
 netvars:
