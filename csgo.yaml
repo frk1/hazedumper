@@ -1,5 +1,5 @@
 ---
-timestamp: 1585908614
+timestamp: 1586569439
 signatures:
   anim_overlays: 10624
   clientstate_choked_commands: 19752
@@ -16,45 +16,45 @@ signatures:
   dwClientState_PlayerInfo: 21176
   dwClientState_State: 264
   dwClientState_ViewAngles: 19848
-  dwEntityList: 81009140
-  dwForceAttack: 51851196
-  dwForceAttack2: 51851208
-  dwForceBackward: 51851280
-  dwForceForward: 51851292
-  dwForceJump: 85898832
-  dwForceLeft: 51851160
-  dwForceRight: 51851148
+  dwEntityList: 81013300
+  dwForceAttack: 51855344
+  dwForceAttack2: 51855356
+  dwForceBackward: 51855428
+  dwForceForward: 51855392
+  dwForceJump: 85903024
+  dwForceLeft: 51855416
+  dwForceRight: 51855452
   dwGameDir: 6456824
-  dwGameRulesProxy: 86370604
-  dwGetAllClasses: 13975148
+  dwGameRulesProxy: 86374796
+  dwGetAllClasses: 13979348
   dwGlobalVars: 5806800
-  dwGlowObjectManager: 86546616
-  dwInput: 85536640
-  dwInterfaceLinkList: 9405428
-  dwLocalPlayer: 13818756
-  dwMouseEnable: 13842216
-  dwMouseEnablePtr: 13842168
-  dwPlayerResource: 51843900
-  dwRadarBase: 85419876
-  dwSensitivity: 13841860
-  dwSensitivityPtr: 13841816
+  dwGlowObjectManager: 86550544
+  dwInput: 85540800
+  dwInterfaceLinkList: 9407508
+  dwLocalPlayer: 13822868
+  dwMouseEnable: 13846328
+  dwMouseEnablePtr: 13846280
+  dwPlayerResource: 51848060
+  dwRadarBase: 85424036
+  dwSensitivity: 13845972
+  dwSensitivityPtr: 13845928
   dwSetClanTag: 564736
-  dwViewMatrix: 80950068
-  dwWeaponTable: 85539396
-  dwWeaponTableIndex: 12876
-  dwYawPtr: 13841288
-  dwZoomSensitivityRatioPtr: 13862352
-  dwbSendPackets: 866826
+  dwViewMatrix: 80954228
+  dwWeaponTable: 85543556
+  dwWeaponTableIndex: 12892
+  dwYawPtr: 13845400
+  dwZoomSensitivityRatioPtr: 13866464
+  dwbSendPackets: 867370
   dwppDirect3DDevice9: 684080
-  find_hud_element: 749781152
-  force_update_spectator_glow: 3772450
+  find_hud_element: 787267744
+  force_update_spectator_glow: 3772482
   interface_engine_cvar: 256492
-  is_c4_owner: 3823600
+  is_c4_owner: 3823648
   m_bDormant: 237
   m_flSpawnTime: 41824
   m_pStudioHdr: 10572
-  m_pitchClassPtr: 85420552
-  m_yawClassPtr: 13841288
+  m_pitchClassPtr: 85424712
+  m_yawClassPtr: 13845400
   model_ambient_min: 5819884
   set_abs_angles: 1896496
   set_abs_origin: 1896048
@@ -65,8 +65,8 @@ netvars:
   m_CollisionGroup: 1140
   m_Local: 12220
   m_MoveType: 604
-  m_OriginalOwnerXuidHigh: 12724
-  m_OriginalOwnerXuidLow: 12720
+  m_OriginalOwnerXuidHigh: 12740
+  m_OriginalOwnerXuidLow: 12736
   m_SurvivalGameRuleDecisionTypes: 4896
   m_SurvivalRules: 3320
   m_aimPunchAngle: 12332
@@ -78,20 +78,20 @@ netvars:
   m_bGunGameImmunity: 14640
   m_bHasDefuser: 45944
   m_bHasHelmet: 45916
-  m_bInReload: 12949
+  m_bInReload: 12965
   m_bIsDefusing: 14620
   m_bIsQueuedMatchmaking: 116
   m_bIsScoped: 14612
   m_bIsValveDS: 117
   m_bSpotted: 2365
   m_bSpottedByMask: 2432
-  m_bStartedArming: 13280
+  m_bStartedArming: 13296
   m_bUseCustomAutoExposureMax: 2521
   m_bUseCustomAutoExposureMin: 2520
   m_bUseCustomBloomScale: 2522
   m_clrRender: 112
   m_dwBoneMatrix: 9896
-  m_fAccuracyPenalty: 13088
+  m_fAccuracyPenalty: 13104
   m_fFlags: 260
   m_flC4Blow: 10640
   m_flCustomAutoExposureMax: 2528
@@ -99,13 +99,13 @@ netvars:
   m_flCustomBloomScale: 2532
   m_flDefuseCountDown: 10668
   m_flDefuseLength: 10664
-  m_flFallbackWear: 12736
+  m_flFallbackWear: 12752
   m_flFlashDuration: 42000
   m_flFlashMaxAlpha: 41996
   m_flLastBoneSetupTime: 10532
   m_flLowerBodyYawTarget: 14972
   m_flNextAttack: 11632
-  m_flNextPrimaryAttack: 12840
+  m_flNextPrimaryAttack: 12856
   m_flSimulationTime: 616
   m_flTimerLength: 10644
   m_hActiveWeapon: 12024
@@ -114,7 +114,7 @@ netvars:
   m_hOwner: 10700
   m_hOwnerEntity: 332
   m_iAccountID: 12232
-  m_iClip1: 12884
+  m_iClip1: 12900
   m_iCompetitiveRanking: 6788
   m_iCompetitiveWins: 7048
   m_iCrosshairId: 46036
@@ -128,12 +128,12 @@ netvars:
   m_iMostRecentModelBoneCounter: 9872
   m_iObserverMode: 13176
   m_iShotsFired: 41856
-  m_iState: 12872
+  m_iState: 12888
   m_iTeamNum: 244
   m_lifeState: 607
-  m_nFallbackPaintKit: 12728
-  m_nFallbackSeed: 12732
-  m_nFallbackStatTrak: 12740
+  m_nFallbackPaintKit: 12744
+  m_nFallbackSeed: 12748
+  m_nFallbackStatTrak: 12756
   m_nForceBone: 9868
   m_nTickBase: 13360
   m_rgflCoordinateFrame: 1092
