@@ -93,34 +93,34 @@
       "pattern": "F3 0F 11 80 ? ? ? ? D9 46 04 D9 05"
     },
     {
-        "name": "clientstate_delta_ticks",
-        "extra": 0,
-        "relative": false,
-        "module": "engine.dll",
-        "offsets": [
-            2
-        ],
-        "pattern": "C7 87 ? ? ? ? ? ? ? ? FF 15 ? ? ? ? 83 C4 08"
+      "name": "clientstate_delta_ticks",
+      "extra": 0,
+      "relative": false,
+      "module": "engine.dll",
+      "offsets": [
+        2
+      ],
+      "pattern": "C7 87 ? ? ? ? ? ? ? ? FF 15 ? ? ? ? 83 C4 08"
     },
     {
-        "name": "clientstate_last_outgoing_command",
-        "extra": 0,
-        "relative": false,
-        "module": "engine.dll",
-        "offsets": [
-            2
-        ],
-        "pattern": "8B 8F ? ? ? ? 8B 87 ? ? ? ? 41"
+      "name": "clientstate_last_outgoing_command",
+      "extra": 0,
+      "relative": false,
+      "module": "engine.dll",
+      "offsets": [
+        2
+      ],
+      "pattern": "8B 8F ? ? ? ? 8B 87 ? ? ? ? 41"
     },
     {
-        "name": "clientstate_choked_commands",
-        "extra": 0,
-        "relative": false,
-        "module": "engine.dll",
-        "offsets": [
-            2
-        ],
-        "pattern": "8B 87 ? ? ? ? 41"
+      "name": "clientstate_choked_commands",
+      "extra": 0,
+      "relative": false,
+      "module": "engine.dll",
+      "offsets": [
+        2
+      ],
+      "pattern": "8B 87 ? ? ? ? 41"
     },
     {
       "name": "clientstate_net_channel",
@@ -458,44 +458,44 @@
       "pattern": "A1 ? ? ? ? 89 74 24 28"
     },
     {
-        "name": "interface_engine_cvar",
-        "extra": 0,
-        "relative": true,
-        "module": "vstdlib.dll",
-        "offsets": [
-            2
-        ],
-        "pattern": "8B 0D ? ? ? ? C7 05"
+      "name": "interface_engine_cvar",
+      "extra": 0,
+      "relative": true,
+      "module": "vstdlib.dll",
+      "offsets": [
+        2
+      ],
+      "pattern": "8B 0D ? ? ? ? C7 05"
     },
     {
-        "name": "convar_name_hash_table",
-        "extra": 0,
-        "relative": true,
-        "module": "vstdlib.dll",
-        "offsets": [
-            3
-        ],
-        "pattern": "8B 3C 85"
+      "name": "convar_name_hash_table",
+      "extra": 0,
+      "relative": true,
+      "module": "vstdlib.dll",
+      "offsets": [
+        3
+      ],
+      "pattern": "8B 3C 85"
     },
     {
-        "name": "m_bDormant",
-        "extra": 8,
-        "relative": false,
-        "module": "client_panorama.dll",
-        "offsets": [
-            2
-        ],
-        "pattern": "8A 81 ? ? ? ? C3 32 C0"
+      "name": "m_bDormant",
+      "extra": 8,
+      "relative": false,
+      "module": "client_panorama.dll",
+      "offsets": [
+        2
+      ],
+      "pattern": "8A 81 ? ? ? ? C3 32 C0"
     },
     {
-       "name": "model_ambient_min",
-       "extra": 0,
-       "relative": true,
-       "module": "engine.dll",
-       "offsets": [
-         4
-       ],
-       "pattern": "F3 0F 10 0D ? ? ? ? F3 0F 11 4C 24 ? 8B 44 24 20 35 ? ? ? ? 89 44 24 0C"
+      "name": "model_ambient_min",
+      "extra": 0,
+      "relative": true,
+      "module": "engine.dll",
+      "offsets": [
+        4
+      ],
+      "pattern": "F3 0F 10 0D ? ? ? ? F3 0F 11 4C 24 ? 8B 44 24 20 35 ? ? ? ? 89 44 24 0C"
     },
     {
       "name": "set_abs_angles",
