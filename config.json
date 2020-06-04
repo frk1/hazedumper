@@ -136,7 +136,7 @@
       "name": "dwEntityList",
       "extra": 0,
       "relative": true,
-      "module": "client_panorama.dll",
+      "module": "client.dll",
       "offsets": [
         1
       ],
@@ -146,7 +146,7 @@
       "name": "dwForceAttack",
       "extra": 0,
       "relative": true,
-      "module": "client_panorama.dll",
+      "module": "client.dll",
       "offsets": [
         2
       ],
@@ -156,7 +156,7 @@
       "name": "dwForceAttack2",
       "extra": 12,
       "relative": true,
-      "module": "client_panorama.dll",
+      "module": "client.dll",
       "offsets": [
         2
       ],
@@ -166,7 +166,7 @@
       "name": "dwForceBackward",
       "extra": 0,
       "relative": true,
-      "module": "client_panorama.dll",
+      "module": "client.dll",
       "offsets": [
         287
       ],
@@ -176,7 +176,7 @@
       "name": "dwForceForward",
       "extra": 0,
       "relative": true,
-      "module": "client_panorama.dll",
+      "module": "client.dll",
       "offsets": [
         245
       ],
@@ -186,7 +186,7 @@
       "name": "dwForceJump",
       "extra": 0,
       "relative": true,
-      "module": "client_panorama.dll",
+      "module": "client.dll",
       "offsets": [
         2
       ],
@@ -196,7 +196,7 @@
       "name": "dwForceLeft",
       "extra": 0,
       "relative": true,
-      "module": "client_panorama.dll",
+      "module": "client.dll",
       "offsets": [
         465
       ],
@@ -206,7 +206,7 @@
       "name": "dwForceRight",
       "extra": 0,
       "relative": true,
-      "module": "client_panorama.dll",
+      "module": "client.dll",
       "offsets": [
         512
       ],
@@ -226,7 +226,7 @@
       "name": "dwGameRulesProxy",
       "extra": 0,
       "relative": true,
-      "module": "client_panorama.dll",
+      "module": "client.dll",
       "offsets": [
         1
       ],
@@ -236,7 +236,7 @@
       "name": "dwGetAllClasses",
       "extra": 0,
       "relative": true,
-      "module": "client_panorama.dll",
+      "module": "client.dll",
       "offsets": [
         1,
         0
@@ -257,7 +257,7 @@
       "name": "dwGlowObjectManager",
       "extra": 4,
       "relative": true,
-      "module": "client_panorama.dll",
+      "module": "client.dll",
       "offsets": [
         1
       ],
@@ -267,7 +267,7 @@
       "name": "dwInput",
       "extra": 0,
       "relative": true,
-      "module": "client_panorama.dll",
+      "module": "client.dll",
       "offsets": [
         1
       ],
@@ -277,7 +277,7 @@
       "name": "dwInterfaceLinkList",
       "extra": 0,
       "relative": true,
-      "module": "client_panorama.dll",
+      "module": "client.dll",
       "offsets": [],
       "pattern": "8B 35 ? ? ? ? 57 85 F6 74 ? 8B 7D 08 8B 4E 04 8B C7 8A 11 3A 10"
     },
@@ -285,7 +285,7 @@
       "name": "dwLocalPlayer",
       "extra": 4,
       "relative": true,
-      "module": "client_panorama.dll",
+      "module": "client.dll",
       "offsets": [
         3
       ],
@@ -295,7 +295,7 @@
       "name": "dwMouseEnable",
       "extra": 48,
       "relative": true,
-      "module": "client_panorama.dll",
+      "module": "client.dll",
       "offsets": [
         1
       ],
@@ -305,7 +305,7 @@
       "name": "dwMouseEnablePtr",
       "extra": 0,
       "relative": true,
-      "module": "client_panorama.dll",
+      "module": "client.dll",
       "offsets": [
         1
       ],
@@ -315,7 +315,7 @@
       "name": "dwPlayerResource",
       "extra": 0,
       "relative": true,
-      "module": "client_panorama.dll",
+      "module": "client.dll",
       "offsets": [
         2
       ],
@@ -325,7 +325,7 @@
       "name": "dwRadarBase",
       "extra": 0,
       "relative": true,
-      "module": "client_panorama.dll",
+      "module": "client.dll",
       "offsets": [
         1
       ],
@@ -335,7 +335,7 @@
       "name": "dwSensitivity",
       "extra": 44,
       "relative": true,
-      "module": "client_panorama.dll",
+      "module": "client.dll",
       "offsets": [
         2
       ],
@@ -345,7 +345,7 @@
       "name": "dwSensitivityPtr",
       "extra": 0,
       "relative": true,
-      "module": "client_panorama.dll",
+      "module": "client.dll",
       "offsets": [
         2
       ],
@@ -363,7 +363,7 @@
       "name": "dwViewMatrix",
       "extra": 176,
       "relative": true,
-      "module": "client_panorama.dll",
+      "module": "client.dll",
       "offsets": [
         3
       ],
@@ -373,7 +373,7 @@
       "name": "dwWeaponTable",
       "extra": 0,
       "relative": true,
-      "module": "client_panorama.dll",
+      "module": "client.dll",
       "offsets": [
         1
       ],
@@ -383,7 +383,7 @@
       "name": "dwWeaponTableIndex",
       "extra": 0,
       "relative": false,
-      "module": "client_panorama.dll",
+      "module": "client.dll",
       "offsets": [
         2
       ],
@@ -393,7 +393,7 @@
       "name": "dwYawPtr",
       "extra": 0,
       "relative": true,
-      "module": "client_panorama.dll",
+      "module": "client.dll",
       "offsets": [
         2
       ],
@@ -403,7 +403,7 @@
       "name": "dwZoomSensitivityRatioPtr",
       "extra": 0,
       "relative": true,
-      "module": "client_panorama.dll",
+      "module": "client.dll",
       "offsets": [
         2
       ],
@@ -431,7 +431,7 @@
       "name": "m_pStudioHdr",
       "extra": 0,
       "relative": false,
-      "module": "client_panorama.dll",
+      "module": "client.dll",
       "offsets": [
         2
       ],
@@ -441,7 +441,7 @@
       "name": "m_yawClassPtr",
       "extra": 0,
       "relative": true,
-      "module": "client_panorama.dll",
+      "module": "client.dll",
       "offsets": [
         2
       ],
@@ -451,7 +451,7 @@
       "name": "m_pitchClassPtr",
       "extra": 0,
       "relative": true,
-      "module": "client_panorama.dll",
+      "module": "client.dll",
       "offsets": [
         1
       ],
@@ -481,7 +481,7 @@
         "name": "m_bDormant",
         "extra": 8,
         "relative": false,
-        "module": "client_panorama.dll",
+        "module": "client.dll",
         "offsets": [
             2
         ],
@@ -501,35 +501,35 @@
       "name": "set_abs_angles",
       "extra": 0,
       "relative": true,
-      "module": "client_panorama.dll",
+      "module": "client.dll",
       "pattern": "55 8B EC 83 E4 F8 83 EC 64 53 56 57 8B F1 E8"
     },
     {
       "name": "set_abs_origin",
       "extra": 0,
       "relative": true,
-      "module": "client_panorama.dll",
+      "module": "client.dll",
       "pattern": "55 8B EC 83 E4 F8 51 53 56 57 8B F1 E8"
     },
     {
       "name": "is_c4_owner",
       "extra": 0,
       "relative": true,
-      "module": "client_panorama.dll",
+      "module": "client.dll",
       "pattern": "56 8B F1 85 F6 74 31"
     },
     {
       "name": "force_update_spectator_glow",
       "extra": 0,
       "relative": true,
-      "module": "client_panorama.dll",
+      "module": "client.dll",
       "pattern": "74 07 8B CB E8 ? ? ? ? 83 C7 10"
     },
     {
       "name": "anim_overlays",
       "extra": 0,
       "relative": false,
-      "module": "client_panorama.dll",
+      "module": "client.dll",
       "offsets": [
         2
       ],
@@ -539,7 +539,7 @@
       "name": "m_flSpawnTime",
       "extra": 0,
       "relative": false,
-      "module": "client_panorama.dll",
+      "module": "client.dll",
       "offsets": [
         2
       ],
@@ -549,7 +549,7 @@
       "name": "find_hud_element",
       "extra": 0,
       "relative": false,
-      "module": "client_panorama.dll",
+      "module": "client.dll",
       "pattern": "55 8B EC 53 8B 5D 08 56 57 8B F9 33 F6 39 77 28"
     }
   ],
