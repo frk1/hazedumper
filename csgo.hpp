@@ -1,10 +1,10 @@
 #pragma once
 #include <cstdint>
 
-// 2020-06-11 09:33:17.149667600 UTC
+// 2020-06-11 13:09:00.175290 UTC
 
 namespace hazedumper {
-constexpr ::std::int64_t timestamp = 1591867997;
+constexpr ::std::int64_t timestamp = 1591880940;
 namespace netvars {
 constexpr ::std::ptrdiff_t cs_gamerules_data = 0x0;
 constexpr ::std::ptrdiff_t m_ArmorValue = 0xB378;
@@ -134,10 +134,11 @@ constexpr ::std::ptrdiff_t dwSetClanTag = 0x89FB0;
 constexpr ::std::ptrdiff_t dwViewMatrix = 0x4D3CAD4;
 constexpr ::std::ptrdiff_t dwWeaponTable = 0x519D1FC;
 constexpr ::std::ptrdiff_t dwWeaponTableIndex = 0x325C;
+constexpr ::std::ptrdiff_t dwYawPtr = 0xD3C3A8;
 constexpr ::std::ptrdiff_t dwZoomSensitivityRatioPtr = 0xD415F0;
 constexpr ::std::ptrdiff_t dwbSendPackets = 0xD409A;
 constexpr ::std::ptrdiff_t dwppDirect3DDevice9 = 0xA7030;
-constexpr ::std::ptrdiff_t find_hud_element = 0x28D9FF00;
+constexpr ::std::ptrdiff_t find_hud_element = 0x2D50FF00;
 constexpr ::std::ptrdiff_t force_update_spectator_glow = 0x39D992;
 constexpr ::std::ptrdiff_t interface_engine_cvar = 0x3E9EC;
 constexpr ::std::ptrdiff_t is_c4_owner = 0x3AA430;
