@@ -1,5 +1,5 @@
 {
-  "timestamp": 1592008759,
+  "timestamp": 1592171524,
   "signatures": {
     "anim_overlays": 10624,
     "clientstate_choked_commands": 19752,
@@ -36,8 +36,8 @@
     "dwMouseEnablePtr": 13887328,
     "dwPlayerResource": 51890992,
     "dwRadarBase": 85467068,
-    "dwSensitivity": 13957612,
-    "dwSensitivityPtr": 13957568,
+    "dwSensitivity": 13887020,
+    "dwSensitivityPtr": 13886976,
     "dwSetClanTag": 565168,
     "dwViewMatrix": 80997268,
     "dwWeaponTable": 85586616,
@@ -46,7 +46,7 @@
     "dwZoomSensitivityRatioPtr": 13907512,
     "dwbSendPackets": 868506,
     "dwppDirect3DDevice9": 684080,
-    "find_hud_element": 690887776,
+    "find_hud_element": 762059872,
     "force_update_spectator_glow": 3799010,
     "interface_engine_cvar": 256492,
     "is_c4_owner": 3850880,

@@ -1,7 +1,7 @@
-' 2020-06-13 00:39:19.402973600 UTC
+' 2020-06-14 21:52:04.842396700 UTC
 
 Namespace hazedumper
-    Public Const timestamp as Integer = &H5EE42037
+    Public Const timestamp as Integer = &H5EE69C04
     Public Shared Class netvars
         Public Const cs_gamerules_data as Integer = &H0
         Public Const m_ArmorValue as Integer = &HB378
@@ -125,8 +125,8 @@ Namespace hazedumper
         Public Const dwMouseEnablePtr as Integer = &HD3E760
         Public Const dwPlayerResource as Integer = &H317CB30
         Public Const dwRadarBase as Integer = &H5181FBC
-        Public Const dwSensitivity as Integer = &HD4F9EC
-        Public Const dwSensitivityPtr as Integer = &HD4F9C0
+        Public Const dwSensitivity as Integer = &HD3E62C
+        Public Const dwSensitivityPtr as Integer = &HD3E600
         Public Const dwSetClanTag as Integer = &H89FB0
         Public Const dwViewMatrix as Integer = &H4D3EB94
         Public Const dwWeaponTable as Integer = &H519F2B8
@@ -135,7 +135,7 @@ Namespace hazedumper
         Public Const dwZoomSensitivityRatioPtr as Integer = &HD43638
         Public Const dwbSendPackets as Integer = &HD409A
         Public Const dwppDirect3DDevice9 as Integer = &HA7030
-        Public Const find_hud_element as Integer = &H292E1C60
+        Public Const find_hud_element as Integer = &H2D6C1C60
         Public Const force_update_spectator_glow as Integer = &H39F7E2
         Public Const interface_engine_cvar as Integer = &H3E9EC
         Public Const is_c4_owner as Integer = &H3AC280
