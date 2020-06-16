@@ -1,5 +1,5 @@
 ---
-timestamp: 1592171524
+timestamp: 1592313362
 signatures:
   anim_overlays: 10624
   clientstate_choked_commands: 19752
@@ -16,48 +16,48 @@ signatures:
   dwClientState_PlayerInfo: 21176
   dwClientState_State: 264
   dwClientState_ViewAngles: 19848
-  dwEntityList: 81056332
-  dwForceAttack: 51898240
-  dwForceAttack2: 51898252
-  dwForceBackward: 51898312
-  dwForceForward: 51898324
-  dwForceJump: 85946084
-  dwForceLeft: 51898348
-  dwForceRight: 51898336
+  dwEntityList: 81060380
+  dwForceAttack: 51902288
+  dwForceAttack2: 51902300
+  dwForceBackward: 51902360
+  dwForceForward: 51902372
+  dwForceJump: 85950132
+  dwForceLeft: 51902396
+  dwForceRight: 51902384
   dwGameDir: 6461176
-  dwGameRulesProxy: 86417884
-  dwGetAllClasses: 14020668
+  dwGameRulesProxy: 86421932
+  dwGetAllClasses: 14024764
   dwGlobalVars: 5810904
-  dwGlowObjectManager: 86593672
-  dwInput: 85583864
-  dwInterfaceLinkList: 9449604
-  dwLocalPlayer: 13863916
-  dwMouseEnable: 13887376
-  dwMouseEnablePtr: 13887328
-  dwPlayerResource: 51890992
-  dwRadarBase: 85467068
-  dwSensitivity: 13887020
-  dwSensitivityPtr: 13886976
+  dwGlowObjectManager: 86597728
+  dwInput: 85587912
+  dwInterfaceLinkList: 9453700
+  dwLocalPlayer: 13868012
+  dwMouseEnable: 13891472
+  dwMouseEnablePtr: 13891424
+  dwPlayerResource: 51895040
+  dwRadarBase: 85471116
+  dwSensitivity: 13891116
+  dwSensitivityPtr: 13891072
   dwSetClanTag: 565168
-  dwViewMatrix: 80997268
-  dwWeaponTable: 85586616
+  dwViewMatrix: 81001316
+  dwWeaponTable: 85590664
   dwWeaponTableIndex: 12892
-  dwYawPtr: 13886448
-  dwZoomSensitivityRatioPtr: 13907512
-  dwbSendPackets: 868506
+  dwYawPtr: 13890544
+  dwZoomSensitivityRatioPtr: 13911608
+  dwbSendPackets: 868698
   dwppDirect3DDevice9: 684080
-  find_hud_element: 762059872
-  force_update_spectator_glow: 3799010
+  find_hud_element: 689773360
+  force_update_spectator_glow: 3802850
   interface_engine_cvar: 256492
-  is_c4_owner: 3850880
+  is_c4_owner: 3854736
   m_bDormant: 237
   m_flSpawnTime: 41840
   m_pStudioHdr: 10572
-  m_pitchClassPtr: 85467736
-  m_yawClassPtr: 13886448
+  m_pitchClassPtr: 85471784
+  m_yawClassPtr: 13890544
   model_ambient_min: 5824076
-  set_abs_angles: 1919216
-  set_abs_origin: 1918768
+  set_abs_angles: 1919408
+  set_abs_origin: 1918960
 netvars:
   cs_gamerules_data: 0
   m_ArmorValue: 45944
