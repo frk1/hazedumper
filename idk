@@ -1,0 +1,6 @@
+#pragma once
+#define dwEntityList 0x4D0D094
+#define dwviewMatrix 0x4CFEAC4
+#define m_iTeamNum 0xF4
+#define m_iHealth 0x100
+#define m_vecOrigin 0x138
