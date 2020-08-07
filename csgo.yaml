@@ -1,5 +1,5 @@
 ---
-timestamp: 1596119752
+timestamp: 1596795101
 signatures:
   anim_overlays: 10624
   clientstate_choked_commands: 19752
@@ -16,48 +16,48 @@ signatures:
   dwClientState_PlayerInfo: 21176
   dwClientState_State: 264
   dwClientState_ViewAngles: 19848
-  dwEntityList: 81081580
-  dwForceAttack: 51923584
-  dwForceAttack2: 51923596
-  dwForceBackward: 51923512
-  dwForceForward: 51923524
-  dwForceJump: 85971468
-  dwForceLeft: 51923548
-  dwForceRight: 51923536
-  dwGameDir: 6461176
-  dwGameRulesProxy: 86443260
-  dwGetAllClasses: 14045900
+  dwEntityList: 81085708
+  dwForceAttack: 51927712
+  dwForceAttack2: 51927724
+  dwForceBackward: 51927640
+  dwForceForward: 51927652
+  dwForceJump: 85975596
+  dwForceLeft: 51927676
+  dwForceRight: 51927664
+  dwGameDir: 6461048
+  dwGameRulesProxy: 86447388
+  dwGetAllClasses: 14049980
   dwGlobalVars: 5810904
-  dwGlowObjectManager: 86619080
-  dwInput: 85609160
-  dwInterfaceLinkList: 9467860
-  dwLocalPlayer: 13888620
-  dwMouseEnable: 13912080
-  dwMouseEnablePtr: 13912032
-  dwPlayerResource: 51916240
-  dwRadarBase: 85492316
-  dwSensitivity: 13911724
-  dwSensitivityPtr: 13911680
+  dwGlowObjectManager: 86623192
+  dwInput: 85613288
+  dwInterfaceLinkList: 9471956
+  dwLocalPlayer: 13892700
+  dwMouseEnable: 13916160
+  dwMouseEnablePtr: 13916112
+  dwPlayerResource: 51920368
+  dwRadarBase: 85496444
+  dwSensitivity: 13915804
+  dwSensitivityPtr: 13915760
   dwSetClanTag: 565168
-  dwViewMatrix: 81022516
-  dwWeaponTable: 85611912
+  dwViewMatrix: 81026644
+  dwWeaponTable: 85616040
   dwWeaponTableIndex: 12892
-  dwYawPtr: 13911152
-  dwZoomSensitivityRatioPtr: 13932304
-  dwbSendPackets: 868826
+  dwYawPtr: 13915232
+  dwZoomSensitivityRatioPtr: 13936384
+  dwbSendPackets: 868922
   dwppDirect3DDevice9: 684080
-  find_hud_element: 669988512
-  force_update_spectator_glow: 3810834
+  find_hud_element: 668353296
+  force_update_spectator_glow: 3813954
   interface_engine_cvar: 256492
-  is_c4_owner: 3862720
+  is_c4_owner: 3865808
   m_bDormant: 237
   m_flSpawnTime: 41840
   m_pStudioHdr: 10572
-  m_pitchClassPtr: 85492984
-  m_yawClassPtr: 13911152
+  m_pitchClassPtr: 85497112
+  m_yawClassPtr: 13915232
   model_ambient_min: 5824076
-  set_abs_angles: 1926368
-  set_abs_origin: 1925920
+  set_abs_angles: 1929488
+  set_abs_origin: 1929040
 netvars:
   cs_gamerules_data: 0
   m_ArmorValue: 45944
