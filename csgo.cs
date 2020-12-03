@@ -1,10 +1,10 @@
 using System;
 
-// 2020-11-24 01:57:04.014922500 UTC
+// 2020-12-03 22:41:06.056887100 UTC
 
 namespace hazedumper
 {
-    public const Int32 timestamp = 1606183024;
+    public const Int32 timestamp = 1607035266;
     public static class netvars
     {
         public const Int32 cs_gamerules_data = 0x0;
@@ -15,13 +15,13 @@ namespace hazedumper
         public const Int32 m_MoveType = 0x25C;
         public const Int32 m_OriginalOwnerXuidHigh = 0x31C4;
         public const Int32 m_OriginalOwnerXuidLow = 0x31C0;
-        public const Int32 m_SurvivalGameRuleDecisionTypes = 0x1320;
-        public const Int32 m_SurvivalRules = 0xCF8;
+        public const Int32 m_SurvivalGameRuleDecisionTypes = 0x1328;
+        public const Int32 m_SurvivalRules = 0xD00;
         public const Int32 m_aimPunchAngle = 0x302C;
         public const Int32 m_aimPunchAngleVel = 0x3038;
         public const Int32 m_angEyeAnglesX = 0xB37C;
         public const Int32 m_angEyeAnglesY = 0xB380;
-        public const Int32 m_bBombPlanted = 0x99D;
+        public const Int32 m_bBombPlanted = 0x9A5;
         public const Int32 m_bFreezePeriod = 0x20;
         public const Int32 m_bGunGameImmunity = 0x3944;
         public const Int32 m_bHasDefuser = 0xB388;
@@ -30,7 +30,7 @@ namespace hazedumper
         public const Int32 m_bIsDefusing = 0x3930;
         public const Int32 m_bIsQueuedMatchmaking = 0x74;
         public const Int32 m_bIsScoped = 0x3928;
-        public const Int32 m_bIsValveDS = 0x75;
+        public const Int32 m_bIsValveDS = 0x7C;
         public const Int32 m_bSpotted = 0x93D;
         public const Int32 m_bSpottedByMask = 0x980;
         public const Int32 m_bStartedArming = 0x33F0;
@@ -110,47 +110,47 @@ namespace hazedumper
         public const Int32 dwClientState_PlayerInfo = 0x52C0;
         public const Int32 dwClientState_State = 0x108;
         public const Int32 dwClientState_ViewAngles = 0x4D90;
-        public const Int32 dwEntityList = 0x4D533AC;
-        public const Int32 dwForceAttack = 0x3184930;
-        public const Int32 dwForceAttack2 = 0x318493C;
-        public const Int32 dwForceBackward = 0x31848E8;
-        public const Int32 dwForceForward = 0x3184954;
-        public const Int32 dwForceJump = 0x51FCFB8;
-        public const Int32 dwForceLeft = 0x31848DC;
-        public const Int32 dwForceRight = 0x3184900;
+        public const Int32 dwEntityList = 0x4D9EA54;
+        public const Int32 dwForceAttack = 0x31CFFB4;
+        public const Int32 dwForceAttack2 = 0x31CFFC0;
+        public const Int32 dwForceBackward = 0x31D0008;
+        public const Int32 dwForceForward = 0x31D0014;
+        public const Int32 dwForceJump = 0x52489B4;
+        public const Int32 dwForceLeft = 0x31CFF90;
+        public const Int32 dwForceRight = 0x31CFF84;
         public const Int32 dwGameDir = 0x62C7F8;
-        public const Int32 dwGameRulesProxy = 0x52702B4;
-        public const Int32 dwGetAllClasses = 0xD653A4;
+        public const Int32 dwGameRulesProxy = 0x52BBCAC;
+        public const Int32 dwGetAllClasses = 0xDAEBE4;
         public const Int32 dwGlobalVars = 0x58DCE8;
-        public const Int32 dwGlowObjectManager = 0x529B210;
-        public const Int32 dwInput = 0x51A4978;
-        public const Int32 dwInterfaceLinkList = 0x906154;
-        public const Int32 dwLocalPlayer = 0xD3ED14;
-        public const Int32 dwMouseEnable = 0xD448B8;
-        public const Int32 dwMouseEnablePtr = 0xD44888;
-        public const Int32 dwPlayerResource = 0x3182C80;
-        public const Int32 dwRadarBase = 0x518810C;
-        public const Int32 dwSensitivity = 0xD44754;
-        public const Int32 dwSensitivityPtr = 0xD44728;
-        public const Int32 dwSetClanTag = 0x8A0E0;
-        public const Int32 dwViewMatrix = 0x4D44CC4;
-        public const Int32 dwWeaponTable = 0x51A543C;
+        public const Int32 dwGlowObjectManager = 0x52E7040;
+        public const Int32 dwInput = 0x51F0038;
+        public const Int32 dwInterfaceLinkList = 0x942A44;
+        public const Int32 dwLocalPlayer = 0xD8722C;
+        public const Int32 dwMouseEnable = 0xD8CDD0;
+        public const Int32 dwMouseEnablePtr = 0xD8CDA0;
+        public const Int32 dwPlayerResource = 0x31CE310;
+        public const Int32 dwRadarBase = 0x51D37CC;
+        public const Int32 dwSensitivity = 0xD8CC6C;
+        public const Int32 dwSensitivityPtr = 0xD8CC40;
+        public const Int32 dwSetClanTag = 0x8A1A0;
+        public const Int32 dwViewMatrix = 0x4D90354;
+        public const Int32 dwWeaponTable = 0x51F0AF8;
         public const Int32 dwWeaponTableIndex = 0x325C;
-        public const Int32 dwYawPtr = 0xD44518;
-        public const Int32 dwZoomSensitivityRatioPtr = 0xD497B8;
-        public const Int32 dwbSendPackets = 0xD6E5A;
+        public const Int32 dwYawPtr = 0xD8CA30;
+        public const Int32 dwZoomSensitivityRatioPtr = 0xD91CD0;
+        public const Int32 dwbSendPackets = 0xD707A;
         public const Int32 dwppDirect3DDevice9 = 0xA7050;
-        public const Int32 find_hud_element = 0x28912860;
-        public const Int32 force_update_spectator_glow = 0x3A1A32;
+        public const Int32 find_hud_element = 0x2874ED20;
+        public const Int32 force_update_spectator_glow = 0x3AE0A2;
         public const Int32 interface_engine_cvar = 0x3E9EC;
-        public const Int32 is_c4_owner = 0x3AE4D0;
+        public const Int32 is_c4_owner = 0x3BAB60;
         public const Int32 m_bDormant = 0xED;
         public const Int32 m_flSpawnTime = 0xA370;
         public const Int32 m_pStudioHdr = 0x294C;
-        public const Int32 m_pitchClassPtr = 0x51883B0;
-        public const Int32 m_yawClassPtr = 0xD44518;
+        public const Int32 m_pitchClassPtr = 0x51D3A68;
+        public const Int32 m_yawClassPtr = 0xD8CA30;
         public const Int32 model_ambient_min = 0x59105C;
-        public const Int32 set_abs_angles = 0x1D4FA0;
-        public const Int32 set_abs_origin = 0x1D4DE0;
+        public const Int32 set_abs_angles = 0x1E04E0;
+        public const Int32 set_abs_origin = 0x1E0320;
     }
 } // namespace hazedumper

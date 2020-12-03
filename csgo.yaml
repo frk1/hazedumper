@@ -1,5 +1,5 @@
 ---
-timestamp: 1606183024
+timestamp: 1607035266
 signatures:
   anim_overlays: 10624
   clientstate_choked_commands: 19760
@@ -16,48 +16,48 @@ signatures:
   dwClientState_PlayerInfo: 21184
   dwClientState_State: 264
   dwClientState_ViewAngles: 19856
-  dwEntityList: 81081260
-  dwForceAttack: 51923248
-  dwForceAttack2: 51923260
-  dwForceBackward: 51923176
-  dwForceForward: 51923284
-  dwForceJump: 85970872
-  dwForceLeft: 51923164
-  dwForceRight: 51923200
+  dwEntityList: 81390164
+  dwForceAttack: 52232116
+  dwForceAttack2: 52232128
+  dwForceBackward: 52232200
+  dwForceForward: 52232212
+  dwForceJump: 86280628
+  dwForceLeft: 52232080
+  dwForceRight: 52232068
   dwGameDir: 6473720
-  dwGameRulesProxy: 86442676
-  dwGetAllClasses: 14046116
+  dwGameRulesProxy: 86752428
+  dwGetAllClasses: 14347236
   dwGlobalVars: 5823720
-  dwGlowObjectManager: 86618640
-  dwInput: 85608824
-  dwInterfaceLinkList: 9462100
-  dwLocalPlayer: 13888788
-  dwMouseEnable: 13912248
-  dwMouseEnablePtr: 13912200
-  dwPlayerResource: 51915904
-  dwRadarBase: 85491980
-  dwSensitivity: 13911892
-  dwSensitivityPtr: 13911848
-  dwSetClanTag: 565472
-  dwViewMatrix: 81022148
-  dwWeaponTable: 85611580
+  dwGlowObjectManager: 86929472
+  dwInput: 85917752
+  dwInterfaceLinkList: 9710148
+  dwLocalPlayer: 14185004
+  dwMouseEnable: 14208464
+  dwMouseEnablePtr: 14208416
+  dwPlayerResource: 52224784
+  dwRadarBase: 85800908
+  dwSensitivity: 14208108
+  dwSensitivityPtr: 14208064
+  dwSetClanTag: 565664
+  dwViewMatrix: 81331028
+  dwWeaponTable: 85920504
   dwWeaponTableIndex: 12892
-  dwYawPtr: 13911320
-  dwZoomSensitivityRatioPtr: 13932472
-  dwbSendPackets: 880218
+  dwYawPtr: 14207536
+  dwZoomSensitivityRatioPtr: 14228688
+  dwbSendPackets: 880762
   dwppDirect3DDevice9: 684112
-  find_hud_element: 680601696
-  force_update_spectator_glow: 3807794
+  find_hud_element: 678751520
+  force_update_spectator_glow: 3858594
   interface_engine_cvar: 256492
-  is_c4_owner: 3859664
+  is_c4_owner: 3910496
   m_bDormant: 237
   m_flSpawnTime: 41840
   m_pStudioHdr: 10572
-  m_pitchClassPtr: 85492656
-  m_yawClassPtr: 13911320
+  m_pitchClassPtr: 85801576
+  m_yawClassPtr: 14207536
   model_ambient_min: 5836892
-  set_abs_angles: 1920928
-  set_abs_origin: 1920480
+  set_abs_angles: 1967328
+  set_abs_origin: 1966880
 netvars:
   cs_gamerules_data: 0
   m_ArmorValue: 45944
@@ -67,13 +67,13 @@ netvars:
   m_MoveType: 604
   m_OriginalOwnerXuidHigh: 12740
   m_OriginalOwnerXuidLow: 12736
-  m_SurvivalGameRuleDecisionTypes: 4896
-  m_SurvivalRules: 3320
+  m_SurvivalGameRuleDecisionTypes: 4904
+  m_SurvivalRules: 3328
   m_aimPunchAngle: 12332
   m_aimPunchAngleVel: 12344
   m_angEyeAnglesX: 45948
   m_angEyeAnglesY: 45952
-  m_bBombPlanted: 2461
+  m_bBombPlanted: 2469
   m_bFreezePeriod: 32
   m_bGunGameImmunity: 14660
   m_bHasDefuser: 45960
@@ -82,7 +82,7 @@ netvars:
   m_bIsDefusing: 14640
   m_bIsQueuedMatchmaking: 116
   m_bIsScoped: 14632
-  m_bIsValveDS: 117
+  m_bIsValveDS: 124
   m_bSpotted: 2365
   m_bSpottedByMask: 2432
   m_bStartedArming: 13296
