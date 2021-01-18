@@ -1,5 +1,5 @@
 ---
-timestamp: 1610450468
+timestamp: 1610963623
 signatures:
   anim_overlays: 10624
   clientstate_choked_commands: 19760
@@ -46,7 +46,7 @@ signatures:
   dwZoomSensitivityRatioPtr: 14245200
   dwbSendPackets: 881610
   dwppDirect3DDevice9: 684112
-  find_hud_element: 1364127440
+  find_hud_element: 672132816
   force_update_spectator_glow: 3859138
   interface_engine_cvar: 256492
   is_c4_owner: 3911040
@@ -118,8 +118,8 @@ netvars:
   m_iCompetitiveRanking: 6788
   m_iCompetitiveWins: 7048
   m_iCrosshairId: 46052
+  m_iDefaultFOV: 13100
   m_iEntityQuality: 12204
-  m_iFOV: 12772
   m_iFOVStart: 12776
   m_iGlowIndex: 42040
   m_iHealth: 256

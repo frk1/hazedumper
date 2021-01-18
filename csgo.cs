@@ -1,10 +1,10 @@
 using System;
 
-// 2021-01-12 11:21:08.663709500 UTC
+// 2021-01-18 09:53:43.366590600 UTC
 
 namespace hazedumper
 {
-    public const Int32 timestamp = 1610450468;
+    public const Int32 timestamp = 1610963623;
     public static class netvars
     {
         public const Int32 cs_gamerules_data = 0x0;
@@ -66,8 +66,8 @@ namespace hazedumper
         public const Int32 m_iCompetitiveRanking = 0x1A84;
         public const Int32 m_iCompetitiveWins = 0x1B88;
         public const Int32 m_iCrosshairId = 0xB3E4;
+        public const Int32 m_iDefaultFOV = 0x332C;
         public const Int32 m_iEntityQuality = 0x2FAC;
-        public const Int32 m_iFOV = 0x31E4;
         public const Int32 m_iFOVStart = 0x31E8;
         public const Int32 m_iGlowIndex = 0xA438;
         public const Int32 m_iHealth = 0x100;
@@ -140,7 +140,7 @@ namespace hazedumper
         public const Int32 dwZoomSensitivityRatioPtr = 0xD95D50;
         public const Int32 dwbSendPackets = 0xD73CA;
         public const Int32 dwppDirect3DDevice9 = 0xA7050;
-        public const Int32 find_hud_element = 0x514EEED0;
+        public const Int32 find_hud_element = 0x280FEED0;
         public const Int32 force_update_spectator_glow = 0x3AE2C2;
         public const Int32 interface_engine_cvar = 0x3E9EC;
         public const Int32 is_c4_owner = 0x3BAD80;
