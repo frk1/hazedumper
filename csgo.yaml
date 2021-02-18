@@ -1,5 +1,5 @@
 ---
-timestamp: 1612888976
+timestamp: 1613639395
 signatures:
   anim_overlays: 10624
   clientstate_choked_commands: 19760
@@ -30,7 +30,7 @@ signatures:
   dwGlobalVars: 5827816
   dwGlowObjectManager: 86947136
   dwInput: 85935400
-  dwInterfaceLinkList: 9721764
+  dwInterfaceLinkList: 9721972
   dwLocalPlayer: 14201532
   dwMouseEnable: 14224992
   dwMouseEnablePtr: 14224944
@@ -44,9 +44,9 @@ signatures:
   dwWeaponTableIndex: 12892
   dwYawPtr: 14224064
   dwZoomSensitivityRatioPtr: 14245216
-  dwbSendPackets: 881642
+  dwbSendPackets: 881754
   dwppDirect3DDevice9: 684112
-  find_hud_element: 773186336
+  find_hud_element: 773448480
   force_update_spectator_glow: 3856738
   interface_engine_cvar: 256492
   is_c4_owner: 3908656
