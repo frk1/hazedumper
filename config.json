@@ -657,6 +657,11 @@
       "prop": "m_fFlags",
       "table": "DT_CSPlayer"
     },
+	{
+      "name": "m_hViewModel",
+      "prop": "m_hViewModel[0]",
+      "table": "DT_CSPlayer"
+    },
     {
       "name": "m_flFallbackWear",
       "prop": "m_flFallbackWear",
@@ -712,6 +717,11 @@
       "name": "m_iClip1",
       "prop": "m_iClip1",
       "table": "DT_BaseCombatWeapon"
+    },
+	{
+      "name": "m_zoomLevel",
+      "prop": "m_zoomLevel",
+      "table": "DT_WeaponCSBaseGun"
     },
     {
       "name": "m_iCompetitiveRanking",
@@ -862,9 +872,24 @@
       "prop": "m_clrRender",
       "table": "DT_BaseEntity"
     },
+	{
+      "name": "m_bBombTicking",
+      "prop": "m_bBombTicking",
+      "table": "DT_PlantedC4"
+    },
+	{
+      "name": "m_bBombDefused",
+      "prop": "m_bBombDefused",
+      "table": "DT_PlantedC4"
+    },
     {
       "name": "m_flC4Blow",
       "prop": "m_flC4Blow",
+      "table": "DT_PlantedC4"
+    },
+	{
+      "name": "m_hBombDefuser",
+      "prop": "m_hBombDefuser",
       "table": "DT_PlantedC4"
     },
     {
@@ -880,6 +905,11 @@
     {
       "name": "m_flDefuseCountDown",
       "prop": "m_flDefuseCountDown",
+      "table": "DT_PlantedC4"
+    },
+	{
+      "name": "m_nBombSite",
+      "prop": "m_nBombSite",
       "table": "DT_PlantedC4"
     },
     {
@@ -988,6 +1018,11 @@
       "name": "m_flCustomAutoExposureMax",
       "prop": "m_flCustomAutoExposureMax",
       "table": "DT_EnvTonemapController"
+    },
+	{
+      "name": "m_nViewModelIndex",
+      "prop": "m_nViewModelIndex",
+      "table": "DT_BaseViewModel"
     }
   ]
 }
