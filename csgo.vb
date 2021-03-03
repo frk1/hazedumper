@@ -1,7 +1,7 @@
-' 2021-03-02 18:27:17.307586 UTC
+' 2021-03-03 09:23:16.240579 UTC
 
 Namespace hazedumper
-    Public Const timestamp as Integer = &H603E8385
+    Public Const timestamp as Integer = &H603F5584
     Public Shared Class netvars
         Public Const cs_gamerules_data as Integer = &H0
         Public Const m_ArmorValue as Integer = &HB378
@@ -17,7 +17,9 @@ Namespace hazedumper
         Public Const m_aimPunchAngleVel as Integer = &H3038
         Public Const m_angEyeAnglesX as Integer = &HB37C
         Public Const m_angEyeAnglesY as Integer = &HB380
+        Public Const m_bBombDefused as Integer = &H29B0
         Public Const m_bBombPlanted as Integer = &H9A5
+        Public Const m_bBombTicking as Integer = &H2980
         Public Const m_bFreezePeriod as Integer = &H20
         Public Const m_bGunGameImmunity as Integer = &H3944
         Public Const m_bHasDefuser as Integer = &HB388
@@ -53,10 +55,12 @@ Namespace hazedumper
         Public Const m_flSimulationTime as Integer = &H268
         Public Const m_flTimerLength as Integer = &H2994
         Public Const m_hActiveWeapon as Integer = &H2EF8
+        Public Const m_hBombDefuser as Integer = &H29B4
         Public Const m_hMyWeapons as Integer = &H2DF8
         Public Const m_hObserverTarget as Integer = &H338C
         Public Const m_hOwner as Integer = &H29CC
         Public Const m_hOwnerEntity as Integer = &H14C
+        Public Const m_hViewModel as Integer = &H32F8
         Public Const m_iAccountID as Integer = &H2FC8
         Public Const m_iClip1 as Integer = &H3264
         Public Const m_iCompetitiveRanking as Integer = &H1A84
@@ -75,11 +79,13 @@ Namespace hazedumper
         Public Const m_iState as Integer = &H3258
         Public Const m_iTeamNum as Integer = &HF4
         Public Const m_lifeState as Integer = &H25F
+        Public Const m_nBombSite as Integer = &H2984
         Public Const m_nFallbackPaintKit as Integer = &H31C8
         Public Const m_nFallbackSeed as Integer = &H31CC
         Public Const m_nFallbackStatTrak as Integer = &H31D4
         Public Const m_nForceBone as Integer = &H268C
         Public Const m_nTickBase as Integer = &H3430
+        Public Const m_nViewModelIndex as Integer = &H29C0
         Public Const m_rgflCoordinateFrame as Integer = &H444
         Public Const m_szCustomName as Integer = &H303C
         Public Const m_szLastPlaceName as Integer = &H35B4
@@ -88,6 +94,7 @@ Namespace hazedumper
         Public Const m_vecVelocity as Integer = &H114
         Public Const m_vecViewOffset as Integer = &H108
         Public Const m_viewPunchAngle as Integer = &H3020
+        Public Const m_zoomLevel as Integer = &H33D0
     End Class
     Public Shared Class signatures
         Public Const anim_overlays as Integer = &H2980
@@ -135,7 +142,7 @@ Namespace hazedumper
         Public Const dwZoomSensitivityRatioPtr as Integer = &HD95D80
         Public Const dwbSendPackets as Integer = &HD745A
         Public Const dwppDirect3DDevice9 as Integer = &HA7050
-        Public Const find_hud_element as Integer = &H2DB1E320
+        Public Const find_hud_element as Integer = &H50A7E320
         Public Const force_update_spectator_glow as Integer = &H3AD962
         Public Const interface_engine_cvar as Integer = &H3E9EC
         Public Const is_c4_owner as Integer = &H3BA430

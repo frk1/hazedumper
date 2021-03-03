@@ -1,10 +1,10 @@
 using System;
 
-// 2021-03-02 18:27:17.307586 UTC
+// 2021-03-03 09:23:16.240579 UTC
 
 namespace hazedumper
 {
-    public const Int32 timestamp = 1614709637;
+    public const Int32 timestamp = 1614763396;
     public static class netvars
     {
         public const Int32 cs_gamerules_data = 0x0;
@@ -21,7 +21,9 @@ namespace hazedumper
         public const Int32 m_aimPunchAngleVel = 0x3038;
         public const Int32 m_angEyeAnglesX = 0xB37C;
         public const Int32 m_angEyeAnglesY = 0xB380;
+        public const Int32 m_bBombDefused = 0x29B0;
         public const Int32 m_bBombPlanted = 0x9A5;
+        public const Int32 m_bBombTicking = 0x2980;
         public const Int32 m_bFreezePeriod = 0x20;
         public const Int32 m_bGunGameImmunity = 0x3944;
         public const Int32 m_bHasDefuser = 0xB388;
@@ -57,10 +59,12 @@ namespace hazedumper
         public const Int32 m_flSimulationTime = 0x268;
         public const Int32 m_flTimerLength = 0x2994;
         public const Int32 m_hActiveWeapon = 0x2EF8;
+        public const Int32 m_hBombDefuser = 0x29B4;
         public const Int32 m_hMyWeapons = 0x2DF8;
         public const Int32 m_hObserverTarget = 0x338C;
         public const Int32 m_hOwner = 0x29CC;
         public const Int32 m_hOwnerEntity = 0x14C;
+        public const Int32 m_hViewModel = 0x32F8;
         public const Int32 m_iAccountID = 0x2FC8;
         public const Int32 m_iClip1 = 0x3264;
         public const Int32 m_iCompetitiveRanking = 0x1A84;
@@ -79,11 +83,13 @@ namespace hazedumper
         public const Int32 m_iState = 0x3258;
         public const Int32 m_iTeamNum = 0xF4;
         public const Int32 m_lifeState = 0x25F;
+        public const Int32 m_nBombSite = 0x2984;
         public const Int32 m_nFallbackPaintKit = 0x31C8;
         public const Int32 m_nFallbackSeed = 0x31CC;
         public const Int32 m_nFallbackStatTrak = 0x31D4;
         public const Int32 m_nForceBone = 0x268C;
         public const Int32 m_nTickBase = 0x3430;
+        public const Int32 m_nViewModelIndex = 0x29C0;
         public const Int32 m_rgflCoordinateFrame = 0x444;
         public const Int32 m_szCustomName = 0x303C;
         public const Int32 m_szLastPlaceName = 0x35B4;
@@ -92,6 +98,7 @@ namespace hazedumper
         public const Int32 m_vecVelocity = 0x114;
         public const Int32 m_vecViewOffset = 0x108;
         public const Int32 m_viewPunchAngle = 0x3020;
+        public const Int32 m_zoomLevel = 0x33D0;
     }
     public static class signatures
     {
@@ -140,7 +147,7 @@ namespace hazedumper
         public const Int32 dwZoomSensitivityRatioPtr = 0xD95D80;
         public const Int32 dwbSendPackets = 0xD745A;
         public const Int32 dwppDirect3DDevice9 = 0xA7050;
-        public const Int32 find_hud_element = 0x2DB1E320;
+        public const Int32 find_hud_element = 0x50A7E320;
         public const Int32 force_update_spectator_glow = 0x3AD962;
         public const Int32 interface_engine_cvar = 0x3E9EC;
         public const Int32 is_c4_owner = 0x3BA430;
