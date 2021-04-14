@@ -1,7 +1,7 @@
-' 2021-03-30 12:30:54.732323 UTC
+' 2021-04-14 13:03:35.329169600 UTC
 
 Namespace hazedumper
-    Public Const timestamp as Integer = &H606319FE
+    Public Const timestamp as Integer = &H6076E827
     Public Shared Class netvars
         Public Const cs_gamerules_data as Integer = &H0
         Public Const m_ArmorValue as Integer = &HB378
@@ -103,7 +103,7 @@ Namespace hazedumper
         Public Const clientstate_last_outgoing_command as Integer = &H4D2C
         Public Const clientstate_net_channel as Integer = &H9C
         Public Const convar_name_hash_table as Integer = &H2F0F8
-        Public Const dwClientState as Integer = &H58EFE4
+        Public Const dwClientState as Integer = &H588FE4
         Public Const dwClientState_GetLocalPlayer as Integer = &H180
         Public Const dwClientState_IsHLTV as Integer = &H4D48
         Public Const dwClientState_Map as Integer = &H28C
@@ -120,10 +120,10 @@ Namespace hazedumper
         Public Const dwForceJump as Integer = &H524DEBC
         Public Const dwForceLeft as Integer = &H31D5490
         Public Const dwForceRight as Integer = &H31D5484
-        Public Const dwGameDir as Integer = &H62D7F8
+        Public Const dwGameDir as Integer = &H6277F8
         Public Const dwGameRulesProxy as Integer = &H52C119C
         Public Const dwGetAllClasses as Integer = &HDB3F9C
-        Public Const dwGlobalVars as Integer = &H58ECE8
+        Public Const dwGlobalVars as Integer = &H588CE8
         Public Const dwGlowObjectManager as Integer = &H52EC550
         Public Const dwInput as Integer = &H51F5540
         Public Const dwInterfaceLinkList as Integer = &H946B44
@@ -142,7 +142,7 @@ Namespace hazedumper
         Public Const dwZoomSensitivityRatioPtr as Integer = &HD96D70
         Public Const dwbSendPackets as Integer = &HD749A
         Public Const dwppDirect3DDevice9 as Integer = &HA7050
-        Public Const find_hud_element as Integer = &H2843E320
+        Public Const find_hud_element as Integer = &H513DE320
         Public Const force_update_spectator_glow as Integer = &H3AD962
         Public Const interface_engine_cvar as Integer = &H3E9EC
         Public Const is_c4_owner as Integer = &H3BA430
@@ -151,7 +151,7 @@ Namespace hazedumper
         Public Const m_pStudioHdr as Integer = &H294C
         Public Const m_pitchClassPtr as Integer = &H51D8F70
         Public Const m_yawClassPtr as Integer = &HD91AD0
-        Public Const model_ambient_min as Integer = &H59205C
+        Public Const model_ambient_min as Integer = &H58C05C
         Public Const set_abs_angles as Integer = &H1DF9C0
         Public Const set_abs_origin as Integer = &H1DF800
     End Class
