@@ -750,6 +750,11 @@
       "table": "DT_CSPlayer"
     },
     {
+      "name": "m_iFOV",
+      "prop": "m_iFOV",
+      "table": "DT_CSPlayer"
+    },
+    {
       "name": "m_iGlowIndex",
       "prop": "m_flFlashDuration",
       "offset": 24,
@@ -809,11 +814,6 @@
       "name": "m_nFallbackStatTrak",
       "prop": "m_nFallbackStatTrak",
       "table": "DT_BaseAttributableItem"
-    },
-    {
-      "name": "m_iDefaultFOV",
-      "prop": "m_iDefaultFOV",
-      "table": "DT_CSPlayer"
     },
     {
       "name": "m_nForceBone",
