@@ -1,7 +1,7 @@
-' 2021-07-22 10:55:25.956524300 UTC
+' 2021-07-28 12:45:37.057134700 UTC
 
 Namespace hazedumper
-    Public Const timestamp as Integer = &H60F94E9D
+    Public Const timestamp as Integer = &H61015171
     Public Shared Class netvars
         Public Const cs_gamerules_data as Integer = &H0
         Public Const m_ArmorValue as Integer = &HB37C
@@ -112,44 +112,44 @@ Namespace hazedumper
         Public Const dwClientState_PlayerInfo as Integer = &H52C0
         Public Const dwClientState_State as Integer = &H108
         Public Const dwClientState_ViewAngles as Integer = &H4D90
-        Public Const dwEntityList as Integer = &H4DA31EC
-        Public Const dwForceAttack as Integer = &H31D3714
-        Public Const dwForceAttack2 as Integer = &H31D3720
-        Public Const dwForceBackward as Integer = &H31D375C
-        Public Const dwForceForward as Integer = &H31D3768
-        Public Const dwForceJump as Integer = &H524CFDC
-        Public Const dwForceLeft as Integer = &H31D3780
-        Public Const dwForceRight as Integer = &H31D3774
+        Public Const dwEntityList as Integer = &H4DA31DC
+        Public Const dwForceAttack as Integer = &H31D3704
+        Public Const dwForceAttack2 as Integer = &H31D3710
+        Public Const dwForceBackward as Integer = &H31D374C
+        Public Const dwForceForward as Integer = &H31D3758
+        Public Const dwForceJump as Integer = &H524CFCC
+        Public Const dwForceLeft as Integer = &H31D3770
+        Public Const dwForceRight as Integer = &H31D3764
         Public Const dwGameDir as Integer = &H627780
-        Public Const dwGameRulesProxy as Integer = &H52C02CC
+        Public Const dwGameRulesProxy as Integer = &H52C02BC
         Public Const dwGetAllClasses as Integer = &HDB202C
         Public Const dwGlobalVars as Integer = &H588CF0
-        Public Const dwGlowObjectManager as Integer = &H52EB678
-        Public Const dwInput as Integer = &H51F47B0
+        Public Const dwGlowObjectManager as Integer = &H52EB650
+        Public Const dwInput as Integer = &H51F47A0
         Public Const dwInterfaceLinkList as Integer = &H944E34
         Public Const dwLocalPlayer as Integer = &HD8A2DC
         Public Const dwMouseEnable as Integer = &HD8FE28
         Public Const dwMouseEnablePtr as Integer = &HD8FDF8
-        Public Const dwPlayerResource as Integer = &H31D1AA0
-        Public Const dwRadarBase as Integer = &H51D7F64
+        Public Const dwPlayerResource as Integer = &H31D1A90
+        Public Const dwRadarBase as Integer = &H51D7F54
         Public Const dwSensitivity as Integer = &HD8FCC4
         Public Const dwSensitivityPtr as Integer = &HD8FC98
         Public Const dwSetClanTag as Integer = &H8A1B0
-        Public Const dwViewMatrix as Integer = &H4D94B04
-        Public Const dwWeaponTable as Integer = &H51F5270
+        Public Const dwViewMatrix as Integer = &H4D94AF4
+        Public Const dwWeaponTable as Integer = &H51F5260
         Public Const dwWeaponTableIndex as Integer = &H325C
         Public Const dwYawPtr as Integer = &HD8FA88
         Public Const dwZoomSensitivityRatioPtr as Integer = &HD94D28
-        Public Const dwbSendPackets as Integer = &HD771A
+        Public Const dwbSendPackets as Integer = &HD779A
         Public Const dwppDirect3DDevice9 as Integer = &HA7050
-        Public Const find_hud_element as Integer = &H3009F720
+        Public Const find_hud_element as Integer = &H5A10F720
         Public Const force_update_spectator_glow as Integer = &H3AF66A
         Public Const interface_engine_cvar as Integer = &H3E9EC
         Public Const is_c4_owner as Integer = &H3BC2C0
         Public Const m_bDormant as Integer = &HED
         Public Const m_flSpawnTime as Integer = &HA370
         Public Const m_pStudioHdr as Integer = &H294C
-        Public Const m_pitchClassPtr as Integer = &H51D8200
+        Public Const m_pitchClassPtr as Integer = &H51D81F0
         Public Const m_yawClassPtr as Integer = &HD8FA88
         Public Const model_ambient_min as Integer = &H58C064
         Public Const set_abs_angles as Integer = &H1E0AC0
