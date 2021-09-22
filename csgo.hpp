@@ -1,10 +1,10 @@
 #pragma once
 #include <cstdint>
 
-// 2021-09-22 16:55:56.454250100 UTC
+// 2021-09-22 17:14:35.954995 UTC
 
 namespace hazedumper {
-constexpr ::std::int64_t timestamp = 1632329756;
+constexpr ::std::int64_t timestamp = 1632330875;
 namespace netvars {
 constexpr ::std::ptrdiff_t cs_gamerules_data = 0x0;
 constexpr ::std::ptrdiff_t m_ArmorValue = 0x113CC;
@@ -71,6 +71,7 @@ constexpr ::std::ptrdiff_t m_iCompetitiveWins = 0x1B88;
 constexpr ::std::ptrdiff_t m_iCrosshairId = 0x11438;
 constexpr ::std::ptrdiff_t m_iDefaultFOV = 0x333C;
 constexpr ::std::ptrdiff_t m_iEntityQuality = 0x2FBC;
+constexpr ::std::ptrdiff_t m_iFOV = 0x31F4;
 constexpr ::std::ptrdiff_t m_iFOVStart = 0x31F8;
 constexpr ::std::ptrdiff_t m_iGlowIndex = 0x10488;
 constexpr ::std::ptrdiff_t m_iHealth = 0x100;

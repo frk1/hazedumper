@@ -1,10 +1,10 @@
 using System;
 
-// 2021-09-22 16:55:56.454250100 UTC
+// 2021-09-22 17:14:35.954995 UTC
 
 namespace hazedumper
 {
-    public const Int32 timestamp = 1632329756;
+    public const Int32 timestamp = 1632330875;
     public static class netvars
     {
         public const Int32 cs_gamerules_data = 0x0;
@@ -72,6 +72,7 @@ namespace hazedumper
         public const Int32 m_iCrosshairId = 0x11438;
         public const Int32 m_iDefaultFOV = 0x333C;
         public const Int32 m_iEntityQuality = 0x2FBC;
+        public const Int32 m_iFOV = 0x31F4;
         public const Int32 m_iFOVStart = 0x31F8;
         public const Int32 m_iGlowIndex = 0x10488;
         public const Int32 m_iHealth = 0x100;

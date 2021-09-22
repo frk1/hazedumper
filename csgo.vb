@@ -1,7 +1,7 @@
-' 2021-09-22 16:55:56.454250100 UTC
+' 2021-09-22 17:14:35.954995 UTC
 
 Namespace hazedumper
-    Public Const timestamp as Integer = &H614B601C
+    Public Const timestamp as Integer = &H614B647B
     Public Shared Class netvars
         Public Const cs_gamerules_data as Integer = &H0
         Public Const m_ArmorValue as Integer = &H113CC
@@ -68,6 +68,7 @@ Namespace hazedumper
         Public Const m_iCrosshairId as Integer = &H11438
         Public Const m_iDefaultFOV as Integer = &H333C
         Public Const m_iEntityQuality as Integer = &H2FBC
+        Public Const m_iFOV as Integer = &H31F4
         Public Const m_iFOVStart as Integer = &H31F8
         Public Const m_iGlowIndex as Integer = &H10488
         Public Const m_iHealth as Integer = &H100

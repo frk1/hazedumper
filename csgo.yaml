@@ -1,5 +1,5 @@
 ---
-timestamp: 1632329756
+timestamp: 1632330875
 signatures:
   anim_overlays: 10640
   clientstate_choked_commands: 19760
@@ -124,6 +124,7 @@ netvars:
   m_iCrosshairId: 70712
   m_iDefaultFOV: 13116
   m_iEntityQuality: 12220
+  m_iFOV: 12788
   m_iFOVStart: 12792
   m_iGlowIndex: 66696
   m_iHealth: 256
