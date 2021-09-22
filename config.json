@@ -90,7 +90,7 @@
       "offsets": [
         4
       ],
-      "pattern": "F3 0F 11 80 ? ? ? ? F3 0F 10 44 24 38"
+      "pattern": "F3 0F 11 86 ? ? ? ? F3 0F 10 44 24 ? F3 0F 11 86"
     },
     {
         "name": "clientstate_delta_ticks",
