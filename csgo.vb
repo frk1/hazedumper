@@ -1,7 +1,7 @@
-' 2021-09-23 15:53:27.763857200 UTC
+' 2021-09-24 08:00:59.057658900 UTC
 
 Namespace hazedumper
-    Public Const timestamp as Integer = &H614CA2F7
+    Public Const timestamp as Integer = &H614D85BB
     Public Shared Class netvars
         Public Const cs_gamerules_data as Integer = &H0
         Public Const m_ArmorValue as Integer = &H113CC
@@ -121,7 +121,7 @@ Namespace hazedumper
         Public Const dwForceJump as Integer = &H52663C4
         Public Const dwForceLeft as Integer = &H31ECB10
         Public Const dwForceRight as Integer = &H31ECB04
-        Public Const dwGameDir as Integer = &H627780
+        Public Const dwGameDir as Integer = &H627700
         Public Const dwGameRulesProxy as Integer = &H52D96AC
         Public Const dwGetAllClasses as Integer = &HDCAA5C
         Public Const dwGlobalVars as Integer = &H588CF0
@@ -135,15 +135,15 @@ Namespace hazedumper
         Public Const dwRadarBase as Integer = &H51F132C
         Public Const dwSensitivity as Integer = &HDA7E34
         Public Const dwSensitivityPtr as Integer = &HDA7E08
-        Public Const dwSetClanTag as Integer = &H8A1B0
+        Public Const dwSetClanTag as Integer = &H8A130
         Public Const dwViewMatrix as Integer = &H4DADEB4
         Public Const dwWeaponTable as Integer = &H520E63C
         Public Const dwWeaponTableIndex as Integer = &H326C
         Public Const dwYawPtr as Integer = &HDA7BF8
         Public Const dwZoomSensitivityRatioPtr as Integer = &HDACE98
-        Public Const dwbSendPackets as Integer = &HD7AC2
+        Public Const dwbSendPackets as Integer = &HD7A62
         Public Const dwppDirect3DDevice9 as Integer = &HA7050
-        Public Const find_hud_element as Integer = &H5C792780
+        Public Const find_hud_element as Integer = &H5CAE27A0
         Public Const force_update_spectator_glow as Integer = &H3B38CA
         Public Const interface_engine_cvar as Integer = &H3E9EC
         Public Const is_c4_owner as Integer = &H3C0820
@@ -152,8 +152,8 @@ Namespace hazedumper
         Public Const m_pStudioHdr as Integer = &H2950
         Public Const m_pitchClassPtr as Integer = &H51F15C8
         Public Const m_yawClassPtr as Integer = &HDA7BF8
-        Public Const model_ambient_min as Integer = &H58C064
-        Public Const set_abs_angles as Integer = &H1E37B0
-        Public Const set_abs_origin as Integer = &H1E35F0
+        Public Const model_ambient_min as Integer = &H58C00C
+        Public Const set_abs_angles as Integer = &H1E37C0
+        Public Const set_abs_origin as Integer = &H1E3600
     End Class
 End Namespace

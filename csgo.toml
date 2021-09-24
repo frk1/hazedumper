@@ -1,4 +1,4 @@
-timestamp = 1632412407
+timestamp = 1632470459
 
 [signatures]
 anim_overlays = 10640
@@ -24,7 +24,7 @@ dwForceForward = 52349688
 dwForceJump = 86401988
 dwForceLeft = 52349712
 dwForceRight = 52349700
-dwGameDir = 6453120
+dwGameDir = 6452992
 dwGameRulesProxy = 86873772
 dwGetAllClasses = 14461532
 dwGlobalVars = 5803248
@@ -38,15 +38,15 @@ dwPlayerResource = 52342368
 dwRadarBase = 85922604
 dwSensitivity = 14319156
 dwSensitivityPtr = 14319112
-dwSetClanTag = 565680
+dwSetClanTag = 565552
 dwViewMatrix = 81452724
 dwWeaponTable = 86042172
 dwWeaponTableIndex = 12908
 dwYawPtr = 14318584
 dwZoomSensitivityRatioPtr = 14339736
-dwbSendPackets = 883394
+dwbSendPackets = 883298
 dwppDirect3DDevice9 = 684112
-find_hud_element = 1551443840
+find_hud_element = 1554917280
 force_update_spectator_glow = 3881162
 interface_engine_cvar = 256492
 is_c4_owner = 3934240
@@ -55,9 +55,9 @@ m_flSpawnTime = 66496
 m_pStudioHdr = 10576
 m_pitchClassPtr = 85923272
 m_yawClassPtr = 14318584
-model_ambient_min = 5816420
-set_abs_angles = 1980336
-set_abs_origin = 1979888
+model_ambient_min = 5816332
+set_abs_angles = 1980352
+set_abs_origin = 1979904
 
 [netvars]
 cs_gamerules_data = 0
