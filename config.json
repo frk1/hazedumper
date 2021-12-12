@@ -154,7 +154,7 @@
     },
     {
       "name": "dwForceAttack2",
-      "extra": 12,
+      "extra": 36,
       "relative": true,
       "module": "client.dll",
       "offsets": [
