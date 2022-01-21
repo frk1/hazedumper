@@ -1,4 +1,4 @@
-timestamp = 1642591636
+timestamp = 1642750653
 
 [signatures]
 anim_overlays = 10640
@@ -18,7 +18,7 @@ dwClientState_State = 264
 dwClientState_ViewAngles = 19856
 dwEntityList = 81600028
 dwForceAttack = 52437712
-dwForceAttack2 = 52437748
+dwForceAttack2 = 52437724
 dwForceBackward = 52437772
 dwForceForward = 52437760
 dwForceJump = 86490264
@@ -44,9 +44,9 @@ dwWeaponTable = 86130360
 dwWeaponTableIndex = 12908
 dwYawPtr = 14401256
 dwZoomSensitivityRatioPtr = 14425400
-dwbSendPackets = 889714
+dwbSendPackets = 889810
 dwppDirect3DDevice9 = 675920
-find_hud_element = 745490272
+find_hud_element = 752240480
 force_update_spectator_glow = 3901610
 interface_engine_cvar = 256492
 is_c4_owner = 3954832
