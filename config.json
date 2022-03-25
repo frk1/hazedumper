@@ -551,6 +551,16 @@
       "relative": false,
       "module": "client.dll",
       "pattern": "55 8B EC 53 8B 5D 08 56 57 8B F9 33 F6 39 77 28"
+    },
+    {
+      "name": "m_bIsLocalPlayer",
+      "extra": 0,
+      "relative": false,
+      "module": "client.dll",
+      "offsets": [
+        2
+      ],
+      "pattern": "80 BF ? ? ? ? ? F2 0F 10 1D"
     }
   ],
   "netvars": [
