@@ -1024,9 +1024,14 @@
       "prop": "m_flCustomAutoExposureMax",
       "table": "DT_EnvTonemapController"
     },
-	{
+    {
       "name": "m_nViewModelIndex",
       "prop": "m_nViewModelIndex",
+      "table": "DT_BaseViewModel"
+    },
+    {
+      "name": "m_nModelIndex",
+      "prop": "m_nModelIndex",
       "table": "DT_BaseViewModel"
     }
   ]
