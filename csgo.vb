@@ -1,7 +1,7 @@
-' 2022-03-29 08:40:02.440133900 UTC
+' 2022-03-30 07:36:55.834374 UTC
 
 Namespace hazedumper
-    Public Const timestamp as Integer = &H6242C5E2
+    Public Const timestamp as Integer = &H62440897
     Public Shared Class netvars
         Public Const cs_gamerules_data as Integer = &H0
         Public Const m_ArmorValue as Integer = &H117CC
@@ -113,44 +113,44 @@ Namespace hazedumper
         Public Const dwClientState_PlayerInfo as Integer = &H52C0
         Public Const dwClientState_State as Integer = &H108
         Public Const dwClientState_ViewAngles as Integer = &H4D90
-        Public Const dwEntityList as Integer = &H4DD243C
-        Public Const dwForceAttack as Integer = &H3202950
-        Public Const dwForceAttack2 as Integer = &H320295C
-        Public Const dwForceBackward as Integer = &H32028FC
-        Public Const dwForceForward as Integer = &H3202980
-        Public Const dwForceJump as Integer = &H527C36C
-        Public Const dwForceLeft as Integer = &H3202908
-        Public Const dwForceRight as Integer = &H3202914
+        Public Const dwEntityList as Integer = &H4DD245C
+        Public Const dwForceAttack as Integer = &H3202970
+        Public Const dwForceAttack2 as Integer = &H320297C
+        Public Const dwForceBackward as Integer = &H320291C
+        Public Const dwForceForward as Integer = &H32029A0
+        Public Const dwForceJump as Integer = &H527C38C
+        Public Const dwForceLeft as Integer = &H3202928
+        Public Const dwForceRight as Integer = &H3202934
         Public Const dwGameDir as Integer = &H62B880
-        Public Const dwGameRulesProxy as Integer = &H52EFB9C
+        Public Const dwGameRulesProxy as Integer = &H52EFBBC
         Public Const dwGetAllClasses as Integer = &HDE0764
         Public Const dwGlobalVars as Integer = &H58CCC8
-        Public Const dwGlowObjectManager as Integer = &H531B018
-        Public Const dwInput as Integer = &H5223A10
-        Public Const dwInterfaceLinkList as Integer = &H969044
+        Public Const dwGlowObjectManager as Integer = &H531B048
+        Public Const dwInput as Integer = &H5223A30
+        Public Const dwInterfaceLinkList as Integer = &H9692B4
         Public Const dwLocalPlayer as Integer = &HDB65DC
         Public Const dwMouseEnable as Integer = &HDBC2E8
         Public Const dwMouseEnablePtr as Integer = &HDBC2B8
-        Public Const dwPlayerResource as Integer = &H3200CA0
-        Public Const dwRadarBase as Integer = &H52071B4
+        Public Const dwPlayerResource as Integer = &H3200CC0
+        Public Const dwRadarBase as Integer = &H52071D4
         Public Const dwSensitivity as Integer = &HDBC184
         Public Const dwSensitivityPtr as Integer = &HDBC158
         Public Const dwSetClanTag as Integer = &H8A320
-        Public Const dwViewMatrix as Integer = &H4DC3D54
-        Public Const dwWeaponTable as Integer = &H52244D8
+        Public Const dwViewMatrix as Integer = &H4DC3D74
+        Public Const dwWeaponTable as Integer = &H52244F8
         Public Const dwWeaponTableIndex as Integer = &H326C
         Public Const dwYawPtr as Integer = &HDBBF48
         Public Const dwZoomSensitivityRatioPtr as Integer = &HDC21B0
         Public Const dwbSendPackets as Integer = &HD9572
         Public Const dwppDirect3DDevice9 as Integer = &HA5050
-        Public Const find_hud_element as Integer = &H2DD450F0
+        Public Const find_hud_element as Integer = &H2E2650F0
         Public Const force_update_spectator_glow as Integer = &H3BB80A
         Public Const interface_engine_cvar as Integer = &H3E9EC
         Public Const is_c4_owner as Integer = &H3C8890
         Public Const m_bDormant as Integer = &HED
         Public Const m_flSpawnTime as Integer = &H103C0
         Public Const m_pStudioHdr as Integer = &H2950
-        Public Const m_pitchClassPtr as Integer = &H5207450
+        Public Const m_pitchClassPtr as Integer = &H5207470
         Public Const m_yawClassPtr as Integer = &HDBBF48
         Public Const model_ambient_min as Integer = &H59003C
         Public Const set_abs_angles as Integer = &H1E5430
