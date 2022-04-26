@@ -99,6 +99,8 @@ constexpr ::std::ptrdiff_t m_vecVelocity = 0x114;
 constexpr ::std::ptrdiff_t m_vecViewOffset = 0x108;
 constexpr ::std::ptrdiff_t m_viewPunchAngle = 0x3030;
 constexpr ::std::ptrdiff_t m_zoomLevel = 0x33E0;
+constexpr ::std::ptrdiff_t m_nModelIndex = 0x258;
+constexpr ::std::ptrdiff_t m_iViewModelIndex = 0x3250;
 } // namespace netvars
 namespace signatures {
 constexpr ::std::ptrdiff_t anim_overlays = 0x2990;
