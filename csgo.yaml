@@ -1,5 +1,5 @@
 ---
-timestamp: 1656060063
+timestamp: 1656483057
 signatures:
   anim_overlays: 10640
   clientstate_choked_commands: 19760
@@ -46,11 +46,12 @@ signatures:
   dwZoomSensitivityRatioPtr: 14464544
   dwbSendPackets: 885794
   dwppDirect3DDevice9: 680016
-  find_hud_element: 776231376
+  find_hud_element: 776296912
   force_update_spectator_glow: 3923178
   interface_engine_cvar: 256572
   is_c4_owner: 3976560
   m_bDormant: 237
+  m_bIsLocalPlayer: 13864
   m_flSpawnTime: 66496
   m_pStudioHdr: 10576
   m_pitchClassPtr: 86051136
@@ -141,6 +142,7 @@ netvars:
   m_nFallbackSeed: 12764
   m_nFallbackStatTrak: 12772
   m_nForceBone: 9868
+  m_nModelIndex: 600
   m_nTickBase: 13376
   m_nViewModelIndex: 10704
   m_rgflCoordinateFrame: 1092

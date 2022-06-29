@@ -1,6 +1,7 @@
-' 2022-06-24 08:41:03.738646400 UTC
+' 2022-06-29 06:10:57.575628500 UTC
 
 Namespace hazedumper
+    Public Const timestamp as Integer = &H62BBECF1
     Public Shared Class netvars
         Public Const cs_gamerules_data as Integer = &H0
         Public Const m_ArmorValue as Integer = &H117CC
@@ -84,6 +85,7 @@ Namespace hazedumper
         Public Const m_nFallbackSeed as Integer = &H31DC
         Public Const m_nFallbackStatTrak as Integer = &H31E4
         Public Const m_nForceBone as Integer = &H268C
+        Public Const m_nModelIndex as Integer = &H258
         Public Const m_nTickBase as Integer = &H3440
         Public Const m_nViewModelIndex as Integer = &H29D0
         Public Const m_rgflCoordinateFrame as Integer = &H444
@@ -142,11 +144,12 @@ Namespace hazedumper
         Public Const dwZoomSensitivityRatioPtr as Integer = &HDCB620
         Public Const dwbSendPackets as Integer = &HD8422
         Public Const dwppDirect3DDevice9 as Integer = &HA6050
-        Public Const find_hud_element as Integer = &H2E4459D0
+        Public Const find_hud_element as Integer = &H2E4559D0
         Public Const force_update_spectator_glow as Integer = &H3BDCEA
         Public Const interface_engine_cvar as Integer = &H3EA3C
         Public Const is_c4_owner as Integer = &H3CAD70
         Public Const m_bDormant as Integer = &HED
+        Public Const m_bIsLocalPlayer as Integer = &H3628
         Public Const m_flSpawnTime as Integer = &H103C0
         Public Const m_pStudioHdr as Integer = &H2950
         Public Const m_pitchClassPtr as Integer = &H5210940

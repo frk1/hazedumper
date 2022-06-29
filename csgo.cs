@@ -1,9 +1,10 @@
 using System;
 
-// 2022-06-24 08:41:03.738646400 UTC
+// 2022-06-29 06:10:57.575628500 UTC
 
 namespace hazedumper
 {
+    public const Int32 timestamp = 1656483057;
     public static class netvars
     {
         public const Int32 cs_gamerules_data = 0x0;
@@ -88,6 +89,7 @@ namespace hazedumper
         public const Int32 m_nFallbackSeed = 0x31DC;
         public const Int32 m_nFallbackStatTrak = 0x31E4;
         public const Int32 m_nForceBone = 0x268C;
+        public const Int32 m_nModelIndex = 0x258;
         public const Int32 m_nTickBase = 0x3440;
         public const Int32 m_nViewModelIndex = 0x29D0;
         public const Int32 m_rgflCoordinateFrame = 0x444;
@@ -147,11 +149,12 @@ namespace hazedumper
         public const Int32 dwZoomSensitivityRatioPtr = 0xDCB620;
         public const Int32 dwbSendPackets = 0xD8422;
         public const Int32 dwppDirect3DDevice9 = 0xA6050;
-        public const Int32 find_hud_element = 0x2E4459D0;
+        public const Int32 find_hud_element = 0x2E4559D0;
         public const Int32 force_update_spectator_glow = 0x3BDCEA;
         public const Int32 interface_engine_cvar = 0x3EA3C;
         public const Int32 is_c4_owner = 0x3CAD70;
         public const Int32 m_bDormant = 0xED;
+        public const Int32 m_bIsLocalPlayer = 0x3628;
         public const Int32 m_flSpawnTime = 0x103C0;
         public const Int32 m_pStudioHdr = 0x2950;
         public const Int32 m_pitchClassPtr = 0x5210940;
