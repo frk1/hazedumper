@@ -1,5 +1,5 @@
 ---
-timestamp: 1657739449
+timestamp: 1659424973
 signatures:
   anim_overlays: 10640
   clientstate_choked_commands: 19760
@@ -21,14 +21,14 @@ signatures:
   dwForceAttack2: 52477396
   dwForceBackward: 52477456
   dwForceForward: 52477444
-  dwForceJump: 86530208
+  dwForceJump: 86530268
   dwForceLeft: 52477468
   dwForceRight: 52477480
   dwGameDir: 6469888
-  dwGameRulesProxy: 87003324
+  dwGameRulesProxy: 87003404
   dwGetAllClasses: 14589084
   dwGlobalVars: 5819616
-  dwGlowObjectManager: 87180688
+  dwGlowObjectManager: 87180776
   dwInput: 86167248
   dwInterfaceLinkList: 9891652
   dwLocalPlayer: 14415036
@@ -46,10 +46,10 @@ signatures:
   dwZoomSensitivityRatioPtr: 14464528
   dwbSendPackets: 885842
   dwppDirect3DDevice9: 680016
-  find_hud_element: 680090064
-  force_update_spectator_glow: 3924666
+  find_hud_element: 673012352
+  force_update_spectator_glow: 3924826
   interface_engine_cvar: 256572
-  is_c4_owner: 3978016
+  is_c4_owner: 3978192
   m_bDormant: 237
   m_bIsLocalPlayer: 13864
   m_flSpawnTime: 66496
