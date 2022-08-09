@@ -1,7 +1,7 @@
-' 2022-08-02 07:22:53.698777700 UTC
+' 2022-08-09 12:04:22.747605200 UTC
 
 Namespace hazedumper
-    Public Const timestamp as Integer = &H62E8D0CD
+    Public Const timestamp as Integer = &H62F24D46
     Public Shared Class netvars
         Public Const cs_gamerules_data as Integer = &H0
         Public Const m_ArmorValue as Integer = &H117CC
@@ -114,37 +114,37 @@ Namespace hazedumper
         Public Const dwClientState_PlayerInfo as Integer = &H52C0
         Public Const dwClientState_State as Integer = &H108
         Public Const dwClientState_ViewAngles as Integer = &H4D90
-        Public Const dwEntityList as Integer = &H4DDB8FC
-        Public Const dwForceAttack as Integer = &H320BDC8
-        Public Const dwForceAttack2 as Integer = &H320BDD4
-        Public Const dwForceBackward as Integer = &H320BE10
-        Public Const dwForceForward as Integer = &H320BE04
-        Public Const dwForceJump as Integer = &H52858DC
-        Public Const dwForceLeft as Integer = &H320BE1C
-        Public Const dwForceRight as Integer = &H320BE28
+        Public Const dwEntityList as Integer = &H4DDB91C
+        Public Const dwForceAttack as Integer = &H320BDE8
+        Public Const dwForceAttack2 as Integer = &H320BDF4
+        Public Const dwForceBackward as Integer = &H320BE30
+        Public Const dwForceForward as Integer = &H320BE24
+        Public Const dwForceJump as Integer = &H52858FC
+        Public Const dwForceLeft as Integer = &H320BE3C
+        Public Const dwForceRight as Integer = &H320BE48
         Public Const dwGameDir as Integer = &H62B900
-        Public Const dwGameRulesProxy as Integer = &H52F910C
+        Public Const dwGameRulesProxy as Integer = &H52F912C
         Public Const dwGetAllClasses as Integer = &HDE9C9C
         Public Const dwGlobalVars as Integer = &H58CCE0
-        Public Const dwGlowObjectManager as Integer = &H53245E8
-        Public Const dwInput as Integer = &H522CED0
+        Public Const dwGlowObjectManager as Integer = &H5324618
+        Public Const dwInput as Integer = &H522CEF0
         Public Const dwInterfaceLinkList as Integer = &H96EF44
         Public Const dwLocalPlayer as Integer = &HDBF4BC
         Public Const dwMouseEnable as Integer = &HDC51C8
         Public Const dwMouseEnablePtr as Integer = &HDC5198
-        Public Const dwPlayerResource as Integer = &H320A160
-        Public Const dwRadarBase as Integer = &H5210674
+        Public Const dwPlayerResource as Integer = &H320A180
+        Public Const dwRadarBase as Integer = &H5210694
         Public Const dwSensitivity as Integer = &HDC5064
         Public Const dwSensitivityPtr as Integer = &HDC5038
         Public Const dwSetClanTag as Integer = &H8A410
-        Public Const dwViewMatrix as Integer = &H4DCD214
-        Public Const dwWeaponTable as Integer = &H522D994
+        Public Const dwViewMatrix as Integer = &H4DCD234
+        Public Const dwWeaponTable as Integer = &H522D9B4
         Public Const dwWeaponTableIndex as Integer = &H326C
         Public Const dwYawPtr as Integer = &HDC4E28
         Public Const dwZoomSensitivityRatioPtr as Integer = &HDCB610
         Public Const dwbSendPackets as Integer = &HD8452
         Public Const dwppDirect3DDevice9 as Integer = &HA6050
-        Public Const find_hud_element as Integer = &H281D5A80
+        Public Const find_hud_element as Integer = &H2DE55A80
         Public Const force_update_spectator_glow as Integer = &H3BE35A
         Public Const interface_engine_cvar as Integer = &H3EA3C
         Public Const is_c4_owner as Integer = &H3CB3D0
@@ -152,7 +152,7 @@ Namespace hazedumper
         Public Const m_bIsLocalPlayer as Integer = &H3628
         Public Const m_flSpawnTime as Integer = &H103C0
         Public Const m_pStudioHdr as Integer = &H2950
-        Public Const m_pitchClassPtr as Integer = &H5210910
+        Public Const m_pitchClassPtr as Integer = &H5210930
         Public Const m_yawClassPtr as Integer = &HDC4E28
         Public Const model_ambient_min as Integer = &H590054
         Public Const set_abs_angles as Integer = &H1E59F0
