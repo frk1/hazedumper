@@ -333,13 +333,13 @@
     },
     {
       "name": "dwSensitivity",
-      "extra": 44,
+      "extra": 0,
       "relative": true,
       "module": "client.dll",
       "offsets": [
         2
       ],
-      "pattern": "81 F9 ? ? ? ? 75 1D F3 0F 10 05 ? ? ? ? F3 0F 11 44 24 ? 8B 44 24 0C 35 ? ? ? ? 89 44 24 0C"
+      "pattern": "81 F9 ? ? ? ? 75 7E F3 0F 10 05"
     },
     {
       "name": "dwSensitivityPtr",
@@ -349,7 +349,7 @@
       "offsets": [
         2
       ],
-      "pattern": "81 F9 ? ? ? ? 75 1D F3 0F 10 05 ? ? ? ? F3 0F 11 44 24 ? 8B 44 24 0C 35 ? ? ? ? 89 44 24 0C"
+      "pattern": "81 F9 ? ? ? ? 75 7E F3 0F 10 05"
     },
     {
       "name": "dwSetClanTag",
@@ -395,9 +395,9 @@
       "relative": true,
       "module": "client.dll",
       "offsets": [
-        2
+        5
       ],
-      "pattern": "81 F9 ? ? ? ? 75 16 F3 0F 10 05 ? ? ? ? F3 0F 11 45 ? 81 75 ? ? ? ? ? EB 0A 8B 01 8B 40 30 FF D0 D9 5D 0C 8B 55 08"
+      "pattern": "8B 44 24 1C 35 ? ? ? ? 89 44 24 14 EB 0D"
     },
     {
       "name": "dwZoomSensitivityRatioPtr",
@@ -405,9 +405,9 @@
       "relative": true,
       "module": "client.dll",
       "offsets": [
-        2
+        1
       ],
-      "pattern": "81 F9 ? ? ? ? 75 1A F3 0F 10 05 ? ? ? ? F3 0F 11 45 ? 8B 45 F4 35 ? ? ? ? 89 45 FC EB 0A 8B 01 8B 40 30 FF D0 D9 5D FC A1"
+      "pattern": "35 ? ? ? ? 89 45 FC EB 0A 8B 01 8B 40 30 FF D0 D9 5D FC A1"
     },
     {
       "name": "dwbSendPackets",
@@ -443,9 +443,9 @@
       "relative": true,
       "module": "client.dll",
       "offsets": [
-        2
+        5
       ],
-      "pattern": "81 F9 ? ? ? ? 75 16 F3 0F 10 05 ? ? ? ? F3 0F 11 45 ? 81 75 ? ? ? ? ? EB 0A 8B 01 8B 40 30 FF D0 D9 5D 0C 8B 55 08"
+      "pattern": "8B 44 24 1C 35 ? ? ? ? 89 44 24 14 EB 0D"
     },
     {
       "name": "m_pitchClassPtr",
@@ -455,7 +455,7 @@
       "offsets": [
         1
       ],
-      "pattern": "A1 ? ? ? ? 89 74 24 28"
+      "pattern": "B9 ? ? ? ? 89 44 24 40"
     },
     {
         "name": "interface_engine_cvar",
