@@ -1,10 +1,10 @@
 using System;
 
-// 2022-10-21 22:59:15.209205400 UTC
+// 2022-10-22 09:15:07.333213300 UTC
 
 namespace hazedumper
 {
-    public const Int32 timestamp = 1666393155;
+    public const Int32 timestamp = 1666430107;
     public static class netvars
     {
         public const Int32 cs_gamerules_data = 0x0;
@@ -139,13 +139,17 @@ namespace hazedumper
         public const Int32 dwMouseEnablePtr = 0x5235068;
         public const Int32 dwPlayerResource = 0x3228010;
         public const Int32 dwRadarBase = 0x523293C;
+        public const Int32 dwSensitivity = 0xDEAB80;
+        public const Int32 dwSensitivityPtr = 0xDEAB80;
         public const Int32 dwSetClanTag = 0x8DA80;
         public const Int32 dwViewMatrix = 0x4DECC94;
         public const Int32 dwWeaponTable = 0x525A514;
         public const Int32 dwWeaponTableIndex = 0x326C;
+        public const Int32 dwYawPtr = 0xDEA910;
+        public const Int32 dwZoomSensitivityRatioPtr = 0xDF0380;
         public const Int32 dwbSendPackets = 0xDCF62;
         public const Int32 dwppDirect3DDevice9 = 0xA62C0;
-        public const Int32 find_hud_element = 0x2808D9F0;
+        public const Int32 find_hud_element = 0x5710D9F0;
         public const Int32 force_update_spectator_glow = 0x3D716A;
         public const Int32 interface_engine_cvar = 0x3FA9C;
         public const Int32 is_c4_owner = 0x3E49A0;
@@ -154,6 +158,7 @@ namespace hazedumper
         public const Int32 m_flSpawnTime = 0x103C0;
         public const Int32 m_pStudioHdr = 0x2950;
         public const Int32 m_pitchClassPtr = 0x5234F90;
+        public const Int32 m_yawClassPtr = 0xDEA910;
         public const Int32 model_ambient_min = 0x5A118C;
         public const Int32 set_abs_angles = 0x1E5090;
         public const Int32 set_abs_origin = 0x1E4ED0;
