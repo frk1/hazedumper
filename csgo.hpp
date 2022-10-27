@@ -1,10 +1,10 @@
 #pragma once
 #include <cstdint>
 
-// 2022-10-22 09:15:07.333213300 UTC
+// 2022-10-27 16:30:41.991727200 UTC
 
 namespace hazedumper {
-constexpr ::std::int64_t timestamp = 1666430107;
+constexpr ::std::int64_t timestamp = 1666888241;
 namespace netvars {
 constexpr ::std::ptrdiff_t cs_gamerules_data = 0x0;
 constexpr ::std::ptrdiff_t m_ArmorValue = 0x117CC;
@@ -117,37 +117,37 @@ constexpr ::std::ptrdiff_t dwClientState_MaxPlayer = 0x388;
 constexpr ::std::ptrdiff_t dwClientState_PlayerInfo = 0x52C0;
 constexpr ::std::ptrdiff_t dwClientState_State = 0x108;
 constexpr ::std::ptrdiff_t dwClientState_ViewAngles = 0x4D90;
-constexpr ::std::ptrdiff_t dwEntityList = 0x4DFBE64;
-constexpr ::std::ptrdiff_t dwForceAttack = 0x3229CCC;
-constexpr ::std::ptrdiff_t dwForceAttack2 = 0x3229CD8;
-constexpr ::std::ptrdiff_t dwForceBackward = 0x3229C78;
-constexpr ::std::ptrdiff_t dwForceForward = 0x3229CFC;
-constexpr ::std::ptrdiff_t dwForceJump = 0x52B7BEC;
-constexpr ::std::ptrdiff_t dwForceLeft = 0x3229C84;
-constexpr ::std::ptrdiff_t dwForceRight = 0x3229C90;
+constexpr ::std::ptrdiff_t dwEntityList = 0x4DFBE54;
+constexpr ::std::ptrdiff_t dwForceAttack = 0x3229CBC;
+constexpr ::std::ptrdiff_t dwForceAttack2 = 0x3229CC8;
+constexpr ::std::ptrdiff_t dwForceBackward = 0x3229C68;
+constexpr ::std::ptrdiff_t dwForceForward = 0x3229CEC;
+constexpr ::std::ptrdiff_t dwForceJump = 0x52B7BDC;
+constexpr ::std::ptrdiff_t dwForceLeft = 0x3229C74;
+constexpr ::std::ptrdiff_t dwForceRight = 0x3229C80;
 constexpr ::std::ptrdiff_t dwGameDir = 0x63AD80;
-constexpr ::std::ptrdiff_t dwGameRulesProxy = 0x532B41C;
+constexpr ::std::ptrdiff_t dwGameRulesProxy = 0x532B40C;
 constexpr ::std::ptrdiff_t dwGetAllClasses = 0xE07FDC;
 constexpr ::std::ptrdiff_t dwGlobalVars = 0x59EE58;
 constexpr ::std::ptrdiff_t dwGlowObjectManager = 0x5356910;
-constexpr ::std::ptrdiff_t dwInput = 0x5259438;
-constexpr ::std::ptrdiff_t dwInterfaceLinkList = 0x998C74;
+constexpr ::std::ptrdiff_t dwInput = 0x5259428;
+constexpr ::std::ptrdiff_t dwInterfaceLinkList = 0x999154;
 constexpr ::std::ptrdiff_t dwLocalPlayer = 0xDE6964;
-constexpr ::std::ptrdiff_t dwMouseEnable = 0x5235098;
-constexpr ::std::ptrdiff_t dwMouseEnablePtr = 0x5235068;
-constexpr ::std::ptrdiff_t dwPlayerResource = 0x3228010;
-constexpr ::std::ptrdiff_t dwRadarBase = 0x523293C;
+constexpr ::std::ptrdiff_t dwMouseEnable = 0x5235088;
+constexpr ::std::ptrdiff_t dwMouseEnablePtr = 0x5235058;
+constexpr ::std::ptrdiff_t dwPlayerResource = 0x3228000;
+constexpr ::std::ptrdiff_t dwRadarBase = 0x523292C;
 constexpr ::std::ptrdiff_t dwSensitivity = 0xDEAB80;
 constexpr ::std::ptrdiff_t dwSensitivityPtr = 0xDEAB80;
 constexpr ::std::ptrdiff_t dwSetClanTag = 0x8DA80;
-constexpr ::std::ptrdiff_t dwViewMatrix = 0x4DECC94;
-constexpr ::std::ptrdiff_t dwWeaponTable = 0x525A514;
+constexpr ::std::ptrdiff_t dwViewMatrix = 0x4DECC84;
+constexpr ::std::ptrdiff_t dwWeaponTable = 0x525A504;
 constexpr ::std::ptrdiff_t dwWeaponTableIndex = 0x326C;
 constexpr ::std::ptrdiff_t dwYawPtr = 0xDEA910;
 constexpr ::std::ptrdiff_t dwZoomSensitivityRatioPtr = 0xDF0380;
-constexpr ::std::ptrdiff_t dwbSendPackets = 0xDCF62;
+constexpr ::std::ptrdiff_t dwbSendPackets = 0xDCF92;
 constexpr ::std::ptrdiff_t dwppDirect3DDevice9 = 0xA62C0;
-constexpr ::std::ptrdiff_t find_hud_element = 0x5710D9F0;
+constexpr ::std::ptrdiff_t find_hud_element = 0x26B5D9F0;
 constexpr ::std::ptrdiff_t force_update_spectator_glow = 0x3D716A;
 constexpr ::std::ptrdiff_t interface_engine_cvar = 0x3FA9C;
 constexpr ::std::ptrdiff_t is_c4_owner = 0x3E49A0;
@@ -155,7 +155,7 @@ constexpr ::std::ptrdiff_t m_bDormant = 0xED;
 constexpr ::std::ptrdiff_t m_bIsLocalPlayer = 0x3628;
 constexpr ::std::ptrdiff_t m_flSpawnTime = 0x103C0;
 constexpr ::std::ptrdiff_t m_pStudioHdr = 0x2950;
-constexpr ::std::ptrdiff_t m_pitchClassPtr = 0x5234F90;
+constexpr ::std::ptrdiff_t m_pitchClassPtr = 0x5234F80;
 constexpr ::std::ptrdiff_t m_yawClassPtr = 0xDEA910;
 constexpr ::std::ptrdiff_t model_ambient_min = 0x5A118C;
 constexpr ::std::ptrdiff_t set_abs_angles = 0x1E5090;
