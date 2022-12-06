@@ -3,7 +3,7 @@
 
 // 2022-12-05 06:33:AM UTC
 
-namespace hazdumper {
+namespace hazedumper {
 constexpr ::std::int64_t timestamp = 1670221983;
 namespace netvars {
 constexpr ::std::ptrdiff_t cs_gamerules_data = 0x0;
@@ -161,4 +161,4 @@ constexpr ::std::ptrdiff_t model_ambient_min = 0x5A118C;
 constexpr ::std::ptrdiff_t set_abs_angles = 0x1E5C50;
 constexpr ::std::ptrdiff_t set_abs_origin = 0x1E5A90;
 } // namespace signatures
-} // namespace hazdumper
+} // namespace hazedumper
