@@ -1,156 +1,160 @@
----
-timestamp: 1671321202
-signatures:
-  anim_overlays: 10640
-  clientstate_choked_commands: 19760
-  clientstate_delta_ticks: 372
-  clientstate_last_outgoing_command: 19756
-  clientstate_net_channel: 156
-  convar_name_hash_table: 197024
-  dwClientState: 5894548
-  dwClientState_GetLocalPlayer: 384
-  dwClientState_IsHLTV: 19784
-  dwClientState_Map: 652
-  dwClientState_MapDirectory: 392
-  dwClientState_MaxPlayer: 904
-  dwClientState_PlayerInfo: 21184
-  dwClientState_State: 264
-  dwClientState_ViewAngles: 19856
-  dwEntityList: 81788692
-  dwForceAttack: 52616464
-  dwForceAttack2: 52616476
-  dwForceBackward: 52616512
-  dwForceForward: 52616500
-  dwForceJump: 86752412
-  dwForceLeft: 52616524
-  dwForceRight: 52616536
-  dwGameDir: 6532480
-  dwGameRulesProxy: 87225548
-  dwGetAllClasses: 14729180
-  dwGlobalVars: 5893720
-  dwGlowObjectManager: 87402968
-  dwInput: 86365416
-  dwInterfaceLinkList: 10075268
-  dwLocalPlayer: 14592356
-  dwMouseEnable: 86217032
-  dwMouseEnablePtr: 86216984
-  dwPlayerResource: 52609216
-  dwRadarBase: 86206956
-  dwSensitivity: 14609280
-  dwSensitivityPtr: 14609280
-  dwSetClanTag: 580224
-  dwViewMatrix: 81726788
-  dwWeaponTable: 86369732
-  dwWeaponTableIndex: 12908
-  dwYawPtr: 14608656
-  dwZoomSensitivityRatioPtr: 14631808
-  dwbSendPackets: 905330
-  dwppDirect3DDevice9: 680640
-  find_hud_element: 682032080
-  force_update_spectator_glow: 4035018
-  interface_engine_cvar: 260764
-  is_c4_owner: 4090336
-  m_bDormant: 237
-  m_bIsLocalPlayer: 13864
-  m_flSpawnTime: 66496
-  m_pStudioHdr: 10576
-  m_pitchClassPtr: 86216768
-  m_yawClassPtr: 14608656
-  model_ambient_min: 5902732
-  set_abs_angles: 1995472
-  set_abs_origin: 1995024
-netvars:
-  cs_gamerules_data: 0
-  m_ArmorValue: 71628
-  m_Collision: 800
-  m_CollisionGroup: 1140
-  m_Local: 12236
-  m_MoveType: 604
-  m_OriginalOwnerXuidHigh: 12756
-  m_OriginalOwnerXuidLow: 12752
-  m_SurvivalGameRuleDecisionTypes: 4904
-  m_SurvivalRules: 3328
-  m_aimPunchAngle: 12348
-  m_aimPunchAngleVel: 12360
-  m_angEyeAnglesX: 71632
-  m_angEyeAnglesY: 71636
-  m_bBombDefused: 10688
-  m_bBombPlanted: 2469
-  m_bBombTicking: 10640
-  m_bFreezePeriod: 32
-  m_bGunGameImmunity: 39312
-  m_bHasDefuser: 71644
-  m_bHasHelmet: 71616
-  m_bInReload: 12981
-  m_bIsDefusing: 39292
-  m_bIsQueuedMatchmaking: 116
-  m_bIsScoped: 39284
-  m_bIsValveDS: 124
-  m_bSpotted: 2365
-  m_bSpottedByMask: 2432
-  m_bStartedArming: 13312
-  m_bUseCustomAutoExposureMax: 2521
-  m_bUseCustomAutoExposureMin: 2520
-  m_bUseCustomBloomScale: 2522
-  m_clrRender: 112
-  m_dwBoneMatrix: 9896
-  m_fAccuracyPenalty: 13120
-  m_fFlags: 260
-  m_flC4Blow: 10656
-  m_flCustomAutoExposureMax: 2528
-  m_flCustomAutoExposureMin: 2524
-  m_flCustomBloomScale: 2532
-  m_flDefuseCountDown: 10684
-  m_flDefuseLength: 10680
-  m_flFallbackWear: 12768
-  m_flFlashDuration: 66672
-  m_flFlashMaxAlpha: 66668
-  m_flLastBoneSetupTime: 10536
-  m_flLowerBodyYawTarget: 39644
-  m_flNextAttack: 11648
-  m_flNextPrimaryAttack: 12872
-  m_flSimulationTime: 616
-  m_flTimerLength: 10660
-  m_hActiveWeapon: 12040
-  m_hBombDefuser: 10692
-  m_hMyWeapons: 11784
-  m_hObserverTarget: 13212
-  m_hOwner: 10716
-  m_hOwnerEntity: 332
-  m_hViewModel: 13064
-  m_iAccountID: 12248
-  m_iClip1: 12916
-  m_iCompetitiveRanking: 6788
-  m_iCompetitiveWins: 7048
-  m_iCrosshairId: 71736
-  m_iDefaultFOV: 13116
-  m_iEntityQuality: 12220
-  m_iFOV: 12788
-  m_iFOVStart: 12792
-  m_iGlowIndex: 66696
-  m_iHealth: 256
-  m_iItemDefinitionIndex: 12218
-  m_iItemIDHigh: 12240
-  m_iMostRecentModelBoneCounter: 9872
-  m_iObserverMode: 13192
-  m_iShotsFired: 66528
-  m_iState: 12904
-  m_iTeamNum: 244
-  m_lifeState: 607
-  m_nBombSite: 10644
-  m_nFallbackPaintKit: 12760
-  m_nFallbackSeed: 12764
-  m_nFallbackStatTrak: 12772
-  m_nForceBone: 9868
-  m_nModelIndex: 600
-  m_nTickBase: 13376
-  m_nViewModelIndex: 10704
-  m_rgflCoordinateFrame: 1092
-  m_szCustomName: 12364
-  m_szLastPlaceName: 13764
-  m_thirdPersonViewAngles: 12776
-  m_vecOrigin: 312
-  m_vecVelocity: 276
-  m_vecViewOffset: 264
-  m_viewPunchAngle: 12336
-  m_zoomLevel: 13280
+' 2022-12-17 23:53:22.389842600 UTC
+
+Namespace hazedumper
+    Public Shared Class netvars
+        Public Const cs_gamerules_data as Integer = &H0
+        Public Const m_ArmorValue as Integer = &H117CC
+        Public Const m_Collision as Integer = &H320
+        Public Const m_CollisionGroup as Integer = &H474
+        Public Const m_Local as Integer = &H2FCC
+        Public Const m_MoveType as Integer = &H25C
+        Public Const m_OriginalOwnerXuidHigh as Integer = &H31D4
+        Public Const m_OriginalOwnerXuidLow as Integer = &H31D0
+        Public Const m_SurvivalGameRuleDecisionTypes as Integer = &H1328
+        Public Const m_SurvivalRules as Integer = &HD00
+        Public Const m_aimPunchAngle as Integer = &H303C
+        Public Const m_aimPunchAngleVel as Integer = &H3048
+        Public Const m_angEyeAnglesX as Integer = &H117D0
+        Public Const m_angEyeAnglesY as Integer = &H117D4
+        Public Const m_bBombDefused as Integer = &H29C0
+        Public Const m_bBombPlanted as Integer = &H9A5
+        Public Const m_bBombTicking as Integer = &H2990
+        Public Const m_bFreezePeriod as Integer = &H20
+        Public Const m_bGunGameImmunity as Integer = &H9990
+        Public Const m_bHasDefuser as Integer = &H117DC
+        Public Const m_bHasHelmet as Integer = &H117C0
+        Public Const m_bInReload as Integer = &H32B5
+        Public Const m_bIsDefusing as Integer = &H997C
+        Public Const m_bIsQueuedMatchmaking as Integer = &H74
+        Public Const m_bIsScoped as Integer = &H9974
+        Public Const m_bIsValveDS as Integer = &H7C
+        Public Const m_bSpotted as Integer = &H93D
+        Public Const m_bSpottedByMask as Integer = &H980
+        Public Const m_bStartedArming as Integer = &H3400
+        Public Const m_bUseCustomAutoExposureMax as Integer = &H9D9
+        Public Const m_bUseCustomAutoExposureMin as Integer = &H9D8
+        Public Const m_bUseCustomBloomScale as Integer = &H9DA
+        Public Const m_clrRender as Integer = &H70
+        Public Const m_dwBoneMatrix as Integer = &H26A8
+        Public Const m_fAccuracyPenalty as Integer = &H3340
+        Public Const m_fFlags as Integer = &H104
+        Public Const m_flC4Blow as Integer = &H29A0
+        Public Const m_flCustomAutoExposureMax as Integer = &H9E0
+        Public Const m_flCustomAutoExposureMin as Integer = &H9DC
+        Public Const m_flCustomBloomScale as Integer = &H9E4
+        Public Const m_flDefuseCountDown as Integer = &H29BC
+        Public Const m_flDefuseLength as Integer = &H29B8
+        Public Const m_flFallbackWear as Integer = &H31E0
+        Public Const m_flFlashDuration as Integer = &H10470
+        Public Const m_flFlashMaxAlpha as Integer = &H1046C
+        Public Const m_flLastBoneSetupTime as Integer = &H2928
+        Public Const m_flLowerBodyYawTarget as Integer = &H9ADC
+        Public Const m_flNextAttack as Integer = &H2D80
+        Public Const m_flNextPrimaryAttack as Integer = &H3248
+        Public Const m_flSimulationTime as Integer = &H268
+        Public Const m_flTimerLength as Integer = &H29A4
+        Public Const m_hActiveWeapon as Integer = &H2F08
+        Public Const m_hBombDefuser as Integer = &H29C4
+        Public Const m_hMyWeapons as Integer = &H2E08
+        Public Const m_hObserverTarget as Integer = &H339C
+        Public Const m_hOwner as Integer = &H29DC
+        Public Const m_hOwnerEntity as Integer = &H14C
+        Public Const m_hViewModel as Integer = &H3308
+        Public Const m_iAccountID as Integer = &H2FD8
+        Public Const m_iClip1 as Integer = &H3274
+        Public Const m_iCompetitiveRanking as Integer = &H1A84
+        Public Const m_iCompetitiveWins as Integer = &H1B88
+        Public Const m_iCrosshairId as Integer = &H11838
+        Public Const m_iDefaultFOV as Integer = &H333C
+        Public Const m_iEntityQuality as Integer = &H2FBC
+        Public Const m_iFOV as Integer = &H31F4
+        Public Const m_iFOVStart as Integer = &H31F8
+        Public Const m_iGlowIndex as Integer = &H10488
+        Public Const m_iHealth as Integer = &H100
+        Public Const m_iItemDefinitionIndex as Integer = &H2FBA
+        Public Const m_iItemIDHigh as Integer = &H2FD0
+        Public Const m_iMostRecentModelBoneCounter as Integer = &H2690
+        Public Const m_iObserverMode as Integer = &H3388
+        Public Const m_iShotsFired as Integer = &H103E0
+        Public Const m_iState as Integer = &H3268
+        Public Const m_iTeamNum as Integer = &HF4
+        Public Const m_lifeState as Integer = &H25F
+        Public Const m_nBombSite as Integer = &H2994
+        Public Const m_nFallbackPaintKit as Integer = &H31D8
+        Public Const m_nFallbackSeed as Integer = &H31DC
+        Public Const m_nFallbackStatTrak as Integer = &H31E4
+        Public Const m_nForceBone as Integer = &H268C
+        Public Const m_nModelIndex as Integer = &H258
+        Public Const m_nTickBase as Integer = &H3440
+        Public Const m_nViewModelIndex as Integer = &H29D0
+        Public Const m_rgflCoordinateFrame as Integer = &H444
+        Public Const m_szCustomName as Integer = &H304C
+        Public Const m_szLastPlaceName as Integer = &H35C4
+        Public Const m_thirdPersonViewAngles as Integer = &H31E8
+        Public Const m_vecOrigin as Integer = &H138
+        Public Const m_vecVelocity as Integer = &H114
+        Public Const m_vecViewOffset as Integer = &H108
+        Public Const m_viewPunchAngle as Integer = &H3030
+        Public Const m_zoomLevel as Integer = &H33E0
+    End Class
+    Public Shared Class signatures
+        Public Const anim_overlays as Integer = &H2990
+        Public Const clientstate_choked_commands as Integer = &H4D30
+        Public Const clientstate_delta_ticks as Integer = &H174
+        Public Const clientstate_last_outgoing_command as Integer = &H4D2C
+        Public Const clientstate_net_channel as Integer = &H9C
+        Public Const convar_name_hash_table as Integer = &H301A0
+        Public Const dwClientState as Integer = &H59F194
+        Public Const dwClientState_GetLocalPlayer as Integer = &H180
+        Public Const dwClientState_IsHLTV as Integer = &H4D48
+        Public Const dwClientState_Map as Integer = &H28C
+        Public Const dwClientState_MapDirectory as Integer = &H188
+        Public Const dwClientState_MaxPlayer as Integer = &H388
+        Public Const dwClientState_PlayerInfo as Integer = &H52C0
+        Public Const dwClientState_State as Integer = &H108
+        Public Const dwClientState_ViewAngles as Integer = &H4D90
+        Public Const dwEntityList as Integer = &H4DFFF14
+        Public Const dwForceAttack as Integer = &H322DD10
+        Public Const dwForceAttack2 as Integer = &H322DD1C
+        Public Const dwForceBackward as Integer = &H322DD40
+        Public Const dwForceForward as Integer = &H322DD34
+        Public Const dwForceJump as Integer = &H52BBC9C
+        Public Const dwForceLeft as Integer = &H322DD4C
+        Public Const dwForceRight as Integer = &H322DD58
+        Public Const dwGameDir as Integer = &H63AD80
+        Public Const dwGameRulesProxy as Integer = &H532F4CC
+        Public Const dwGetAllClasses as Integer = &HE0BFDC
+        Public Const dwGlobalVars as Integer = &H59EE58
+        Public Const dwGlowObjectManager as Integer = &H535A9D8
+        Public Const dwInput as Integer = &H525D4E8
+        Public Const dwInterfaceLinkList as Integer = &H99BC84
+        Public Const dwLocalPlayer as Integer = &HDEA964
+        Public Const dwMouseEnable as Integer = &H5239148
+        Public Const dwMouseEnablePtr as Integer = &H5239118
+        Public Const dwPlayerResource as Integer = &H322C0C0
+        Public Const dwRadarBase as Integer = &H52369EC
+        Public Const dwSensitivity as Integer = &HDEEB80
+        Public Const dwSensitivityPtr as Integer = &HDEEB80
+        Public Const dwSetClanTag as Integer = &H8DA80
+        Public Const dwViewMatrix as Integer = &H4DF0D44
+        Public Const dwWeaponTable as Integer = &H525E5C4
+        Public Const dwWeaponTableIndex as Integer = &H326C
+        Public Const dwYawPtr as Integer = &HDEE910
+        Public Const dwZoomSensitivityRatioPtr as Integer = &HDF4380
+        Public Const dwbSendPackets as Integer = &HDD072
+        Public Const dwppDirect3DDevice9 as Integer = &HA62C0
+        Public Const find_hud_element as Integer = &H28A6FBD0
+        Public Const force_update_spectator_glow as Integer = &H3D91CA
+        Public Const interface_engine_cvar as Integer = &H3FA9C
+        Public Const is_c4_owner as Integer = &H3E69E0
+        Public Const m_bDormant as Integer = &HED
+        Public Const m_bIsLocalPlayer as Integer = &H3628
+        Public Const m_flSpawnTime as Integer = &H103C0
+        Public Const m_pStudioHdr as Integer = &H2950
+        Public Const m_pitchClassPtr as Integer = &H5239040
+        Public Const m_yawClassPtr as Integer = &HDEE910
+        Public Const model_ambient_min as Integer = &H5A118C
+        Public Const set_abs_angles as Integer = &H1E72D0
+        Public Const set_abs_origin as Integer = &H1E7110
+    End Class
+End Namespace
