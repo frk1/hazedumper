@@ -1,6 +1,6 @@
 #pragma once
 #include <cstdint>
-
+#include <cstddef>
 // 2023-09-05 21:12:09.438009200 UTC
 
 namespace hazedumper {
